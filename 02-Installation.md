@@ -9,10 +9,10 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
       * Linux   `~/Bitwig Studio/Extensions/`
 3. Start Bitwig Studio and open the *Dashboard*. Select *Settings* and *Controllers*.
 4. Click on **Autdetect**.
-5. Alternatively, select **Add controller manually**.
-* Ableton Push:
-     * Choose **Ableton -> Push** or  **Ableton -> Push 2** depending on your specific controller.
-     * On **Push 1** make sure that for MIDI in- and output the 2nd port is selected (**MIDIIN2 (Ableton Push)** and **MIDIOUT2 (Ableton Push)** on Windows). For **Push 2** it is the first port.
+5. Alternatively, select **Add controller manually**:
+      * Ableton Push:
+            * Choose **Ableton -> Push** or  **Ableton -> Push 2** depending on your specific controller.
+            * On **Push 1** make sure that for MIDI in- and output the 2nd port is selected (**MIDIIN2 (Ableton Push)** and **MIDIOUT2 (Ableton Push)** on Windows). For **Push 2** it is the first port.
 
 ## Additional installation for the Push 2 to support the display
 
