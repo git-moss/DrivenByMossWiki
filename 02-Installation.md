@@ -2,16 +2,26 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 
 **The version in GitHub might always be in an alpha or beta state, you have been warned!**
 
+# Basic installation
+
 1. Extract the ZIP file. It contains a file named **DrivenByMoss.bwextension**.
 2. Copy that file in the following location depending on your OS:
       * Windows	`%USERPROFILE%\Documents\Bitwig Studio\Extensions\`
       * Mac	`~/Documents/Bitwig Studio/Extensions/`
       * Linux   `~/Bitwig Studio/Extensions/`
 3. Start Bitwig Studio and open the *Dashboard*. Select *Settings* and *Controllers*.
-4. Click on **Autdetect**.
+4. Click on **Autdetect**. Note: Since Bitwig 2 you automatically get a popup notification if a controller is found. 
 5. Alternatively, select **Add controller manually**:
-      * **Ableton Push**: Choose **Ableton -> Push** or  **Ableton -> Push 2** depending on your specific controller. On **Push 1** make sure that for MIDI in- and output the 2nd port is selected (**MIDIIN2 (Ableton Push)** and **MIDIOUT2 (Ableton Push)** on Windows). For **Push 2** it is the first port.
-      * **Launchpad Pro**: Choose the 2nd port (*MIDIIN2 (Launchpad Pro)* and *MIDIOUT2 (Launchpad Pro)* on Windows).
+
+# Open Sound Control (OSC) specifics
+1. Select a midi input port. It is not really important which one you choose because it is just used to insert midi notes into Bitwig received as an OSC command. Best thing is to use a virtual midi port.
+2. Adjust the IP-adresses and ports of your computer and the client device you want to use. NOTE: You need to restart the script if you made a change!
+
+# Novation Lauchpad Pro specifics
+If you added the controller manually, choose the 2nd port (*MIDIIN2 (Launchpad Pro)* and *MIDIOUT2 (Launchpad Pro)* on Windows).
+
+# Ableton Push specifics
+If you added the controller manually, choose **Ableton -> Push** or  **Ableton -> Push 2** depending on your specific controller. On **Push 1** make sure that for MIDI in- and output the 2nd port is selected (**MIDIIN2 (Ableton Push)** and **MIDIOUT2 (Ableton Push)** on Windows). For **Push 2** it is the first port.
 
 ## Additional installation for the Push 2 to support the display
 
