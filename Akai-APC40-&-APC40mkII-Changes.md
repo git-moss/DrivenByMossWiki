@@ -5,8 +5,7 @@
 * New: The scene buttons are now colored in green in Session mode.
 * Fixed: MkII: Layer navigation did not work
 
-#4.00
-
+# 4.00
 Requires Bitwig 2.0.
 * Fixed: Shift+Track had new clip lengths in wrong order
 * New: Shift+Track lights the selected clip length
@@ -22,25 +21,25 @@ Requires Bitwig 2.0.
     * Redo
 * Performance improvements
 
-#3.08
+# 3.08
 Requires Bitwig 1.3.15+
 * New: Track scrolls into view when selected
 * New: Use different colors for note starts and lengths in note and drum sequencer.
 * New: Quantize is now working as expected (but only on selected notes). Use the properties window to set the quantize amount.
 * Fixed: Scales did not update in sequencers.
 
-#3.07
+# 3.07
 * New: Display on screen notification about grid resolution for all sequencers
 * New: Added measures to 1st row of sequencer mode
 * Fixed: Scrolling drum range did not scroll it in the Bitwig drum device
 
-#3.06
+# 3.06
 * New (MkII): Octave pads in play, sequencer and raindrop view are now colored in the tracks color.
 * New: Added Option: Select Clip on Launch
 * New: Added Option: Behaviour on stop
 * Fixed: Track bank was not adjusted when track selection was changed in Bitwig.
 
-#3.05
+# 3.05
 * Shift + Session: Enable automation write in clip launcher
 * Fixed: Bank range in grouped tracks behaves weird (requires Bitwig 1.3.8 RC 2+)
 
@@ -72,13 +71,13 @@ Compatible with Bitwig 1.1.6.
 * On track bank change the 1st channel of the bank is selected.
 * Removed selection of clip with same index when changing tracks because of some nasty side effects.
 
-#2.11
+# 2.11
 Compatible with Bitwig 1.1.x.
 * On the MkII you can now navigate the device layers. Use Shift+Device Left/Right.
 * Bugfix: Currently playing measure in Drumsequencer is now drawn in green.
 * Bugfix: Two green colors had the same value on the MkII.
 
-#2.1
+# 2.1
 Compatible with Bitwig 1.1.
 * Implemented A|B buttons (on first version press Shift+RecArm) and crossfader.
 * Toggle monitor and auto monitor: Shift+Mute, Shift+Solo
@@ -93,7 +92,6 @@ Compatible with Bitwig 1.1.
 * Switching tracks remembers the last selected view (play, drum, sequencer). Also a clip on that track will be selected.
 * On track change the clip at the same index as on the previous track is selected.
 * Bugfix: Deactivate drum sequencer on audio track
-
 
 # 2.0
 Compatible with Bitwig 1.0.14.
