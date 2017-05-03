@@ -6,6 +6,7 @@
 * Fixed: MkII: Layer navigation did not work
 
 #4.00
+
 Requires Bitwig 2.0.
 * Fixed: Shift+Track had new clip lengths in wrong order
 * New: Shift+Track lights the selected clip length
