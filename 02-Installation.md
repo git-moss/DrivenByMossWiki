@@ -2,14 +2,17 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 
 **The version in GitHub might always be in an alpha or beta state, you have been warned!**
 
-1. Extract the ZIP file and make sure that the folder structure is extracted too. You must end up with one folder (with sub-folders) containing a lot of js files.
-2. Move the folder in the following location depending on your OS:
-      * Windows	`%USERPROFILE%\Documents\Bitwig Studio\ControllerScripts\`
-      * Mac	`~/Documents/Bitwig Studio/Controller Scripts/`
-      * Linux   `~/Bitwig Studio/Controller Scripts/`
+1. Extract the ZIP file. It contains a file named **DrivenByMoss.bwextension**.
+2. Copy that file in the following location depending on your OS:
+      * Windows	`%USERPROFILE%\Documents\Bitwig Studio\Extensions\`
+      * Mac	`~/Documents/Bitwig Studio/Extensions/`
+      * Linux   `~/Bitwig Studio/Extensions/`
 3. Start Bitwig Studio and open the *Dashboard*. Select *Settings* and *Controllers*.
-4. Click on **Autdetect**. Alternatively, select **Add controller manually** and choose **Ableton -> Push** or  **Ableton -> Push 2** depending on your specific controller.
-5. On **Push 1** make sure that for MIDI in- and output the 2nd port is selected (**MIDIIN2 (Ableton Push)** and **MIDIOUT2 (Ableton Push)** on Windows). For **Push 2** it is the first port.
+4. Click on **Autdetect**.
+5. Alternatively, select **Add controller manually**.
+* Ableton Push:
+     * Choose **Ableton -> Push** or  **Ableton -> Push 2** depending on your specific controller.
+     * On **Push 1** make sure that for MIDI in- and output the 2nd port is selected (**MIDIIN2 (Ableton Push)** and **MIDIOUT2 (Ableton Push)** on Windows). For **Push 2** it is the first port.
 
 ## Additional installation for the Push 2 to support the display
 
