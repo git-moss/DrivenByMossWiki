@@ -68,7 +68,7 @@ move *in* and *out* of layers and toggle between device parameters and direct pa
 <pre>Volume     Pan        Mute       Solo       CrossMode  Tempo      PlayCursr  MasterVol
 Param 1    Param 2    Param 3    Param 4    Param 5    Param 6    Param 7    Param 8
 Page 1     Page 2     Page 3     Page 4     Page 5     Page 6     Page 7     Page 8
-On/Off     DevLeft    DevRight   In         Out        Dev/Dirct  PageBnkDn  PageBnkUp</pre>
+On/Off     DevLeft    DevRight   In         Out        -EMPTY-    PageBnkDn  PageBnkUp</pre>
 
 
 Play                                                                         
