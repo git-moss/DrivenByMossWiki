@@ -1,3 +1,8 @@
+# 4.0 (unreleased)
+Requires Bitwig 2.1.
+* New: Written now in Java
+* New: Aftertouch settings
+
 # 3.00
 Requires Bitwig 2.0.
 * New: Since Macros are removed the Device mode now contains the track parameters on the first row

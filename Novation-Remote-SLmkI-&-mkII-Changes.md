@@ -1,3 +1,7 @@
+# 5.00 (unreleased)
+Requires Bitwig 2.1.
+* New: Written now in Java
+
 # 4.00
 Requires Bitwig 2.0.
 * Fixed: "None" is now display as device name when no device is selected.

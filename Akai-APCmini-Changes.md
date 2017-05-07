@@ -1,3 +1,8 @@
+# 5.00 (unreleased)
+Requires Bitwig 2.1.
+* New: Written now in Java
+* New: Length setting for new clips
+        
 # 4.00
 Requires Bitwig 2.0.
 * New: Press Shift+Device twice to open the preset browser.

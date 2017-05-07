@@ -1,5 +1,6 @@
 # 5.00 (unreleased)
-* New: Written now in Java, requires Bitwig Studio 2.1+.
+Requires Bitwig Studio 2.1.
+* New: Written now in Java.
 * New: Added scale layout setting.
 * New: Press Shift and move Volume Fader to move the fader to the current value of the matching track. On the screen you get information if you need to move it up or down.
 * New: The scene buttons are now colored in green in Session mode.

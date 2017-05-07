@@ -1,3 +1,15 @@
+# 2.0 (unreleased)
+Requires Bitwig 2.1.
+* New: Written now in Java
+* New: Setting to flip the recording button behaviour
+* New: Setting to auto select the drum channel
+* New: Setting to turn off unused drum pads
+* New: Setting to set the length for new clips
+* New: Session can be flipped if Session button is pressed twice
+* Launchpad Pro: Session "birds eye view", press Shift
+* Launchpad Pro: Click and Record buttons are shown in different colors when active
+
+
 # 2.0
 Requires Bitwig 2.0.
 * New: Press Shift+Device to add a device after the currently selected one

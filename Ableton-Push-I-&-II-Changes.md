@@ -1,4 +1,19 @@
-# 8.10 (unreleased)
+# 9.00 (unreleased)
+Requires Bitwig 2.1.
+* New: Written now in Java
+* New: To rec arm a track, keep the record button pressed and select the channel (first button row).
+* New: To navigate groups, layers and devices press now the respective first row button. Long press any of the first row buttons to move up the hierarchy again.
+* New: To navigate in a clip use now the Page left/right (device in/out on Push 1) buttons.
+* New: New clip length is now stored in a setting
+* New: Scene lights are now off if the scene does not exist
+* New: Flipping the session view does no longer swap the scene and the 2nd row buttons, since this does not make much sense on the Push 2.
+* New: The cursor keys now consistently always change the track (device, layers) and scene bank, except in browser they change the browser tabs.
+* New: Removed direct parameters because they cause more problems than they help. Use Remote control parameters instead.
+* Fixed: Implemented a workaround for the always empty Groove parameter names.
+* Fixed: Changing the Metronome volume was not working, change now with Select+Knob 9.
+* Fixed: Long pressing Automation did not bring up the automation selection when arranger/clip record was toggled.
+
+# 8.10
 * New: Session mode: Press "Stop Clip" + any pad on a track to stop the currently playing clip on that track.
 * New: Stop Clip + Track is now also working when not in Session mode. Furthermore, you can use the 1st or 2nd-row buttons.
 * New: Option in Settings to turn off empty drum sequencer pads (otherwise orange).
