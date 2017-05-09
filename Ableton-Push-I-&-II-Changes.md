@@ -1,6 +1,12 @@
 # 9.00 (unreleased)
 Requires Bitwig 2.1.
 * New: Written now in Java
+* New: **Black** keys in Piano mode are now using the track color.
+* New: Setting to turn off to display clips of record enabled tracks in red
+* New: Setting to lock the session orientation
+* New: Setting to choose an action for pressing rec armed empty clip in Session mode
+* New: Layout button steps through the play or sequencer modes (depending on which type is active). Shift+Layout button toggles between play and sequencer modes
+* New: All drum modes are now accessible from the track input selection menu (when Note button is pressed)
 * New: To rec arm a track, keep the record button pressed and select the channel (first button row).
 * New: To navigate groups, layers and devices press now the respective first row button. Long press any of the first row buttons to move up the hierarchy again.
 * New: To navigate in a clip use now the Page left/right (device in/out on Push 1) buttons.
