@@ -1,4 +1,4 @@
-# 4.0 (unreleased)
+# 4.0
 Requires Bitwig 2.1.
 * New: Written now in Java
 * New: Aftertouch settings
