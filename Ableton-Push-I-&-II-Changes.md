@@ -1,4 +1,4 @@
-# 9.00 (unreleased)
+# 9.00
 Requires Bitwig 2.1.
 * New: Written now in Java
 * New: **Black** keys in Piano mode are now using the track color.
