@@ -1,4 +1,4 @@
-# 5.00 (unreleased)
+# 5.00
 Requires Bitwig 2.1.
 * New: Written now in Java
 * New: Length setting for new clips
