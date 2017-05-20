@@ -1,3 +1,8 @@
+# 3.1 (unreleased)
+Requires Bitwig 2.1.
+* Fixed: Aftertouch was not working in Play mode.
+* Fixed: Switching back from Drum 64 mode did not work and the Extension needed to be restarted
+
 # 3.0
 Requires Bitwig 2.1.
 * New: Written now in Java
@@ -8,7 +13,6 @@ Requires Bitwig 2.1.
 * New: Session can be flipped if Session button is pressed twice
 * Launchpad Pro: Session "birds eye view", press Shift
 * Launchpad Pro: Click and Record buttons are shown in different colors when active
-
 
 # 2.0
 Requires Bitwig 2.0.
