@@ -46,7 +46,7 @@ There is also a series of in-depth tutorial videos available: https://www.youtub
 * **Accent** - If active, velocity is always max in Sequencer and Play modes. Long press Accent to change fixed accent value.
 * **Footswitch 1** - Sends sustain
 * **Footswitch 2** - Triggers the new button.
-* **Arrows** Navigate views, holding an arrow button down will scroll through the specific View (e.g. track, scene).
+* **Arrows** The cursor keys now consistently always change the track (device, layers) and scene bank, except in the browser they change the browser tabs.
 * **Shift+Touchstrip** - Change behaviour of touchstrip: Send pitch bend, a midi CC or a mixed mode. If mixed mode is selected upwards pitch bend is sent and downwards the select midi cc.
 * **Shift+Track** - Turn off/on VU meters.
 * **Browse** - Enters Preset selection mode for a device. A device needs to be selected.
@@ -56,19 +56,18 @@ There is also a series of in-depth tutorial videos available: https://www.youtub
 * **Add Device**: Add a device after the currently selected one
 * **Shift+Add Device**: Add a device before the currently selected one
 * **User** (Push 1) / **Setup** (Push 2): Adjust some hardware settings like pad sensitivity. Also configurable in the script settings.
-
+* **Layout** (Push 2): Layout button steps through the play or sequencer modes (depending on which type is active). **Shift+Layout** button toggles between play and sequencer modes.
 
 ## Edit Modes
 
 * Hold Delete and Touch Encoder to reset a value to its default value in all modes.
 * Since the Push 2 is missing the buttons Volume and Pan & Send use the navigation knobs above the display. Since you loose the Mute/Solo buttons for the navigation long press Mute or Solo for the same behaviour as with Push 1. You can also lock that functionality by pressing **Shift+Mute** or **Shift+Solo**. Press the same combination to unlock it.
 * Press the Duplicate button and one of the Track-Select buttons to duplicate a track.
-* In all track modes, hold the Select button to enter the track details mode. In this mode you can set diefferent states like enable, solo, mute, rec arm, monitor and change the color of the track. If you currently have a layer selected this brings up a similar view to edit the states of the layer.
+* In all track modes, hold the Select button to enter the track details mode. In this mode you can set different states like enable, solo, mute, rec arm, monitor and change the color of the track. If you currently have a layer selected this brings up a similar view to edit the states of the layer.
 
 1. **Volume** - Push 1: Press "Volume" to enter - Push 2: Press "Mix" and "Volume" above the display
   * 8 edit knobs: Change volume of selected 8 tracks. Hold **Shift** for fine adjustments.
-  * 1st 8 button row: Press; Select a track, double press; Arm/Disarm track
-  * **Shift + 1st 8 button row**: Arm multiple tracks
+  * 1st 8 button row: Press to select a track, press again to enter a group. To rec arm a track, keep the record button pressed and select the channel (first button row). Long press a button to leave a track group.
   * **Toggle monitor and auto monitor**: Keep pressed Select. First row toggles Monitor, second row Auto Monitor.
   * **De-/activate a track**: Select+Shift+1st button row.
   * 2nd 8 button row: Toggle mute or solo of track, dependent of Mute or Solo button selection
@@ -97,10 +96,9 @@ There is also a series of in-depth tutorial videos available: https://www.youtub
   * Use the menu buttons above the display to select the different parameters (on the Push 1 use 2nd row buttons).
   * 1st button on 2nd row in device modes dis-/enables device.
   * 8th button on 2nd row in device modes displays VST window.
-  * Buttons of 1st row select the device or the parameter banks
+  * Buttons of 1st row select the device or the parameter banks.
+  * To navigate groups, layers and devices press now the respective first row button. Long press any of the first row buttons to move up the hierarchy again.
   * 8 edit knobs: Change 8 parameters of the selected device (FX). Hold **Shift** for fine adjustments. Hold the delete key and touch a knob to reset its value.
-  * Press the In-button (Page Left on the Push 2) once to see the banks of the device. Press the Out-button to switch back to the devices.
-  * Press the In-button (Page Left on the Push 2) to enter a layer. Press the Out-button to move up again. Note: You can toggle between Devices and Parameter-Pages with Shift+DeviceIn for multi output VST plugins.
   * Left/Right buttons: Select next/previous device or parameter bank
   * Press Browse to select a different patch of the device. Hold the Shift button in Preset mode to scroll quickly.
   * Push 1: Use **Select+Volume/Pan/Track** buttons to activate the different layer modes. For Sendmodes press **Pan** multiple times.
@@ -111,12 +109,12 @@ There is also a series of in-depth tutorial videos available: https://www.youtub
   * Hold the Shift button in Preset mode to scroll quickly.
   * 1st button row: Select the previous patch/filter
   * 2nd button row: Select the next patch/filter
+  * Use the arrow left and right to switch between the browser tabs
   * **Delete+touch knob**: Resets a filter to its default value
   * Press now *Browse* again to Confirm or *Shift+Browse* to Cancel.
   
 8. **Master** - Press "Master" to enter
   * 8 edit knobs: Change volume and pan of master track. Hold **Shift** for fine adjustments.
-  * 1st button of 1st row: Press to Arm/Disarm track.
   * Dis-/Enable audio engine
   * Switch to the next/previous opened project with buttons 7 and 8.
 
@@ -150,7 +148,7 @@ All the buttons and knobs behave like in Play mode with the following exceptions
   * Press _Delete_ + Pad In Session Mode to the delete the clip.
 
 Press the Session button twice to flip the grid which then matches the arrangement view.
-The 2nd button row then controls the Scene starts. The Scene buttons control Mute or Solo.
+
 
 ## Sequencer Mode
 
@@ -158,7 +156,7 @@ Press _"Note"_ and select *Squencr* to enter **Sequencer** mode.
 
   * The pads display an 8x8 view of the selected clips note grid.
   * The rows represent the notes of the selected scale.
-  * Use the arrow keys to navigate in the grid. 
+  * To navigate in a clip use the Page left/right (device in/out on Push 1) buttons.
   * Note that you can scroll past the end of the clip (to the right).
   * Press pads to enter/delete notes. 
   * The velocity of the pressed key is set as well.
