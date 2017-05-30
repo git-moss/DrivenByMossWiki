@@ -1,6 +1,10 @@
 Welcome to the DrivenByMoss wiki!
 
-This Bitwig Studio Extension supports several controllers at once:
+This Bitwig Studio Extension supports several controllers at once.
+
+First start with the installation instructions: [Installation](Installation)
+
+Supported controllers and protocols:
 
 * [Ableton Push I & II](Ableton-Push-I-&-II) - [Changes](Ableton-Push-I-&-II-Changes)
 * [Akai APC40 & APC40mkII](Akai-APC40-&-APC40mkII) - [Changes](Akai-APC40-&-APC40mkII-Changes)
