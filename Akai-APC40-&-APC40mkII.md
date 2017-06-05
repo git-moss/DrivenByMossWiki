@@ -2,12 +2,6 @@
 
 Support script for Akais' APC40 and APC40mkII controller. You can control track parameters, devices, transport and session view.
 
-Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bitwig.html
-
-**The version in GitHub might always be in an alpha or beta state, you have been warned!**
-
-There is also an in-depth video tutorial available: https://www.youtube.com/watch?v=rSNJHAGSeRo
-
 # Navigation
 
 * **Play** - Start/Stop playback. Double click to move play cursor to start of song.
@@ -88,6 +82,7 @@ There is also an in-depth video tutorial available: https://www.youtube.com/watc
 * **Track control**
     * Press and hold **Sends/Send A** button and press **Track Select 1-8** to select the sends 1 to 8.
     * *only mkI* Press Shift+Send A/B/C to select the sends 4 to 6.
+    * *only mkII* Press USER to select Send 2.
 
 
 # Clip/scene control

@@ -2,12 +2,6 @@
 
 Support script for Ableton's Push 1 and Push 2 controller. You can control track parameters, devices, transport, session view and play the pads.
 
-Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bitwig.html
-
-**The version in GitHub might always be in an alpha or beta state, you have been warned!**
-
-There is also a series of in-depth tutorial videos available: https://www.youtube.com/playlist?list=PLqRWeSPiYQ67N0AzNAD84hD9HngDDKF3s
-
 ## Features
 
 * **Play** - Start/Stop playback. Double click to move play cursor to start of song. You can configure the behaviour on stop in the preferences.

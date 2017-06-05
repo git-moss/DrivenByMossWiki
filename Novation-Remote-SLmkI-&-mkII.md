@@ -2,12 +2,6 @@
 
 Support script for Novation's Remote MkII controller. You can control track parameters, devices, transport, play the pads, start scenes and a step sequencer.
 
-Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bitwig.html
-
-**The version in GitHub might always be in an alpha or beta state, you have been warned!**
-
-There is also an in-depth video tutorial available: https://www.youtube.com/watch?v=g-07hKTv4Dg
-
 ## Introduction
 
 The Transport button acts as a kind of Shift key. If you press it (no need to keep pressed) the behaviour of the Transport buttons changes slightly and you can switch between Control and Play mode. To switch mode use the first row buttons.

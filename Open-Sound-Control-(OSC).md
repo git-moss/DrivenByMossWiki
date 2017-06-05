@@ -2,8 +2,6 @@ Bitwig Studio script to support the OSC protocol.
 
 Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bitwig.html
 
-**The version in GitHub might always be in an alpha or beta state, you have been warned!**
-
 ## The following OSC messages are sent from the script
 
 ### Global

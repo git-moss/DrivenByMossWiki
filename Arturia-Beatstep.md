@@ -2,12 +2,6 @@
 
 Support script for Arturia's Beatstep and Beatstep Pro controller. You can control track parameters incl. groups, devices, transport, browse patches, session view, play the pads and have a drum and note sequencer.
 
-Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bitwig.html
-
-**The version in GitHub might always be in an alpha or beta state, you have been warned!**
-
-There is also an in-depth video tutorial available: https://www.youtube.com/watch?v=36tfcTLi7gI
-
 ## Features
 
 The buttons on the left are not usable for scripting since they do not send MIDI data. 

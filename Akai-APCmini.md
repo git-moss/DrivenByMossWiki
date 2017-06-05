@@ -2,12 +2,6 @@
 
 Support script for Akais' APCmini controller. You can control track parameters, devices and session view.
 
-Get the latest stable release from:   http://www.mossgrabers.de/Software/Bitwig/Bitwig.html
-
-**The version in GitHub might always be in an alpha or beta state, you have been warned!**
-
-There is also an in-depth video tutorial available: https://www.youtube.com/watch?v=US9Ht2-vJOg
-
 # Features
 
 For the basic usage see the APCmini manual. The differences are as follows:

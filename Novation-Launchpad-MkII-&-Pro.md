@@ -2,12 +2,6 @@
 
 Support script for Novation's Launchpad Pro controller. You can control track parameters, devices, transport, session view and play the pads.
 
-Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bitwig.html
-
-**The version in GitHub might always be in an alpha or beta state, you have been warned!**
-
-There is also a tutorial video available: Pending...
-
 ## Differences MkII and Pro
 
 The MkII misses the left column and the bottom row of buttons from the Launchpad Pro.
