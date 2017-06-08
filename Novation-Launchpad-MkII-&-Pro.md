@@ -33,7 +33,7 @@ Press _Mixer_ button and use the 1st and 2nd column of the grid on the MkII.
 ## Cursors and Mode selection (Upper button row)
 
 * **Arrows** - Navigate in the different modes (see below), holding an arrow button down will scroll through the specific View (e.g. track, scene).
-* **Session** - Selects the Session mode to start, stop and record clips.
+* **Session** - Selects the Session mode to start, stop and record clips. Session can be flipped if Session button is pressed twice.
 * **Note** - Selects the Note play mode for playing notes in different scales. If pressed again it activates the Drum mode for playing and sequencing drum instruments.
 * **Shift+Note** - Activates the Sequencer mode. If pressed again it activates the Raindrop sequencer.
 * **Device** - Selects the Device mode to change the Parameters of the currently selected device. If pressed again it opens the browser for preset selection mode. A device needs to be selected.
@@ -67,6 +67,7 @@ Press _"Session"_ to enter **Session** mode:
   * The 8 scene buttons on the right start the scenes. 
   * The arrow keys scroll the grid. Hold **Shift** to scroll in blocks of 8.
   * Hold **Delete** and press a clip button to delete the clip.
+  * Launchpad Pro: For "birds eye view" press Shift
 
 
 ## Note Mode (Playing the pads)

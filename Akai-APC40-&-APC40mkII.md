@@ -66,6 +66,7 @@ Support script for Akais' APC40 and APC40mkII controller. You can control track 
 # Tracks
 
 * **8 faders** - Change volume of selected 8 tracks.
+* Press Shift and move Volume Fader to move the fader to the current value of the matching track. On the screen you get information if you need to move it up or down.
 * **Master fader** - Change volume of master fader
 * **Activator buttons** - Un-/mute the specific track
 * **Solo buttons** - Un-/solo the specific track
