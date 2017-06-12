@@ -1,3 +1,9 @@
+# 4.01 (unreleased)
+* Fixed: Wrong name for Midi input (displayed Launchpad)
+* Fixed: (Beatstep Pro) The name of the "Control" channel of the Pro was wrong (was "Beatstep Pro").
+* Fixed: (Beatstep Pro) Sequencers channels were interpreted as controller channel, which caused some chaos
+* Fixed: (Beatstep Pro) The step buttons did not work (they do what the Shift menu does on the Beatstep)
+
 # 4.0
 Requires Bitwig 2.1.
 * New: Written now in Java

@@ -16,6 +16,7 @@ Supported controllers and protocols:
 * [Akai APC40 & APC40mkII](Akai-APC40-&-APC40mkII) - [Changes](Akai-APC40-&-APC40mkII-Changes)
 * [Akai APCmini](Akai-APCmini) - [Changes](Akai-APCmini-Changes)
 * [Arturia Beatstep](Arturia-Beatstep) - [Changes](Arturia-Beatstep-Changes)
+* [Mackie MCU](Mackie-MCU) - [Changes](Mackie-MCU-Changes)
 * [Novation Launchpad MkII & Pro](Novation-Launchpad-MkII-&-Pro) - [Changes](Novation-Launchpad-MkII-&-Pro-Changes)
 * [Novation Remote SLmkI & mkII](Novation-Remote-SLmkI-&-mkII) - [Changes](Novation-Remote-SLmkI-&-mkII-Changes)
 * [Open Sound Control (OSC)](Open-Sound-Control-(OSC)) - [Changes](Open-Sound-Control-(OSC)-Changes)

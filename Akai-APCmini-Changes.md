@@ -1,3 +1,6 @@
+# 5.01 (unreleased)
+* Fixed: Automatic lookup did not work on Linux
+
 # 5.00
 Requires Bitwig 2.1.
 * New: Written now in Java

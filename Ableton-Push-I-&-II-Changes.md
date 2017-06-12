@@ -1,7 +1,9 @@
 # 9.10 (unreleased)
 Requires Bitwig 2.1.
+* New: Added more function options to the Footswitch 2.
 * Fixed: When using the "use parent color" color the pads were not colored at all in session mode.
 * Fixed: Aftertouch was not working in Piano mode.
+* Fixed: Mastermode was not activated when Master volume knob was touched
 
 # 9.00
 Requires Bitwig 2.1.
