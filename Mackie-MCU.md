@@ -4,6 +4,7 @@ Support script for the Mackie MCU protocol. While this extension supports the Ma
 * icon QConPro X
 * icon Platform M
 * Zoom R16
+
 The settings dialog contains profiles for several devices, which sets the correct hardware settings.
 
 # Navigation
