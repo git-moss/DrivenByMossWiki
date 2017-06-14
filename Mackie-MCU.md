@@ -95,17 +95,29 @@ The settings dialog contains profiles for several devices, which sets the correc
 * **Press knob** (MCU VSELECT1-8) - Resets the current parameter to its default value.
 
 ## Track edit mode
+Press _Track_ to enter.
 * **8 knobs** - Change the volume, panorama, crossfader and Send 1-5 of the selected track. Hold **Shift** for fine adjustments.
 * You can configure in the preferences that the crossfader option is hidden and you get 6 sends instead.
 
 ## Volume edit mode
+Press _Track_ twice to enter.
 * **8 knobs** - Change the volume of that channel. Hold **Shift** for fine adjustments.
 
 ## Panorama edit mode
+Press _Pan_ to enter.
 * **8 knobs** - Change the panorama of that channel. Hold **Shift** for fine adjustments.
 
 ## Send 1 - 8 edit mode
+Press _Send_ to enter. Press multiple times to select the Send channels 1 to 8. Use in combination with the **Track select** buttons to select the respective Send channel 1-8.
 * **8 knobs** - Change the volume of send of that channel. Hold **Shift** for fine adjustments.
+
+## Master edit mode
+Touch the master fader to enter
+* ** 1st knob** - Change the master volume. Press to reset.
+* ** 2nd knob** - Change the master panorama. Press to reset.
+* ** knob 3-5** - Press to toggle the audio engine on/off for this project
+* ** 7th knob** - Press to switch to the previous project.
+* ** 8th knob** - Press to switch to the next project.
 
 ## Devices edit mode
 

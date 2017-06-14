@@ -1,9 +1,14 @@
 # 9.10 (unreleased)
 Requires Bitwig 2.1.
+* New: The Fixed Length menu contains a new row with options which allows to create a new clip without storing the length.
 * New: Added more function options to the Footswitch 2.
+* New: You can use the Delete button in combination with a pad in Play mode. But note that this can be dangerous since the notes you see might not come from the currently selected clip!
+* New: If Browse is pressed and no device is currently selected, add device is called.
 * Fixed: When using the "use parent color" color the pads were not colored at all in session mode.
 * Fixed: Aftertouch was not working in Piano mode.
 * Fixed: Mastermode was not activated when Master volume knob was touched
+* Fixed: Holding Record and selecting a track could only arm 1 track. After that the record button had to be released and pressed again.
+* Fixed: 64 Drum mode: Sounds did not play when octave was transposed.
 
 # 9.00
 Requires Bitwig 2.1.

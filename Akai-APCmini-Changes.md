@@ -1,5 +1,7 @@
 # 5.01 (unreleased)
-* Fixed: Automatic lookup did not work on Linux
+* New: Device and bank names are now shown on the screen when changed.
+* Fixed: Automatic lookup did not work on Linux.
+* Fixed: Notes were duplicated in drum mode.
 
 # 5.00
 Requires Bitwig 2.1.
