@@ -22,7 +22,7 @@ Press _Mixer_ button and use the 1st and 2nd column of the grid on the MkII.
 * **Undo** - Undo. Press Shift for Redo. 
 * **Delete** - Like pressing the delete key. Hold the button for additional functionality in combination with other buttons knobs, see the view explanations below.
 * **Quantise** - Quantises the selected clip.
-* **Duplicate** - Duplicates the selected item(s), notes, etc. 
+* **Duplicate** - Duplicates the selected item(s), notes, etc.
 * **Shift+Duplicate** - Toggle repeat 
 * **Double** - Creates a new clip on the selected track and slot, starts play and enables overdub.
 * **Shift+Double** - Start/Stop playback. Double click to move play cursor to start of song.
@@ -63,65 +63,65 @@ On the MkII press _Mixer_ and use the 1st row of the grid or the scene buttons.
 
 Press _"Session"_ to enter **Session** mode:
 
-  * The buttons on the grid start/record the clips. 
-  * The 8 scene buttons on the right start the scenes. 
-  * The arrow keys scroll the grid. Hold **Shift** to scroll in blocks of 8.
-  * Hold **Delete** and press a clip button to delete the clip.
-  * Launchpad Pro: For "birds eye view" press Shift
+* The buttons on the grid start/record the clips. 
+* The 8 scene buttons on the right start the scenes. 
+* The arrow keys scroll the grid. Hold **Shift** to scroll in blocks of 8.
+* Hold **Delete** and press a clip button to delete the clip.
+* Launchpad Pro: For "birds eye view" press Shift
 
 
 ## Note Mode (Playing the pads)
 
 Press _"Note"_ to enter **Play** mode:
 
-  * The key layout is the same one used with Ableton Push
-  * Left/Right buttons change the scale (Major, Minor, etc.)
-  * Up/Down buttons transpose the grid up/down.
-  * The upper 2 scene buttons change the key layout.
-  * The white scene button toggles between Chromatic and Scale Only  mode.
-  * The lower 2 scene buttons change the root note of the scale.
-  * The played keys are lighting red if global or clip recording (does not work if recording clip is outside of the monitored 8x8 matrix)
+* The key layout is the same one used with Ableton Push
+* Left/Right buttons change the scale (Major, Minor, etc.)
+* Up/Down buttons transpose the grid up/down.
+* The upper 2 scene buttons change the key layout.
+* The white scene button toggles between Chromatic and Scale Only  mode.
+* The lower 2 scene buttons change the root note of the scale.
+* The played keys are lighting red if global or clip recording (does not work if recording clip is outside of the monitored 8x8 matrix)
   
 
 ## Drum Sequencer Mode
 
 Press _"Note"_ twice to enter the Drum Sequencer.
 
-  * The drum sequencer works as described in the Ableton Push manual.
-  * Hold *Delete* + Drumpad to delete the midi notes of the current clip on that 'pad'.
-  * To make the display of mute/solo/exists states work, the primary device needs to be the drum machine (which is normally the case).
-  * The Drumpads use the colors set in the drum machine for each pad.
+* The drum sequencer works as described in the Ableton Push manual.
+* Hold *Delete* + Drumpad to delete the midi notes of the current clip on that 'pad'.
+* To make the display of mute/solo/exists states work, the primary device needs to be the drum machine (which is normally the case).
+* The Drumpads use the colors set in the drum machine for each pad.
   
 
 ## Sequencer Mode
 
 Press _"Shift+Note"_ to enter the **Sequencer** mode:
 
-  * The pads display an 8x8 view of the selected clips note grid.
-  * The rows represent the notes of the selected scale.
-  * Use the arrow keys to navigate in the grid. 
-  * Note that you can scroll past the end of the clip (to the right).
-  * Press pads to enter/delete notes. 
-  * The velocity of the pressed key is set as well. 
-  * Use the Scene buttons to change the grids resolution.
+* The pads display an 8x8 view of the selected clips note grid.
+* The rows represent the notes of the selected scale.
+* Use the arrow keys to navigate in the grid. 
+* Note that you can scroll past the end of the clip (to the right).
+* Press pads to enter/delete notes. 
+* The velocity of the pressed key is set as well. 
+* Use the Scene buttons to change the grids resolution.
 
 
 ## Raindrop sequencer
 
 Press _"Shift+Note"_ twice to change to the Raindrop Sequencer:
 
-  * The lowest row displays the playable notes
-  * The row above a note starts a raindrop
-  * If the raindrop reaches the note it sounds
+* The lowest row displays the playable notes
+* The row above a note starts a raindrop
+* If the raindrop reaches the note it sounds
 
   
 ## Device Mode
 
 Press _"Device"_ to enter the **Device** mode:
 
-  * Each column of the grid controls a parameter of the currently selected device. 
-  * These virtual faders use the same colors as the Bitwig highlight colors.
-  * Hit buttons harder for faster fader change.
+* Each column of the grid controls a parameter of the currently selected device. 
+* These virtual faders use the same colors as the Bitwig highlight colors.
+* Hit buttons harder for faster fader change.
 
 
 ## Browser Mode
@@ -129,15 +129,15 @@ Press _"Device"_ to enter the **Device** mode:
 Press _"Device"_ twice to enter the browser mode for preset selection. It will only enter the mode if a device is currently selected.
 Press _"Shift+Device"_ to open the device browser to add a device after the currently selected one.
 
-  * The first 6 columns of the grid relate to the first 6 columns of the preset browser.
-  * The 8th column (yellow) relates to the result (preset or device) column of the browser.
-  * The 1st row moves the selection up by 1.
-  * The 2nd row moves the selection up by 8.
-  * The 3rd row moves the selection down by 8.
-  * The 4th row moves the selection down by 1.
-  * The red button dismisses the new preset or device selection and closes the browser.
-  * The green button confirms the new preset or device selection and closes the browser.
-  * The purple buttons are for previewing presets of instrument devices.
+* The first 6 columns of the grid relate to the first 6 columns of the preset browser.
+* The 8th column (yellow) relates to the result (preset or device) column of the browser.
+* The 1st row moves the selection up by 1.
+* The 2nd row moves the selection up by 8.
+* The 3rd row moves the selection down by 8.
+* The 4th row moves the selection down by 1.
+* The red button dismisses the new preset or device selection and closes the browser.
+* The green button confirms the new preset or device selection and closes the browser.
+* The purple buttons are for previewing presets of instrument devices.
 
 
 ## Preferences Dialog
