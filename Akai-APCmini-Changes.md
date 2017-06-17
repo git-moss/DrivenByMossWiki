@@ -1,5 +1,6 @@
 # 5.01 (unreleased)
 * New: Device and bank names are now shown on the screen when changed.
+* Fixed: Could hang in Shift view.
 * Fixed: Automatic lookup did not work on Linux.
 * Fixed: Notes were duplicated in drum mode.
 

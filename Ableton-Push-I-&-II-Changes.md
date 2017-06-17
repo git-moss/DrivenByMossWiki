@@ -1,6 +1,7 @@
 # 9.10 (unreleased)
 Requires Bitwig 2.1.
 * New: When in Session view and press Session again a menu turns up (like in note view) where you can select different views. The normal Sesson view, the flipped version and a new Scene view. This view displays the first 64 scenes ready for jamming. The color of a scene uses the color of the first clip found in the scene (only checks in the first 8 tracks). Use the Layout button on Push 2 to quickly step through these views.
+* New: Changed the layout of the Drum 64 view to match the normal Drum view.
 * New: The Fixed Length menu contains a new row with options which allows to create a new clip without storing the length.
 * New: Added more function options to the Footswitch 2.
 * New: You can use the Delete button in combination with a pad in Play mode. But note that this can be dangerous since the notes you see might not come from the currently selected clip!

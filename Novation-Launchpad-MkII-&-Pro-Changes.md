@@ -3,6 +3,7 @@ Requires Bitwig 2.1.
 * Launchpad Pro: New: Keep the Duplicate button pressed and select a clip in session mode to duplicate it
 * Launchpad Pro: New: Keep the Duplicate button pressed and select a pad from the 1st row when a track mode is on to duplicate the track.
 * New: The Duplicate button (with no other button pressed) now always duplicates the first selected clip on the current track.
+* Fixed: Could hang in Shift view.
 * Fixed: Aftertouch was not working in Play mode.
 * Fixed: Switching back from Drum 64 mode did not work and the Extension needed to be restarted
 
