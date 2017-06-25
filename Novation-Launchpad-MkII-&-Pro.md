@@ -22,7 +22,9 @@ Press _Mixer_ button and use the 1st and 2nd column of the grid on the MkII.
 * **Undo** - Undo. Press Shift for Redo. 
 * **Delete** - Like pressing the delete key. Hold the button for additional functionality in combination with other buttons knobs, see the view explanations below.
 * **Quantise** - Quantises the selected clip.
-* **Duplicate** - Duplicates the selected item(s), notes, etc.
+* **Duplicate** - Always duplicates the first selected clip on the current track if pressed with no other button.
+    * Launchpad Pro: Keep the Duplicate button pressed and select a clip in session mode to duplicate it
+    * Launchpad Pro: Keep the Duplicate button pressed and select a pad from the 1st row when a track mode is on to duplicate the track.
 * **Shift+Duplicate** - Toggle repeat 
 * **Double** - Creates a new clip on the selected track and slot, starts play and enables overdub.
 * **Shift+Double** - Start/Stop playback. Double click to move play cursor to start of song.
@@ -36,7 +38,7 @@ Press _Mixer_ button and use the 1st and 2nd column of the grid on the MkII.
 * **Session** - Selects the Session mode to start, stop and record clips. Session can be flipped if Session button is pressed twice.
 * **Note** - Selects the Note play mode for playing notes in different scales. If pressed again it activates the Drum mode for playing and sequencing drum instruments.
 * **Shift+Note** - Activates the Sequencer mode. If pressed again it activates the Raindrop sequencer.
-* **Device** - Selects the Device mode to change the Parameters of the currently selected device. If pressed again it opens the browser for preset selection mode. A device needs to be selected.
+* **Device** - Selects the Device mode to change the Parameters of the currently selected device. If pressed again it opens the browser for preset selection mode. If no device is selected the browser is opened to insert a device.
 * **Shift+Device** - Opens the device browser to add a device after the currently selected one
 * **User** - Currently not used.
 
@@ -122,6 +124,8 @@ Press _"Device"_ to enter the **Device** mode:
 * Each column of the grid controls a parameter of the currently selected device. 
 * These virtual faders use the same colors as the Bitwig highlight colors.
 * Hit buttons harder for faster fader change.
+* Cursor up/down to the next / previous device
+* Cursor left/right to the next / previous parameter bank
 
 
 ## Browser Mode
@@ -138,6 +142,7 @@ Press _"Shift+Device"_ to open the device browser to add a device after the curr
 * The red button dismisses the new preset or device selection and closes the browser.
 * The green button confirms the new preset or device selection and closes the browser.
 * The purple buttons are for previewing presets of instrument devices.
+* Cursor left/right switches to the next / previous browser tab
 
 
 ## Preferences Dialog

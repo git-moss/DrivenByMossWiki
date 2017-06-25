@@ -15,11 +15,11 @@ Support script for Ableton's Push 1 and Push 2 controller. You can control track
 * **Automation** - Toggle Automation Write. Long press to bring up the Automation dialog which allows you to change the automation mode.
 * **Shift + Automation** - Toggles the clip launcher automation write enabled state of the transport.
 * **Delete + Automation** - Resets any automation overrides.
-* **Fixed Length** - Select the length of the midi clip for _New_.
+* **Fixed Length** - Select the length of the midi clip for _New_. The upper row gives you the option to create a new clip of the selected length without storing it.
 * **Quantize** - Quantizes the currently selected clip.
 * **Shift+Quantize** - Access the Groove options
 * **Double (Loop)** - Duplicate the content of the currently selected clip (not the clip itself)
-* **Duplicate** - Combine with a pad in session mode (duplicate clip) or a track select button (duplicate track).
+* **Duplicate** - Duplicates the first selected clip on the current track. Combine with a pad in session mode (duplicate clip) or a track select button (duplicate track).
 * **Shift+Duplicate** - Create a new scene from the currently playing clips
 * **Delete** - Like pressing the delete key. Hold the button for additional functionality in combination with other buttons knobs, see the mode and view explanations below.
 * **Undo** - Undo. Press Shift for Redo.
@@ -43,7 +43,7 @@ Support script for Ableton's Push 1 and Push 2 controller. You can control track
 * **Arrows** The cursor keys now consistently always change the track (device, layers) and scene bank, except in the browser they change the browser tabs.
 * **Shift+Touchstrip** - Change behaviour of touchstrip: Send pitch bend, a midi CC or a mixed mode. If mixed mode is selected upwards pitch bend is sent and downwards the select midi cc.
 * **Shift+Track** - Turn off/on VU meters.
-* **Browse** - Enters Preset selection mode for a device. A device needs to be selected.
+* **Browse** - Enters Preset selection mode for a device. If no device is selected the browser is opened to add a device.
 * **Add Track**: Adds a new instrument track
 * **Shift+Add Track**: Adds a new effect track
 * **Select+Add Track**: Adds a new audio track
@@ -121,11 +121,14 @@ Press _"Note"_ and select *Play* to change to the Play view.
   * Touch strip (Ribbon) changes pitch (or sends CC), configure with Shift+Touchstrip
   * Press _"Scales"_ (keep pressed for temporary) to change the scales (Chromatic, Major, Minor, etc.) and the root note with the 16 buttons below the display. Press and keep the **Shift** button to change the scale layout.
   * The played keys are lighting red if global or clip recording (does not work if recording clip is outside of the monitored 8x8 matrix)
+  * Use the Delete button in combination with a pad. This deletes all appearances of that note in the currently selected clip. Use with care since the notes you see lit might not come from the currently selected clip!
 
 ## Session Mode
 
 Press _"Session"_ to enter **Session** mode. Keep button pressed to switch back to Note mode on release. 
 This allows you to launch clips then release the Session button to jump straight back into Note mode.
+
+When in Session view and press Session again a menu turns up (like in note view) where you can select different views. The normal Sesson view, the flipped version and the Scene view. This view displays the first 64 scenes ready for jamming. The color of a scene uses the color of the first clip found in the scene (only checks in the first 8 tracks). Use the Layout button on Push 2 to quickly step through these views.
 
 Hold *Browse* and select a pad to browse for clips.
 
@@ -171,6 +174,19 @@ Press _"Note"_ and select *Drum* to change to the Drum Sequencer.
   * The Drumpads use the colors set in the drum machine for each pad.
   * There are three additional drum sequencers. Press Shift in drum mode and use upper 4 scene buttons to change between the four modes. 2nd mode displays 4 drum sound, 3rd mode 8. Use the lower 4 scene buttons (while holding Shift) in 2nd mode to toggle between the drum sounds 1-4, 5-8, 9-12, 13-16. Use the lower 2 scene buttons in 3rd mode to toggle the drum sounds 1-8, 9-16. The fourth mode displays 64 drum pads.
 
+## Drum 4 and Drum 8 sequencer
+
+Press _"Note"_ and select *Drum 4* or *Drum 8*.
+
+These drum sequencers show 4 or 8 drum sounds for sequencing. Use the Page buttons to move in the clip.
+
+## Drum 64 play mode
+
+Press _"Note"_ and select *Drum 64*.
+
+This mode gives you 64 pads for playing a drum device. The 16 pads in the left lower area are the same as in the drum sequencer mode.
+
+  
 ## Raindrop sequencer
 
 Press _"Note"_ and select *Raindrp* to change to the Raindrop Sequencer.

@@ -1,4 +1,4 @@
-# 3.1 (unreleased)
+# 3.1
 Requires Bitwig 2.1.
 * Launchpad Pro: New: Keep the Duplicate button pressed and select a clip in session mode to duplicate it
 * Launchpad Pro: New: Keep the Duplicate button pressed and select a pad from the 1st row when a track mode is on to duplicate the track.

@@ -1,4 +1,4 @@
-# 5.01 (unreleased)
+# 5.01
 * New: Device and bank names are now shown on the screen when changed.
 * Fixed: Could hang in Shift view.
 * Fixed: Automatic lookup did not work on Linux.

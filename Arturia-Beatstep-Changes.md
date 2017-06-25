@@ -1,4 +1,4 @@
-# 4.01 (unreleased)
+# 4.01
 * New: The hardware sequencer is now split up into a separate channel, so you can use it with Bitwig as well. To make this work reinstall the Template coming with the Extension. Note that the button colors are still overwritten when you use the sequencer.
 * Fixed: Wrong name for Midi input (displayed Launchpad)
 * Fixed: (Beatstep Pro) The name of the "Control" channel of the Pro was wrong (was "Beatstep Pro").

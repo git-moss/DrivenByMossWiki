@@ -13,9 +13,17 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 4. Click on **Autdetect**. Note: Since Bitwig 2 you automatically get a popup notification if a controller is found. 
 5. Alternatively, select **Add controller manually**:
 
+See device specific additional installation notes below.
+
+# Arturia Beatstep / Beatstep Pro
+
+Load the respective template fron the folder _resources/beatstep_ into the device by using Arturias Midi Control Center.
+
 # Open Sound Control (OSC) specifics
 1. Select a midi input port. It is not really important which one you choose because it is just used to insert midi notes into Bitwig received as an OSC command. Best thing is to use a virtual midi port.
-2. Adjust the IP-adresses and ports of your computer and the client device you want to use. NOTE: You need to restart the script if you made a change!
+2. Adjust the IP-adresses and ports of your computer and the client device you want to use. NOTE: You need to restart the extension if you made a change!
+
+The ZIP file has a folder _resources/osc_ which contains 1 example file for Cycling 74s Max and 1 example file for TouchOSC (Android and iOS app).
 
 # Novation Lauchpad Pro specifics
 If you added the controller manually, choose the 2nd port (*MIDIIN2 (Launchpad Pro)* and *MIDIOUT2 (Launchpad Pro)* on Windows).
@@ -25,9 +33,9 @@ If you added the controller manually, choose **Ableton -> Push** or  **Ableton -
 
 ## Additional installation for the Push 2 to support the display
 
-To support the display of the Push 2 you need to run the application Push2Display, which is included in the script. You find the application in the sub-folder **Push4Bitwig/push2display** of the script-folder.
-This application communicates with the script in Bitwig and the Push 2 display via USB.
-If the application is not running you can still use the script, except that the display will be off.
+To support the display of the Push 2 you need to run the application Push2Display, which is included in the ZIP file. You find the application in the sub-folder **resources/push2display**.
+This application communicates with the extension in Bitwig and the Push 2 display via USB.
+If the application is not running you can still use the extension, except that the display will be off.
 
 The application is written in Java to run on Windows, Linux and Mac. Therefore, make sure you have the latest Java Runtime installed (at least 1.8.0_66). OpenJDK will not work since it does not include JavaFX at the moment!
 Get it from: http://www.oracle.com/technetwork/java/javase/downloads/index.html (see below for which file to choose)
@@ -72,7 +80,7 @@ After you have copied the file reboot your computer.
 
 ### Configuration of the communication port (optional)
 
-The application communicates via the IP port 7000 with the script. If for any case this port is already in use on your system you can change it. To do so first change it in the Push4Bitwig preferences (the first option). After that change it in the application and click on **Apply**.
+The application communicates via the IP port 7000 with the extension. If for any case this port is already in use on your system you can change it. To do so first change it in the Push4Bitwig preferences (the first option). After that change it in the application and click on **Apply**.
 
 ### Other options
 

@@ -4,10 +4,9 @@ Support script for Arturia's Beatstep and Beatstep Pro controller. You can contr
 
 ## Features
 
-The buttons on the left are not usable for scripting since they do not send MIDI data. 
+The buttons on the left are not usable for scripting since they do not send MIDI data. Luckily, I could facilitate the Shift button for an extended functionality.
 The Play and Stop button do send midi data but also start the internal sequencer which overwrites the knob colors.
-Luckily, I could facilitate the Shift button for an extended functionality.
-*Therefore, stay away from all buttons on the left except the Shift button when you use the Bitwig script!*
+If you do not care about that problem you can use the hardware sequencer as well. For that there is a specific midi input to select in Bitwig.
 
 The big knob is used to move the play cursor in the Arrange view.
 Warning: Don't use it in combination with the Shift button or you will (still) transpose the midi notes sent by the pads, which will make the pads act funny.
