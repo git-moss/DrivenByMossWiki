@@ -2,6 +2,8 @@
 Requires Bitwig 2.1.
 * Launchpad Pro: New: Keep the Duplicate button pressed and select a clip in session mode to duplicate it
 * Launchpad Pro: New: Keep the Duplicate button pressed and select a pad from the 1st row when a track mode is on to duplicate the track.
+* New: Opens browser for inserting a device if none is present on a track
+* New: Cursor up/down in device note moves to the next / previous device
 * New: The Duplicate button (with no other button pressed) now always duplicates the first selected clip on the current track.
 * Fixed: Could hang in Shift view.
 * Fixed: Aftertouch was not working in Play mode.
