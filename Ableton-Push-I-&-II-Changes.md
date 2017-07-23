@@ -1,7 +1,6 @@
 # 9.20
 Requires Bitwig 2.1.
 * New: In sequencer and drum mode the loop selection buttons represent now one page (not a measure as before). Pressing one of the pads selects the page. To set a "one pad" loop press the pad again.
-* New: Press Shift+Scene buttons to set the preferred length for new clips.
 
 # 9.10
 Requires Bitwig 2.1.
