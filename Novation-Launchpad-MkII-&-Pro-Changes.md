@@ -1,3 +1,8 @@
+# 3.2
+Requires Bitwig 2.1.
+* New: In sequencer and drum mode the loop selection buttons represent now one page (not a measure as before). Pressing one of the pads selects the page. To set a "one pad" loop press the pad again.
+* Fixed: Extension could crash if aftertouch was used.
+
 # 3.1
 Requires Bitwig 2.1.
 * Launchpad Pro: New: Keep the Duplicate button pressed and select a clip in session mode to duplicate it

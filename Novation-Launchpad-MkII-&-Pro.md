@@ -30,7 +30,7 @@ Press _Mixer_ button and use the 1st and 2nd column of the grid on the MkII.
 * **Shift+Double** - Start/Stop playback. Double click to move play cursor to start of song.
 * **Record** - Start/Stop recording 
 * **Shift+Record** - Toggle launcher overdub
-
+* Press **Shift+Scene buttons** to set the preferred length for new clips.
 
 ## Cursors and Mode selection (Upper button row)
 

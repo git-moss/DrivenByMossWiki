@@ -1,3 +1,8 @@
+# 9.20
+Requires Bitwig 2.1.
+* New: In sequencer and drum mode the loop selection buttons represent now one page (not a measure as before). Pressing one of the pads selects the page. To set a "one pad" loop press the pad again.
+* New: Press Shift+Scene buttons to set the preferred length for new clips.
+
 # 9.10
 Requires Bitwig 2.1.
 * New: When in Session view and press Session again a menu turns up (like in note view) where you can select different views. The normal Sesson view, the flipped version and a new Scene view. This view displays the first 64 scenes ready for jamming. The color of a scene uses the color of the first clip found in the scene (only checks in the first 8 tracks). Use the Layout button on Push 2 to quickly step through these views.

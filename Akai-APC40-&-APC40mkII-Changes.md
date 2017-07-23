@@ -1,3 +1,7 @@
+# 5.02
+Requires Bitwig 2.1.
+* New: In sequencer and drum mode the loop selection buttons represent now one page (not a measure as before). Pressing one of the pads selects the page. To set a "one pad" loop press the pad again.
+
 # 5.00
 Requires Bitwig Studio 2.1.
 * New: Written now in Java.
