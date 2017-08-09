@@ -1,3 +1,9 @@
+# 5.10 (unreleased)
+Requires Bitwig 2.1.
+* New: Pressing the volume fader row select button multiple times does select master track mode.
+* New: Selecting the master track display does now select the master track.
+* Fixed: Display of Volume and Pan on Master track was too long.
+
 # 5.00
 Requires Bitwig 2.1.
 * New: Written now in Java
