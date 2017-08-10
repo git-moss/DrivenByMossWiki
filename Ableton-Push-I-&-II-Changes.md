@@ -1,3 +1,9 @@
+# 9.21 (unreleased)
+Requires Bitwig 2.1.
+* Fixed: When in note mode hold the session button to engage the momentary function didn't work anymore.
+* Fixed: Push2Display did not store several color settings
+* Fixed: Push1: Length of value display was too long
+
 # 9.20
 Requires Bitwig 2.1.
 * New: In sequencer and drum mode the loop selection buttons represent now one page (not a measure as before). Pressing one of the pads selects the page. To set a "one pad" loop press the pad again.
