@@ -1,4 +1,4 @@
-# 5.10 (unreleased)
+# 5.10
 Requires Bitwig 2.1.
 * New: Pressing the volume fader row select button multiple times does select master track mode.
 * New: Selecting the master track display does now select the master track.
