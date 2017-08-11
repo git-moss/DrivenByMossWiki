@@ -1,7 +1,15 @@
 # 9.21 (unreleased)
 Requires Bitwig 2.1.
+* New: Scenes can be started from Play and Piano view.
+* New: Push 2: The last selected mix mode is remembered when switching back from other modes.
+* New: Push 2: Long pressing the Stop Clip button does indicate if a track has a playing clip by coloring the track buttons red.
 * Fixed: When in note mode hold the session button to engage the momentary function didn't work anymore.
 * Fixed: Push2Display did not store several color settings
+* Fixed: Info knob in setup mode was switched with 2nd button row.
+* Fixed: Locrian scale contained a wrong note.
+* Fixed: Switched variants of Hirojoshi, Pelog scale.
+* Fixed: Display of some scales in chromatic mode were wrong (e.g. Diminished, Whole-Half, Whole Tone)
+* Fixed: Push 1: Send mode did not work
 * Fixed: Push1: Length of value display was too long
 
 # 9.20
