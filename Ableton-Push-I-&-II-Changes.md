@@ -1,4 +1,4 @@
-# 9.21 (unreleased)
+# 9.21
 Requires Bitwig 2.1.
 * New: Scenes can be started from Play and Piano view.
 * New: Push 2: The last selected mix mode is remembered when switching back from other modes.
