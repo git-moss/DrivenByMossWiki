@@ -69,46 +69,46 @@ Support script for Ableton's Push 1 and Push 2 controller. You can control track
     * Shift+Left/right arrows: Select next/previous track bank 
 
 2. **Crossfader** - Push 1: Press "Volume" twice to enter - Push 2: Press "Mix" and "Crossfader" above the display
-  * 8 edit knobs: Change crossfader setting of selected 8 tracks.
-  * Buttons behave as above.
+    * 8 edit knobs: Change crossfader setting of selected 8 tracks.
+    * Buttons behave as above.
   
 3. **Pan & Send** - Push 1: Press "Pan & Send" to enter (press multiple times to switch between the 7 modes) - Push 2: Press "Mix" and "Send X" above the display. Toggle between the Sends 1-4 and 5-8.
-  * 8 edit knobs: Change pan/send1-6 of selected 8 tracks. Hold **Shift** for fine adjustments.
-  * Buttons behave as above.
+    * 8 edit knobs: Change pan/send1-6 of selected 8 tracks. Hold **Shift** for fine adjustments.
+    * Buttons behave as above.
 
 4. **Track** - Press "Track" (Push 1) or "Mix" (Push 2) to enter (press twice to toggle between normal and effect tracks)
-  * 8 edit knobs: Change volume/pan/crossfader/Send1-5 of selected track. Hold **Shift** for fine adjustments. You can configure in the preferences that the crossfader option is hidden and you get 6 sends instead.
-  * Buttons behave as above.
+    * 8 edit knobs: Change volume/pan/crossfader/Send1-5 of selected track. Hold **Shift** for fine adjustments. You can configure in the preferences that the crossfader option is hidden and you get 6 sends instead.
+    * Buttons behave as above.
 
 5. **Clip** - Press "Clip" to modify clip properties
-  * Loop, Play range, Shuffle and Accent
-  * Other buttons behave as above.
+    * Loop, Play range, Shuffle and Accent
+    * Other buttons behave as above.
   
 6. **Device** - Press "Device" to enter
-  * Use the menu buttons above the display to select the different parameters (on the Push 1 use 2nd row buttons).
-  * 1st button on 2nd row in device modes dis-/enables device.
-  * 8th button on 2nd row in device modes displays VST window.
-  * Buttons of 1st row select the device or the parameter banks.
-  * To navigate groups, layers and devices press now the respective first row button. Long press any of the first row buttons to move up the hierarchy again.
-  * 8 edit knobs: Change 8 parameters of the selected device (FX). Hold **Shift** for fine adjustments. Hold the delete key and touch a knob to reset its value.
-  * Left/Right buttons: Select next/previous device or parameter bank
-  * Press Browse to select a different patch of the device. Hold the Shift button in Preset mode to scroll quickly.
-  * Push 1: Use **Select+Volume/Pan/Track** buttons to activate the different layer modes. For Sendmodes press **Pan** multiple times.
+    * Use the menu buttons above the display to select the different parameters (on the Push 1 use 2nd row buttons).
+    * 1st button on 2nd row in device modes dis-/enables device.
+    * 8th button on 2nd row in device modes displays VST window.
+    * Buttons of 1st row select the device or the parameter banks.
+    * To navigate groups, layers and devices press now the respective first row button. Long press any of the first row buttons to move up the hierarchy again.
+    * 8 edit knobs: Change 8 parameters of the selected device (FX). Hold **Shift** for fine adjustments. Hold the delete key and touch a knob to reset its value.
+    * Left/Right buttons: Select next/previous device or parameter bank
+    * Press Browse to select a different patch of the device. Hold the Shift button in Preset mode to scroll quickly.
+    * Push 1: Use **Select+Volume/Pan/Track** buttons to activate the different layer modes. For Sendmodes press **Pan** multiple times.
 
 7. **Browse** - Press "Browse" to enter (a device must be selected)
-  * Edit knobs 8: Change the patch
-  * Edit knobs 1-7: Change the different filters
-  * Hold the Shift button in Preset mode to scroll quickly.
-  * 1st button row: Select the previous patch/filter
-  * 2nd button row: Select the next patch/filter
-  * Use the arrow left and right to switch between the browser tabs
-  * **Delete+touch knob**: Resets a filter to its default value
-  * Press now *Browse* again to Confirm or *Shift+Browse* to Cancel.
+    * Edit knobs 8: Change the patch
+    * Edit knobs 1-7: Change the different filters
+    * Hold the Shift button in Preset mode to scroll quickly.
+    * 1st button row: Select the previous patch/filter
+    * 2nd button row: Select the next patch/filter
+    * Use the arrow left and right to switch between the browser tabs
+    * **Delete+touch knob**: Resets a filter to its default value
+    * Press now *Browse* again to Confirm or *Shift+Browse* to Cancel.
   
 8. **Master** - Press "Master" to enter
-  * 8 edit knobs: Change volume and pan of master track. Hold **Shift** for fine adjustments.
-  * Dis-/Enable audio engine
-  * Switch to the next/previous opened project with buttons 7 and 8.
+    * 8 edit knobs: Change volume and pan of master track. Hold **Shift** for fine adjustments.
+    * Dis-/Enable audio engine
+    * Switch to the next/previous opened project with buttons 7 and 8.
 
 
 ## Note Mode (Playing the pads)
