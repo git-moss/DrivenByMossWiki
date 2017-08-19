@@ -60,13 +60,13 @@ Support script for Ableton's Push 1 and Push 2 controller. You can control track
 * In all track modes, hold the Select button to enter the track details mode. In this mode you can set different states like enable, solo, mute, rec arm, monitor and change the color of the track. If you currently have a layer selected this brings up a similar view to edit the states of the layer.
 
 1. **Volume** - Push 1: Press "Volume" to enter - Push 2: Press "Mix" and "Volume" above the display
-  * 8 edit knobs: Change volume of selected 8 tracks. Hold **Shift** for fine adjustments.
-  * 1st 8 button row: Press to select a track, press again to enter a group. To rec arm a track, keep the record button pressed and select the channel (first button row). Long press a button to leave a track group.
-  * **Toggle monitor and auto monitor**: Keep pressed Select. First row toggles Monitor, second row Auto Monitor.
-  * **De-/activate a track**: Select+Shift+1st button row.
-  * 2nd 8 button row: Toggle mute or solo of track, dependent of Mute or Solo button selection
-  * Left/Right arrows: Select next/previous track 
-  * Shift+Left/right arrows: Select next/previous track bank 
+    * 8 edit knobs: Change volume of selected 8 tracks. Hold **Shift** for fine adjustments.
+    * 1st 8 button row: Press to select a track, press again to enter a group. To rec arm a track, keep the record button pressed and select the channel (first button row). Long press a button to leave a track group.
+    * **Toggle monitor and auto monitor**: Keep pressed Select. First row toggles Monitor, second row Auto Monitor.
+    * **De-/activate a track**: Select+Shift+1st button row.
+    * 2nd 8 button row: Toggle mute or solo of track, dependent of Mute or Solo button selection
+    * Left/Right arrows: Select next/previous track 
+    * Shift+Left/right arrows: Select next/previous track bank 
 
 2. **Crossfader** - Push 1: Press "Volume" twice to enter - Push 2: Press "Mix" and "Crossfader" above the display
   * 8 edit knobs: Change crossfader setting of selected 8 tracks.
