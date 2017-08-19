@@ -65,8 +65,6 @@ Support script for Ableton's Push 1 and Push 2 controller. You can control track
   * **Toggle monitor and auto monitor**: Keep pressed Select. First row toggles Monitor, second row Auto Monitor.
   * **De-/activate a track**: Select+Shift+1st button row.
   * 2nd 8 button row: Toggle mute or solo of track, dependent of Mute or Solo button selection
-  * Press the Device-In button to enter a group
-  * Press the Device-Out button to leave a group
   * Left/Right arrows: Select next/previous track 
   * Shift+Left/right arrows: Select next/previous track bank 
 
