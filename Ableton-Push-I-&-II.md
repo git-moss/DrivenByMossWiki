@@ -85,10 +85,9 @@ Support script for Ableton's Push 1 and Push 2 controller. You can control track
     * Other buttons behave as above.
   
 6. **Device** - Press "Device" to enter
-    * Use the menu buttons above the display to select the different parameters (on the Push 1 use 2nd row buttons).
-    * 1st button on 2nd row in device modes dis-/enables device.
-    * 8th button on 2nd row in device modes displays VST window.
     * Buttons of 1st row select the device or the parameter banks.
+    * 1st button on 2nd row in device modes dis-/enables device (button above display on Push 2).
+    * 8th button on 2nd row in device modes displays VST window (button above display on Push 2).
     * To navigate groups, layers and devices press now the respective first row button. Long press any of the first row buttons to move up the hierarchy again.
     * 8 edit knobs: Change 8 parameters of the selected device (FX). Hold **Shift** for fine adjustments. Hold the delete key and touch a knob to reset its value.
     * Left/Right buttons: Select next/previous device or parameter bank
