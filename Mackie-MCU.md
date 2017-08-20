@@ -1,9 +1,11 @@
 # Bitwig Studio | Mackie MCU
 
 Support script for the Mackie MCU protocol. While this extension supports the Mackie MCU protocol in general I could only test it with the following devices:
+* Mackie MCU Pro
 * icon QConPro X
 * icon Platform M
 * Zoom R16
+In the following the supported Bitwig features are described. In brackets the names of the MCU buttons are noted which trigger the feature.
 
 The settings dialog contains profiles for several devices, which sets the correct hardware settings.
 
@@ -17,7 +19,8 @@ The settings dialog contains profiles for several devices, which sets the correc
 * **Record** (MCU RECORD) - Start/Stop recording
 * **Shift+Record** - Toggles the launcher overdub.
 * **Shift+Track selection buttons** - Select the length for new clips: 16 bars, 8 bars, 4 bars, 2 bars, 1 bar, 2 beats, 1 beat, 32 bars
-* **Jog Wheel** - Move play cursor (press **Shift** for finer adjustment)
+* **Jog Wheel** - Move play cursor (press **Shift** for fine adjustment)
+* **Option+Jog Wheel** - Change tempo (press **Shift** for fine adjustment)
 * **Scrub** - Toggles between Track and Device editing mode
 * **Arrow left, right, up, down** - Like pressing the arrow keys on the computer keyboard
 * **Zoom** - If active, the arrow buttons left/right zoom the arranger horizontally. The up/down arrows both toggle the height of the track.
@@ -36,12 +39,12 @@ The settings dialog contains profiles for several devices, which sets the correc
 * **F1-F5** (MCU F1-F5) - Functions for these buttons can be assigned in the settings dialog.
 
 ## Assignment
-* **Track** (MCU MODE IO) - Select the Track edit mode. Press again to select the Volume edit mode. See the section **Edit Modes** below.
-* **Pan** (MCU MODE PAN) - Select the Panorama edit mode. See the section **Edit Modes** below.
+* **Track** (MCU MODE IO, TRACK) - Select the Track edit mode. Press again to select the Volume edit mode. See the section **Edit Modes** below.
+* **Pan** (MCU MODE PAN/SURROUND) - Select the Panorama edit mode. See the section **Edit Modes** below.
 * **Send** (MCU MODE SENDS) - Select the Send edit mode. Press multiple times to select the Send channels 1 to 8. See the section **Edit Modes** below. Use in combination with the **Track select** buttons to select the respective Send channel 1-8.
-* **Device** (MCU DEVICE) - Select the Device edit mode. See the section **Edit Modes** below.
+* **Device** (MCU DEVICE, PLUG-IN) - Select the Device edit mode. See the section **Edit Modes** below.
 * **Page Up** (MCU MODE EQ) - Move track bank focus 1 track up. If Device mode is active, the previous device parameter bank is selected.
-* **Page Down** (MCU MODE DYN) - Move track bank focus 1 track down. If Device mode is active, the next device parameter bank is selected.
+* **Page Down** (MCU MODE DYN, INSTRUMENT) - Move track bank focus 1 track down. If Device mode is active, the next device parameter bank is selected.
 
 ## Automation
 * **Read/Off** (MCU READ) - Disables arranger automation recording.
@@ -54,11 +57,11 @@ The settings dialog contains profiles for several devices, which sets the correc
 
 ## Utilities
 
-* **Note Editor** - Toggles the display of the note editor pane
-* **Automation Editor** - Toggles the display of the automation editor pane
-* **Toggle Device** - Toggles the display of the device pane
+* **Note Editor** (MCU MIDI TRACKS) - Toggles the display of the note editor pane
+* **Automation Editor** (MCU INPUTS) - Toggles the display of the automation editor pane
+* **Toggle Device**  (MCU AUDIO TRACKS) - Toggles the display of the device pane
 * **Shift+Toggle Device** - Toggles the display of a plugin window
-* **Mixer** - Toggles the display of the mixer pane
+* **Mixer** (MCU AUDIO INSTRUMENT) - Toggles the display of the mixer pane
 * **Browser** (MCU USER) - Starts the browser to browse for presets
 * **Shift+Browser** - Starts the browser to insert a new device before the current one
 * **Option+Browser** - Starts the browser to insert a new device after the current one
@@ -67,10 +70,12 @@ The settings dialog contains profiles for several devices, which sets the correc
 * **Groove** (MCU SOLO) - Dis-/Enable the Groove
 * **OVR** (MCU REPLACE) - Toggle arranger overdub
 * **Shift+OVR** - Toggle launcher overdub
+* **Save** (MCU SAVE) - Save button saves the current project
+* **Marker** (MCU MARKER) - Toggles the display of markers in the arranger
 
 ## Fader Controls
 
-* **Lock** - Locks the faders
+* **Lock** (Not on MCU) - Locks the faders
 * **Flip** (MCU_FLIP) - Toggles between Instrument/Audio/Hybrid tracks and the Effect tracks.
 * **Cancel** (MCU CANCEL) - Cancels browsing when the Browser is active, otherwise like pressing the Escape key on the computer keyboard.
 * **Enter** (MCU ENTER) - Confirms browsing when the Browser is active, otherwise like pressing the Enter key on the computer keyboard.
@@ -127,7 +132,7 @@ Touch the master fader to enter
 * **<< 8** (MCU TRACK LEFT) - If Device mode is active, the previous device is selected.
 * **8 >>** (MCU TRACK RIGHT) - If Device mode is active, the next device is selected.
 * **Page Up** (MCU MODE EQ) - If Device mode is active, the previous device parameter bank is selected.
-* **Page Down** (MCU MODE DYN) - If Device mode is active, the next device parameter bank is selected.
+* **Page Down** (MCU MODE DYN, INSTRUMENT) - If Device mode is active, the next device parameter bank is selected.
 
 ## Browser
 
@@ -140,8 +145,10 @@ Touch the master fader to enter
 # Foot switches
 
 * **Footswitch 1** (MCU USER A) - Function be assigned in the settings dialog.
-* **Footswitch 2** (MCU USER A) - Function be assigned in the settings dialog.
+* **Footswitch 2** (MCU USER B) - Function be assigned in the settings dialog.
 
 # Preferences dialog
 
 * Set preferences for Device capabilities, etc.
+
+The following MCU buttons are currently not used: GLOBAL VIEW, BUSSES, OUTPUT, CONTROL, ALT, F8, GROUP, NUDGE, DROP
