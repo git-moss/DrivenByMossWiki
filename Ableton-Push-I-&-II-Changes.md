@@ -1,3 +1,7 @@
+# 9.22 (unreleased)
+Requires Bitwig 2.1.
+* New: Changed Whole-half and added Half-whole scale.
+
 # 9.21
 Requires Bitwig 2.1.
 * New: Scenes can be started from Play and Piano view.
