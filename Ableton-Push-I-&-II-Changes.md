@@ -1,5 +1,12 @@
-# 9.22 (unreleased)
+# 10.0 (unreleased)
+Requires Bitwig 2.??.
+* New: Drawing of Push 2 display is now fully integrated. No external application is needed anymore.
+* New: Devices display an icon
+
+# 9.22
 Requires Bitwig 2.1.
+* New: The devices and track views use the 8th button above the display (2nd row on Push 1) for navigating up in the hierarchy.
+* New: Devices view contains a new "Banks" toggle button to toggle between banks and devices. This is especially useful for instruments which contain layers (incl. Multiout VSTs).
 * New: Changed Whole-half and added Half-whole scale.
 
 # 9.21

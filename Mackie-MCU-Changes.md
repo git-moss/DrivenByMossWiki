@@ -1,4 +1,4 @@
-# 1.1 (unreleased)
+# 1.1
 * New: Support for assignment display
 * New: Lighting of SMPTE/BEATS LEDs.
 * New: Save button saves the current project
