@@ -47,8 +47,8 @@ Support script for Ableton's Push 1 and Push 2 controller. You can control track
 * **Add Track**: Adds a new instrument track
 * **Shift+Add Track**: Adds a new effect track
 * **Select+Add Track**: Adds a new audio track
-* **Add Device**: Add a device after the currently selected one
-* **Shift+Add Device**: Add a device before the currently selected one
+* **Add Device** (Push 2) / **Add Effect** (Push 1): Add a device after the currently selected one
+* **Shift+Add Device** (Push 2) / **Shift+Add Effect** (Push 1): Add a device before the currently selected one
 * **User** (Push 1) / **Setup** (Push 2): Adjust some hardware settings like pad sensitivity. Also configurable in the script settings.
 * **Layout** (Push 2): Layout button steps through the play or sequencer modes (depending on which type is active). **Shift+Layout** button toggles between play and sequencer modes.
 
