@@ -1,3 +1,8 @@
+#1.3
+* Fixed: Tracks were not display if a track name contained umlauts.
+* Fixed: Text alignment on 2nd display was wrong.
+* Fixed: Better text alignment for master mode to not interfere with VU display.
+
 # 1.2
 * New: Toggle VU meters with Global View button on MCU
 * Fixed: VU meters id not work on Mackie MCU
