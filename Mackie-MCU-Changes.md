@@ -1,3 +1,9 @@
+# 1.2
+* New: Toggle VU meters with Global View button on MCU
+* Fixed: VU meters id not work on Mackie MCU
+* Fixed: First row texts were offset by 1
+* Fixed: Wrong positioning of beats display if tempo was less than 100.
+
 # 1.1
 * New: Support for assignment display
 * New: Lighting of SMPTE/BEATS LEDs.

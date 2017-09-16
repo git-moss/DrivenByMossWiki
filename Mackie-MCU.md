@@ -30,6 +30,7 @@ The settings dialog contains profiles for several devices, which sets the correc
 ## Display Mode
 * **Display Mode** - Toggles the display of the track names in the 1st display.
 * **Tempo/Ticks** - Toggle content of segment display. The last 3 digits toggle between ticks or the song tempo.
+* **Global View (MCU EDIT)** - Toggle VU meters on/off
 
 ## Functions
 * **Shift** (MCU SHIFT) - Use in combination with other buttons for additional functions.

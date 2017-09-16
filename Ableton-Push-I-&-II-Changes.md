@@ -3,6 +3,11 @@ Requires Bitwig 2.??.
 * New: Drawing of Push 2 display is now fully integrated. No external application is needed anymore.
 * New: Devices display an icon
 
+#9.23
+Requires Bitwig 2.1.
+* New: Setting for a preferred note view to use for new tracks.
+* New: Prevent flickering when accidently touching the tempo or position knob while tweaking one of the other 8 knobs.
+
 # 9.22
 Requires Bitwig 2.1.
 * New: The devices and track views use the 8th button above the display (2nd row on Push 1) for navigating up in the hierarchy.
