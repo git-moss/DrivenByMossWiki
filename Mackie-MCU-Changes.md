@@ -1,5 +1,8 @@
+#2.0 (unreleased)
+* New: Support for 1-3 extenders (can be any device which supports the MCU protocol)
+
 #1.3
-* Fixed: Tracks were not display if a track name contained umlauts.
+* Fixed: Tracks were not displayed if a track name contained umlauts.
 * Fixed: Text alignment on 2nd display was wrong.
 * Fixed: Better text alignment for master mode to not interfere with VU display.
 
