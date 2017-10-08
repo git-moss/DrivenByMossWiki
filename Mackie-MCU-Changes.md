@@ -1,4 +1,4 @@
-#2.0 (unreleased)
+#2.0
 * New: Support for 1-3 extenders (can be any device which supports the MCU protocol)
 
 #1.3
