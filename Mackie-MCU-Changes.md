@@ -1,3 +1,9 @@
+#2.1
+* New: Startup mode is now panorama
+* New: When you touch a volume fader, volume mode is temporarily activated until you release the fader.
+* New: Support to switch editing modes (track, panorama, volume, device) for devices who have no dedicated mode buttons. Option 1 is to enable the new setting to use the vertical zoom buttons to switch editing modes. Option 2 is to assign the new functions "Previouse mode" and "Next mode" to function buttons.
+* New: Setting to use the faders like the editing knobs (enable for devices which do not have knobs).
+
 #2.0
 * New: Support for 1-3 extenders (can be any device which supports the MCU protocol)
 
