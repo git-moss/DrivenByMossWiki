@@ -3,6 +3,9 @@ Requires Bitwig 2.??.
 * New: Drawing of Push 2 display is now fully integrated. No external application is needed anymore.
 * New: Devices display an icon
 
+#9.24 (unreleased)
+* Fixed: Drawing of scene birds eye view was not correct if scene/track numbers were not a multiple of 8.
+
 #9.23
 Requires Bitwig 2.1.
 * New: Setting for a preferred note view to use for new tracks.
