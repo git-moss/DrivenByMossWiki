@@ -5,6 +5,7 @@ Requires Bitwig 2.??.
 
 #9.24 (unreleased)
 * Fixed: Drawing of scene birds eye view was not correct if scene/track numbers were not a multiple of 8.
+* Fixed: Push 1: Non-ASCII characters in track names did not work
 
 #9.23
 Requires Bitwig 2.1.
