@@ -3,7 +3,7 @@ Requires Bitwig 2.??.
 * New: Drawing of Push 2 display is now fully integrated. No external application is needed anymore.
 * New: Devices display an icon
 
-#9.24 (unreleased)
+#9.24
 * Fixed: Drawing of scene birds eye view was not correct if scene/track numbers were not a multiple of 8.
 * Fixed: Push 1: Non-ASCII characters in track names did not work
 

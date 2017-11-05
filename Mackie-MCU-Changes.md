@@ -1,3 +1,6 @@
+#2.2
+* Fixed: Crash when using faders as knobs and no track is selected.
+
 #2.1
 * New: Startup mode is now panorama
 * New: When you touch a volume fader, volume mode is temporarily activated until you release the fader.
