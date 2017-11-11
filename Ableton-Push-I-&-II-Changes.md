@@ -3,6 +3,10 @@ Requires Bitwig 2.??.
 * New: Drawing of Push 2 display is now fully integrated. No external application is needed anymore.
 * New: Devices display an icon
 
+#9.25 (unreleased)
+* Fixed: The time values displayed in clip mode were 0 based instead of 1 as displayed in Bitwig.
+* New: The change speed of play start, end, loop start, length in Clip Mode are slowed down.
+
 #9.24
 * Fixed: Drawing of scene birds eye view was not correct if scene/track numbers were not a multiple of 8.
 * Fixed: Push 1: Non-ASCII characters in track names did not work
