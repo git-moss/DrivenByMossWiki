@@ -2,6 +2,7 @@
 Requires Bitwig 2.??.
 * New: Drawing of Push 2 display is now fully integrated. No external application is needed anymore.
 * New: Devices display an icon
+* New: Clip mode has the option to display a piano roll.
 
 #9.25 (unreleased)
 * Fixed: The time values displayed in clip mode were 0 based instead of 1 as displayed in Bitwig.
