@@ -4,7 +4,7 @@ Requires Bitwig 2.??.
 * New: Devices display an icon
 * New: Clip mode has the option to display a piano roll.
 
-#9.25 (unreleased)
+#9.25
 * Fixed: The time values displayed in clip mode were 0 based instead of 1 as displayed in Bitwig.
 * New: The change speed of play start, end, loop start, length in Clip Mode are slowed down.
 

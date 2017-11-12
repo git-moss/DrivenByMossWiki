@@ -1,5 +1,7 @@
-#2.3 (unreleased)
+#2.3
 * New: The scrub button switches now through all modes (instead of only Track and Device).
+* New: Optimized display updates
+* Fixed: Modes did not update on all devices (when multiple ones are in use) when the mode change was not initiated on the main device.
 
 #2.2
 * Fixed: Crash when using faders as knobs and no track is selected.
