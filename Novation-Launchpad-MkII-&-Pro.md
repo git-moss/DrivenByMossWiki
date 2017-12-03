@@ -93,7 +93,21 @@ Press _"Note"_ twice to enter the Drum Sequencer.
 * Hold *Delete* + Drumpad to delete the midi notes of the current clip on that 'pad'.
 * To make the display of mute/solo/exists states work, the primary device needs to be the drum machine (which is normally the case).
 * The Drumpads use the colors set in the drum machine for each pad.
-  
+
+
+## Drum 4 and Drum 8 sequencer
+
+Press _"Note"_ multiple times to select *Drum 4* or *Drum 8*.
+
+These drum sequencers show 4 or 8 drum sounds for sequencing. Use the cursor buttons to move in the clip.
+
+
+## Drum 64 play mode
+
+Press _"Note"_ multiple times to select *Drum 64*.
+
+This mode gives you 64 pads for playing a drum device. The 16 pads in the left lower area are the same as in the drum sequencer mode.
+
 
 ## Sequencer Mode
 

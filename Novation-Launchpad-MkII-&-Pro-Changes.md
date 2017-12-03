@@ -1,3 +1,7 @@
+# 3.3
+Requires Bitwig 2.1.
+* Fixed: The new Shift+Scene clip length selection introduced in 3.2 broke the switching of drum modes. Drum modes are now toggled with the  (User 1) Note button as well.
+
 # 3.2
 Requires Bitwig 2.1.
 * New: In sequencer and drum mode the loop selection buttons represent now one page (not a measure as before). Pressing one of the pads selects the page. To set a "one pad" loop press the pad again.
