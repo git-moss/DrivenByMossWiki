@@ -8,7 +8,7 @@ Support script for Ableton's Push 1 and Push 2 controller. You can control track
 * **Shift+Play** - Toggle repeat 
 * **Select+Play** - Toggle Punch In
 * **Select+Shift+Play** - Toggle Punch Out
-* **Record** - Start/Stop recording 
+* **Record** - Start/Stop recording
 * **Shift+Record** - Toggle launcher overdub 
 * **New** - It creates a new clip on the selected track and slot, starts play and enables overdub.
 * **Shift+New** - Like New button but without activating launcher overdub.
