@@ -1,6 +1,7 @@
 # 3.3
 Requires Bitwig 2.1.
-* Fixed: The new Shift+Scene clip length selection introduced in 3.2 broke the switching of drum modes. Drum modes are now toggled with the  (User 1) Note button as well.
+* New: Press the Shift button in combination with one of the three green buttons in the right upper corner to insert an instrument, audio or effect track.
+* Fixed: The new Shift+Scene clip length selection introduced in 3.2 broke the switching of drum modes. Drum modes are now toggled with the (User 1) Note button as well.
 
 # 3.2
 Requires Bitwig 2.1.

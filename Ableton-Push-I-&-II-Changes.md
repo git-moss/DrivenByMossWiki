@@ -4,6 +4,13 @@ Requires Bitwig 2.??.
 * New: Devices display an icon
 * New: Clip mode has the option to display a piano roll.
 
+#9.30
+* New: Slowed down scrolling of browser columns and presets.
+* New: The values of the last touched browser column can now be changed with the tempo knob for finer adjustments.
+* New: Improved visibility of selected browser column filters.
+* New: If the browser is closed in Bitwig, the last active mode is set on the Push.
+* Fixed: Resetting a browser column did crash the extension.
+
 #9.25
 * Fixed: The time values displayed in clip mode were 0 based instead of 1 as displayed in Bitwig.
 * New: The change speed of play start, end, loop start, length in Clip Mode are slowed down.

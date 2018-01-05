@@ -2,6 +2,7 @@
 
 Support script for Novation's Launchpad Pro controller. You can control track parameters, devices, transport, session view and play the pads.
 
+
 ## Differences MkII and Pro
 
 The MkII misses the left column and the bottom row of buttons from the Launchpad Pro.
@@ -31,6 +32,8 @@ Press _Mixer_ button and use the 1st and 2nd column of the grid on the MkII.
 * **Record** - Start/Stop recording 
 * **Shift+Record** - Toggle launcher overdub
 * Press **Shift+Scene buttons** to set the preferred length for new clips.
+* Press the **Shift button** in combination with one of the three green buttons in the right upper corner to insert an instrument, audio or effect track.
+
 
 ## Cursors and Mode selection (Upper button row)
 

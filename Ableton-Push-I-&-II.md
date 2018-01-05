@@ -97,12 +97,13 @@ Support script for Ableton's Push 1 and Push 2 controller. You can control track
 7. **Browse** - Press "Browse" to enter (a device must be selected)
     * Edit knobs 8: Change the patch
     * Edit knobs 1-7: Change the different filters
+    * Tempo knob: Changes the value of the last selected column
     * Hold the Shift button in Preset mode to scroll quickly.
     * 1st button row: Select the previous patch/filter
     * 2nd button row: Select the next patch/filter
     * Use the arrow left and right to switch between the browser tabs
     * **Delete+touch knob**: Resets a filter to its default value
-    * Press now *Browse* again to Confirm or *Shift+Browse* to Cancel.
+    * Press *Browse* again to Confirm the selection or *Shift+Browse* to Cancel.
   
 8. **Master** - Press "Master" to enter
     * 8 edit knobs: Change volume and pan of master track. Hold **Shift** for fine adjustments.
