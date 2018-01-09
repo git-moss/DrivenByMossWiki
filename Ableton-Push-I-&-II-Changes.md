@@ -4,6 +4,12 @@ Requires Bitwig 2.??.
 * New: Devices display an icon
 * New: Clip mode has the option to display a piano roll.
 
+#9.31
+* Fixed: Add Device button did not work (regression in 9.30).
+* Fixed: Modifying values of the 2nd page of a drum pad layers did modify the values of the 1st page.
+* Fixed: Drumpads did not produce sound after a button combination with delete, mute, solo or select was used.
+* Fixed: Loop length in clip mode was also offset by 1 but should not.
+
 #9.30
 * New: Slowed down scrolling of browser columns and presets.
 * New: The values of the last touched browser column can now be changed with the tempo knob for finer adjustments.
