@@ -3,6 +3,7 @@ Requires Bitwig 2.??.
 * New: Drawing of Push 2 display is now fully integrated. No external application is needed anymore.
 * New: Devices display an icon
 * New: Clip mode has the option to display a piano roll.
+* New: The new session mode can display the names of scenes and clips.
 
 #9.31
 * Fixed: Add Device button did not work (regression in 9.30).
