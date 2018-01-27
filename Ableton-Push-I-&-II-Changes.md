@@ -4,6 +4,12 @@ Requires Bitwig 2.??.
 * New: Devices display an icon
 * New: Clip mode has the option to display a piano roll.
 * New: The new session mode can display the names of scenes and clips.
+* New: The last selected mix mode (track, volume, pan , ...) is remembered.
+
+#9.40 (unreleased)
+* New: Slowed down scrolling of crossfader assignment knob.
+* New: When no device is selected the button to go up to the tracks is still displayed.
+* Fixed: Grid notes were not updated when switched to effect or master track.
 
 #9.31
 * Fixed: Add Device button did not work (regression in 9.30).
