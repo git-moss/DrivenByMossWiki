@@ -7,7 +7,7 @@ Requires Bitwig 2.??.
 * New: The last selected mix mode (track, volume, pan , ...) is remembered.
 
 #9.40 (unreleased)
-* New: Slowed down scrolling of crossfader assignment knob.
+* New: Slowed down scrolling of crossfader assignment and scale knob.
 * New: When no device is selected the button to go up to the tracks is still displayed.
 * Fixed: Grid notes were not updated when switched to effect or master track.
 
