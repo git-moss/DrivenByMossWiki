@@ -7,8 +7,10 @@ Requires Bitwig 2.??.
 * New: The last selected mix mode (track, volume, pan , ...) is remembered.
 
 #9.40 (unreleased)
+* New: Support for pinning tracks and devices
+* New: Harmonized track navigation with master track. Pressing the button below the master track will move into the master tracks' devices. Going up from devices selects the master track.
 * New: Slowed down scrolling of crossfader assignment and scale knob.
-* New: When no device is selected the button to go up to the tracks is still displayed.
+* New: When no device or layer is selected the button to go up to the tracks is still displayed.
 * Fixed: Grid notes were not updated when switched to effect or master track.
 
 #9.31

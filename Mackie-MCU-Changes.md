@@ -1,3 +1,6 @@
+#2.4 (Unreleased)
+* New: Option to deactivate the automatic selection of track when the channel fader is touched.
+
 #2.3
 * New: The scrub button switches now through all modes (instead of only Track and Device).
 * New: Optimized display updates
