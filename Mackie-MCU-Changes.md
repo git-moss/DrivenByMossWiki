@@ -1,4 +1,4 @@
-#2.4 (Unreleased)
+#2.4
 * New: Option to deactivate the automatic selection of track when the channel fader is touched.
 
 #2.3
