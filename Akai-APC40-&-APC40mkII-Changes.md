@@ -1,4 +1,4 @@
-# 5.10 (unreleased)
+# 5.10
 Requires Bitwig 2.2.
 * New: Display the view names when switching between them.
 
