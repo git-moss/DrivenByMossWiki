@@ -1,3 +1,7 @@
+# 5.11
+Requires Bitwig 2.2.
+* New: Shift + Dev. Lock pins the cursor device.
+
 # 5.10
 Requires Bitwig 2.2.
 * New: Display the view names when switching between them.

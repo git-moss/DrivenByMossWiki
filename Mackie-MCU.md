@@ -24,6 +24,7 @@ The settings dialog contains profiles for several devices, which sets the correc
 * **Scrub** - Toggles between Track and Device editing mode
 * **Arrow left, right, up, down** - Like pressing the arrow keys on the computer keyboard
 * **Zoom** - If active, the arrow buttons left/right zoom the arranger horizontally. The up/down arrows both toggle the height of the track.
+* **Nudge** - Executes Tap Tempo
 
 # Buttons
 
@@ -31,25 +32,32 @@ The settings dialog contains profiles for several devices, which sets the correc
 * **Display Mode** - Toggles the display of the track names in the 1st display.
 * **Tempo/Ticks** - Toggle content of segment display. The last 3 digits toggle between ticks or the song tempo.
 * **Global View (MCU EDIT)** - Toggle VU meters on/off
+* **Aux (MCU_AUX)** - Switches to Arrange layout.
+* **Busses (MCU_BUSSES)** - Switches to Mix layout.
+* **Outputs (MCU_OUTPUTS)** - Switches to Edit layout.
+
 
 ## Functions
 * **Shift** (MCU SHIFT) - Use in combination with other buttons for additional functions.
 * **Option** (MCU OPTION) - Use in combination with other buttons for additional functions.
+* **F1-F5** (MCU F1-F5) - Functions for these buttons can be assigned in the settings dialog.
 * **Punch in** (MCU F6) - Toggle punch in
 * **Punch out** (MCU F7) - Toggle punch in
-* **F1-F5** (MCU F1-F5) - Functions for these buttons can be assigned in the settings dialog.
+* **Device On/Off** (MCU F8) - Toggle device on/off
 
 ## Assignment
 * **Track** (MCU MODE IO, TRACK) - Select the Track edit mode. Press again to select the Volume edit mode. See the section **Edit Modes** below.
+* **Option + Track** - Pin cursor track
 * **Pan** (MCU MODE PAN/SURROUND) - Select the Panorama edit mode. See the section **Edit Modes** below.
 * **Send** (MCU MODE SENDS) - Select the Send edit mode. Press multiple times to select the Send channels 1 to 8. See the section **Edit Modes** below. Use in combination with the **Track select** buttons to select the respective Send channel 1-8.
 * **Device** (MCU DEVICE, PLUG-IN) - Select the Device edit mode. See the section **Edit Modes** below.
+* **Option + Device** - Pin cursor device
 * **Page Up** (MCU MODE EQ) - Move track bank focus 1 track up. If Device mode is active, the previous device parameter bank is selected.
 * **Page Down** (MCU MODE DYN, INSTRUMENT) - Move track bank focus 1 track down. If Device mode is active, the next device parameter bank is selected.
 
 ## Automation
 * **Read/Off** (MCU READ) - Disables arranger automation recording.
-* **Write** (MCU WRITE) - Enables arranger automation recording and sets it to Write mode.
+* **Write** (MCU WRITE, MCU_GROUP) - Enables arranger automation recording and sets it to Write mode.
 * **Trim** (MCU TRIM) - Since Bitwig has not Trim mode, this button toggles the clip automation recording.
 * **Touch** (MCU TOUCH) - Enables arranger automation recording and sets it to Touch mode.
 * **Latch** (MCU LATCH) - Enables arranger automation recording and sets it to Latch mode.
@@ -73,6 +81,7 @@ The settings dialog contains profiles for several devices, which sets the correc
 * **Shift+OVR** - Toggle launcher overdub
 * **Save** (MCU SAVE) - Save button saves the current project
 * **Marker** (MCU MARKER) - Toggles the display of markers in the arranger
+* **Drop** (MCU_DROP) - Duplicate (depending on the focus)
 
 ## Fader Controls
 

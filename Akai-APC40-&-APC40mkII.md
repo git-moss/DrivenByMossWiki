@@ -19,13 +19,14 @@ Support script for Akais' APC40 and APC40mkII controller. You can control track 
 * **Nudge-** - Decrease Tempo. Click or keep pressed. Combine with Shift for fine adjustment.
 
 ## Specifics for the Mk I
-* **Midi Overdub** - Toggle launcher overdub
-* **Rec Quantization** - Quantize selected clip. Only works if clip is already focused in editor.
+* **Midi Overdub** - Toggle launcher overdub.
+* **Rec Quantization** - Quantize selected clip.
 
 ## Specifics for the Mk II
 * **Session** - Toggle launcher overdub
 * **Shift + Session** - Enable automation write in clip launcher
-* **Dev. Lock** - Quantize selected clip. Only works if clip is already focused in editor.
+* **Dev. Lock** - Quantize selected clip.
+* **Shift + Dev. Lock** - Pin the cursor device.
 * **Tempo** - Change the tempo. Keep Shift pressed for fine adjustment.
 
 

@@ -1,3 +1,14 @@
+#2.5
+* New: MCU_NUDGE button executes Tap Tempo
+* New: MCU_DROP button executes Duplicate
+* New: MCU_GROUP button executes Automation Write
+* New: MCU_AUX button switches to Arrange layout.
+* New: MCU_BUSSES button switches to Mix layout.
+* New: MCU_OUTPUTS button switches to Edit layout.
+* New: MCU_F8 button toggles device on/off.
+* New: Option + Track (MCU_MODE_IO): Pin cursor track
+* New: Option + Device (MCU_MODE_PLUGIN): Pin cursor device
+
 #2.4
 * New: Option to deactivate the automatic selection of track when the channel fader is touched.
 

@@ -6,6 +6,9 @@ Requires Bitwig 2.??.
 * New: The new session mode can display the names of scenes and clips.
 * New: The last selected mix mode (track, volume, pan , ...) is remembered.
 
+#9.41
+* New: Support for pinning the cursor device from Push.
+
 #9.40
 * New: Support for pinning tracks and devices
 * New: Harmonized track navigation with master track. Pressing the button below the master track will move into the master tracks' devices. Going up from devices selects the master track.
