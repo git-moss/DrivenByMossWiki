@@ -1,10 +1,14 @@
-# 10.0 (unreleased)
+# 10.00 (unreleased)
 Requires Bitwig 2.??.
 * New: Drawing of Push 2 display is now fully integrated. No external application is needed anymore.
 * New: Devices display an icon
 * New: Clip mode has the option to display a piano roll.
 * New: The new session mode can display the names of scenes and clips.
 * New: The last selected mix mode (track, volume, pan , ...) is remembered.
+
+# 9.50 (unreleased)
+Requires Bitwig 2.3.
+* New: Rearranged transport mode display (touch tempo or position knob). Added display of time signature.
 
 #9.41
 * New: Support for pinning the cursor device from Push.
