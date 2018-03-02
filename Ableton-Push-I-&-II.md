@@ -2,14 +2,14 @@
 
 Support script for Ableton's Push 1 and Push 2 controller. You can control track parameters, devices, transport, session view and play the pads.
 
-## Features
+## Global Features
 
 * **Play** - Start/Stop playback. Double click to move play cursor to start of song. You can configure the behaviour on stop in the preferences.
 * **Shift+Play** - Toggle repeat 
 * **Select+Play** - Toggle Punch In
 * **Select+Shift+Play** - Toggle Punch Out
 * **Record** - Start/Stop recording
-* **Shift+Record** - Toggle launcher overdub 
+* **Shift+Record** - Toggle launcher overdub
 * **New** - It creates a new clip on the selected track and slot, starts play and enables overdub.
 * **Shift+New** - Like New button but without activating launcher overdub.
 * **Automation** - Toggle Automation Write. Long press to bring up the Automation dialog which allows you to change the automation mode.

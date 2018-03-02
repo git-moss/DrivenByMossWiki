@@ -10,6 +10,7 @@ Requires Bitwig 2.??.
 Requires Bitwig 2.3.
 * New: Rearranged transport mode display (touch tempo or position knob). Added display of time signature.
 * New: Crossfade mode can now also be hidden on Push 2.
+* New: New option for Footswitches: Quantize the currently selected clip.
 
 #9.41
 * New: Support for pinning the cursor device from Push.

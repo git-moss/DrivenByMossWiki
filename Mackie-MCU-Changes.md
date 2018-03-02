@@ -1,3 +1,11 @@
+#2.6 (unreleased)
+* New: **Option + Record** - Creates a new clip on the selected track and slot, starts play and enables overdub.
+* New: **Option + Track selection buttons** - Stop the playing clip on the specific track.
+* New: New option in Assignable Buttons: Quantize the currently selected clip.
+* New: **Shift + Masterfader** - Changes Metronome Volume
+* New: **Option + Read** - Resets any automation overrides.
+* Fixed: Button combinations (Shift, etc.) did not work across mutliple MCU devices
+
 #2.5
 * New: MCU_NUDGE button executes Tap Tempo
 * New: MCU_DROP button executes Duplicate
