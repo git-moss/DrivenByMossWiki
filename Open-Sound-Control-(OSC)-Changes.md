@@ -1,3 +1,20 @@
+# 5.10
+Requires Bitwig 2.3.
+* Send
+    * Added /click/volume
+    * Added /click/volumeStr
+    * Added /device/page/selected {1-8}
+    * Added /device/page/{1-8}/ {name}
+* Receive
+    * Added /click/volume
+    * Added /scene/create   Create a new scene from all playing clips
+    * Added /position {-2,-1,1,2}
+    * Added /track/selected/{attribute}
+    * Added /browser/filter/{1-6}/reset   Resets the filter of the column
+    * Added /device/param/{1-8}/reset
+    * Added /track/{1-8}/volume/reset
+    * Added /track/{1-8}/pan/reset
+
 # 5.00
 Requires Bitwig 2.1.
 * New: Written now in Java

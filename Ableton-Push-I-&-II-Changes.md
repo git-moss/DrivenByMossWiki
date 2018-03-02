@@ -6,11 +6,13 @@ Requires Bitwig 2.??.
 * New: The new session mode can display the names of scenes and clips.
 * New: The last selected mix mode (track, volume, pan , ...) is remembered.
 
-# 9.50 (unreleased)
+# 9.50
 Requires Bitwig 2.3.
 * New: Rearranged transport mode display (touch tempo or position knob). Added display of time signature.
 * New: Crossfade mode can now also be hidden on Push 2.
 * New: New option for Footswitches: Quantize the currently selected clip.
+* New: Push 1 and 2 are now always set to Poly Pressure when started.
+* New: Push 1 display was not updated correctly when there were non-ASCII characters in the FX parameter names.
 
 #9.41
 * New: Support for pinning the cursor device from Push.

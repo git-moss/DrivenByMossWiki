@@ -1,4 +1,5 @@
-#2.6 (unreleased)
+#2.6
+Requires Bitwig 2.3.
 * New: **Option + Record** - Creates a new clip on the selected track and slot, starts play and enables overdub.
 * New: **Option + Track selection buttons** - Stop the playing clip on the specific track.
 * New: New option in Assignable Buttons: Quantize the currently selected clip.

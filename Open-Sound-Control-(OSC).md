@@ -12,10 +12,12 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 
 ### Transport
 
-* /click {1,0}
 * /play {1,0}
 * /record {1,0}
 * /repeat {1,0}
+* /click {1,0}
+* /click/volume
+* /click/volumeStr
 * /punchIn {1,0}
 * /punchOut {1,0}
 * /preroll
@@ -121,6 +123,8 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /device/layer/{1-8}/color
 * /device/layer/{1-8}/send/{1-8}/volume {0-127}
 * /device/layer/{1-8}/send/{1-8}/volumeStr {text}
+* /device/page/selected {1-8}
+* /device/page/{1-8}/ {name}
 * /send/{1-8}/name
 
 
@@ -152,20 +156,22 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /redo
 * /tempo/raw {0-666}
 * /tempo/tap
-* /position/{+,-}     Small in-/decrease of play position
-* /position/{++,--}   Large in-/decrease of play position
-* /project/{+,-}      Switch to the next/previous opened project
+* /position/{+,-}           Small in-/decrease of play position
+* /position/{++,--}         Large in-/decrease of play position
+* /position {-2,-1,1,2}     Small in-/decrease of play position for -1 and 1, large for all other values
+* /project/{+,-}            Switch to the next/previous opened project
 * /project/engine {1,0,-}   De-/Activate the audio engine
 
 ### Transport
 
-* /click {1,-}        1 = Enable, No value ("-") = Toggle
 * /stop {1,-}
 * /play {1,-}
 * /restart {1,-}
 * /repeat {1,-}
-* /punchIn          Only toggle is supported
-* /punchOut         Only toggle is supported
+* /click {1,-}        1 = Enable, No value ("-") = Toggle
+* /click/volume
+* /punchIn            Only toggle is supported
+* /punchOut           Only toggle is supported
 * /record {1,-}
 * /overdub {1,-}
 * /overdub/launcher {1,-}
@@ -212,8 +218,10 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /track/{1-8}/select
 * /track/{1-8}/volume {0-127}
 * /track/{1-8}/volume/indicate {0,1}
+* /track/{1-8}/volume/reset
 * /track/{1-8}/pan {0-127}
 * /track/{1-8}/pan/indicate {0,1}
+* /track/{1-8}/pan/reset
 * /track/{1-8}/mute {1,0,-}
 * /track/{1-8}/solo {1,0,-}
 * /track/{1-8}/recarm {1,0,-}
@@ -232,6 +240,8 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /track/indicate/pan {0,1}         Indicate the pans of all 8 tracks
 * /track/indicate/send/{1-8} {0,1}  Indicate send 1-8 of all 8 tracks
 
+* /track/selected/{attribute}
+
 * /master/... (as above, except sends)
 
 
@@ -243,6 +253,7 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /device/param/{+,-}
 * /device/param/{1-8}/value {0-127}
 * /device/param/{1-8}/indicate {0,1}
+* /device/param/{1-8}/reset
 * /device/indicate/param {0,1}
 * /device/layer/{1-8}/selected
 * /device/layer/{1-8}/volume {0-127}
@@ -261,8 +272,9 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 ### Scene
 
 * /scene/{1-8}/launch
-* /scene/{+,-}        Step by 1
-* /scene/bank/{+,-}   Step by 8
+* /scene/{+,-}          Step by 1
+* /scene/bank/{+,-}     Step by 8
+* /scene/create         Create a new scene from all playing clips
 
 
 ### Browser Actions
@@ -273,11 +285,12 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /browser/commit     Commits the current selection in the browser
 * /browser/cancel     Cancels the current browser session
 * /browser/filter/{1-6}/{+,-}   The columns are as follows: 1: Location, 2: Favorites, 3: Creator, 4: Tags, 5: Devices, 6: Category
+* /browser/filter/{1-6}/reset   Resets the filter of the column
 * /browser/preset/{+,-}
 
 
 ### Groups Actions
-* /track/{1-8}/enter
+* /track/{1-8}/enter    Currently, only works on the selected channel
 * /track/parent
 
 
