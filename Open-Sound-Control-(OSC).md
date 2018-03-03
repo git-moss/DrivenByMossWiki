@@ -74,6 +74,7 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /track/{1-8}/color   with RGB(r,g,b). r,g,b = 0..1
 * /track/{1-8}/send/{1-8}/volume {0-127}
 * /track/{1-8}/send/{1-8}/volumeStr {text}
+* /track/{1-8}/send/{1-8}/name {text}
 
 * /track/selected/{attribute}    Sends all attributes (as above) of the currently selected track of the active track bank
 
@@ -125,7 +126,6 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /device/layer/{1-8}/send/{1-8}/volumeStr {text}
 * /device/page/selected {1-8}
 * /device/page/{1-8}/ {name}
-* /send/{1-8}/name
 
 
 ### Browser
@@ -226,7 +226,7 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /track/{1-8}/solo {1,0,-}
 * /track/{1-8}/recarm {1,0,-}
 * /track/{1-8}/monitor
-* /track/{1-8}/monitor/auto
+* /track/{1-8}/autoMonitor
 * /track/{1-8}/crossfadeMode/{A,B,AB} {1}
 * /track/{1-8}/send/{1-8}/volume {0-127}
 * /track/{1-8}/send/{1-8}/volume/indicate {0,1}

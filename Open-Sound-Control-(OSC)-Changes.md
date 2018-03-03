@@ -1,3 +1,9 @@
+# 5.20 (unreleased)
+Requires Bitwig 2.3.
+* Fixed: Harmonized both send and receive to: /track/{1-8}/autoMonitor
+* Fixed: Send volume (as value and text) was sent as "value/valueStr" instead of "volume/volumeStr".
+* Fixed: Documentation error: Use "/track/{1-8}/send/1/name" instead of "/send/{1-8}/name".
+
 # 5.10
 Requires Bitwig 2.3.
 * Send
