@@ -1,5 +1,8 @@
 # 5.20 (unreleased)
 Requires Bitwig 2.3.
+* New: The formatting of colors was changed from RGB(0..1,0..1,0..1) to rgb(0..255,0..255,0..255)
+* New: Status is sent for /device/window
+* New: /device/expand
 * Fixed: Harmonized both send and receive to: /track/{1-8}/autoMonitor
 * Fixed: Send volume (as value and text) was sent as "value/valueStr" instead of "volume/volumeStr".
 * Fixed: Documentation error: Use "/track/{1-8}/send/1/name" instead of "/send/{1-8}/name".

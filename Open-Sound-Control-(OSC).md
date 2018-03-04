@@ -71,7 +71,7 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /track/{1-8}/autoMonitor
 * /track/{1-8}/crossfadeMode/{A,B,AB}
 * /track/{1-8}/vu
-* /track/{1-8}/color   with RGB(r,g,b). r,g,b = 0..1
+* /track/{1-8}/color   with rgb(r,g,b). r,g,b = 0..255
 * /track/{1-8}/send/{1-8}/volume {0-127}
 * /track/{1-8}/send/{1-8}/volumeStr {text}
 * /track/{1-8}/send/{1-8}/name {text}
@@ -93,7 +93,7 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /track/{1-8}/clip/{1-N}/name
 * /track/{1-8}/clip/{1-N}/isSelected {1,0}
 * /track/{1-8}/clip/{1-N}/hasContent
-* /track/{1-8}/clip/{1-N}/color   with RGB(r,g,b). r,g,b = 0..1
+* /track/{1-8}/clip/{1-N}/color   with rgb(r,g,b). r,g,b = 0..255
 * /track/{1-8}/clip/{1-N}/isPlaying
 * /track/{1-8}/clip/{1-N}/isRecording
 * /track/{1-8}/clip/{1-N}/isQueued
@@ -103,6 +103,7 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 
 * /device/name
 * /device/bypass
+* /device/window
 * /device/category
 * /device/creator
 * /device/preset
@@ -144,7 +145,7 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 
 ### Play
 
-/vkb_midi/note/{0-127}/color RGB(r,g,b)   Sends different colors for root notes, scale notes, out-of-scale notes, pressed or sequence notes (in red if recording is enabled).
+/vkb_midi/note/{0-127}/color rgb(r,g,b)   Sends different colors for root notes, scale notes, out-of-scale notes, pressed or sequence notes (in red if recording is enabled).
 
 
 ## The following OSC messages can be received by the script
@@ -207,7 +208,7 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 
 * /track/bank/{+,-}        Scrolls bank by 1
 * /track/bank/page/{+,-}   Scrolls bank by 8
-* /track/{1-8}/color RGB({0..1},{0..1},{0..1})      Set the color of the track, example: RGB(1,0.5,0.1)
+* /track/{1-8}/color rgb(r,g,b)        with r,g,b = 0..255
 * /track/{+,-}
 * /track/vu {0,1}     En-/Disable VU-Meter notifications
 * /track/toggleBank   Toggles between the Audio/Instrument and Effect track bank
@@ -248,7 +249,7 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 ### Cursor Device / Primary Device
 
 * /device/{+,-}
-* /device/window        Displays the window for VST plugins
+* /device/window        Displays the window for VST plugins (or Bitwig devices with additional popout windows)
 * /device/bypass
 * /device/param/{+,-}
 * /device/param/{1-8}/value {0-127}
