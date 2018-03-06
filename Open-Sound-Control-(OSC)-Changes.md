@@ -1,4 +1,4 @@
-# 5.20 (unreleased)
+# 5.20
 Requires Bitwig 2.3.
 * New: The formatting of colors was changed from RGB(0..1,0..1,0..1) to rgb(0..255,0..255,0..255)
 * New: Status is sent for /device/window
@@ -7,6 +7,10 @@ Requires Bitwig 2.3.
 * New: Harmonized both send and receive to: /track/{1-8}/autoMonitor (was /monitor/auto)
 * New: Renamed /position to /time/str for sending
 * New: Added sending /time/signature
+* New: Support "/punchIn 1" on receive
+* New: Support "/punchOut 1" on receive
+* New: Support for /device/drumpad/{1-16}/... for send and receive with the same attributes as for layers
+* New: Incl. a first version of a mixer template for the Open Stage Control OSC client (http://osc.ammd.net/).
 * Fixed: Send volume (as value and text) was sent as "value/valueStr" instead of "volume/volumeStr".
 * Fixed: Documentation error: Use "/track/{1-8}/send/1/name" instead of "/send/{1-8}/name".
 

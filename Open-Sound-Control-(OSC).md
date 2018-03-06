@@ -127,6 +127,7 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /device/layer/{1-8}/color
 * /device/layer/{1-8}/send/{1-8}/volume {0-127}
 * /device/layer/{1-8}/send/{1-8}/volumeStr {text}
+* /device/drumpad/{1-16}/...  Same attributes as for a layer
 * /device/page/selected {1-8}
 * /device/page/{1-8}/ {name}
 
@@ -168,8 +169,8 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /repeat {1,-}
 * /click {1,-}        1 = Enable, No value ("-") = Toggle
 * /click/volume
-* /punchIn            Only toggle is supported
-* /punchOut           Only toggle is supported
+* /punchIn {1,-}
+* /punchOut {1,-}
 * /record {1,-}
 * /overdub {1,-}
 * /overdub/launcher {1,-}
@@ -268,6 +269,7 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /device/layer/parent
 * /device/layer/{+,-}
 * /device/layer/page/{+,-}
+* /device/drumpad/{1-16}/...  Same attributes as for a layer
 
 * Same commands apply for the primary device but use /primary/... instead of /device/...
 
