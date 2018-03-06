@@ -27,7 +27,9 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /autowrite {0,1}
 * /autowrite/launcher
 * /automationWriteMode/{latch,touch,write}
-* /position
+* /time/str
+* /time/signature
+* /tempo/raw {0-666}
 * /quantize
 
 
@@ -155,11 +157,6 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /preroll {0,1,2,4}
 * /undo
 * /redo
-* /tempo/raw {0-666}
-* /tempo/tap
-* /position/{+,-}           Small in-/decrease of play position
-* /position/{++,--}         Large in-/decrease of play position
-* /position {-2,-1,1,2}     Small in-/decrease of play position for -1 and 1, large for all other values
 * /project/{+,-}            Switch to the next/previous opened project
 * /project/engine {1,0,-}   De-/Activate the audio engine
 
@@ -179,6 +176,11 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /crossfade {0-127}
 * /autowrite {0,1}
 * /automationWriteMode/{latch,touch,write}
+* /tempo/raw {0-666}
+* /tempo/tap
+* /position/{+,-}           Small in-/decrease of play position
+* /position/{++,--}         Large in-/decrease of play position
+* /position {-2,-1,1,2}     Small in-/decrease of play position for -1 and 1, large for all other values
 
 
 ### Layout and panels
