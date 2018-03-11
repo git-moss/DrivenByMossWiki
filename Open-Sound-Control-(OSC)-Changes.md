@@ -1,3 +1,10 @@
+# 5.40
+Requires Bitwig 2.3.
+* New: Sends /device/page/selected/name {name}
+* Fixed: Regression in 5.30, /track/+ did crash when track 8 was selected
+* Fixed: /preroll sent Strings but received Integers. Now it also sends integers
+* Fixed: /beats/str started at 0.0.0 instead of 1.1.1
+
 # 5.30
 Requires Bitwig 2.3.
 * New: /vkb_midi/{Channel:0-16}/aftertouch without a note sends Channel Aftertouch

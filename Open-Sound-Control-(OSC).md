@@ -131,6 +131,7 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /device/drumpad/{1-16}/...  Same attributes as for a layer
 * /device/page/selected {1-8}
 * /device/page/{1-8}/ {name}
+* /device/page/selected/name {name}
 * /device/sibling/{1-8}/name {name}
 * /device/sibling/{1-8}/selected {0,1}
 
