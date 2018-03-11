@@ -16,18 +16,18 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /record {1,0}
 * /repeat {1,0}
 * /click {1,0}
-* /click/volume
-* /click/volumeStr
+* /click/volume {0-127}
+* /click/volumeStr {text}
 * /punchIn {1,0}
 * /punchOut {1,0}
-* /preroll
-* /overdub/launcher {1,0}
+* /preroll {0,1,2,4}
 * /overdub {1,0}
+* /overdub/launcher {1,0}
 * /crossfade {0-127}
 * /autowrite {0,1}
-* /autowrite/launcher
-* /automationWriteMode/{latch,touch,write}
-* /time/str
+* /autowrite/launcher {0,1}
+* /automationWriteMode {latch,touch,write}
+* /time/str {text}
 * /time/signature
 * /tempo/raw {0-666}
 * /quantize
@@ -36,19 +36,19 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 ### Layout and panels
 
 * /layout {arrange,mix,edit}
-* /arranger/cueMarkerVisibility
-* /arranger/playbackFollow
-* /arranger/trackRowHeight
-* /arranger/clipLauncherSectionVisibility
-* /arranger/timeLineVisibility
-* /arranger/ioSectionVisibility
-* /arranger/effectTracksVisibility
-* /mixer/clipLauncherSectionVisibility
-* /mixer/crossFadeSectionVisibility
-* /mixer/deviceSectionVisibility
-* /mixer/sendsSectionVisibility
-* /mixer/ioSectionVisibility
-* /mixer/meterSectionVisibility
+* /arranger/playbackFollow {0,1}
+* /arranger/trackRowHeight {0,1}
+* /arranger/cueMarkerVisibility {0,1}
+* /arranger/clipLauncherSectionVisibility {0,1}
+* /arranger/timeLineVisibility {0,1}
+* /arranger/ioSectionVisibility {0,1}
+* /arranger/effectTracksVisibility {0,1}
+* /mixer/clipLauncherSectionVisibility {0,1}
+* /mixer/crossFadeSectionVisibility {0,1}
+* /mixer/deviceSectionVisibility {0,1}
+* /mixer/sendsSectionVisibility {0,1}
+* /mixer/ioSectionVisibility {0,1}
+* /mixer/meterSectionVisibility {0,1}
 
 
 ### Track
@@ -109,6 +109,7 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /device/category
 * /device/creator
 * /device/preset
+* /device/expand
 * /device/param/{1-8}/name {text}
 * /device/param/{1-8}/value {0-127}
 * /device/param/{1-8}/valueStr {text}
@@ -130,6 +131,8 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /device/drumpad/{1-16}/...  Same attributes as for a layer
 * /device/page/selected {1-8}
 * /device/page/{1-8}/ {name}
+* /device/sibling/{1-8}/name {name}
+* /device/sibling/{1-8}/selected {0,1}
 
 
 ### Browser
@@ -144,6 +147,7 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /browser/result/{1-16}/exists
 * /browser/result/{1-16}/name
 * /browser/result/{1-16}/isSelected
+* /browser/tab {name}                               The name of the selected browser tab
 
 
 ### Play
@@ -176,7 +180,7 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /overdub/launcher {1,-}
 * /crossfade {0-127}
 * /autowrite {0,1}
-* /automationWriteMode/{latch,touch,write}
+* /automationWriteMode {latch,touch,write}
 * /tempo/raw {0-666}
 * /tempo/tap
 * /position/{+,-}           Small in-/decrease of play position
@@ -187,34 +191,34 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 ### Layout and panels
 
 * /layout/{arrange,mix,edit}
-* /panel/noteEditor
-* /panel/automationEditor
-* /panel/devices
-* /panel/mixer
-* /panel/fullscreen
-* /arranger/cueMarkerVisibility
-* /arranger/playbackFollow
-* /arranger/trackRowHeight
-* /arranger/clipLauncherSectionVisibility
-* /arranger/timeLineVisibility
-* /arranger/ioSectionVisibility
-* /arranger/effectTracksVisibility
-* /mixer/clipLauncherSectionVisibility
-* /mixer/crossFadeSectionVisibility
-* /mixer/deviceSectionVisibility
-* /mixer/sendsSectionVisibility
-* /mixer/ioSectionVisibility
-* /mixer/meterSectionVisibility
+* /panel/noteEditor {0,1}
+* /panel/automationEditor {0,1}
+* /panel/devices {0,1}
+* /panel/mixer {0,1}
+* /panel/fullscreen {0,1}
+* /arranger/cueMarkerVisibility {0,1}
+* /arranger/playbackFollow {0,1}
+* /arranger/trackRowHeight {0,1}
+* /arranger/clipLauncherSectionVisibility {0,1}
+* /arranger/timeLineVisibility {0,1}
+* /arranger/ioSectionVisibility {0,1}
+* /arranger/effectTracksVisibility {0,1}
+* /mixer/clipLauncherSectionVisibility {0,1}
+* /mixer/crossFadeSectionVisibility {0,1}
+* /mixer/deviceSectionVisibility {0,1}
+* /mixer/sendsSectionVisibility {0,1}
+* /mixer/ioSectionVisibility {0,1}
+* /mixer/meterSectionVisibility {0,1}
 
 
 ### Track
 
-* /track/bank/{+,-}        Scrolls bank by 1
-* /track/bank/page/{+,-}   Scrolls bank by 8
-* /track/{1-8}/color rgb(r,g,b)        with r,g,b = 0..255
-* /track/{+,-}
-* /track/vu {0,1}     En-/Disable VU-Meter notifications
-* /track/toggleBank   Toggles between the Audio/Instrument and Effect track bank
+* /track/bank/{+,-}                 Scrolls bank by 1
+* /track/bank/page/{+,-}            Scrolls bank by 8
+* /track/{1-8}/color rgb(r,g,b)     with r,g,b = 0..255
+* /track/{+,-}                      Select the next/previous track
+* /track/vu {0,1}                   En-/Disable VU-Meter notifications
+* /track/toggleBank                 Toggles between the Audio/Instrument and Effect track bank
 * /track/add/audio
 * /track/add/effect
 * /track/add/instrument
@@ -254,7 +258,9 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /device/{+,-}
 * /device/window        Displays the window for VST plugins (or Bitwig devices with additional popout windows)
 * /device/bypass
+* /device/expand
 * /device/param/{+,-}
+* /device/param/bank/page/{+,-}
 * /device/param/{1-8}/value {0-127}
 * /device/param/{1-8}/indicate {0,1}
 * /device/param/{1-8}/reset
@@ -268,8 +274,11 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /device/layer/{1-8}/enter
 * /device/layer/parent
 * /device/layer/{+,-}
+* /device/page/selected {1-8}
+* /device/bank/page/{+,-}
 * /device/layer/page/{+,-}
 * /device/drumpad/{1-16}/...  Same attributes as for a layer
+* /device/sibling/{1-8}/selected {0,1}
 
 * Same commands apply for the primary device but use /primary/... instead of /device/...
 
@@ -283,19 +292,20 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 
 
 ### Browser Actions
-* /browser/preset           Activates the browser to browse for presets of the currently selected device
-* /browser/device           Activates the browser to insert a device after the currently selected device
-* /browser/device/after (same as /browser/device)
-* /browser/device/before    Activates the browser to insert a device before the currently selected device
-* /browser/commit     Commits the current selection in the browser
-* /browser/cancel     Cancels the current browser session
+* /browser/preset               Activates the browser to browse for presets of the currently selected device
+* /browser/device               Activates the browser to insert a device after the currently selected device
+* /browser/device/after         (same as /browser/device)
+* /browser/device/before        Activates the browser to insert a device before the currently selected device
+* /browser/commit               Commits the current selection in the browser
+* /browser/cancel               Cancels the current browser session
 * /browser/filter/{1-6}/{+,-}   The columns are as follows: 1: Location, 2: Favorites, 3: Creator, 4: Tags, 5: Devices, 6: Category
 * /browser/filter/{1-6}/reset   Resets the filter of the column
-* /browser/preset/{+,-}
+* /browser/preset/{+,-}         Select the next/previous preset
+* /browser/tab/{+,-}            Select the next/previous tab (Devices/Presets/Multisamples/...)
 
 
 ### Groups Actions
-* /track/{1-8}/enter    Currently, only works on the selected channel
+* /track/{1-8}/enter
 * /track/parent
 
 
@@ -308,7 +318,8 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /vkb_midi/{Channel:0-16}/drum/+    1 drum octave up
 * /vkb_midi/{Channel:0-16}/drum/-    1 drum octave down
 * /vkb_midi/{Channel:0-16}/cc/{CC:0-127} {Value:0-127}
-* /vkb_midi/{Channel:0-16}/aftertouch/{Note:0-127} {Pressure:0-127}
+* /vkb_midi/{Channel:0-16}/aftertouch/{Note:0-127} {Pressure:0-127}     Sends Poly Aftertouch
+* /vkb_midi/{Channel:0-16}/aftertouch {Pressure:0-127}                  Sends Channel Aftertouch
 * /vkb_midi/{Channel:0-16}/pitchbend {Pitch:0-127 (No-Bend:64)}
 * /vkb_midi/velocity {0-127 (0 disables fixed velocity, 1-127 fixes the velocity to the value)}
 

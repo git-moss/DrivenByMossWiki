@@ -1,3 +1,21 @@
+# 5.30
+Requires Bitwig 2.3.
+* New: /vkb_midi/{Channel:0-16}/aftertouch without a note sends Channel Aftertouch
+* New: Stability improvements against erroneous OSC messages
+* New: Receive /device/page/selected {1-8}
+* New: Send /device/sibling/{1-8}/name {name}
+* New: Send/receive /device/sibling/{1-8}/selected {0,1}
+* New: Send/Receive /click/ticks
+* New: Changed "/automationWriteMode/{latch,touch,write}" to "/automationWriteMode {latch,touch,write}"
+* New: Receive /device/bank/page/{+,-}
+* New: Receive /device/param/bank/page/{+,-}
+* New: Receive /browser/tab/{+,-} to select the next/previous tab (Devices/Presets/Multisamples/...)
+* New: Send /browser/tab {name} The name of the selected browser tab
+* New: Big update to the Open Stage Control template
+* Fixed: /track/{1-8}/enter works now as expected
+* Fixed: OSC strings only support ASCII characters. Non-ASCII characters are now automatically replaced or removed.
+* Fixed: Toggling between Instrument/Audio tracks and Effect tracks did not work.
+
 # 5.20
 Requires Bitwig 2.3.
 * New: The formatting of colors was changed from RGB(0..1,0..1,0..1) to rgb(0..255,0..255,0..255)

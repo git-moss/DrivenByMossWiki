@@ -1,3 +1,7 @@
+# 5.12
+Requires Bitwig 2.3.
+* New: Shift + Dev. Lock pins now also the cursor track because only pinning the device does not work.
+
 # 5.11
 Requires Bitwig 2.2.
 * New: Shift + Dev. Lock pins the cursor device.

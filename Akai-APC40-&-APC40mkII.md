@@ -26,7 +26,7 @@ Support script for Akais' APC40 and APC40mkII controller. You can control track 
 * **Session** - Toggle launcher overdub
 * **Shift + Session** - Enable automation write in clip launcher
 * **Dev. Lock** - Quantize selected clip.
-* **Shift + Dev. Lock** - Pin the cursor device.
+* **Shift + Dev. Lock** - Pin the cursor track and the cursor device.
 * **Tempo** - Change the tempo. Keep Shift pressed for fine adjustment.
 
 
