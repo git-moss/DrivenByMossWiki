@@ -95,10 +95,11 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /track/{1-8}/clip/{1-N}/name
 * /track/{1-8}/clip/{1-N}/isSelected {1,0}
 * /track/{1-8}/clip/{1-N}/hasContent
-* /track/{1-8}/clip/{1-N}/color   with rgb(r,g,b). r,g,b = 0..255
+* /track/{1-8}/clip/{1-N}/color             with rgb(r,g,b). r,g,b = 0..255
 * /track/{1-8}/clip/{1-N}/isPlaying
 * /track/{1-8}/clip/{1-N}/isRecording
-* /track/{1-8}/clip/{1-N}/isQueued
+* /track/{1-8}/clip/{1-N}/isPlayingQueued
+* /track/{1-8}/clip/{1-N}/isRecordingQueued
 
 
 ### Device
