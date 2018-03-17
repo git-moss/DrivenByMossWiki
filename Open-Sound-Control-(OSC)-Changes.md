@@ -1,3 +1,17 @@
+# 5.50 (unreleased)
+Requires Bitwig 2.3.
+* New: Receives /device/layer/selected/...    Same attributes as for a layer
+* New: Receives /device/drumpad/selected/...  Same attributes as for a layer
+* New: Receives /track/{1-8}/volume/touched {0,1}
+* New: Receives /track/{1-8}/pan/touched {0,1}
+* New: Receives /track/{1-8}/send/{1-8}/touched {0,1}
+* New: Receives /device/layer/{1-8}/volume/touched {0,1}
+* New: Receives /device/layer/{1-8}/pan/touched {0,1}
+* New: Receives /device/layer/{1-8}/send/{1-8}/volume/touched {0,1}
+* New: Receives /device/param/{1-8}/touched {0,1}
+* New: VU values are set to 0 when turned off
+* Fixed: Could not leave an empty layer with layer/parent.
+
 # 5.40
 Requires Bitwig 2.3.
 * New: Sends /device/page/selected/name {name}

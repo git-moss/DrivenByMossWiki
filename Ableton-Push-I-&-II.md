@@ -16,20 +16,20 @@ Support script for Ableton's Push 1 and Push 2 controller. You can control track
 * **Shift + Automation** - Toggles the clip launcher automation write enabled state of the transport.
 * **Delete + Automation** - Resets any automation overrides.
 * **Fixed Length** - Select the length of the midi clip for _New_. The upper row gives you the option to create a new clip of the selected length without storing it.
+* **Duplicate** - Duplicates the first selected clip on the current track. Combine with a pad in session mode (duplicate clip) or a track select button (duplicate track).
+* **Shift+Duplicate** - Create a new scene from the currently playing clips
 * **Quantize** - Quantizes the currently selected clip.
 * **Shift+Quantize** - Access the Groove options
 * **Double (Loop)** - Duplicate the content of the currently selected clip (not the clip itself)
-* **Duplicate** - Duplicates the first selected clip on the current track. Combine with a pad in session mode (duplicate clip) or a track select button (duplicate track).
-* **Shift+Duplicate** - Create a new scene from the currently playing clips
-* **Delete** - Like pressing the delete key. Hold the button for additional functionality in combination with other buttons knobs, see the mode and view explanations below.
-* **Undo** - Undo. Press Shift for Redo.
 * **Convert** (Push 2) - Brings up the Slice to Drum Machine dialog.
 * **Shift+Convert** (Push 2) - Bring up the Slice to Multisample dialog.
+* **Undo** - Undo. Press Shift for Redo.
+* **Delete** - Like pressing the delete key. Hold the button for additional functionality in combination with other buttons knobs, see the mode and view explanations below.
 * **Small Knob 1** - Change tempo (press _Shift_ for fine adjustment). If you touch the knob the pre-roll settings appear in the display as well and can be modified.
 * **Small Knob 2** - Move play cursor (press _Shift_ for fine adjustment) If you touch the knob the pre-roll settings appear in the display as well and can be modified.
 * **Metronome** - Toggle metronome 
 * **Shift + Metronome** - Toggle metronome ticks
-* **Tap Tempo** - Tap Tempo 
+* **Tap Tempo** - Tap Tempo
 * **Mute** - Push 1: Selects track mute state of 2nd row. Push 2: Mutes the currently selected track. Long press for the Push 1 behaviour. Lock it with **Shift+Solo**.
 * **Solo** - Push 1: Selects track solo state of 2nd row. Push 2: Solos the currently selected track. Long press for the Push 1 behaviour. Lock it with **Shift+Solo**.
 * **Knobs 1-8** Value encoders, [Shift + Knob] fine increment value change.

@@ -6,6 +6,10 @@ Requires Bitwig 2.??.
 * New: The new session mode can display the names of scenes and clips.
 * New: The last selected mix mode (track, volume, pan , ...) is remembered.
 
+# 9.51 (unreleased)
+Requires Bitwig 2.3.
+* New: Push 2: Limit names of tracks, layers, devices and parameter banks to 12 characters.
+
 # 9.50
 Requires Bitwig 2.3.
 * New: Rearranged transport mode display (touch tempo or position knob). Added display of time signature.

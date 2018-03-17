@@ -129,7 +129,9 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /device/layer/{1-8}/color
 * /device/layer/{1-8}/send/{1-8}/volume {0-127}
 * /device/layer/{1-8}/send/{1-8}/volumeStr {text}
-* /device/drumpad/{1-16}/...  Same attributes as for a layer
+* /device/layer/selected/...    Same attributes as for a layer
+* /device/drumpad/{1-16}/...    Same attributes as for a layer
+* /device/drumpad/selected/...  Same attributes as for a layer
 * /device/page/selected {1-8}
 * /device/page/{1-8}/ {name}
 * /device/page/selected/name {name}
@@ -229,9 +231,11 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /track/{1-8}/volume {0-127}
 * /track/{1-8}/volume/indicate {0,1}
 * /track/{1-8}/volume/reset
+* /track/{1-8}/volume/touched {0,1}
 * /track/{1-8}/pan {0-127}
 * /track/{1-8}/pan/indicate {0,1}
 * /track/{1-8}/pan/reset
+* /track/{1-8}/pan/touched {0,1}
 * /track/{1-8}/mute {1,0,-}
 * /track/{1-8}/solo {1,0,-}
 * /track/{1-8}/recarm {1,0,-}
@@ -266,13 +270,17 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /device/param/{1-8}/value {0-127}
 * /device/param/{1-8}/indicate {0,1}
 * /device/param/{1-8}/reset
+* /device/param/{1-8}/touched
 * /device/indicate/param {0,1}
 * /device/layer/{1-8}/selected
 * /device/layer/{1-8}/volume {0-127}
+* /device/layer/{1-8}/volume/touched {0,1}
 * /device/layer/{1-8}/pan {0-127}
+* /device/layer/{1-8}/pan/touched {0,1}
 * /device/layer/{1-8}/mute {1,0,-}
 * /device/layer/{1-8}/solo {1,0,-}
 * /device/layer/{1-8}/send/{1-8}/volume {0-127}
+* /device/layer/{1-8}/send/{1-8}/volume/touched {0,1}
 * /device/layer/{1-8}/enter
 * /device/layer/parent
 * /device/layer/{+,-}
