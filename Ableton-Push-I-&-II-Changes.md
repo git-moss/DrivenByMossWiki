@@ -9,6 +9,7 @@ Requires Bitwig 2.??.
 # 9.51 (unreleased)
 Requires Bitwig 2.3.
 * New: Push 2: Limit names of tracks, layers, devices and parameter banks to 12 characters.
+* Fixed: Program change view triggered a program change twice.
 
 # 9.50
 Requires Bitwig 2.3.
