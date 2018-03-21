@@ -96,7 +96,7 @@ Support script for Ableton's Push 1 and Push 2 controller. You can control track
     * Push 1: Use **Select+Volume/Pan/Track** buttons to activate the different layer modes. For Sendmodes press **Pan** multiple times.
 
 7. **Browse** - Press "Browse" to enter (a device must be selected)
-    * Edit knobs 8: Change the patch
+    * Edit knob 8: Change the patch
     * Edit knobs 1-7: Change the different filters
     * Tempo knob: Changes the value of the last selected column
     * Hold the Shift button in Preset mode to scroll quickly.
