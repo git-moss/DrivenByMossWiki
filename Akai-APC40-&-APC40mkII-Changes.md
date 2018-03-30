@@ -1,3 +1,7 @@
+# 5.13 (unreleased)
+Requires Bitwig 2.3.
+* Fixed: The "Behaviour on Stop" setting was not respected when using the Stop button (only with the Play button).
+
 # 5.12
 Requires Bitwig 2.3.
 * New: Shift + Dev. Lock pins now also the cursor track because only pinning the device does not work.

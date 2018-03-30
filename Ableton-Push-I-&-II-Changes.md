@@ -9,7 +9,13 @@ Requires Bitwig 2.??.
 # 9.51 (unreleased)
 Requires Bitwig 2.3.
 * New: Push 2: Limit names of tracks, layers, devices and parameter banks to 12 characters.
+* New: Limit texts of browser results to 14 characters.
+* New: Changed text of audio engine state to "Active" and "Off".
+* New: Displays a notification if no results are available in the browser.
 * Fixed: Program change view triggered a program change twice.
+* Fixed: In Groove mode no touch state was sent when changing a value.
+* Fixed: Touch state was not sent for master volume when changed via master knob.
+* Fixed: Some modes did not consume the delete button when used for resetting a value.
 
 # 9.50
 Requires Bitwig 2.3.

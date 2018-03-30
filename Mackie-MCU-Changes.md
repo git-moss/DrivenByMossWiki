@@ -1,3 +1,7 @@
+#2.61 (unreleased)
+Requires Bitwig 2.3.
+* Fixed: The "Behaviour on Stop" setting was not respected when using the Stop button (only with the Play button).
+
 #2.6
 Requires Bitwig 2.3.
 * New: **Option + Record** - Creates a new clip on the selected track and slot, starts play and enables overdub.

@@ -1,3 +1,7 @@
+# 3.31 (unreleased)
+Requires Bitwig 2.3.
+* Fixed: Could only randomly switch to Sequencer modes.
+
 # 3.3
 Requires Bitwig 2.1.
 * New: Press the Shift button in combination with one of the three green buttons in the right upper corner to insert an instrument, audio or effect track.

@@ -9,6 +9,9 @@ Requires Bitwig 2.3.
 * New: Receives /device/layer/{1-8}/pan/touched {0,1}
 * New: Receives /device/layer/{1-8}/send/{1-8}/volume/touched {0,1}
 * New: Receives /device/param/{1-8}/touched {0,1}
+* New: Sends /device/exists {0,1}
+* New: Sends /track/{1-8}/clip/{1-N}/isStopQueued      (does not work due to Bitwig bug)
+* New: Sends/Receives /click/preroll {-,0,1}
 * New: VU values are set to 0 when turned off
 * Fixed: Could not leave an empty layer with layer/parent.
 

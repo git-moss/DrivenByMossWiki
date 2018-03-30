@@ -18,6 +18,7 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /click {1,0}
 * /click/volume {0-127}
 * /click/volumeStr {text}
+* /click/preroll {0,1}
 * /punchIn {1,0}
 * /punchOut {1,0}
 * /preroll {0,1,2,4}
@@ -99,17 +100,16 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /track/{1-8}/clip/{1-N}/isPlaying
 * /track/{1-8}/clip/{1-N}/isRecording
 * /track/{1-8}/clip/{1-N}/isPlayingQueued
+* /track/{1-8}/clip/{1-N}/isStopQueued      (does not work)
 * /track/{1-8}/clip/{1-N}/isRecordingQueued
 
 
 ### Device
 
-* /device/name
-* /device/bypass
-* /device/window
-* /device/category
-* /device/creator
-* /device/preset
+* /device/exists {0,1}
+* /device/name {text}
+* /device/bypass {0,1}
+* /device/window {0,1}
 * /device/expand
 * /device/param/{1-8}/name {text}
 * /device/param/{1-8}/value {0-127}
@@ -175,8 +175,9 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /play {1,-}
 * /restart {1,-}
 * /repeat {1,-}
-* /click {1,-}        1 = Enable, No value ("-") = Toggle
+* /click {1,-}              1 = Enable, No value ("-") = Toggle
 * /click/volume
+* /click/preroll {-,1}      Toggles click in preroll
 * /punchIn {1,-}
 * /punchOut {1,-}
 * /record {1,-}
