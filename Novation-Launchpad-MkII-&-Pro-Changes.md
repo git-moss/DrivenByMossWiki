@@ -1,5 +1,7 @@
 # 3.31 (unreleased)
 Requires Bitwig 2.3.
+* New: Switched function of Double and Shift+Double.
+* Fixed: The duplicate button did always toggle repeat (should only when Shift is pressed)
 * Fixed: Could only randomly switch to Sequencer modes.
 
 # 3.3

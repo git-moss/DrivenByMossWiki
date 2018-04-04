@@ -27,8 +27,8 @@ Press _Mixer_ button and use the 1st and 2nd column of the grid on the MkII.
     * Launchpad Pro: Keep the Duplicate button pressed and select a clip in session mode to duplicate it
     * Launchpad Pro: Keep the Duplicate button pressed and select a pad from the 1st row when a track mode is on to duplicate the track.
 * **Shift+Duplicate** - Toggle repeat 
-* **Double** - Creates a new clip on the selected track and slot, starts play and enables overdub.
-* **Shift+Double** - Start/Stop playback. Double click to move play cursor to start of song.
+* **Double** - Start/Stop playback. Double click to move play cursor to start of song.
+* **Shift+Double** - Creates a new clip on the selected track and slot, starts play and enables overdub.
 * **Record** - Start/Stop recording 
 * **Shift+Record** - Toggle launcher overdub
 * Press **Shift+Scene buttons** to set the preferred length for new clips.
