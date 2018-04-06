@@ -1,8 +1,11 @@
-# 3.31 (unreleased)
+# 3.4 (unreleased)
 Requires Bitwig 2.3.
+* New: Added Piano play view (press Note twice).
+* New: Scene 1 button toggles device window in device mode.
 * New: Switched function of Double and Shift+Double.
-* Fixed: The duplicate button did always toggle repeat (should only when Shift is pressed)
+* Fixed: The duplicate button did always toggle repeat (should only when Shift is pressed).
 * Fixed: Could only randomly switch to Sequencer modes.
+* Fixed: Pro: Rarely happening lock up of device when switching modes (finally found it!)
 
 # 3.3
 Requires Bitwig 2.1.

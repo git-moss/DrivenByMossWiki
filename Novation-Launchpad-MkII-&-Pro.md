@@ -77,7 +77,7 @@ Press _"Session"_ to enter **Session** mode:
 
 ## Note Mode (Playing the pads)
 
-Press _"Note"_ to enter **Play** mode:
+Press _"Note"_ to enter.
 
 * The key layout is the same one used with Ableton Push
 * Left/Right buttons change the scale (Major, Minor, etc.)
@@ -88,9 +88,18 @@ Press _"Note"_ to enter **Play** mode:
 * The played keys are lighting red if global or clip recording (does not work if recording clip is outside of the monitored 8x8 matrix)
   
 
+## Piano Mode
+
+Press _"Note"_ twice to enter.
+
+* Arranges the pads like a classic piano keyboard.
+* The white lit pads are the white keys.
+* The gray lit pads are the black keys.
+* You get 4 octaves to play with
+
 ## Drum Sequencer Mode
 
-Press _"Note"_ twice to enter the Drum Sequencer.
+Press _"Note"_ three times to enter the Drum Sequencer.
 
 * The drum sequencer works as described in the Ableton Push manual.
 * Hold *Delete* + Drumpad to delete the midi notes of the current clip on that 'pad'.
