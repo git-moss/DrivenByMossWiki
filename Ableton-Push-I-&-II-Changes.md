@@ -6,7 +6,7 @@ Requires Bitwig 2.??.
 * New: The new session mode can display the names of scenes and clips.
 * New: The last selected mix mode (track, volume, pan , ...) is remembered.
 
-# 9.51 (unreleased)
+# 9.51
 Requires Bitwig 2.3.
 * New: Push 2: Limit names of tracks, layers, devices and parameter banks to 12 characters.
 * New: Limit texts of browser results to 14 characters.

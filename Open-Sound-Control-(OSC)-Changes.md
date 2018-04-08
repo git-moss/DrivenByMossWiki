@@ -1,4 +1,4 @@
-# 5.50 (unreleased)
+# 5.50
 Requires Bitwig 2.3.
 * New: Receives /device/layer/selected/...    Same attributes as for a layer
 * New: Receives /device/drumpad/selected/...  Same attributes as for a layer

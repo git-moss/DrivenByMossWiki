@@ -1,4 +1,4 @@
-# 5.13 (unreleased)
+# 5.13
 Requires Bitwig 2.3.
 * Fixed: The "Behaviour on Stop" setting was not respected when using the Stop button (only with the Play button).
 

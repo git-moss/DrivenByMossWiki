@@ -1,4 +1,4 @@
-# 3.4 (unreleased)
+# 3.4
 Requires Bitwig 2.3.
 * New: Added Piano play view (press Note twice).
 * New: Scene 1 button toggles device window in device mode.
