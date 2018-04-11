@@ -1,3 +1,6 @@
+#5.51 (unreleased)
+* New: Added individual logging options for in-/ and outgoing OSC messages
+
 # 5.50
 Requires Bitwig 2.3.
 * New: Receives /device/layer/selected/...    Same attributes as for a layer
