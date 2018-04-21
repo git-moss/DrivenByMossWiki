@@ -1,3 +1,6 @@
+# 5.11
+* Fixed: New features of version 3.01 were lost when switching to Java.
+
 # 5.10
 Requires Bitwig 2.1.
 * New: Pressing the volume fader row select button multiple times does select master track mode.

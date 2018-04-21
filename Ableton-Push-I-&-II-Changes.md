@@ -6,7 +6,7 @@ Requires Bitwig 2.??.
 * New: The new session mode can display the names of scenes and clips.
 * New: The last selected mix mode (track, volume, pan , ...) is remembered.
 
-# 9.52 (unrelerased)
+# 9.52
 Requires Bitwig 2.3.
 * New: Push 2: You can now select the 4th and 8th send by pressing the Shift button.
 * New: Push 1: Added Send 7 and 8 (Press Pan/Send multiple times)

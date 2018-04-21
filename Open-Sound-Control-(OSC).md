@@ -185,6 +185,7 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /overdub/launcher {1,-}
 * /crossfade {0-127}
 * /autowrite {0,1}
+* /autowrite/launcher {0,1}
 * /automationWriteMode {latch,touch,write}
 * /tempo/raw {0-666}
 * /tempo/tap
