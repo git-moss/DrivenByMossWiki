@@ -1,4 +1,4 @@
-# Bitwig Studio | Generic Flexi (Unreleased)
+# Bitwig Studio | Generic Flexi
 
 Supports any MIDI controller with 1 midi in-/output.
 
