@@ -1,5 +1,9 @@
-#5.51 (unreleased)
-* New: Added individual logging options for in-/ and outgoing OSC messages
+#5.51
+* New: Added individual logging options for in- and outgoing OSC messages
+* New: Improvements to the Open Stage Control Template:
+        * Changed parameter fader colors to Bitwig parameter colors
+        * Added touch indication to sliders (parameters, volume, pan and sends)
+        * Hide non-existing tracks, devices and device banks
 
 # 5.50
 Requires Bitwig 2.3.
