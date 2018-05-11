@@ -6,6 +6,10 @@ Requires Bitwig 2.??.
 * New: The new session mode can display the names of scenes and clips.
 * New: The last selected mix mode (track, volume, pan , ...) is remembered.
 
+# 9.53 (unreleased)
+Requires Bitwig 2.3.
+* Fixed: Browse+Pad in Session view did not bring up the browser dialog.
+
 # 9.52
 Requires Bitwig 2.3.
 * New: Push 2: You can now select the 4th and 8th send by pressing the Shift button.
