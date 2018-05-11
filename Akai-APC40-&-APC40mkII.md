@@ -121,7 +121,9 @@ But there is MUCH more! If you keep the Shift button pressed and press one of th
 
 ## Drum Sequencer
 * The drum sequencer works as described in the Ableton Push manual. The differences are:
-     - Since the APCs have only 5 rows of clip buttons the selection/play grid has only 3 rows and the notes have only 2 rows. Press the left/right cursor to switch to row 3 and 4.
+     - Since the APCs have only 5 rows of clip buttons the selection/play grid has only 3 rows and the notes have only 2 rows.
+     - The 4th drum row cannot be accessed
+     - Use the measure bars to select unseen notes.
 * *Clip Stop buttons* - Select the note resolution (displayed on computer screen)
 * *Scene Launch button 4* - Transpose notes 1 block up. The new key range is displayed on the computer screen.
 * *Scene Launch button 5* - Transpose notes 1 block down. The new key range is displayed on the computer screen.
