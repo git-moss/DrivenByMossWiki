@@ -1,4 +1,5 @@
-# 1.1 (unreleased)
+# 1.1
+Compatible with Bitwig 2.3.
 * New: Track: Scroll Track
 * New: Device: Scroll device
 * New: Device: Scroll Parameter Bank
