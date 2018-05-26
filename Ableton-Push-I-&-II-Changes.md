@@ -7,6 +7,10 @@ Requires Bitwig 2.??.
 * New: The last selected mix mode (track, volume, pan , ...) is remembered.
 * New: Press Browser + Drum Pad in Drum View to open the browser.
 
+# 9.54 (unreleased)
+Requires Bitwig 2.3.
+* Fixed: Repeat button was lit in 64 drum pad mode.
+
 # 9.53
 Requires Bitwig 2.3.
 * Fixed: Browse+Pad in Session view did not bring up the browser dialog.
