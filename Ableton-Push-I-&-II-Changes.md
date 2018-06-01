@@ -10,6 +10,7 @@ Requires Bitwig 2.??.
 # 9.54 (unreleased)
 Requires Bitwig 2.3.
 * Fixed: Repeat button was lit in 64 drum pad mode.
+* Fixed: Push 2 menus were sometimes falsely selected in layer mode.
 
 # 9.53
 Requires Bitwig 2.3.
