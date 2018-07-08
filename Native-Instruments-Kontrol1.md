@@ -4,7 +4,6 @@
 
 Support script for Native Instruments Komplete Kontrol controller Version 1. You can control track parameters, devices and transport.
 
-
 ## Global
 
 * **SHIFT** - Use in combination with other buttons for additional functionality.
@@ -13,7 +12,6 @@ Support script for Native Instruments Komplete Kontrol controller Version 1. You
 * **ARP** - Toggle Metronome.
 * **SHIFT+ARP** - Toggle metronome ticks.
 * **SHIFT+MAIN ENCODER** - Changes the volume of the master track.
-
 
 ## Transport buttons
 
@@ -28,7 +26,6 @@ Support script for Native Instruments Komplete Kontrol controller Version 1. You
 * **SHIFT+REC** - Toggle launcher overdub
 * **STOP** - Stop playback. Press again to move the playback cursor to the start of the arranger.
 
-
 Use the page left and right buttons to switch modes.
 
 ## Track mode
@@ -42,7 +39,6 @@ Use the page left and right buttons to switch modes.
 * **ENTER** - Solos the selected track
 * **MAIN ENCODER** - Toggles between instrument/audio bank and effect bank
 
-
 ## Volume mode
 
 * Controls the volume of the displayed tracks.
@@ -50,7 +46,6 @@ Use the page left and right buttons to switch modes.
 * Use the knobs to change a volume.
 * All other knobs and buttons behave like in the Track mode.
   
-
 ## Device/Parameter Mode
 
 * Controls the parameters of the currently selected device.
@@ -62,18 +57,15 @@ Use the page left and right buttons to switch modes.
 * **ENTER** - Toggles the visibility of the parameters
 * **MAIN ENCODER** - Toggles the display of the device window (if any) of the device
 
-
 ## Browser Mode
 
-Press the **BROWSE** button to open the browser for the selected device. If no device is selected the browser 
-is opened to insert a new device on the selected track. Press **SHIFT+BROWSE** to insert a new device before the selected one.
+Press the **BROWSE** button to open the browser for the selected device. If no device is selected the browser is opened to insert a new device on the selected track. Press **SHIFT+BROWSE** to insert a new device before the selected one.
 
 * Use the main encoder to change the selection. Click the main encoder to display 16 items to select from. Click again to close.
 * The first 7 columns display the filters. Touch a knob above a filter to select it. Use the main encoder to change the filter selection. Click the main encoder or touch any of the knobs to close the filter selection.
 * **BROWSER** / **ENTER** - Commits/accepts the new selection and closes the browser
 * **SHIFT+BROWSER** / **BACK** - Cancels the new selection and closes the browser
 * Cursor left/right switches to the next / previous browser tab
-
 
 ## Scale Mode
 
@@ -85,8 +77,6 @@ Press **SHIFT+SCALE** button to enter the configuration mode for the current sca
 * **BACK** - Closes the scale mode
 * **ENTER** - Closes the scale mode
 
-
 ## Preferences Dialog
 
 You can set several preferences in the Preferences dialog of the script, which are stored when you exit Bitwig.
-

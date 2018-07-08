@@ -2,7 +2,7 @@
 
 Support script for Akais' APC40 and APC40mkII controller. You can control track parameters, devices, transport and session view.
 
-# Navigation
+## Navigation
 
 * **Play** - Start/Stop playback. Double click to move play cursor to start of song.
 * **Shift+Play** - Toggle repeat 
@@ -18,32 +18,35 @@ Support script for Akais' APC40 and APC40mkII controller. You can control track 
 * **Nudge+** - Increase Tempo. Click or keep pressed. Combine with Shift for fine adjustment.
 * **Nudge-** - Decrease Tempo. Click or keep pressed. Combine with Shift for fine adjustment.
 
-## Specifics for the Mk I
+### Specifics for the Mk I
+
 * **Midi Overdub** - Toggle launcher overdub.
 * **Rec Quantization** - Quantize selected clip.
 
-## Specifics for the Mk II
+### Specifics for the Mk II
+
 * **Session** - Toggle launcher overdub
 * **Shift + Session** - Enable automation write in clip launcher
 * **Dev. Lock** - Quantize selected clip.
 * **Shift + Dev. Lock** - Pin the cursor track and the cursor device.
 * **Tempo** - Change the tempo. Keep Shift pressed for fine adjustment.
 
-
-# Devices
+## Devices
 
 * **Device Knobs 1-8** - Change the currently selected 8 device parameters
 * **Device On/Off** - Turn the selected device on/off
 * **Clip/Track** - Toggles the devices panel
 * **Shift+Detail View** - Toggle VST window
 
-## Specifics for the Mk I
+### Specifics for the Mk I
+
 * **Arrow left** - Move focus to previous device
 * **Arrow right** - Move focus to next device
 * **Shift+Arrow left** - Select previous parameter bank of device
 * **Shift+Arrow right** - Select next parameter bank of device
 
-## Specifics for the Mk II
+### Specifics for the Mk II
+
 * **Device Arrow left** - Move focus to previous device or select previous layer if in layer mode
 * **Device Arrow right**  - Move focus to next device or select next layer if in layer mode
 * **Shift+Device Arrow left** - Exit layer mode or a layer ("out")
@@ -51,20 +54,21 @@ Support script for Akais' APC40 and APC40mkII controller. You can control track 
 * **Bank Arrow left** - Select previous parameter bank of device
 * **Bank Arrow right** - Select next parameter bank of device
 
-# Browser
+## Browser
 
-## Specifics for the Mk I
+### Specifics for the Mk I
+
 * Press _Shift+Stop All Clips_ button
 * Navigate columns with the _Track Control knobs_.
 * To confirm the patch selection and close the Browser press Press _Shift+Stop All Clips_ again.
 
-## Specifics for the Mk II
+### Specifics for the Mk II
+
 * Press the _Bank_ button
 * Navigate columns with the _Track Control knobs_.
 * To confirm the patch selection and close the Browser press _Bank_ again. To discard the patch selection press _Shift+Bank_.
 
-
-# Tracks
+## Tracks
 
 * **8 faders** - Change volume of selected 8 tracks.
 * Press Shift and move Volume Fader to move the fader to the current value of the matching track. On the screen you get information if you need to move it up or down.
@@ -82,22 +86,21 @@ Support script for Akais' APC40 and APC40mkII controller. You can control track 
 * **Master button** - Select the master track
 * **Shift+Master button** - Toggles between editing of normal and effect tracks.
 * **Track control**
-    * Press and hold **Sends/Send A** button and press **Track Select 1-8** to select the sends 1 to 8.
-    * *only mkI* Press Shift+Send A/B/C to select the sends 4 to 6.
-    * *only mkII* Press USER to select Send 2.
+  * Press and hold **Sends/Send A** button and press **Track Select 1-8** to select the sends 1 to 8.
+  * *only mkI* Press Shift+Send A/B/C to select the sends 4 to 6.
+  * *only mkII* Press USER to select Send 2.
 
-
-# Clip/scene control
+## Clip/scene control
 
 * **Clip Stop** - Stop the clip on the specific track.
 * **Shift+Clip Stop** - Returns to the arrangement of that track.
-* **Stop all clips** - Press this button to stop all playing clips. 
+* **Stop all clips** - Press this button to stop all playing clips.
 * **Scene launch buttons** - Start the specific scene
 * **Cursor up** - Move scene focus 1 scene up
 * **Cursor down** - Move scene focus 1 scene down
-* **Clip launch** - The buttons on the grid start/record the clips. 
+* **Clip launch** - The buttons on the grid start/record the clips.
 
-# Foot switches
+## Foot switches
 
 * **Footswitch 1** - Sends sustain
 * **Footswitch 2** *only mkI* - Creates a new clip on the selected track and slot, starts play and enables overdub.
@@ -111,6 +114,7 @@ But there is MUCH more! If you keep the Shift button pressed and press one of th
 * 5th button: Raindrop sequencer - Requires a selected midi clip
 
 ## Play Mode
+
 * *Grid* - Play notes in the currently selected scale.
 * *Scene Launch button 1* - Selects the next Scale. The new scale is displayed on the computer screen.
 * *Scene Launch button 2* - Selects the previous Scale. The new scale is displayed on the computer screen.
@@ -120,15 +124,17 @@ But there is MUCH more! If you keep the Shift button pressed and press one of th
 * Press **Shift** and use the first two row buttons (arranged like a keyboard) to select the root note of the scale.
 
 ## Drum Sequencer
+
 * The drum sequencer works as described in the Ableton Push manual. The differences are:
-     - Since the APCs have only 5 rows of clip buttons the selection/play grid has only 3 rows and the notes have only 2 rows.
-     - The 4th drum row cannot be accessed
-     - Use the measure bars to select unseen notes.
+  * Since the APCs have only 5 rows of clip buttons the selection/play grid has only 3 rows and the notes have only 2 rows.
+  * The 4th drum row cannot be accessed
+  * Use the measure bars to select unseen notes.
 * *Clip Stop buttons* - Select the note resolution (displayed on computer screen)
 * *Scene Launch button 4* - Transpose notes 1 block up. The new key range is displayed on the computer screen.
 * *Scene Launch button 5* - Transpose notes 1 block down. The new key range is displayed on the computer screen.
 
 ## Note Sequencer
+
 * The pads display an 5x8 view of the selected clips note grid.
 * The rows represent the notes of the selected scale.
 * Note that you can scroll past the end of the clip (to the right).
@@ -142,6 +148,7 @@ But there is MUCH more! If you keep the Shift button pressed and press one of th
 * Press **Shift** and use the first two row buttons (arranged like a keyboard) to select the root note of the scale.
 
 ## Raindrop sequencer
+
 * The lowest row displays the playable notes
 * The row above a note starts a raindrop
 * If the raindrop reaches the note it sounds
@@ -153,7 +160,9 @@ But there is MUCH more! If you keep the Shift button pressed and press one of th
 * Press **Shift** and use the first two row buttons (arranged like a keyboard) to select the root note of the scale.
 
 ## Functions in Shift mode
+
 If you keep Shift pressed there are additional functions available on the pads of the 5th (top) row:
+
 * 1st: Add instrument track
 * 2nd: Add audio track
 * 3rd: Add effect track
@@ -161,7 +170,6 @@ If you keep Shift pressed there are additional functions available on the pads o
 * 5th: Add device after
 * 7th: Undo
 * 8th: Redo
-
 
 ## Preferences dialog
 

@@ -11,19 +11,16 @@ If you do not care about that problem you can use the hardware sequencer as well
 The big knob is used to move the play cursor in the Arrange view.
 Warning: Don't use it in combination with the Shift button or you will (still) transpose the midi notes sent by the pads, which will make the pads act funny.
 
-
 ## Differences between Beatstep and Beatstep Pro
 
 Sadly, the Pro is even more limited programming wise. The _Shift_ button cannot be used therefore I decided to use the 16 steps instead.
 Even worse is that you cannot control the lights of the pads and steps, which means you have to navigate it rather "blind".
-
 
 Shift-Mode (when the Shift button is pressed) - Mode change and Transport
 =========================================================================
 
 The script provides several modes which you can switch when keeped the Shift button pressed and press one of the first 6 pads on the upper row.
 On the Pro use the 16 steps instead.
-
 
 <pre>Track Mode Device Mode  Play Mode  Drum Mode  Seq. Mode  Session Mode        -EMPTY-            Open VST
 Play       Record       Repeat     Metronome  Tap Tempo  Insert Dev. Before  Insert Dev. After  Browser</pre>

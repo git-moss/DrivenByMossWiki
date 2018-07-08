@@ -46,7 +46,7 @@ Get it from: http://www.oracle.com/technetwork/java/javase/downloads/index.html 
 For the Java installtion choose the file **jdk-8u65-windows-x64.exe** (or newer).
 There is a batch file **Run.cmd** provided to start the Push2Display application. Make sure you have the environment variable **JAVA_HOME** set to the installed Java Runtime, e.g. **C:\Program Files\Java\jdk1.8.0_66** on my system. Alternatively, you can also replace the path directly in the batch file. 
 
-####How to add Run.cmd to the start menu on Windows 8/10 with the Bitwig icon:
+#### How to add Run.cmd to the start menu on Windows 8/10 with the Bitwig icon:
 
 1. Open the following folder in the Explorer (insert your user name): C:\Users\**<YOUR_USER_NAME_HERE>**\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
 2. Drag and drop **Run.cmd** to that folder while holding down the **Alt*-key to create a link

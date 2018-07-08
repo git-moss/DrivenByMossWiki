@@ -1,3 +1,6 @@
+#2.62 (unreleased)
+* Fixed: Display 2 formatting.
+
 #2.61
 Requires Bitwig 2.3.
 * Fixed: The "Behaviour on Stop" setting was not respected when using the Stop button (only with the Play button).

@@ -8,6 +8,7 @@ The Transport button acts as a kind of Shift key. If you press it (no need to ke
 Use the P1 buttons to access several menus of a specific row.
 
 Notes for the **ZeRO SL MkII**:
+
 * The script also supports this model
 * The P1 up/down buttons are the Page left/right buttons on the ZeRO
 * The P2 up/down buttons are the Page left/right buttons with keeping the Preview button pressed at the same time on the ZeRO
@@ -20,7 +21,7 @@ Notes for the **ZeRO SL MkII**:
     * **Undo** - Undoes the last operation.
     * **Redo** - Redoes the last operation.
     * **Delete** - Like pressing the delete key.
-    * **Double** - Duplicates the selected item(s), notes, etc. 
+    * **Double** - Duplicates the selected item(s), notes, etc.
     * **New** - It creates a new clip on the selected track and slot, starts play and enables overdub.
     * **Window** - Open/close the VST window.
     * **Metronome** - Toggle the metronome.
@@ -67,7 +68,7 @@ Notes for the **ZeRO SL MkII**:
     * **<< (Forward)** - Forwards play cursor position until released.
     * **[] (Stop)** - Stop playback. Press twice to move play cursor to start of song.
     * **> (Play)** - Start/Stop playback. Double click to move play cursor to start of song.
-    * **Loop** - Toggle repeat 
+    * **Loop** - Toggle repeat
     * **Record** - Toggle Arranger recording
     * **7th button** - Decreases tempo until released.
     * **8th button** - Increases tempo until released.
@@ -81,10 +82,9 @@ Notes for the **ZeRO SL MkII**:
 
 The functionality of this mode is twofold: You can start scenes and sequence.
 The step sequencer is mainly intended for drums but works also with notes.
-The sequencer uses the buttons below the faders which form 16 steps. 
-They have two modes which are toggled with the 8th button of the 2nd button row. 
-The first mode is for playing the notes, the last played note selects it for the 
-step sequencer. The second mode allows to dis/enable each step.
+The sequencer uses the buttons below the faders which form 16 steps.
+They have two modes which are toggled with the 8th button of the 2nd button row.
+The first mode is for playing the notes, the last played note selects it for the step sequencer. The second mode allows to dis/enable each step.
 
 1. 1st button row - Launch Scenes
     * Launch the 8 scenes of the current scene bank
@@ -110,7 +110,6 @@ step sequencer. The second mode allows to dis/enable each step.
   
 7. 3rd + 4th button row - Play notes / sequence
     * Toggle step or play/select notes
-
 
 ## Preference dialog
 

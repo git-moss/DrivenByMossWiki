@@ -5,7 +5,7 @@ Support script for Ableton's Push 1 and Push 2 controller. You can control track
 ## Global Features
 
 * **Play** - Start/Stop playback. Double click to move play cursor to start of song. You can configure the behaviour on stop in the preferences.
-* **Shift+Play** - Toggle repeat 
+* **Shift+Play** - Toggle repeat
 * **Select+Play** - Toggle Punch In
 * **Select+Shift+Play** - Toggle Punch Out
 * **Record** - Start/Stop recording
@@ -27,7 +27,7 @@ Support script for Ableton's Push 1 and Push 2 controller. You can control track
 * **Delete** - Like pressing the delete key. Hold the button for additional functionality in combination with other buttons knobs, see the mode and view explanations below.
 * **Small Knob 1** - Change tempo (press _Shift_ for fine adjustment). If you touch the knob the pre-roll settings appear in the display as well and can be modified.
 * **Small Knob 2** - Move play cursor (press _Shift_ for fine adjustment) If you touch the knob the pre-roll settings appear in the display as well and can be modified.
-* **Metronome** - Toggle metronome 
+* **Metronome** - Toggle metronome
 * **Shift + Metronome** - Toggle metronome ticks
 * **Tap Tempo** - Tap Tempo
 * **Mute** - Push 1: Selects track mute state of 2nd row. Push 2: Mutes the currently selected track. Long press for the Push 1 behaviour. Lock it with **Shift+Solo**.
@@ -66,8 +66,8 @@ Support script for Ableton's Push 1 and Push 2 controller. You can control track
     * **Toggle monitor and auto monitor**: Keep pressed Select. First row toggles Monitor, second row Auto Monitor.
     * **De-/activate a track**: Select+Shift+1st button row.
     * 2nd 8 button row: Toggle mute or solo of track, dependent of Mute or Solo button selection
-    * Left/Right arrows: Select next/previous track 
-    * Shift+Left/right arrows: Select next/previous track bank 
+    * Left/Right arrows: Select next/previous track
+    * Shift+Left/right arrows: Select next/previous track bank
 
 2. **Crossfader** - Push 1: Press "Volume" twice to enter - Push 2: Press "Mix" and "Crossfader" above the display
     * 8 edit knobs: Change crossfader setting of selected 8 tracks.
@@ -112,20 +112,19 @@ Support script for Ableton's Push 1 and Push 2 controller. You can control track
     * Dis-/Enable audio engine
     * Switch to the next/previous opened project with buttons 7 and 8.
 
-
 ## Note Mode (Playing the pads)
 
 Press _"Note"_ and select *Play* to change to the Play view.
 
-  * The key layout is like running the Push with Ableton 
-  * Touch strip (Ribbon) changes pitch (or sends CC), configure with Shift+Touchstrip
-  * Press _"Scales"_ (keep pressed for temporary) to change the scales (Chromatic, Major, Minor, etc.) and the root note with the 16 buttons below the display. Press and keep the **Shift** button to change the scale layout.
-  * The played keys are lighting red if global or clip recording (does not work if recording clip is outside of the monitored 8x8 matrix)
-  * Use the Delete button in combination with a pad. This deletes all appearances of that note in the currently selected clip. Use with care since the notes you see lit might not come from the currently selected clip!
+* The key layout is like running the Push with Ableton
+* Touch strip (Ribbon) changes pitch (or sends CC), configure with Shift+Touchstrip
+* Press _"Scales"_ (keep pressed for temporary) to change the scales (Chromatic, Major, Minor, etc.) and the root note with the 16 buttons below the display. Press and keep the **Shift** button to change the scale layout.
+* The played keys are lighting red if global or clip recording (does not work if recording clip is outside of the monitored 8x8 matrix)
+* Use the Delete button in combination with a pad. This deletes all appearances of that note in the currently selected clip. Use with care since the notes you see lit might not come from the currently selected clip!
 
 ## Session Mode
 
-Press _"Session"_ to enter **Session** mode. Keep button pressed to switch back to Note mode on release. 
+Press _"Session"_ to enter **Session** mode. Keep button pressed to switch back to Note mode on release.
 This allows you to launch clips then release the Session button to jump straight back into Note mode.
 
 When in Session view and press Session again a menu turns up (like in note view) where you can select different views. The normal Sesson view, the flipped version and the Scene view. This view displays the first 64 scenes ready for jamming. The color of a scene uses the color of the first clip found in the scene (only checks in the first 8 tracks). Use the Layout button on Push 2 to quickly step through these views.
@@ -134,45 +133,44 @@ Hold *Browse* and select a pad to browse for clips.
 
 All the buttons and knobs behave like in Play mode with the following exceptions:
 
-  * The buttons on the grid start/record the clips. 
-  * If Select is pressed when pressing a pad it is only selected and not started. 
-  * The 1/4 to 1/32t buttons start scenes. 
-  * The arrow keys scroll the grid. Hold **Shift** to scroll in blocks of 8.
-  * Pressing Shift+1st row buttons returns to the arrangement for that track. 
-  * Press the _Fixed Length_ button to choose the length for new clips.
-  * Press _Clip_ to display the current clip in the editor.
-  * The ribbon controls the crossfader. Press Shift and touch the Ribbon to center the crossfader.
-  * Press _Delete_ + Pad In Session Mode to the delete the clip.
+* The buttons on the grid start/record the clips.
+* If Select is pressed when pressing a pad it is only selected and not started.
+* The 1/4 to 1/32t buttons start scenes.
+* The arrow keys scroll the grid. Hold **Shift** to scroll in blocks of 8.
+* Pressing Shift+1st row buttons returns to the arrangement for that track.
+* Press the _Fixed Length_ button to choose the length for new clips.
+* Press _Clip_ to display the current clip in the editor.
+* The ribbon controls the crossfader. Press Shift and touch the Ribbon to center the crossfader.
+* Press _Delete_ + Pad In Session Mode to the delete the clip.
 
 Press the Session button twice to flip the grid which then matches the arrangement view.
-
 
 ## Sequencer Mode
 
 Press _"Note"_ and select *Squencr* to enter **Sequencer** mode.
 
-  * The pads display an 8x8 view of the selected clips note grid.
-  * The rows represent the notes of the selected scale.
-  * To navigate in a clip use the Page left/right (device in/out on Push 1) buttons.
-  * Note that you can scroll past the end of the clip (to the right).
-  * Press pads to enter/delete notes. 
-  * The velocity of the pressed key is set as well.
-  * Note starts and lengths are lit in different colors.
-  * Use the Scene buttons to change the grids resolution.
-  * Use Shift+Octave Up/Down to transpose by 1 step. Select+Octave transposes in 12 steps.
+* The pads display an 8x8 view of the selected clips note grid.
+* The rows represent the notes of the selected scale.
+* To navigate in a clip use the Page left/right (device in/out on Push 1) buttons.
+* Note that you can scroll past the end of the clip (to the right).
+* Press pads to enter/delete notes.
+* The velocity of the pressed key is set as well.
+* Note starts and lengths are lit in different colors.
+* Use the Scene buttons to change the grids resolution.
+* Use Shift+Octave Up/Down to transpose by 1 step. Select+Octave transposes in 12 steps.
 
 ## Drum Sequencer Mode
 
 Press _"Note"_ and select *Drum* to change to the Drum Sequencer.
 
-  * The drum sequencer works as described in the Push manual.
-  * Note starts and lengths are lit in different colors.
-  * Hold *Delete* + Drumpad to delete the midi notes of the current clip on that 'pad'.
-  * Hold *Mute/Solo* button + Drumpad to mute/solo the drumpad.
-  * To make the display of mute/solo/exists states work, the primary device needs to be the drum machine (which is normally the case).
-  * Hold down the *Select* button while pressing a drumpad to select it without playing its sound. This also selects the according drum pad layer in the display.
-  * The Drumpads use the colors set in the drum machine for each pad.
-  * There are three additional drum sequencers. Press Shift in drum mode and use upper 4 scene buttons to change between the four modes. 2nd mode displays 4 drum sound, 3rd mode 8. Use the lower 4 scene buttons (while holding Shift) in 2nd mode to toggle between the drum sounds 1-4, 5-8, 9-12, 13-16. Use the lower 2 scene buttons in 3rd mode to toggle the drum sounds 1-8, 9-16. The fourth mode displays 64 drum pads.
+* The drum sequencer works as described in the Push manual.
+* Note starts and lengths are lit in different colors.
+* Hold *Delete* + Drumpad to delete the midi notes of the current clip on that 'pad'.
+* Hold *Mute/Solo* button + Drumpad to mute/solo the drumpad.
+* To make the display of mute/solo/exists states work, the primary device needs to be the drum machine (which is normally the case).
+* Hold down the *Select* button while pressing a drumpad to select it without playing its sound. This also selects the according drum pad layer in the display.
+* The Drumpads use the colors set in the drum machine for each pad.
+* There are three additional drum sequencers. Press Shift in drum mode and use upper 4 scene buttons to change between the four modes. 2nd mode displays 4 drum sound, 3rd mode 8. Use the lower 4 scene buttons (while holding Shift) in 2nd mode to toggle between the drum sounds 1-4, 5-8, 9-12, 13-16. Use the lower 2 scene buttons in 3rd mode to toggle the drum sounds 1-8, 9-16. The fourth mode displays 64 drum pads.
 
 ## Drum 4 and Drum 8 sequencer
 
@@ -186,15 +184,14 @@ Press _"Note"_ and select *Drum 64*.
 
 This mode gives you 64 pads for playing a drum device. The 16 pads in the left lower area are the same as in the drum sequencer mode.
 
-  
 ## Raindrop sequencer
 
 Press _"Note"_ and select *Raindrp* to change to the Raindrop Sequencer.
 
-  * The lowest row displays the playable notes
-  * The row above a note starts a raindrop
-  * If the raindrop reaches the note it sounds
-  * Use Shift+Octave Up/Down to transpose by 1 step. Select+Octave transposes in 12 steps.
+* The lowest row displays the playable notes
+* The row above a note starts a raindrop
+* If the raindrop reaches the note it sounds
+* Use Shift+Octave Up/Down to transpose by 1 step. Select+Octave transposes in 12 steps.
 
 ## Piano Mode
 
