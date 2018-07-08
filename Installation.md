@@ -18,7 +18,7 @@ See device specific additional installation notes below.
 # Arturia Beatstep / Beatstep Pro
 
 Load the respective template from the folder _resources/beatstep_ into the device by using Arturias Midi Control Center.
-Furthermore, in the Device Settings Tab set the User Midi Channel to 3.
+Only Beatstep Pro: In the Device Settings Tab set the User Midi Channel to 3.
 
 # Open Sound Control (OSC) specifics
 1. Select a midi input port. It is not really important which one you choose because it is just used to insert midi notes into Bitwig received as an OSC command. Best thing is to use a virtual midi port.
