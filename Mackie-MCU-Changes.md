@@ -1,5 +1,6 @@
 #2.62 (unreleased)
 * Fixed: Display 2 formatting.
+* New: Pressing Mute, Solo, Rec Arm and Select in Mastermode leaves it.
 
 #2.61
 Requires Bitwig 2.3.
