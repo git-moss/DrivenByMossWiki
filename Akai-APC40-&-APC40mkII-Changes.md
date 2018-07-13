@@ -47,7 +47,7 @@ Requires Bitwig 2.0.
 * Fixed: Shift+Track had new clip lengths in wrong order
 * New: Shift+Track lights the selected clip length
 * New: SendA+Track lights the selected Send
-* New: Onscreen display of selected Send
+* New: On-screen display of selected Send
 * New: If you press Shift, there are new functions if you press the pads of the first row:
   * Add instrument track
   * Add audio track
@@ -126,7 +126,7 @@ Compatible with Bitwig 1.1.6.
 Compatible with Bitwig 1.1.x.
 
 * On the MkII you can now navigate the device layers. Use Shift+Device Left/Right.
-* Bugfix: Currently playing measure in Drumsequencer is now drawn in green.
+* Bugfix: Currently playing measure in Drum sequencer is now drawn in green.
 * Bugfix: Two green colors had the same value on the MkII.
 
 ## 2.1

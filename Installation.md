@@ -25,13 +25,14 @@ Only Beatstep Pro: In the Device Settings Tab set the User Midi Channel to 3.
 ## Open Sound Control (OSC) specifics
 
 1. Select a midi input port. It is not really important which one you choose because it is just used to insert midi notes into Bitwig received as an OSC command. Best thing is to use a virtual midi port.
-2. Adjust the IP-adresses and ports of your computer and the client device you want to use. NOTE: You need to restart the extension if you made a change!
+2. Adjust the IP-addresses and ports of your computer and the client device you want to use. NOTE: You need to restart the extension if you made a change!
 
 The ZIP file has a folder _resources/osc_ which contains 1 example file for Cycling 74s Max and 1 example file for TouchOSC (Android and iOS app).
 
-## Novation Lauchpad Pro specifics
+## Novation Lauchpad specifics
 
-If you added the controller manually, choose the 2nd port (*MIDIIN2 (Launchpad Pro)* and *MIDIOUT2 (Launchpad Pro)* on Windows).
+* Pro: If you added the controller manually, choose the 2nd port (*MIDIIN2 (Launchpad Pro)* and *MIDIOUT2 (Launchpad Pro)* on Windows).
+* Make sure the Launchpad sends on Midi Channel 1
 
 ## Ableton Push specifics
 

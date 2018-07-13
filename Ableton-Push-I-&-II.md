@@ -4,7 +4,7 @@ Support script for Ableton's Push 1 and Push 2 controller. You can control track
 
 ## Global Features
 
-* **Play** - Start/Stop playback. Double click to move play cursor to start of song. You can configure the behaviour on stop in the preferences.
+* **Play** - Start/Stop playback. Double click to move play cursor to start of song. You can configure the behavior on stop in the preferences.
 * **Shift+Play** - Toggle repeat
 * **Select+Play** - Toggle Punch In
 * **Select+Shift+Play** - Toggle Punch Out
@@ -22,7 +22,7 @@ Support script for Ableton's Push 1 and Push 2 controller. You can control track
 * **Shift+Quantize** - Access the Groove options
 * **Double (Loop)** - Duplicate the content of the currently selected clip (not the clip itself)
 * **Convert** (Push 2) - Brings up the Slice to Drum Machine dialog.
-* **Shift+Convert** (Push 2) - Bring up the Slice to Multisample dialog.
+* **Shift+Convert** (Push 2) - Bring up the Slice to Multi-sample dialog.
 * **Undo** - Undo. Press Shift for Redo.
 * **Delete** - Like pressing the delete key. Hold the button for additional functionality in combination with other buttons knobs, see the mode and view explanations below.
 * **Small Knob 1** - Change tempo (press _Shift_ for fine adjustment). If you touch the knob the pre-roll settings appear in the display as well and can be modified.
@@ -30,8 +30,8 @@ Support script for Ableton's Push 1 and Push 2 controller. You can control track
 * **Metronome** - Toggle metronome
 * **Shift + Metronome** - Toggle metronome ticks
 * **Tap Tempo** - Tap Tempo
-* **Mute** - Push 1: Selects track mute state of 2nd row. Push 2: Mutes the currently selected track. Long press for the Push 1 behaviour. Lock it with **Shift+Solo**.
-* **Solo** - Push 1: Selects track solo state of 2nd row. Push 2: Solos the currently selected track. Long press for the Push 1 behaviour. Lock it with **Shift+Solo**.
+* **Mute** - Push 1: Selects track mute state of 2nd row. Push 2: Mutes the currently selected track. Long press for the Push 1 behavior. Lock it with **Shift+Solo**.
+* **Solo** - Push 1: Selects track solo state of 2nd row. Push 2: Solos the currently selected track. Long press for the Push 1 behavior. Lock it with **Shift+Solo**.
 * **Knobs 1-8** Value encoders, [Shift + Knob] fine increment value change.
 * **Knob 9** - Changes Master Volume
 * **Select + Knob 9** - Changes Metronome Volume
@@ -41,7 +41,7 @@ Support script for Ableton's Push 1 and Push 2 controller. You can control track
 * **Footswitch 1** - Sends sustain
 * **Footswitch 2** - Triggers the new button.
 * **Arrows** The cursor keys now consistently always change the track (device, layers) and scene bank, except in the browser they change the browser tabs.
-* **Shift+Touchstrip** - Change behaviour of touchstrip: Send pitch bend, a midi CC or a mixed mode. If mixed mode is selected upwards pitch bend is sent and downwards the select midi cc.
+* **Shift+Touchstrip** - Change behavior of touchstrip: Send pitch bend, a midi CC or a mixed mode. If mixed mode is selected upwards pitch bend is sent and downwards the select midi cc.
 * **Shift+Track** - Turn off/on VU meters.
 * **Browse** - Enters Preset selection mode for a device. If no device is selected the browser is opened to add a device.
 * **Add Track**: Adds a new instrument track
@@ -55,7 +55,7 @@ Support script for Ableton's Push 1 and Push 2 controller. You can control track
 ## Edit Modes
 
 * Hold Delete and Touch Encoder to reset a value to its default value in all modes.
-* Since the Push 2 is missing the buttons Volume and Pan & Send use the navigation knobs above the display. Since you loose the Mute/Solo buttons for the navigation long press Mute or Solo for the same behaviour as with Push 1. You can also lock that functionality by pressing **Shift+Mute** or **Shift+Solo**. Press the same combination to unlock it.
+* Since the Push 2 is missing the buttons Volume and Pan & Send use the navigation knobs above the display. Since you loose the Mute/Solo buttons for the navigation long press Mute or Solo for the same behavior as with Push 1. You can also lock that functionality by pressing **Shift+Mute** or **Shift+Solo**. Press the same combination to unlock it.
 * Press the Duplicate button and one of the Track-Select buttons to duplicate a track.
 * In all track modes, hold the Select button to enter the track details mode. In this mode you can set different states like enable, solo, mute, rec arm, monitor and change the color of the track. If you currently have a layer selected this brings up a similar view to edit the states of the layer.
 * Push 2: Hold Shift to access the Send 4 and 8 mode.
@@ -88,13 +88,13 @@ Support script for Ableton's Push 1 and Push 2 controller. You can control track
 6. **Device** - Press "Device" to enter
     * Buttons of 1st row select the device or the parameter banks.
     * 1st button on 2nd row in device modes dis-/enables device (button above display on Push 2).
-    * 7th button on 2nd row in device modes displays VST window or popout window of sepcific Bitwig devices (button above display on Push 2).
+    * 7th button on 2nd row in device modes displays VST window or pop-out window of specific Bitwig devices (button above display on Push 2).
     * 8th button on 2nd row in device modes moves up to tracks.
     * To navigate groups, layers and devices press now the respective first row button. Long press any of the first row buttons to move up the hierarchy again.
     * 8 edit knobs: Change 8 parameters of the selected device (FX). Hold **Shift** for fine adjustments. Hold the delete key and touch a knob to reset its value.
     * Left/Right buttons: Select next/previous device or parameter bank
     * Press Browse to select a different patch of the device. Hold the Shift button in Preset mode to scroll quickly.
-    * Push 1: Use **Select+Volume/Pan/Track** buttons to activate the different layer modes. For Sendmodes press **Pan** multiple times.
+    * Push 1: Use **Select+Volume/Pan/Track** buttons to activate the different layer modes. For Send modes press **Pan** multiple times.
 
 7. **Browse** - Press "Browse" to enter (a device must be selected)
     * Edit knob 8: Change the patch
@@ -127,7 +127,7 @@ Press _"Note"_ and select *Play* to change to the Play view.
 Press _"Session"_ to enter **Session** mode. Keep button pressed to switch back to Note mode on release.
 This allows you to launch clips then release the Session button to jump straight back into Note mode.
 
-When in Session view and press Session again a menu turns up (like in note view) where you can select different views. The normal Sesson view, the flipped version and the Scene view. This view displays the first 64 scenes ready for jamming. The color of a scene uses the color of the first clip found in the scene (only checks in the first 8 tracks). Use the Layout button on Push 2 to quickly step through these views.
+When in Session view and press Session again a menu turns up (like in note view) where you can select different views. The normal Session view, the flipped version and the Scene view. This view displays the first 64 scenes ready for jamming. The color of a scene uses the color of the first clip found in the scene (only checks in the first 8 tracks). Use the Layout button on Push 2 to quickly step through these views.
 
 Hold *Browse* and select a pad to browse for clips.
 

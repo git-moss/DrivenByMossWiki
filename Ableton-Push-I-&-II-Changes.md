@@ -97,7 +97,7 @@ Requires Bitwig 2.3.
 Requires Bitwig 2.1.
 
 * New: Setting for a preferred note view to use for new tracks.
-* New: Prevent flickering when accidently touching the tempo or position knob while tweaking one of the other 8 knobs.
+* New: Prevent flickering when accidentally touching the tempo or position knob while tweaking one of the other 8 knobs.
 
 ## 9.22
 
@@ -133,7 +133,7 @@ Requires Bitwig 2.1.
 
 Requires Bitwig 2.1.
 
-* New: When in Session view and press Session again a menu turns up (like in note view) where you can select different views. The normal Sesson view, the flipped version and a new Scene view. This view displays the first 64 scenes ready for jamming. The color of a scene uses the color of the first clip found in the scene (only checks in the first 8 tracks). Use the Layout button on Push 2 to quickly step through these views.
+* New: When in Session view and press Session again a menu turns up (like in note view) where you can select different views. The normal Session view, the flipped version and a new Scene view. This view displays the first 64 scenes ready for jamming. The color of a scene uses the color of the first clip found in the scene (only checks in the first 8 tracks). Use the Layout button on Push 2 to quickly step through these views.
 * New: Changed the layout of the Drum 64 view to match the normal Drum view.
 * New: The Fixed Length menu contains a new row with options which allows to create a new clip without storing the length.
 * New: Added more function options to the Footswitch 2.
@@ -199,7 +199,7 @@ Requires Bitwig 2.0.
   * New: Change the tabs of the browser with the left/right cursor buttons (especially useful with the Sampler)
   * New: Hold *Browse* and select a pad in Session mode to browse for clips
 * New: Push 2: Modulation of parameter values is now displayed (Push2Display updated to support this)
-* New: Preference to reverse the behaviour of the record and overdub functions
+* New: Preference to reverse the behavior of the record and overdub functions
 * Fixed: Scrolling with cursor keys could lead to endless scrolling
 * Fixed: On Screen parameter notification for empty parameter (displayed ":")
 
@@ -235,7 +235,7 @@ Requires Bitwig 1.3.15+
 * New: Use different colors for note starts and lengths in note and drum sequencer.
 * New: Delete+Pad in drum sequencer now deletes all notes on that note not only 32 bars.
 * New: Quantize is now working as expected. Use Shift+Quantize to set the quantize amount. This menu can now also be opened by long pressing the Quantize button.
-* New: Coloured record button when Shift is pressed (for launcher overdub).
+* New: Colored record button when Shift is pressed (for launcher overdub).
 * Fixed: Scale not updated in sequencers when changed.
 * Fixed: Accent mode not working in raindrop sequencer.
 
@@ -280,7 +280,7 @@ Requires Bitwig 1.3.15+
 ## 7.30
 
 * Push 1/2:
-  * New Workflowsetting: Auto-Select drum channel (Off, Channel)
+  * New Workflow setting: Auto-Select drum channel (Off, Channel)
   * Changed Automation Override button combination from Select + Automation to Delete + Automation.
   * Improved workaround for quantize function.
   * Fixed: Important performance improvement (updates of button LEDs are only done when changed) which fixes external hardware sync.
@@ -290,7 +290,7 @@ Requires Bitwig 1.3.15+
   * Fixed lighting of some buttons
 * Push 2:
   * New: Press Convert button to bring up the Slice to Drum Machine dialog.
-  * New: Press Shift+Convert button to bring up the Slice to Multisample dialog.
+  * New: Press Shift+Convert button to bring up the Slice to Multi-sample dialog.
   * Activate Poly Aftertouch on startup.
   * Added version number to Push2Display.
 * Push 1:
@@ -328,16 +328,16 @@ Requires Bitwig 1.3.15+
 
 * Push 1/2:
   * New: Implemented Volume, Pan and Sends modes for the layers view.
-    * Push 1: Use **Select+Volume/Pan/Track** buttons to activate. For Sendmodes press **Pan** multiple times.
+    * Push 1: Use **Select+Volume/Pan/Track** buttons to activate. For Send modes press **Pan** multiple times.
     * Push 2: Use the menu buttons above the display to activate.
   * Improved: If no device is selected the primary device of the current channel (if any) is used. This prevents that you have to manually select a device with the mouse.
   * Improved: Deactivated **Add Effect** button since the function is currently not working and just confused users (requires API fix)
 * Push 2:
   * Improved: Deactivated LED on unused buttons Convert and Setup
   * Fixed: Script did crash when non-ASCII characters were used in names
-  * Fixed: In Track view soloing the selected track also soloed the mastertrack
+  * Fixed: In Track view soloing the selected track also soloed the master track
   * Fixed: Sends were not displayed in Track View for the last channel when tracks were less than 8
-  * Fixed: Menu for long press Mute/Solo was not displayed in Sendviews
+  * Fixed: Menu for long press Mute/Solo was not displayed in Send views
 
 ## 7.00
 
@@ -357,7 +357,7 @@ Requires Bitwig 1.3.15+
   * Fixed: CC area of ribbon was not working in PB/CC mode
 * Push 2
   * New: Implemented graphical support for the display
-  * New: Lock Solo/Mute (behaviour like Push 1): Shift+Solo/Mute
+  * New: Lock Solo/Mute (behavior like Push 1): Shift+Solo/Mute
   * Improved: Push2Display: Correct default path for Bitwig Studio depending on OS
   * Fixed: Push2Display: Start of Bitwig Studio did not work on Mac
   * Fixed: Light intensity on monochrome buttons
@@ -377,7 +377,7 @@ Requires Bitwig 1.3.15+
 * Fixed: Stepping out of device hierarchy required an unnecessary additional button push. Furthermore, the layer in the Bitwig UI was shown one step too late.
 * Fixed: Device Layer mode was not restored when temporarily left (e.g. to tempo)
 * Fixed: Display of note range names was broken in Play and Sequencer view.
-* Fixed: Doublick on Playbutton to rewind did not work when playback was stopped.
+* Fixed: Double click on Play button to rewind did not work when playback was stopped.
 * Fixed: Confirming / Cancelling of browser was missing. Press now Browse again to Confirm or Select+Browse to Cancel.
 * Fixed: Crossfader B could not be selected in Crossfader mode
 
@@ -435,7 +435,7 @@ Compatible with Bitwig 1.1.8.
 * New scale offsets by 8ths
 * Added new settings option to convert the Poly Aftertouch of the pads to Channel Aftertouch or a CC.
 * Bugfix: Fixed track navigation for effect tracks.
-* Bugfix: Fixed behaviour of Master button: Does no longer select master button if long pressed to enter frames mode. Previous mode gets correctly restored if pressed again.
+* Bugfix: Fixed behavior of Master button: Does no longer select master button if long pressed to enter frames mode. Previous mode gets correctly restored if pressed again.
 * Bugfix: Fixed position of note range display in Play mode.
 
 ## 4.3
@@ -566,7 +566,7 @@ Compatible with Bitwig 1.0.14.
 
 ## 3.10
 
-* Press Shift+Touchstrip to change its behaviour
+* Press Shift+Touchstrip to change its behavior
 * Added dis-/enabling Modulation Sources (Device -> Modulate)
 * If the master volume button is touched the master menu is temporarily displayed.
 * Flipping Session also flips the rec-enable and scene start buttons
@@ -587,7 +587,7 @@ Compatible with Bitwig 1.0.14.
 * Sequencer Mode now uses Scales.
 * Press Device twice to select editing of device parameters, common and envelope parameter, user parameters and macros
 * The played keys are lighting red if global or clip recording (does not work if recording clip is outside of the monitored 8x8 matrix).
-* Changed behaviour of new button: It creates now a new clip on the selected track and slot, starts play and enables overdub.
+* Changed behavior of new button: It creates now a new clip on the selected track and slot, starts play and enables overdub.
 * Long press Accent to change fixed accent value.
 * Press Shift+Quantize to access the Groove options.
 * Double click Play to move play cursor to start of song.
@@ -634,7 +634,7 @@ Compatible with Bitwig 1.0.14.
 ## 1.50
 
 * Added Sequencer Mode.
-* Fixed Shift behaviour.
+* Fixed Shift behavior.
 
 ## 1.02
 
