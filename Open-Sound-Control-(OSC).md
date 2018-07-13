@@ -1,15 +1,15 @@
+# Bitwig Studio | Open Sound Control (OSC) protocol
+
 Bitwig Studio script to support the OSC protocol.
 
-Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bitwig.html
+## The following OSC messages are sent from the script
 
-# The following OSC messages are sent from the script
-
-## Global
+### Send - Global
 
 * /project/name
 * /project/engine
 
-## Transport
+### Send - Transport
 
 * /play {1,0}
 * /record {1,0}
@@ -32,7 +32,7 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /tempo/raw {0-666}
 * /quantize
 
-## Layout and panels
+### Send - Layout and panels
 
 * /layout {arrange,mix,edit}
 * /arranger/playbackFollow {0,1}
@@ -49,7 +49,7 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /mixer/ioSectionVisibility {0,1}
 * /mixer/meterSectionVisibility {0,1}
 
-## Track
+### Send - Track
 
 * /track/{1-8}/name
 * /track/{1-8}/type
@@ -80,13 +80,13 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 
 * /master/...         as above, except sends
 
-## Scene
+### Send - Scene
 
 * /scene/{1-8}/exists
 * /scene/{1-8}/name
 * /scene/{1-8}/selected
 
-## Slots
+### Send - Slots
 
 * /track/{1-8}/clip/{1-N}/name
 * /track/{1-8}/clip/{1-N}/isSelected {1,0}
@@ -98,7 +98,7 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /track/{1-8}/clip/{1-N}/isStopQueued      (does not work)
 * /track/{1-8}/clip/{1-N}/isRecordingQueued
 
-## Device
+### Send - Device
 
 * /device/exists {0,1}
 * /device/name {text}
@@ -132,7 +132,7 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /device/sibling/{1-8}/name {name}
 * /device/sibling/{1-8}/selected {0,1}
 
-## Browser
+### Send - Browser
 
 * /browser/isActive {0,1}
 * /browser/filter/{1-6}/wildcard
@@ -147,13 +147,13 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /browser/result/{1-16}/isSelected
 * /browser/tab {name}                               The name of the selected browser tab
 
-## Play
+### Send - Play
 
 /vkb_midi/note/{0-127}/color rgb(r,g,b)   Sends different colors for root notes, scale notes, out-of-scale notes, pressed or sequence notes (in red if recording is enabled).
 
-# The following OSC messages can be received by the script
+## The following OSC messages can be received by the script
 
-## Global
+### Receive - Global
 
 * /preroll {0,1,2,4}
 * /undo
@@ -161,7 +161,7 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /project/{+,-}            Switch to the next/previous opened project
 * /project/engine {1,0,-}   De-/Activate the audio engine
 
-## Transport
+### Receive - Transport
 
 * /stop {1,-}
 * /play {1,-}
@@ -185,7 +185,7 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /position/{++,--}         Large in-/decrease of play position
 * /position {-2,-1,1,2}     Small in-/decrease of play position for -1 and 1, large for all other values
 
-## Layout and panels
+### Receive - Layout and panels
 
 * /layout/{arrange,mix,edit}
 * /panel/noteEditor {0,1}
@@ -207,7 +207,7 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /mixer/ioSectionVisibility {0,1}
 * /mixer/meterSectionVisibility {0,1}
 
-## Track
+### Receive - Track
 
 * /track/bank/{+,-}                 Scrolls bank by 1
 * /track/bank/page/{+,-}            Scrolls bank by 8
@@ -245,12 +245,15 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /track/indicate/volume {0,1}      Indicate the volumes of all 8 tracks
 * /track/indicate/pan {0,1}         Indicate the pans of all 8 tracks
 * /track/indicate/send/{1-8} {0,1}  Indicate send 1-8 of all 8 tracks
-
 * /track/selected/{attribute}
-
 * /master/... (as above, except sends)
 
-## Cursor Device / Primary Device
+### Receive - Track Groups
+
+* /track/{1-8}/enter   Enter the group, if the track is a group
+* /track/parent        Select the parent (group)
+
+### Receive - Cursor Device / Primary Device
 
 * /device/{+,-}
 * /device/window        Displays the window for VST plugins (or Bitwig devices with additional popout windows)
@@ -280,17 +283,16 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /device/layer/page/{+,-}
 * /device/drumpad/{1-16}/...  Same attributes as for a layer
 * /device/sibling/{1-8}/selected {0,1}
-
 * Same commands apply for the primary device but use /primary/... instead of /device/...
 
-## Scene
+### Receive - Scene
 
 * /scene/{1-8}/launch
 * /scene/{+,-}          Step by 1
 * /scene/bank/{+,-}     Step by 8
 * /scene/create         Create a new scene from all playing clips
 
-## Browser Actions
+### Receive - Browser
 
 * /browser/preset               Activates the browser to browse for presets of the currently selected device
 * /browser/device               Activates the browser to insert a device after the currently selected device
@@ -303,12 +305,7 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /browser/preset/{+,-}         Select the next/previous preset
 * /browser/tab/{+,-}            Select the next/previous tab (Devices/Presets/Multisamples/...)
 
-## Groups Actions
-
-* /track/{1-8}/enter
-* /track/parent
-
-## Play
+### Receive - Play
 
 * /vkb_midi/{Channel:0-16}/note/{Note:0-127} {Velocity:0-127}
 * /vkb_midi/{Channel:0-16}/note/+    1 octave up
@@ -322,7 +319,7 @@ Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bi
 * /vkb_midi/{Channel:0-16}/pitchbend {Pitch:0-127 (No-Bend:64)}
 * /vkb_midi/velocity {0-127 (0 disables fixed velocity, 1-127 fixes the velocity to the value)}
 
-## Misc
+### Receive - Misc
 
 * /action/{action-id}     Executes one action from the action list (e.g. /action/Save). Replace spaces in action-ids with a dash (e.g. /action/Select-All).
 * /refresh    Flushes all values to the clients

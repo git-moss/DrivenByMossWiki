@@ -1,5 +1,9 @@
-# 1.1
+# Generic Flexi - Changes
+
+## 1.1
+
 Compatible with Bitwig 2.3.
+
 * New: Track: Scroll Track
 * New: Device: Scroll device
 * New: Device: Scroll Parameter Bank
@@ -15,6 +19,8 @@ Compatible with Bitwig 2.3.
 * New: Added indication of selected parameters
 * Fixed: Relative modes of "Track Selected: Set Send X" did not work
 
-# 1.0
+## 1.0
+
 Compatible with Bitwig 2.3.
+
 * Initial release.

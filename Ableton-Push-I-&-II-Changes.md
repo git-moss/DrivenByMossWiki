@@ -1,5 +1,9 @@
-# 10.00 (unreleased)
-Requires Bitwig 2.??.
+# Ableton Push / Push 2 - Changes
+
+## 10.00 (unreleased)
+
+Requires Bitwig 2.4.
+
 * New: Drawing of Push 2 display is now fully integrated. No external application is needed anymore.
 * New: Devices display an icon
 * New: Clip mode has the option to display a piano roll.
@@ -7,23 +11,31 @@ Requires Bitwig 2.??.
 * New: The last selected mix mode (track, volume, pan , ...) is remembered.
 * New: Press Browser + Drum Pad in Drum View to open the browser.
 
-# 9.54 (unreleased)
+## 9.54 (unreleased)
+
 Requires Bitwig 2.3.
+
 * Fixed: Repeat button was lit in 64 drum pad mode.
 * Fixed: Push 2 menus were sometimes falsely selected in layer mode.
 
-# 9.53
+## 9.53
+
 Requires Bitwig 2.3.
+
 * Fixed: Browse+Pad in Session view did not bring up the browser dialog.
 
-# 9.52
+## 9.52
+
 Requires Bitwig 2.3.
+
 * New: Push 2: You can now select the 4th and 8th send by pressing the Shift button.
 * New: Push 1: Added Send 7 and 8 (Press Pan/Send multiple times)
 * Fixed: Push 1: Regression: Send selection did not work
 
-# 9.51
+## 9.51
+
 Requires Bitwig 2.3.
+
 * New: Push 2: Limit names of tracks, layers, devices and parameter banks to 12 characters.
 * New: Limit texts of browser results to 14 characters.
 * New: Changed text of audio engine state to "Active" and "Off".
@@ -33,58 +45,72 @@ Requires Bitwig 2.3.
 * Fixed: Touch state was not sent for master volume when changed via master knob.
 * Fixed: Some modes did not consume the delete button when used for resetting a value.
 
-# 9.50
+## 9.50
+
 Requires Bitwig 2.3.
+
 * New: Rearranged transport mode display (touch tempo or position knob). Added display of time signature.
 * New: Crossfade mode can now also be hidden on Push 2.
 * New: New option for Footswitches: Quantize the currently selected clip.
 * New: Push 1 and 2 are now always set to Poly Pressure when started.
 * New: Push 1 display was not updated correctly when there were non-ASCII characters in the FX parameter names.
 
-#9.41
+## 9.41
+
 * New: Support for pinning the cursor device from Push.
 
-#9.40
+## 9.40
+
 * New: Support for pinning tracks and devices
 * New: Harmonized track navigation with master track. Pressing the button below the master track will move into the master tracks' devices. Going up from devices selects the master track.
 * New: Slowed down scrolling of crossfader assignment and scale knob.
 * New: When no device or layer is selected the button to go up to the tracks is still displayed.
 * Fixed: Grid notes were not updated when switched to effect or master track.
 
-#9.31
+## 9.31
+
 * Fixed: Add Device button did not work (regression in 9.30).
 * Fixed: Modifying values of the 2nd page of a drum pad layers did modify the values of the 1st page.
 * Fixed: Drumpads did not produce sound after a button combination with delete, mute, solo or select was used.
 * Fixed: Loop length in clip mode was also offset by 1 but should not.
 
-#9.30
+## 9.30
+
 * New: Slowed down scrolling of browser columns and presets.
 * New: The values of the last touched browser column can now be changed with the tempo knob for finer adjustments.
 * New: Improved visibility of selected browser column filters.
 * New: If the browser is closed in Bitwig, the last active mode is set on the Push.
 * Fixed: Resetting a browser column did crash the extension.
 
-#9.25
+## 9.25
+
 * Fixed: The time values displayed in clip mode were 0 based instead of 1 as displayed in Bitwig.
 * New: The change speed of play start, end, loop start, length in Clip Mode are slowed down.
 
-#9.24
+## 9.24
+
 * Fixed: Drawing of scene birds eye view was not correct if scene/track numbers were not a multiple of 8.
 * Fixed: Push 1: Non-ASCII characters in track names did not work
 
-#9.23
+## 9.23
+
 Requires Bitwig 2.1.
+
 * New: Setting for a preferred note view to use for new tracks.
 * New: Prevent flickering when accidently touching the tempo or position knob while tweaking one of the other 8 knobs.
 
-# 9.22
+## 9.22
+
 Requires Bitwig 2.1.
+
 * New: The devices and track views use the 8th button above the display (2nd row on Push 1) for navigating up in the hierarchy.
 * New: Devices view contains a new "Banks" toggle button to toggle between banks and devices. This is especially useful for instruments which contain layers (incl. Multiout VSTs).
 * New: Changed Whole-half and added Half-whole scale.
 
-# 9.21
+## 9.21
+
 Requires Bitwig 2.1.
+
 * New: Scenes can be started from Play and Piano view.
 * New: Push 2: The last selected mix mode is remembered when switching back from other modes.
 * New: Push 2: Long pressing the Stop Clip button does indicate if a track has a playing clip by coloring the track buttons red.
@@ -97,12 +123,16 @@ Requires Bitwig 2.1.
 * Fixed: Push 1: Send mode did not work
 * Fixed: Push1: Length of value display was too long
 
-# 9.20
+## 9.20
+
 Requires Bitwig 2.1.
+
 * New: In sequencer and drum mode the loop selection buttons represent now one page (not a measure as before). Pressing one of the pads selects the page. To set a "one pad" loop press the pad again.
 
-# 9.10
+## 9.10
+
 Requires Bitwig 2.1.
+
 * New: When in Session view and press Session again a menu turns up (like in note view) where you can select different views. The normal Sesson view, the flipped version and a new Scene view. This view displays the first 64 scenes ready for jamming. The color of a scene uses the color of the first clip found in the scene (only checks in the first 8 tracks). Use the Layout button on Push 2 to quickly step through these views.
 * New: Changed the layout of the Drum 64 view to match the normal Drum view.
 * New: The Fixed Length menu contains a new row with options which allows to create a new clip without storing the length.
@@ -116,8 +146,10 @@ Requires Bitwig 2.1.
 * Fixed: Holding Record and selecting a track could only arm 1 track. After that the record button had to be released and pressed again.
 * Fixed: 64 Drum mode: Sounds did not play when octave was transposed.
 
-# 9.00
+## 9.00
+
 Requires Bitwig 2.1.
+
 * New: Written now in Java
 * New: **Black** keys in Piano mode are now using the track color.
 * New: Setting to turn off to display clips of record enabled tracks in red
@@ -137,7 +169,8 @@ Requires Bitwig 2.1.
 * Fixed: Changing the Metronome volume was not working, change now with Select+Knob 9.
 * Fixed: Long pressing Automation did not bring up the automation selection when arranger/clip record was toggled.
 
-# 8.10
+## 8.10
+
 * New: Session mode: Press "Stop Clip" + any pad on a track to stop the currently playing clip on that track.
 * New: Stop Clip + Track is now also working when not in Session mode. Furthermore, you can use the 1st or 2nd-row buttons.
 * New: Option in Settings to turn off empty drum sequencer pads (otherwise orange).
@@ -146,30 +179,34 @@ Requires Bitwig 2.1.
 * New: Performance improvements
 * Fixed: Select+Pad and Delete+Pad was not working in 64 drum mode.
 
-# 8.00
+## 8.00
+
 Requires Bitwig 2.0.
+
 * New: New track details mode with option to set track color (keep Select pressed)
 * New: New layer details mode with option to set layer/drum pad color (keep Select pressed)
 * New: Clip mode
-    * Keep Delete pressed and touch 8th knob to reset the accent.
-    * You can set the clip color
+  * Keep Delete pressed and touch 8th knob to reset the accent.
+  * You can set the clip color
 * New: Basic version of 64 pad drum view (enter drum mode, keep Shift pressed and then press 4th scene button).
 * New: Press "Add Device" to add a device after the currently selected one
 * New: Press Shift+"Add Device" to add a device before the currently selected one
 * New: Browser
-    * Press Shift+Browse to cancel browsing
-    * Rearrangement of browser layout
-    * New: The browser filter columns can be hidden in the settings
-    * New: Press Delete + touch knob to reset filter
-    * New: Change the tabs of the browser with the left/right cursor buttons (especially useful with the Sampler)
-    * New: Hold *Browse* and select a pad in Session mode to browse for clips
+  * Press Shift+Browse to cancel browsing
+  * Rearrangement of browser layout
+  * New: The browser filter columns can be hidden in the settings
+  * New: Press Delete + touch knob to reset filter
+  * New: Change the tabs of the browser with the left/right cursor buttons (especially useful with the Sampler)
+  * New: Hold *Browse* and select a pad in Session mode to browse for clips
 * New: Push 2: Modulation of parameter values is now displayed (Push2Display updated to support this)
 * New: Preference to reverse the behaviour of the record and overdub functions
 * Fixed: Scrolling with cursor keys could lead to endless scrolling
 * Fixed: On Screen parameter notification for empty parameter (displayed ":")
 
-# 7.42
+## 7.42
+
 Requires Bitwig 1.3.15+
+
 * New: Added button to master mode to turn on/off audio engine.
 * New: Adding a track now selects it.
 * New: Shift+Duplicate to create a new scene from the currently playing clips
@@ -178,13 +215,16 @@ Requires Bitwig 1.3.15+
 * Fixed: Octave up/down in raindrop sequencer did switch track but should change octave.
 * Fixed: Switching between Mute and Solo mode did not work on Push 1 in Drum sequencer.
 
-# 7.41
+## 7.41
+
 * New: Smoother value updates
 * Fixed: Added missing knob labels in Master mode (Push 2)
 * Fixed: Changing discrete direct parameters works again
 
-# 7.40
+## 7.40
+
 Requires Bitwig 1.3.15+
+
 * New: Duplicate+Track-Select duplicates track
 * New: Duplicate+Clip duplicates the clip
 * New: Double/Double Loop: Duplicate the content of the currently selected clip
@@ -199,7 +239,8 @@ Requires Bitwig 1.3.15+
 * Fixed: Scale not updated in sequencers when changed.
 * Fixed: Accent mode not working in raindrop sequencer.
 
-# 7.34
+## 7.34
+
 * New: 2 new drum modes. Press Shift in drum mode and use upper 3 scene buttons to change modes. 2nd mode displays 4 drum sound, 3rd mode 8. Use the lower 4 scene buttons in 2nd mode to toggle between the drum sounds 1-4, 5-8, 9-12, 13-16. Use the lower 2 scene buttons in 3rd mode to toggle the drum sounds 1-8, 9-16.
 * New: Added new scale layout "8th centered". Moved the layout orientation into a separate button.
 * New: Display on screen notification about grid resolution for all sequencers.
@@ -211,110 +252,122 @@ Requires Bitwig 1.3.15+
 * Fixed: Poly aftertouch error when note was out of range.
 * Fixed: Fixed drum notes not sounding when pads are muted or soloed.
 * Push 2:
-    * Fixed: Ribbon LEDs for crossfader in session mode were not displayed correctly.
-    * Fixed: Notifications were not shown on the display (e.g. note ranges)
+  * Fixed: Ribbon LEDs for crossfader in session mode were not displayed correctly.
+  * Fixed: Notifications were not shown on the display (e.g. note ranges)
 
-# 7.33
+## 7.33
+
 * Fixed: Keeping Session button pressed did not return to previous play view.
 
-# 7.32
+## 7.32
+
 * New: Octave pads in play, sequencer and raindrop view are now colored in the tracks color.
 * New: Added Option: Select Clip on Launch
 * New: Added Option: Stop Automation on knob release
 * Fixed: Touchstrip LEDs were not set correctly
 * Push 2:
-    * Push2Display: Restore window position at startup.
-    * Push2Display: Show warning message if configuration file could not be stored.
+  * Push2Display: Restore window position at startup.
+  * Push2Display: Show warning message if configuration file could not be stored.
 
-# 7.31
+## 7.31
+
 * New: Overview navigation for session. Keep Shift button pressed in Session mode.
 * New: Added new option to Play button behaviour: **Pause** behaves like the Space bar.
 * Fixed poly aftertouch not working with Push 2.
 * Fixed ribbon LEDs on Push 2 when in CC or Fader mode.
 * Fixed: Bank range in grouped tracks behaves weird (requires Bitwig 1.3.8 RC 2+)
 
-# 7.30
-* Push 1/2:
-    * New Workflowsetting: Auto-Select drum channel (Off, Channel)
-    * Changed Automation Override button combination from Select + Automation to Delete + Automation.
-    * Improved workaround for quantize function.
-    * Fixed: Important performance improvement (updates of button LEDs are only done when changed) which fixes external hardware sync.
-    * Fixed: Pressing Delete+Pad did also start play or record
-    * Fixed: 8th button of first row was not turned off on shutdown
-    * Fixed: New clip creation for 1 and 2 Beat length.
-    * Fixed lighting of some buttons
-* Push 2:
-    * New: Press Convert button to bring up the Slice to Drum Machine dialog.
-    * New: Press Shift+Convert button to bring up the Slice to Multisample dialog.
-    * Activate Poly Aftertouch on startup.
-    * Added version number to Push2Display.
-* Push 1:
-    * Fixed: Displayed was not cleared on shutdown
+## 7.30
 
-# 7.22
+* Push 1/2:
+  * New Workflowsetting: Auto-Select drum channel (Off, Channel)
+  * Changed Automation Override button combination from Select + Automation to Delete + Automation.
+  * Improved workaround for quantize function.
+  * Fixed: Important performance improvement (updates of button LEDs are only done when changed) which fixes external hardware sync.
+  * Fixed: Pressing Delete+Pad did also start play or record
+  * Fixed: 8th button of first row was not turned off on shutdown
+  * Fixed: New clip creation for 1 and 2 Beat length.
+  * Fixed lighting of some buttons
+* Push 2:
+  * New: Press Convert button to bring up the Slice to Drum Machine dialog.
+  * New: Press Shift+Convert button to bring up the Slice to Multisample dialog.
+  * Activate Poly Aftertouch on startup.
+  * Added version number to Push2Display.
+* Push 1:
+   Fixed: Displayed was not cleared on shutdown
+
+## 7.22
+
 * Improved device navigation:
-    * If no device is selected (e.g. no device on the track) and *Device Out* is pressed the view is switched to the current track.
-    * If *Device In* is pressed in a track/mix mode and it is not a group the view is switched to device mode.
-    * If *Device Out* is pressed on a top level device the view is switched to track mode.
-    * If *Device In* is pressed on a multi-output VST plugin but no output layers were created the parameters are shown instead of an error that there are no layers.
+  * If no device is selected (e.g. no device on the track) and *Device Out* is pressed the view is switched to the current track.
+  * If *Device In* is pressed in a track/mix mode and it is not a group the view is switched to device mode.
+  * If *Device Out* is pressed on a top level device the view is switched to track mode.
+  * If *Device In* is pressed on a multi-output VST plugin but no output layers were created the parameters are shown instead of an error that there are no layers.
 * NOTE: There is currently a bug in Bitwig which crashes Bitwig Studio if you switch from layers to devices under certain circumstances!
 
-# 7.21
+## 7.21
+
 * Fixed: Script did crash on Linux when a song was closed. Workaround for a Bitwig bug.
 
-# 7.20
+## 7.20
+
 * Push 1
-    * New: Added Firmware version information to configuration mode (long press User button)
+  * New: Added Firmware version information to configuration mode (long press User button)
 * Push 2
-    * New: Added Setup mode. Allows to set the display brightness, LED brightness and the response of the pads. Press Setup button
-    * New: Added Info mode. Displays the Firmware version, build revision and serial number of the device.
-    * Fixed: Device layers could not be displayed if no send existed
+  * New: Added Setup mode. Allows to set the display brightness, LED brightness and the response of the pads. Press Setup button
+  * New: Added Info mode. Displays the Firmware version, build revision and serial number of the device.
+  * Fixed: Device layers could not be displayed if no send existed
 
-# 7.11
+## 7.11
+
 * Push 2:
-    * Improved: USB lookup of device
-    * Fixed: Menu display for devices: On-State was not set, Window menu was missing for VSTs.
+  * Improved: USB lookup of device
+  * Fixed: Menu display for devices: On-State was not set, Window menu was missing for VSTs.
 
-# 7.10
+## 7.10
+
 * Push 1/2:
-    * New: Implemented Volume, Pan and Sends modes for the layers view. 
-        * Push 1: Use **Select+Volume/Pan/Track** buttons to activate. For Sendmodes press **Pan** multiple times.
-        * Push 2: Use the menu buttons above the display to activate.
-    * Improved: If no device is selected the primary device of the current channel (if any) is used. This prevents that you have to manually select a device with the mouse.
-    * Improved: Deactivated **Add Effect** button since the function is currently not working and just confused users (requires API fix)
+  * New: Implemented Volume, Pan and Sends modes for the layers view.
+    * Push 1: Use **Select+Volume/Pan/Track** buttons to activate. For Sendmodes press **Pan** multiple times.
+    * Push 2: Use the menu buttons above the display to activate.
+  * Improved: If no device is selected the primary device of the current channel (if any) is used. This prevents that you have to manually select a device with the mouse.
+  * Improved: Deactivated **Add Effect** button since the function is currently not working and just confused users (requires API fix)
 * Push 2:
-    * Improved: Deactivated LED on unused buttons Convert and Setup
-    * Fixed: Script did crash when non-ASCII characters were used in names
-    * Fixed: In Track view soloing the selected track also soloed the mastertrack
-    * Fixed: Sends were not displayed in Track View for the last channel when tracks were less than 8
-    * Fixed: Menu for long press Mute/Solo was not displayed in Sendviews
-    
-# 7.00
-* Push 1 & 2
-    * New: Added Mute, Solo and Auto Monitor buttons to Master track (use 2nd row buttons like with normal tracks).
-    * New: The flip mode of the session view is now be stored as a setting
-    * New: In device mode the buttons next to ON/OFF device are now device, fixed, direct and expand,macro,parameters like when pressing the device button twice.
-    * Improved: Drum Pads no longer sound when used in combination with Delete, Mute or Solo buttons.
-    * Improved: Button redrawing on track change (removed flickering)
-    * Improved: Better readability in Browser mode
-    * Improved: Display of Groove mode
-    * Fixed: Unused knobs in Groove mode were not deactivated and produced errors
-    * Fixed: Select indication of Device, Volume, Track, Pan and Clip did not work all the time
-    * Fixed: Marker enablement in Panel selection view.
-    * Fixed: Midi CC 127 could not be selected for ribbon.
-    * Fixed: Error when CC for ribbon was selected and the ribbon was not yet used
-    * Fixed: CC area of ribbon was not working in PB/CC mode
-* Push 2
-    * New: Implemented graphical support for the display
-    * New: Lock Solo/Mute (behaviour like Push 1): Shift+Solo/Mute
-    * Improved: Push2Display: Correct default path for Bitwig Studio depending on OS
-    * Fixed: Push2Display: Start of Bitwig Studio did not work on Mac
-    * Fixed: Light intensity on monochrome buttons
+  * Improved: Deactivated LED on unused buttons Convert and Setup
+  * Fixed: Script did crash when non-ASCII characters were used in names
+  * Fixed: In Track view soloing the selected track also soloed the mastertrack
+  * Fixed: Sends were not displayed in Track View for the last channel when tracks were less than 8
+  * Fixed: Menu for long press Mute/Solo was not displayed in Sendviews
 
-# 6.00
+## 7.00
+
+* Push 1 & 2
+  * New: Added Mute, Solo and Auto Monitor buttons to Master track (use 2nd row buttons like with normal tracks).
+  * New: The flip mode of the session view is now be stored as a setting
+  * New: In device mode the buttons next to ON/OFF device are now device, fixed, direct and expand,macro,parameters like when pressing the device button twice.
+  * Improved: Drum Pads no longer sound when used in combination with Delete, Mute or Solo buttons.
+  * Improved: Button redrawing on track change (removed flickering)
+  * Improved: Better readability in Browser mode
+  * Improved: Display of Groove mode
+  * Fixed: Unused knobs in Groove mode were not deactivated and produced errors
+  * Fixed: Select indication of Device, Volume, Track, Pan and Clip did not work all the time
+  * Fixed: Marker enablement in Panel selection view.
+  * Fixed: Midi CC 127 could not be selected for ribbon.
+  * Fixed: Error when CC for ribbon was selected and the ribbon was not yet used
+  * Fixed: CC area of ribbon was not working in PB/CC mode
+* Push 2
+  * New: Implemented graphical support for the display
+  * New: Lock Solo/Mute (behaviour like Push 1): Shift+Solo/Mute
+  * Improved: Push2Display: Correct default path for Bitwig Studio depending on OS
+  * Fixed: Push2Display: Start of Bitwig Studio did not work on Mac
+  * Fixed: Light intensity on monochrome buttons
+
+## 6.00
+
 * Initial support for the Push 2 hardware. Note the necessary installation instructions for the Push 2!
 
-# 5.02
+## 5.02
+
 * New view for editing the loop of a clip. This is the default view for audio tracks.
 * Fixed: Scaling of knobs did not work in combination with Shift.
 * Fixed: Setting of positive values for Clip Shuffle Accent.
@@ -328,7 +381,8 @@ Requires Bitwig 1.3.15+
 * Fixed: Confirming / Cancelling of browser was missing. Press now Browse again to Confirm or Select+Browse to Cancel.
 * Fixed: Crossfader B could not be selected in Crossfader mode
 
-# 5.01
+## 5.01
+
 * Fine (Shift pressed) changed from 0.5 to 0.25
 * Fixed: Changing direct parameters works again (still broken non continuous parameters).
 * Fixed: Crossfader B could not be selected
@@ -338,8 +392,10 @@ Requires Bitwig 1.3.15+
 * Fixed: Notes did not cover the full range (octave range extended).
 * Fixed: Prevented midi error with VUs if track is clipping
 
-# 5.0
+## 5.0
+
 Compatible with Bitwig 1.2.
+
 * Support for groups
 * Support for new browser
 * Window open/close button in device modes is now only lit when it is an external plugin
@@ -352,17 +408,16 @@ Compatible with Bitwig 1.2.
 * Activated ribbon for all views.
 * When switching plugins the selected device mode is remembered, also available as a setting
 * Several options for Footswitch 2 in the settings:
-    * Toggle Play
-    * Toggle Record
-    * Stop All Clips
-    * Toggle Clip Overdub
-    * Undo
-    * Tap Tempo
-    * New Button
-    * Clip Based Looper:
-        - If there is no clip in the selected slot, pressing the foot pedal creates a clip and begins Overdub mode. Releasing it ends Overdub mode.
-        - If there is a clip in the selected slot, pressing the foot pedal enables Overdub. Releasing it turn Overdub off.
-
+  * Toggle Play
+  * Toggle Record
+  * Stop All Clips
+  * Toggle Clip Overdub
+  * Undo
+  * Tap Tempo
+  * New Button
+  * Clip Based Looper:
+    * If there is no clip in the selected slot, pressing the foot pedal creates a clip and begins Overdub mode. Releasing it ends Overdub mode.
+    * If there is a clip in the selected slot, pressing the foot pedal enables Overdub. Releasing it turn Overdub off.
 * Touching a parameter knob now displays an on screen notification
 * Deactivated the knobs above the tempo and play position values in navigation mode to prevent accidental changes while using the small knobs
 * Implemented Sends for Instrument layers.
@@ -372,8 +427,10 @@ Compatible with Bitwig 1.2.
 * Fixed: Parameter Bank "Fixed" was not selected when a different mode than "Common" was selected
 * Fixed: Displayed 1 octave too low when changing octaves up/down.
 
-# 4.4
+## 4.4
+
 Compatible with Bitwig 1.1.8.
+
 * New play mode 'Piano' with keyboard like layout
 * New scale offsets by 8ths
 * Added new settings option to convert the Poly Aftertouch of the pads to Channel Aftertouch or a CC.
@@ -381,8 +438,10 @@ Compatible with Bitwig 1.1.8.
 * Bugfix: Fixed behaviour of Master button: Does no longer select master button if long pressed to enter frames mode. Previous mode gets correctly restored if pressed again.
 * Bugfix: Fixed position of note range display in Play mode.
 
-# 4.3
+## 4.3
+
 Compatible with Bitwig 1.1.6.
+
 * Drumpads now use the colors set in the drum machine.
 * Pressing SELECT and a drum pad now also selects the device drum channel in the display.
 * Added possibility to toggle between Devices and Parameter-Pages with Shift+DeviceIn for multi output VST plugins.
@@ -394,20 +453,23 @@ Compatible with Bitwig 1.1.6.
 * Fixed lighting of right arrow for track navigation
 * Fixed that all LEDS turn green after adding an Instrument via drag and drop into the arrangement view.
 
-# 4.2
+## 4.2
+
 * New preference setting to return to zero when stop is pressed.
 * New preference setting to display (or not) the crossfader parameter in the track.
 * Bugfix: Clip recording did not start when pad was pressed if Bitwig was not already playing.
 * Bugfix: When switching the ribbon from Pitchbend to CC the ribbon lights were not initialised correctly.
 * Bugfix: Two green colors had the same value on the Push.
 
-# 4.1
+## 4.1
+
 Compatible with Bitwig 1.1.2.
+
 * Completely rewrote bank selection and navigation of devices (Ableton style)
 * Rewrote device selection (Ableton style) but has some open issues due to API limitations:
-     * Devices are not correctly selected on the display if are duplicates with the same name
-     * Direct parameters might get screwed
-     * Devices in a layer are not displayed with names (there are always 8 dummy names)
+  * Devices are not correctly selected on the display if are duplicates with the same name
+  * Direct parameters might get screwed
+  * Devices in a layer are not displayed with names (there are always 8 dummy names)
 * Drum pads in drum view now show mute/solo and active/exists states. To make this work the primary device needs to be the drum machine (which is normally the case).
 * Rewrote patch selection mode which makes use of the touch capability of the value buttons.
 * Long press User button to adjust the pad sensitivity. Also configurable in the script settings.
@@ -426,8 +488,10 @@ Compatible with Bitwig 1.1.2.
 * Bugfix: Reset of crossfader setting not working (Delete + Touch)
 * Bugfix: Device parameter bank selection: 8th button was active but has no functionality.
 
-# 4.0
+## 4.0
+
 Compatible with Bitwig 1.1.
+
 * Performance increase.
 * To change the play views press note and select one from the display.
 * New sequencer: Raindrops
@@ -461,21 +525,24 @@ Compatible with Bitwig 1.1.
 * Added [Shift + Automation] Toggles the clip launcher automation write enabled state of the transport.
 * Added [Select + Automation] Resets any automation overrides.
 * Added [Delete + Encoder0, Encoder1 touch]  MasterMode reset volume, pan.
-* Added [Delete + Encoder9] reset Master track volume in any mode. 
+* Added [Delete + Encoder9] reset Master track volume in any mode.
 * Bugfix: Device mode buttons did not work when in Session view.
 * Added [Shift + Ribbon] to center the crossfader.
 * Switched functionality of Duplicate and Double buttons
 * Bugfix: Enabled state of Groove had to be pressed twice.
 * BugFix: Accent toggle was reversed.
 
-# 3.33
+## 3.33
+
 Compatible with Bitwig 1.0.14.
+
 * Shift+Small Knob 1: Fine adjust tempo
 * Bugfix: Added missing implementation of light states of cursors in Play mode.
 * Bugfix: Corrected colors of rec armed tracks and clip states in Session mode.
 * Bugfix: Corrected colors of Solo buttons.
 
-# 3.30
+## 3.30
+
 * Press Track button twice to toggle between editing of normal tracks and effect tracks. To toggle VUs press now Shift+Track.
 * Playing sequencer notes are now reflected on the Play and Drum grid.
 * The names of the Send tracks are now displayed.
@@ -487,7 +554,8 @@ Compatible with Bitwig 1.0.14.
 * Memory savings due to change from inline functions to class functions.
 * Bugfix: Hold the delete key and touch a knob to reset its value in Device Mode was broken.
 
-# 3.20
+## 3.20
+
 * Hold Session while in Note mode to switch temporarily to Session mode
 * Knobs change values now by how fast you turn them.
 * If no track is selected a text is now displayed.
@@ -496,7 +564,8 @@ Compatible with Bitwig 1.0.14.
 * Bugfix: Master Knob temporary mode behavior not returning to all previous modes.
 * Bugfix: Full maximum value range of knobs might not have been reached.
 
-# 3.10
+## 3.10
+
 * Press Shift+Touchstrip to change its behaviour
 * Added dis-/enabling Modulation Sources (Device -> Modulate)
 * If the master volume button is touched the master menu is temporarily displayed.
@@ -513,7 +582,8 @@ Compatible with Bitwig 1.0.14.
   * The non selected armed tracks will be dim red while the selected armed track will be bright red.
   * The selected track unarmed will be dim yellow and the selected track will be bright orange.
 
-# 3.00
+## 3.00
+
 * Sequencer Mode now uses Scales.
 * Press Device twice to select editing of device parameters, common and envelope parameter, user parameters and macros
 * The played keys are lighting red if global or clip recording (does not work if recording clip is outside of the monitored 8x8 matrix).
@@ -524,9 +594,10 @@ Compatible with Bitwig 1.0.14.
 * Footswitch 2 now triggers the new button.
 * Small fix for tap tempo.
 * Fixed that right/left arrows incorrectly refresh playing pads
-* Fixed turning off blinking when switching from Session to other views. 
+* Fixed turning off blinking when switching from Session to other views.
 
-# 2.50
+## 2.50
+
 * Added Drum Sequencer (Press Shift + Note).
 * Patch browsing (In Device mode press Browse).
 * Toggle perspectives and panels (Keep Master pressed).
@@ -538,7 +609,8 @@ Compatible with Bitwig 1.0.14.
 * Footswitch 2: Toggle record
 * Volume, Track and Master mode display now VU meters. Press one of these buttons twice to turn off.
 
-# 2.00
+## 2.00
+
 * Added indication on editable parameters, macros, volumes, etc.
 * Added macro control (press Device twice)
 * Shift+Record toggles launcher overdub.
@@ -555,16 +627,20 @@ Compatible with Bitwig 1.0.14.
 * Fixed lighting of Mute and Solo buttons.
 * Fixed hang after script restart.
 
-# 1.51
+## 1.51
+
 * More scales.
 
-# 1.50
+## 1.50
+
 * Added Sequencer Mode.
 * Fixed Shift behaviour.
 
-# 1.02
+## 1.02
+
 * Added auto configuration string for Linux.
 * Performance improvements.
 
-# 1.01
+## 1.01
+
 * Shift + Undo now executes Redo.

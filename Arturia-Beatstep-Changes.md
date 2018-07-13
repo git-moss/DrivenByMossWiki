@@ -1,52 +1,63 @@
-# 4.02 (unreleased)
+# Arturia Beatstep and Beatstep Pro - Changes
+
+## 4.02 (unreleased)
+
 * Fixed: Switching modes on the Beatstep Pro was broken.
 
-# 4.01
+## 4.01
+
 * New: The hardware sequencer is now split up into a separate channel, so you can use it with Bitwig as well. To make this work reinstall the Template coming with the Extension. Note that the button colors are still overwritten when you use the sequencer.
 * Fixed: Wrong name for Midi input (displayed Launchpad)
 * Fixed: (Beatstep Pro) The name of the "Control" channel of the Pro was wrong (was "Beatstep Pro").
 * Fixed: (Beatstep Pro) Sequencers channels were interpreted as controller channel, which caused some chaos
 * Fixed: (Beatstep Pro) The step buttons did not work (they do what the Shift menu does on the Beatstep)
 
-# 4.0
+## 4.0
+
 Requires Bitwig 2.1.
+
 * New: Written now in Java
 * New: Aftertouch settings
 
-# 3.00
+## 3.00
+
 Requires Bitwig 2.0.
+
 * New: Since Macros are removed the Device mode now contains the track parameters on the first row
 * New: Press Shift+6th pad to add a device before the currently selected one
 * New: Press Shift+7th pad to add a device after the currently selected one
 * Fixed: Midi channel of drum sequencer on Beatstep Pro (was 11 instead of 10).
 * Fixed: After using the browser the Shift view was displayed
 
-# 2.05
+## 2.05
+
 Requires Bitwig 1.3.15+
+
 * Fixed: Some issues with discrete parameter changes.
 
-# 2.04
+## 2.04
+
 Requires Bitwig 1.3.15+
+
 * New: Smoother value updates
 * New: Track scrolls into view when selected
 
-# 2.03
+## 2.03
+
 * Fixed: Bank range in grouped tracks behaves weird (requires Bitwig 1.3.8 RC 2+)
 
-# 2.02
+## 2.02
 
 * Fixed that Beatstep Pro script reacts to all midi channels. Now only the controller channel is accepted.
 
-
-# 2.01
+## 2.01
 
 Compatible with Bitwig 1.2/1.3.
 
 * 8 Pads in the browser mode can now be used for preset preview.
 * Fixed: Note range did not cover the full range (octave range extended).
 
-
-# 2.00
+## 2.00
 
 Compatible with Bitwig 1.2.
 
@@ -60,15 +71,13 @@ Compatible with Bitwig 1.2.
 * Support to open/close VST windows
 * Fixed: Selection of crossfader
 
-
-# 1.02
+## 1.02
 
 Compatible with Bitwig 1.1.x.
 
 * Fixed: Device Mode: Entering of drum machine (drum pad layers) did not work.
 * Bugfix: Fixed track navigation for effect tracks.
 
-
-# 1.01
+## 1.01
 
 Compatible with Bitwig 1.1.6.

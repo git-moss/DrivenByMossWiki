@@ -1,12 +1,12 @@
-Welcome to the DrivenByMoss wiki!
+# Welcome to the DrivenByMoss wiki
 
 This Bitwig Studio Extension supports several controllers at once.
 
-**The version on GitHub might always be in an alpha or beta state, you have been warned!**
+> **The version on GitHub might always be in an alpha or beta state, you have been warned!**
 
-Get the latest stable release from: http://www.mossgrabers.de/Software/Bitwig/Bitwig.html
+Get the latest stable release from [my homepage](http://www.mossgrabers.de/Software/Bitwig/Bitwig.html).
 
-There are several in-depth video tutorials available: https://www.youtube.com/playlist?list=PLqRWeSPiYQ67o_9hKx4-ATmX9qGWuEeNm
+There are several in-depth video tutorials available on [Youtube](https://www.youtube.com/playlist?list=PLqRWeSPiYQ67o_9hKx4-ATmX9qGWuEeNm)
 
 First start with the installation instructions: [Installation](Installation)
 

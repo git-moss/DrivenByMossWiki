@@ -15,7 +15,7 @@ Support script for Native Instruments Komplete Kontrol controller Version 1. You
 
 ## Transport buttons
 
-* **LOOP** - Toggle repeat 
+* **LOOP** - Toggle repeat
 * **RWD (Rewind)** - Rewinds play cursor position until released.
 * **SHIFT+RWD (Rewind)** - Slowly rewinds play cursor position until released.
 * **FFW (Forward)** - Forwards play cursor position until released.

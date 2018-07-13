@@ -5,12 +5,12 @@ Support script for Akais' APC40 and APC40mkII controller. You can control track 
 ## Navigation
 
 * **Play** - Start/Stop playback. Double click to move play cursor to start of song.
-* **Shift+Play** - Toggle repeat 
+* **Shift+Play** - Toggle repeat
 * **Stop** *only mkI* - Stop playback. Press again to move play cursor to start of song.
 * **Record** - Start/Stop recording
 * **Shift+Record** - Creates a new clip on the selected track and slot, starts play and enables overdub.
 * **Shift+Track selection buttons** - Select the length for new clips: 16 bars, 8 bars, 4 bars, 2 bars, 1 bar, 2 beats, 1 beat, 32 bars
-* **Metronome** - Toggle metronome 
+* **Metronome** - Toggle metronome
 * **Shift + Metronome** - Enable Metronome Ticks
 * **Detail View** - Step through the three perspectives: ARRANGE, MIX and EDIT
 * **Cue Level** - Move play cursor (press shift for finer adjustment)
@@ -38,14 +38,14 @@ Support script for Akais' APC40 and APC40mkII controller. You can control track 
 * **Clip/Track** - Toggles the devices panel
 * **Shift+Detail View** - Toggle VST window
 
-### Specifics for the Mk I
+### Devices - Specifics for the Mk I
 
 * **Arrow left** - Move focus to previous device
 * **Arrow right** - Move focus to next device
 * **Shift+Arrow left** - Select previous parameter bank of device
 * **Shift+Arrow right** - Select next parameter bank of device
 
-### Specifics for the Mk II
+### Devices - Specifics for the Mk II
 
 * **Device Arrow left** - Move focus to previous device or select previous layer if in layer mode
 * **Device Arrow right**  - Move focus to next device or select next layer if in layer mode
@@ -56,13 +56,13 @@ Support script for Akais' APC40 and APC40mkII controller. You can control track 
 
 ## Browser
 
-### Specifics for the Mk I
+### Browser - Specifics for the Mk I
 
 * Press _Shift+Stop All Clips_ button
 * Navigate columns with the _Track Control knobs_.
 * To confirm the patch selection and close the Browser press Press _Shift+Stop All Clips_ again.
 
-### Specifics for the Mk II
+### Browser - Specifics for the Mk II
 
 * Press the _Bank_ button
 * Navigate columns with the _Track Control knobs_.
