@@ -4,9 +4,10 @@
 
 Requires Bitwig 2.4.
 
-* New: Drawing of Push 2 display is now fully integrated. No external application is needed anymore.
-* New: Devices display an icon
-* New: Clip mode has the option to display a piano roll.
+* New: Push 2: Drawing of display is now fully integrated. No external application is needed anymore.
+* New: Push 2: Devices display an icon
+* New: Push 2: Clip mode has the option to display a piano roll.
+* New: Push 2: Notifications (e.g. octave range) are now as an overlay.
 * New: The new session mode can display the names of scenes and clips.
 * New: The last selected mix mode (track, volume, pan , ...) is remembered.
 * New: Press Browser + Drum Pad in Drum View to open the browser.
