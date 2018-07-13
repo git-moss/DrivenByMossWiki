@@ -26,8 +26,9 @@ Only Beatstep Pro: In the Device Settings Tab set the User Midi Channel to 3.
 
 The ZIP file has a folder _resources/osc_ which contains 1 example file for Cycling 74s Max and 1 example file for TouchOSC (Android and iOS app).
 
-# Novation Lauchpad Pro specifics
-If you added the controller manually, choose the 2nd port (*MIDIIN2 (Launchpad Pro)* and *MIDIOUT2 (Launchpad Pro)* on Windows).
+# Novation Lauchpad specifics
+* Pro: If you added the controller manually, choose the 2nd port (*MIDIIN2 (Launchpad Pro)* and *MIDIOUT2 (Launchpad Pro)* on Windows).
+* Make sure the Launchpad sends on Midi Channel 1
 
 # Ableton Push specifics
 If you added the controller manually, choose **Ableton -> Push** or  **Ableton -> Push 2** depending on your specific controller. On **Push 1** make sure that for MIDI in- and output the 2nd port is selected (**MIDIIN2 (Ableton Push)** and **MIDIOUT2 (Ableton Push)** on Windows). For **Push 2** it is the first port.
