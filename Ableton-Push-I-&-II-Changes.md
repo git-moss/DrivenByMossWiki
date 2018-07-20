@@ -9,6 +9,7 @@ Requires Bitwig 2.4.
 * New: Push 2: Clip mode has the option to display a piano roll.
 * New: Push 2: Notifications (e.g. octave range) are now as an overlay.
 * New: Push 2: The VUs are now displayed in stereo.
+* New: The selected scene is highlighted in the Play- and Session view.
 * New: The new session mode can display the names of scenes and clips.
 * New: The last selected mix mode (track, volume, pan , ...) is remembered.
 * New: Press Browser + Drum Pad in Drum View to open the browser.
