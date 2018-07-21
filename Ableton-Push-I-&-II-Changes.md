@@ -6,7 +6,6 @@ Requires Bitwig 2.4.
 
 * New: Push 2: Drawing of display is now fully integrated. No external application is needed anymore.
 * New: Push 2: Devices display an icon
-* New: Push 2: Clip mode has the option to display a piano roll.
 * New: Push 2: Notifications (e.g. octave range) are now as an overlay.
 * New: Push 2: The VUs are now displayed in stereo.
 * New: The selected scene is highlighted in the Play- and Session view.
