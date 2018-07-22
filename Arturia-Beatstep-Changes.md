@@ -2,7 +2,8 @@
 
 ## 4.02 (unreleased)
 
-* Fixed: Switching modes on the Beatstep Pro was broken.
+* Fixed: Beatstep Pro: Switching modes was broken.
+* Fixed: Beatstep: The Shift key send a midi note via the Sequencer input
 
 ## 4.01
 

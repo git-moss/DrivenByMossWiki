@@ -12,6 +12,7 @@ Requires Bitwig 2.4.
 * New: The new session mode can display the names of scenes and clips.
 * New: The last selected mix mode (track, volume, pan , ...) is remembered.
 * New: Press Browser + Drum Pad in Drum View to open the browser.
+* Fixed: Parameter indication was always enabled.
 
 ## 9.54 (unreleased)
 
