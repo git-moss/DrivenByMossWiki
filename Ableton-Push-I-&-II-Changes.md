@@ -10,6 +10,7 @@ Requires Bitwig 2.4.
 * New: Push 2: The VUs are now displayed in stereo.
 * New: The selected scene is highlighted in the Play- and Session view.
 * New: The new session mode can display the names of scenes and clips.
+* New: Added marker mode to select cue markers (Session -> Markers)
 * New: The last selected mix mode (track, volume, pan , ...) is remembered.
 * New: Press Browser + Drum Pad in Drum View to open the browser.
 * Fixed: Parameter indication was always enabled.
