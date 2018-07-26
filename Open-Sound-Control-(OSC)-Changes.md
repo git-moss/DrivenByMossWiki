@@ -1,12 +1,20 @@
 # Open Sound Control (OSC) protocol - Changes
 
+## 6.00 (unreleased)
+
+* New: Receives /marker/{1-8}/launch
+* New: Receives /marker/bank/{+,-}
+* New: Sends /marker/{1-8}/exists {0,1}
+* New: Sends /marker/{1-8}/name {name}
+* New: Sends /marker/{1-8}/color rgb(r,g,b)
+
 ## 5.51
 
 * New: Added individual logging options for in- and outgoing OSC messages
 * New: Improvements to the Open Stage Control Template:
-        * Changed parameter fader colors to Bitwig parameter colors
-        * Added touch indication to sliders (parameters, volume, pan and sends)
-        * Hide non-existing tracks, devices and device banks
+  * Changed parameter fader colors to Bitwig parameter colors
+  * Added touch indication to sliders (parameters, volume, pan and sends)
+  * Hide non-existing tracks, devices and device banks
 
 ## 5.50
 
