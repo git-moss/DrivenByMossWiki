@@ -2,8 +2,9 @@
 
 ## 2.62 (unreleased)
 
-* Fixed: Display 2 formatting.
+* New: Added new marker mode (use marker button or assign to function key).
 * New: Pressing Mute, Solo, Rec Arm and Select in Mastermode leaves it.
+* Fixed: Display 2 formatting.
 
 ## 2.61
 
