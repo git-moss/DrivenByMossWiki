@@ -1,5 +1,13 @@
 # Generic Flexi - Changes
 
+## 1.2 (unreleased)
+
+Compatible with Bitwig 2.4.
+
+* New: Added commands for markers
+* New: Set indication for volume, pan, sends and parameters only if a command is configured
+
+
 ## 1.1
 
 Compatible with Bitwig 2.3.
