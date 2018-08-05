@@ -5,14 +5,18 @@
 Requires Bitwig 2.4.
 
 * New: Push 2: Drawing of display is now fully integrated. No external application is needed anymore.
-* New: Push 2: Devices display an icon
+* New: Push 2: Devices display an icon.
 * New: Push 2: Notifications (e.g. octave range) are now as an overlay.
 * New: Push 2: The VUs are now displayed in stereo.
 * New: The selected scene is highlighted in the Play- and Session view.
 * New: The new session mode can display the names of scenes and clips.
-* New: Added marker mode to select cue markers (Session -> Markers)
+* New: Added marker mode to select cue markers (Session -> Markers).
 * New: The last selected mix mode (track, volume, pan , ...) is remembered.
-* New: Press Browser + Drum Pad in Drum View to open the browser.
+* New: Press Browser + Drum Pad in Drum View and Drum 64 to open the browser.
+* New: All messages are always displayed in the display and on the screen.
+* New: Use different colors for scene buttons (scenes vs. resolutions).
+* New: Drum 64 view can now also start scenes.
+* New: Clip view displays the grid resolution when changed.
 * Fixed: Parameter indication was always enabled.
 
 ## 9.54 (unreleased)
