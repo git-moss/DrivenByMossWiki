@@ -8,6 +8,7 @@ Requires Bitwig 2.4.
 * New: Push 2: Devices display an icon.
 * New: Push 2: Notifications (e.g. octave range) are now as an overlay.
 * New: Push 2: The VUs are now displayed in stereo.
+* New: Push 2: Some modes have better contrast.
 * New: The selected scene is highlighted in the Play- and Session view.
 * New: The new session mode can display the names of scenes and clips.
 * New: Added marker mode to select cue markers (Session -> Markers).
