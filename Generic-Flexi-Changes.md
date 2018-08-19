@@ -5,6 +5,7 @@
 Compatible with Bitwig 2.4.
 
 * New: Added commands for markers
+* New: Added commands for device parameter page selection
 * New: Set indication for volume, pan, sends and parameters only if a command is configured
 
 
