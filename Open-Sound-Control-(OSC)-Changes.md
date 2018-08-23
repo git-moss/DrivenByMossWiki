@@ -7,6 +7,8 @@
 * New: Sends /marker/{1-8}/exists {0,1}
 * New: Sends /marker/{1-8}/name {name}
 * New: Sends /marker/{1-8}/color rgb(r,g,b)
+* New: Removed /action, use dedicated functions instead
+* New: /project/save - Saves the current project
 
 ## 5.51
 

@@ -4,7 +4,7 @@ Bitwig Studio script to support the OSC protocol.
 
 ## The following OSC messages are sent from the script
 
-### Send - Global
+### Send - Project
 
 * /project/name
 * /project/engine
@@ -158,6 +158,9 @@ Bitwig Studio script to support the OSC protocol.
 * /preroll {0,1,2,4}
 * /undo
 * /redo
+
+### Receive - Project
+
 * /project/{+,-}            Switch to the next/previous opened project
 * /project/engine {1,0,-}   De-/Activate the audio engine
 
