@@ -18,7 +18,12 @@ Requires Bitwig 2.4.
 * New: Use different colors for scene buttons (scenes vs. resolutions).
 * New: Drum 64 view can now also start scenes.
 * New: Clip view displays the grid resolution when changed.
+* New: Push 2: Tempo and Play Position are highlighted when respective knobs are touched.
+* New: Do not switch layer mode when selecting drum channel if one of the layer modes is already active.
+* New: Auto selecting drum channels now not only works for 16 pads (in Drum and drum 64).
+* New: The last selected track is remembered when you toggle between the track and effect bank.
 * Fixed: Parameter indication was always enabled.
+* Fixed: Push 2: Send 4/8 LED was always on when Shift was pressed (but should indiate the Send selection).
 
 ## 9.54 (unreleased)
 
