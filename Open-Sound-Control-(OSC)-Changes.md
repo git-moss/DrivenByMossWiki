@@ -1,6 +1,6 @@
 # Open Sound Control (OSC) protocol - Changes
 
-## 6.00 (unreleased)
+## 6.00
 
 * New: Receives /marker/{1-8}/launch
 * New: Receives /marker/bank/{+,-}

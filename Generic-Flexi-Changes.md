@@ -1,6 +1,6 @@
 # Generic Flexi - Changes
 
-## 1.2 (unreleased)
+## 1.2
 
 Compatible with Bitwig 2.4.
 

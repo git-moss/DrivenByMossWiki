@@ -1,6 +1,6 @@
 # Ableton Push / Push 2 - Changes
 
-## 10.00 (unreleased)
+## 10.00
 
 Requires Bitwig 2.4.
 
@@ -25,7 +25,7 @@ Requires Bitwig 2.4.
 * Fixed: Parameter indication was always enabled.
 * Fixed: Push 2: Send 4/8 LED was always on when Shift was pressed (but should indiate the Send selection).
 
-## 9.54 (unreleased)
+## 9.54
 
 Requires Bitwig 2.3.
 

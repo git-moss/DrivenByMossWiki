@@ -1,6 +1,6 @@
 # Arturia Beatstep and Beatstep Pro - Changes
 
-## 4.02 (unreleased)
+## 4.02
 
 * Fixed: Beatstep Pro: Switching modes was broken.
 * Fixed: Beatstep: The Shift key send a midi note via the Sequencer input

@@ -1,6 +1,6 @@
 # Mackie MCU - Changes
 
-## 2.62 (unreleased)
+## 2.62
 
 * New: Added new marker mode (use marker button or assign to function key).
 * New: Pressing Mute, Solo, Rec Arm and Select in Mastermode leaves it.
