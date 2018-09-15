@@ -1,12 +1,14 @@
 # Ableton Push / Push 2 - Changes
 
-## 10.10 (unreleased)
+## 10.10
 
 Requires Bitwig 2.4.
 
 * New: Sequencer note change (long press note) displays step and selected note.
 * Fixed: Sequencer note change (long press note) changed the wrong note and length change could become negative.
 * Fixed: Crash in Raindrop sequencer when clip was not playing.
+* Fixed: Implemented a workaround for scrolling browser filters which span more than 1 page.
+* Fixed: Drum 64 did try to scroll octave up/down in steps of 64 instead of 16.
 
 ## 10.00
 

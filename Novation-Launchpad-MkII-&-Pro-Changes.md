@@ -1,5 +1,11 @@
 # Novation Launchpad Pro & MkII - Changes
 
+## 3.42
+
+Requires Bitwig 2.4.
+
+* Fixed: Pressing Shift did not show birds-eyes-view in Session mode.
+
 ## 3.41
 
 Requires Bitwig 2.4.
