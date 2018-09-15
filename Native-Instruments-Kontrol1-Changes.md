@@ -2,6 +2,6 @@
 
 ## 1.0
 
-Compatible with Bitwig 2.3.
+Requires Bitwig 2.4.
 
 * Initial release.

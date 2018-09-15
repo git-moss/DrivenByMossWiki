@@ -2,6 +2,8 @@
 
 ## 4.02
 
+Requires Bitwig 2.4.
+
 * Fixed: Beatstep Pro: Switching modes was broken.
 * Fixed: Beatstep: The Shift key send a midi note via the Sequencer input
 

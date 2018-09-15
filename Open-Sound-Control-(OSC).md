@@ -147,6 +147,12 @@ Bitwig Studio script to support the OSC protocol.
 * /browser/result/{1-16}/isSelected
 * /browser/tab {name}                               The name of the selected browser tab
 
+### Send - Marker
+
+* /marker/{1-8}/exists {0,1}
+* /marker/{1-8}/name {name}
+* /marker/{1-8}/color rgb(r,g,b)
+
 ### Send - Play
 
 /vkb_midi/note/{0-127}/color rgb(r,g,b)   Sends different colors for root notes, scale notes, out-of-scale notes, pressed or sequence notes (in red if recording is enabled).
@@ -163,6 +169,7 @@ Bitwig Studio script to support the OSC protocol.
 
 * /project/{+,-}            Switch to the next/previous opened project
 * /project/engine {1,0,-}   De-/Activate the audio engine
+* /project/save             Save the current project
 
 ### Receive - Transport
 
@@ -322,7 +329,11 @@ Bitwig Studio script to support the OSC protocol.
 * /vkb_midi/{Channel:0-16}/pitchbend {Pitch:0-127 (No-Bend:64)}
 * /vkb_midi/velocity {0-127 (0 disables fixed velocity, 1-127 fixes the velocity to the value)}
 
+### Receive - Marker
+
+* /marker/{1-8}/launch      Start playback at the marker position
+* /marker/bank/{+,-}        Scroll the marker bank up-/down
+
 ### Receive - Misc
 
-* /action/{action-id}     Executes one action from the action list (e.g. /action/Save). Replace spaces in action-ids with a dash (e.g. /action/Select-All).
 * /refresh    Flushes all values to the clients

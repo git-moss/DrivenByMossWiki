@@ -2,7 +2,7 @@
 
 ## 1.10
 
-Compatible with Bitwig 2.3.
+Requires Bitwig 2.4.
 
 * New: Switch to flat tracks (instead of groups). Therefore, now all tracks are accessible.
 * New: Added individual logging options for in-/ and outgoing OSC messages
@@ -13,6 +13,6 @@ Compatible with Bitwig 2.3.
 
 ## 1.0
 
-Compatible with Bitwig 2.3.
+Requires Bitwig 2.3.
 
 * Initial release.

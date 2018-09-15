@@ -2,6 +2,8 @@
 
 ## 5.11
 
+Requires Bitwig 2.4.
+
 * Fixed: New features of version 3.01 were lost when switching to Java.
 
 ## 5.10

@@ -127,7 +127,7 @@ Press _"Note"_ and select *Play* to change to the Play view.
 Press _"Session"_ to enter **Session** mode. Keep button pressed to switch back to Note mode on release.
 This allows you to launch clips then release the Session button to jump straight back into Note mode.
 
-When in Session view and press Session again a menu turns up (like in note view) where you can select different views. The normal Session view, the flipped version and the Scene view. This view displays the first 64 scenes ready for jamming. The color of a scene uses the color of the first clip found in the scene (only checks in the first 8 tracks). Use the Layout button on Push 2 to quickly step through these views.
+When in Session view and press Session again a menu turns up (like in note view) where you can select different views. The normal Session view, the flipped version and the Scene view. This view displays the first 64 scenes ready for jamming. The color of a scene uses the color of the first clip found in the scene (only checks in the first 8 tracks). Use the Layout button on Push 2 to quickly step through these views. Furthermore, you can select the Marker and Clip mode.
 
 Hold *Browse* and select a pad to browse for clips.
 
@@ -169,6 +169,7 @@ Press _"Note"_ and select *Drum* to change to the Drum Sequencer.
 * Hold *Mute/Solo* button + Drumpad to mute/solo the drumpad.
 * To make the display of mute/solo/exists states work, the primary device needs to be the drum machine (which is normally the case).
 * Hold down the *Select* button while pressing a drumpad to select it without playing its sound. This also selects the according drum pad layer in the display.
+* Press *Browser + Drum Pad* in Drum View and Drum 64 to open the browser.
 * The Drumpads use the colors set in the drum machine for each pad.
 * There are three additional drum sequencers. Press Shift in drum mode and use upper 4 scene buttons to change between the four modes. 2nd mode displays 4 drum sound, 3rd mode 8. Use the lower 4 scene buttons (while holding Shift) in 2nd mode to toggle between the drum sounds 1-4, 5-8, 9-12, 13-16. Use the lower 2 scene buttons in 3rd mode to toggle the drum sounds 1-8, 9-16. The fourth mode displays 64 drum pads.
 

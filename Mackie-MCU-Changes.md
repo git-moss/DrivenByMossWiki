@@ -2,6 +2,8 @@
 
 ## 2.62
 
+Requires Bitwig 2.4.
+
 * New: Added new marker mode (use marker button or assign to function key).
 * New: Pressing Mute, Solo, Rec Arm and Select in Mastermode leaves it.
 * Fixed: Display 2 formatting.

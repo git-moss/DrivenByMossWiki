@@ -175,6 +175,11 @@ Touch the master fader to enter
 * To confirm a patch or device selection and close the Browser press the _Enter_ button.
 * To discard the patch selection press the _Cancel_ button.
 
+### Marker
+
+* Press the _Marker_ button to start. If you do not have a marker button you can assign this command to a function button.
+* Click the knobs to start the playback from a marker position.
+
 ## Foot switches
 
 * **Footswitch 1** (MCU USER A) - Function be assigned in the settings dialog.
