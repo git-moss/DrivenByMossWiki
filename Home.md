@@ -18,7 +18,7 @@ Supported controllers and protocols:
 * [Arturia Beatstep](Arturia-Beatstep) - [Changes](Arturia-Beatstep-Changes)
 * [Generic Flexi](Generic-Flexi) - [Changes](Generic-Flexi-Changes)
 * [Mackie MCU](Mackie-MCU) - [Changes](Mackie-MCU-Changes)
-* [Native Instruments Kontrol S25, S49, S61, S88 mk I](Native-Instruments-Kontrol1) - [Changes](Native-Instruments-Kontrol1-Changes) **UNRELEASED**
+* [Native Instruments Kontrol S25, S49, S61, S88 mk I](Native-Instruments-Kontrol1) - [Changes](Native-Instruments-Kontrol1-Changes)
 * [Native Instruments Kontrol S49, S61 mk II](Native-Instruments-Kontrol2) - [Changes](Native-Instruments-Kontrol2-Changes)
 * [Novation Launchpad MkII & Pro](Novation-Launchpad-MkII-&-Pro) - [Changes](Novation-Launchpad-MkII-&-Pro-Changes)
 * [Novation Remote SLmkI & mkII](Novation-Remote-SLmkI-&-mkII) - [Changes](Novation-Remote-SLmkI-&-mkII-Changes)

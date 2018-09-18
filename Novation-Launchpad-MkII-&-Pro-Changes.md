@@ -1,5 +1,11 @@
 # Novation Launchpad Pro & MkII - Changes
 
+## 3.43 (unreleased)
+
+Requires Bitwig 2.4.
+
+* Fixed: Navigating tracks with left/right cursor was broken.
+
 ## 3.42
 
 Requires Bitwig 2.4.
