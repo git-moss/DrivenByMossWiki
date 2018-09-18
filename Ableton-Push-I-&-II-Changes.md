@@ -1,5 +1,12 @@
 # Ableton Push / Push 2 - Changes
 
+## 10.20 (unreleased)
+
+Requires Bitwig 2.4.
+
+* New: If drum channel autoselect is active, try to keep the pads device if it is selected for editing.
+* Fixed: Drum channel autoselect: Pad had to be pressed twice to select the channel if moving back from a pad > 32 to a pad < 32.
+
 ## 10.10
 
 Requires Bitwig 2.4.
