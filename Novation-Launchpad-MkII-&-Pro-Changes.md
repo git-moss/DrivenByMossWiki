@@ -5,6 +5,7 @@
 Requires Bitwig 2.4.
 
 * Fixed: Navigating tracks with left/right cursor was broken.
+* Fixed: Shift (Mixer) was broken on MkII.
 
 ## 3.42
 
