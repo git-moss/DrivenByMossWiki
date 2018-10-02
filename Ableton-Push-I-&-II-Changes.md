@@ -1,5 +1,12 @@
 # Ableton Push / Push 2 - Changes
 
+## 11.00 (unreleased)
+
+Requires Bitwig 2.4.
+
+* New: Added Poly Sequencer.
+* New: Push 2: Added Piano roll display (press Clip twice).
+
 ## 10.20
 
 Requires Bitwig 2.4.
