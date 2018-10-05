@@ -1,6 +1,6 @@
 # Ableton Push / Push 2 - Changes
 
-## 11.00 (unreleased)
+## 11.00
 
 Requires Bitwig 2.4.
 
