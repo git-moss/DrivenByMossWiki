@@ -1,5 +1,9 @@
 # Open Sound Control (OSC) protocol - Changes
 
+## 6.10 (unreleased)
+
+* New: Receives /clip/{1-8}/remove
+
 ## 6.00
 
 * New: Receives /marker/{1-8}/launch
