@@ -11,7 +11,7 @@ In the following the supported Bitwig features are described. In brackets the na
 
 The settings dialog contains profiles for several devices, which sets the correct hardware settings.
 
-## Navigation
+## Transport
 
 * **Play** (MCU PLAY) - Start/Stop playback. Double click to move play cursor to start of song.
 * **Shift (MCU_SHIFT) + Play** - Toggle repeat

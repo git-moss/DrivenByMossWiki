@@ -1,5 +1,11 @@
 # Native Instruments Komplete Kontrol 2 S49, S61 - Changes
 
+## 1.20 (unreleased)
+
+Requires Bitwig 2.4.
+* Fixed: Mute and Solo did not work on Hybrid tracks
+
+
 ## 1.10
 
 Requires Bitwig 2.4.
