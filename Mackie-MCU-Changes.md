@@ -1,5 +1,11 @@
 # Mackie MCU - Changes
 
+## 2.63 (unreleased)
+
+Requires Bitwig 2.4.
+
+* Fixed: Crash if Marker mode was selected and Assignment display was enabled.
+
 ## 2.62
 
 Requires Bitwig 2.4.

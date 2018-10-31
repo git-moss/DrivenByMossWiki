@@ -29,19 +29,19 @@ In the browser ...
 
 ## Encoder modes
 
-* **Volume** - Enables volume/pan/Sends mode. Press again to toggle between volume, pan and sends mode. The encoder changes the volume/pan/sends of the selected track. Press the encoder to set the parameter to its default value.
-* **Swing** - Enables position mode. The encoder changes the position of the play cursor in the arranger. Press the encoder to move the play cursor to the start of the song.
-* **Tempo** - Enables tempo mode. Press again to toggle between fine tune and normal change. The encoder changes the tempo of the song. Press the encoder to set the fraction to zero in fine tune mode and to 120 bpm in normal change mode.
-* **Plug-In** - Enables device mode. The encoder changes the value of a device parameter. Press the encoder to toggle between the parameters.
-* **Sampling** - TODO
+* **Volume** - Enables volume/pan/Sends mode. Press again to toggle between volume, pan and send modes. The encoder changes the volume/pan/sends of the selected track. Press the encoder to set the parameter to its default value.
+* **Swing** - Enables position mode. The encoder changes the position of the play cursor in the arranger. Press the encoder to toggle between fast and slow movement.
+* **Tempo** - Enables tempo mode. Press again to toggle between fine tune and normal change. The encoder changes the tempo of the song. Press the encoder multiple times for tap tempo.
+* **Plug-In** - Enables device mode. Press multiple times to toggle throught the devices of the selected track. The encoder changes the value of a device parameter. Press the encoder to reset the parameter to its default value.
+* **Sampling** - Toggle the window (if any) of the selected device (if any).
 
 ## Touchstrip
 
 The Touchstrip behaves based on the following modes.
 
-* **Pitch** - Set the Touchstrip to send pitch bend.
+* **Pitch** - Set the Touchstrip to send pitch bend. Press multiple times to toggle between Down, Up and Down/Up
 * **Mod** - Set the Touchstrip to send modulation (CC 1).
-* **Peform/FX Select** - Set the Touchstrip to replicate the behaviour of the Encoder (e.g. change volume).
+* **Perform/FX Select** - Set the Touchstrip to replicate the behaviour of the Encoder (e.g. change volume).
 * **Notes** - Set the Touchstrip to change the volume of the Master track.
 
 ## Automation
@@ -54,16 +54,16 @@ The Touchstrip behaves based on the following modes.
 ## Pad Modes
 
 * **Fixed Vel** - If active, velocity of a played pad is always maximum.
-* **Scene** - Press a pad to start one of the 16 scenes of the current bank page. Use Chords and Steps buttons to flip through the bank pages.
-* **Pattern** - Press a pad to start one of 16 clips of the current bank page on the selected track. Use Chords and Steps buttons to flip through the bank pages.
-* **Events** - Press a pad to select one of 16 devices of the current bank page on the selected track. Use Chords and Steps buttons to flip through the bank pages.
-* **Variation** - Press a pad to select one of 16 parameter banks of the current bank page of the selected device. Use Chords and Steps buttons to flip through the bank pages.
-* **Duplicate** - If active and a pad is pressed, you can duplicate a scene, track or clip depending on the mode (Scene, Select, Pattern)
-* **Solo** - Press a pad to toggle Solo of 16 channels of the current bank page. Use Chords and Steps buttons to flip through the bank pages.
+* **Scene** - Press a pad to start one of the 16 scenes of the current bank page.
+* **Pattern** - Press a pad to start one of 16 clips of the current bank page on the selected track.
+* **Events** - This is the Play or Drum mode.
+* **Variation** - Press a pad to select one of 8 or 9 parameters of the current bank page on the selected track.
+* **Duplicate** - If active and a pad is pressed, you can duplicate a scene, clip or track depending on the mode.
 * **Select** - Press a pad to select one of 16 channels of the current bank page. Use Chords and Steps buttons to flip through the bank pages.
+* **Solo** - Press a pad to toggle Solo of 16 channels of the current bank page. Use Chords and Steps buttons to flip through the bank pages.
 * **Mute** - Press a pad to toggle Mute of 16 channels of the current bank page. Use Chords and Steps buttons to flip through the bank pages.
 
-* **Pad Mode** - Send notes in drum layout
-* **Keyboard** - Send notes chromatic
-* **Chords** - Switches notes 1 octave down
-* **Step** - Switches notes 1 octave down
+* **Pad Mode** - Selects the previous item (scene, clip, track, parameter page). Switches to drum layout in Play (Event) mode.
+* **Keyboard** - Selects the next item (scene, clip, track, parameter page). Switches to play layout in Play (Event) mode.
+* **Chords** - Selects the previous item page (scene, clip, track). Switches notes 1 octave down in Play (Event) mode.
+* **Step** - Selects the next item page (scene, clip, track). Switches notes 1 octave up in Play (Event) mode.
