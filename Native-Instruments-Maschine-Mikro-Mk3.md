@@ -18,9 +18,9 @@ The **Shift** and **Cursor buttons** do not send MIDI values, therefore they can
 
 ## Browser
 
-* **Projects** - Open the browser to add a device on the selected channel
-* **Favorites** - Toggle the selection of Favorites in the browser
-* **Browser** - Open the browser
+* **Projects** - Adds an instrument track. If the browser is active, it closes the browser and discards the new selection.
+* **Favorites** - Open the browser to add a device on the selected channel. If the browser is active, toggles the selection of Favorites in the browser.
+* **Browser** - Opens the browser on the current device. If there is no device the browser is opened to insert a new device. If the browser is active, the browser is closed and the selection is accepted.
 
 In the browser ...
 * use the Encoder to scroll through the items.
@@ -32,7 +32,7 @@ In the browser ...
 * **Volume** - Enables volume/pan/Sends mode. Press again to toggle between volume, pan and send modes. The encoder changes the volume/pan/sends of the selected track. Press the encoder to set the parameter to its default value.
 * **Swing** - Enables position mode. The encoder changes the position of the play cursor in the arranger. Press the encoder to toggle between fast and slow movement.
 * **Tempo** - Enables tempo mode. Press again to toggle between fine tune and normal change. The encoder changes the tempo of the song. Press the encoder multiple times for tap tempo.
-* **Plug-In** - Enables device mode. Press multiple times to toggle throught the devices of the selected track. The encoder changes the value of a device parameter. Press the encoder to reset the parameter to its default value.
+* **Plug-In** - Enables device mode. The encoder changes the value of a device parameter. Press the encoder to reset the parameter to its default value.
 * **Sampling** - Toggle the window (if any) of the selected device (if any).
 
 ## Touchstrip
@@ -40,8 +40,8 @@ In the browser ...
 The Touchstrip behaves based on the following modes.
 
 * **Pitch** - Set the Touchstrip to send pitch bend. Press multiple times to toggle between Down, Up and Down/Up
-* **Mod** - Set the Touchstrip to send modulation (CC 1).
-* **Perform/FX Select** - Set the Touchstrip to replicate the behaviour of the Encoder (e.g. change volume).
+* **Mod** - Set the Touchstrip to send Modulation (CC 1).
+* **Perform/FX Select** - Set the Touchstrip to send Expression (CC 11).
 * **Notes** - Set the Touchstrip to change the volume of the Master track.
 
 ## Automation
@@ -65,5 +65,5 @@ The Touchstrip behaves based on the following modes.
 
 * **Pad Mode** - Selects the previous item (scene, clip, track, parameter page). Switches to drum layout in Play (Event) mode.
 * **Keyboard** - Selects the next item (scene, clip, track, parameter page). Switches to play layout in Play (Event) mode.
-* **Chords** - Selects the previous item page (scene, clip, track). Switches notes 1 octave down in Play (Event) mode.
-* **Step** - Selects the next item page (scene, clip, track). Switches notes 1 octave up in Play (Event) mode.
+* **Chords** - Selects the previous item page (scene, clip, track, device). Switches notes 1 octave down in Play (Event) mode.
+* **Step** - Selects the next item page (scene, clip, track, device). Switches notes 1 octave up in Play (Event) mode.
