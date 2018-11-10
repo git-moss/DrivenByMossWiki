@@ -1,5 +1,11 @@
 # Novation Launchpad Pro & MkII - Changes
 
+## 3.44 (unreleased)
+
+Requires Bitwig 2.4.
+
+* Fixed: Flipped session view triggered the wrong clips
+
 ## 3.43
 
 Requires Bitwig 2.4.

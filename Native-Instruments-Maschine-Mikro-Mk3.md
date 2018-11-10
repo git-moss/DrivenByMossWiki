@@ -4,6 +4,8 @@ Support for Native Instruments Maschine Mikro Mk3.
 
 This extension uses the MIDI mode of the device. Press **Shift + Project** (on the left / top) buttons to enter MIDI mode.
 
+Since the extension requires the Native Instruments Host Integration service it **only works on Windows and Mac (no Linux)**.
+
 The **Shift** and **Cursor buttons** do not send MIDI values, therefore they cannot be used.
 
 ## Transport

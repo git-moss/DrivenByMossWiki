@@ -1,6 +1,6 @@
 # Mackie MCU - Changes
 
-## 2.63 (unreleased)
+## 2.63
 
 Requires Bitwig 2.4.
 

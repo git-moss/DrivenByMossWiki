@@ -317,16 +317,16 @@ Bitwig Studio script to support the OSC protocol.
 
 ### Receive - Play
 
-* /vkb_midi/{Channel:0-16}/note/{Note:0-127} {Velocity:0-127}
-* /vkb_midi/{Channel:0-16}/note/+    1 octave up
-* /vkb_midi/{Channel:0-16}/note/-    1 octave down
-* /vkb_midi/{Channel:0-16}/drum/{Note:0-127} {Velocity:0-127}
-* /vkb_midi/{Channel:0-16}/drum/+    1 drum octave up
-* /vkb_midi/{Channel:0-16}/drum/-    1 drum octave down
-* /vkb_midi/{Channel:0-16}/cc/{CC:0-127} {Value:0-127}
-* /vkb_midi/{Channel:0-16}/aftertouch/{Note:0-127} {Pressure:0-127}     Sends Poly Aftertouch
-* /vkb_midi/{Channel:0-16}/aftertouch {Pressure:0-127}                  Sends Channel Aftertouch
-* /vkb_midi/{Channel:0-16}/pitchbend {Pitch:0-127 (No-Bend:64)}
+* /vkb_midi/{Channel:1-16}/note/{Note:0-127} {Velocity:0-127}
+* /vkb_midi/{Channel:1-16}/note/+    1 octave up
+* /vkb_midi/{Channel:1-16}/note/-    1 octave down
+* /vkb_midi/{Channel:1-16}/drum/{Note:0-127} {Velocity:0-127}
+* /vkb_midi/{Channel:1-16}/drum/+    1 drum octave up
+* /vkb_midi/{Channel:1-16}/drum/-    1 drum octave down
+* /vkb_midi/{Channel:1-16}/cc/{CC:0-127} {Value:0-127}
+* /vkb_midi/{Channel:1-16}/aftertouch/{Note:0-127} {Pressure:0-127}     Sends Poly Aftertouch
+* /vkb_midi/{Channel:1-16}/aftertouch {Pressure:0-127}                  Sends Channel Aftertouch
+* /vkb_midi/{Channel:1-16}/pitchbend {Pitch:0-127 (No-Bend:64)}
 * /vkb_midi/velocity {0-127 (0 disables fixed velocity, 1-127 fixes the velocity to the value)}
 
 ### Receive - Marker
