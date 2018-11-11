@@ -5,6 +5,7 @@
 Requires Bitwig 2.4.
 
 * Fixed: Flipped session view triggered the wrong clips
+* Fixed: Temporary modes Rec Arm, Track Select, Mute, Solo and Stop Clip did not return to previous views.
 
 ## 3.43
 
