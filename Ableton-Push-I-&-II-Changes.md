@@ -1,5 +1,11 @@
 # Ableton Push / Push 2 - Changes
 
+## 11.01 (unreleased)
+
+Requires Bitwig 2.4.
+
+* New: Push 2: You can now use Delete+Touch knob in the Setup mode to reset the values to its default.
+
 ## 11.00
 
 Requires Bitwig 2.4.
