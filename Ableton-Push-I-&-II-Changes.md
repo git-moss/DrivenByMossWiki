@@ -1,6 +1,13 @@
 # Ableton Push / Push 2 - Changes
 
-## 11.01 (unreleased)
+## 11.02 (unreleased)
+
+Requires Bitwig 2.4.
+
+* New: Mute and Solo work now in all modes (not only in track modes).
+* Fixed: Fixed a crash in the Browser.
+
+## 11.01
 
 Requires Bitwig 2.4.
 

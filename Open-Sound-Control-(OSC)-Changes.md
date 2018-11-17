@@ -1,6 +1,6 @@
 # Open Sound Control (OSC) protocol - Changes
 
-## 6.11 (unreleased)
+## 6.11
 
 * Fixed: Changed midi channel range for /vkb_midi to 1-16 to be consistent to all other numberings, which start with 1. Furthermore, fixed the documentation which indicated 0-16.
 

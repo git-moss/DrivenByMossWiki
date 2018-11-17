@@ -1,6 +1,6 @@
 # Novation Launchpad Pro & MkII - Changes
 
-## 3.44 (unreleased)
+## 3.44
 
 Requires Bitwig 2.4.
 
