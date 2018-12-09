@@ -88,15 +88,15 @@ Bitwig Studio script to support the OSC protocol.
 
 ### Send - Slots
 
-* /track/{1-8}/clip/{1-N}/name
-* /track/{1-8}/clip/{1-N}/isSelected {1,0}
-* /track/{1-8}/clip/{1-N}/hasContent
-* /track/{1-8}/clip/{1-N}/color             with rgb(r,g,b). r,g,b = 0..255
-* /track/{1-8}/clip/{1-N}/isPlaying
-* /track/{1-8}/clip/{1-N}/isRecording
-* /track/{1-8}/clip/{1-N}/isPlayingQueued
-* /track/{1-8}/clip/{1-N}/isStopQueued      (does not work)
-* /track/{1-8}/clip/{1-N}/isRecordingQueued
+* /track/{1-8}/clip/{1-8}/name
+* /track/{1-8}/clip/{1-8}/isSelected {1,0}
+* /track/{1-8}/clip/{1-8}/hasContent
+* /track/{1-8}/clip/{1-8}/color             with rgb(r,g,b). r,g,b = 0..255
+* /track/{1-8}/clip/{1-8}/isPlaying
+* /track/{1-8}/clip/{1-8}/isRecording
+* /track/{1-8}/clip/{1-8}/isPlayingQueued
+* /track/{1-8}/clip/{1-8}/isStopQueued      (does not work)
+* /track/{1-8}/clip/{1-8}/isRecordingQueued
 
 ### Send - Device
 
@@ -246,15 +246,17 @@ Bitwig Studio script to support the OSC protocol.
 * /track/{1-8}/crossfadeMode/{A,B,AB} {1}
 * /track/{1-8}/send/{1-8}/volume {0-127}
 * /track/{1-8}/send/{1-8}/volume/indicate {0,1}
-* /track/{1-8}/clip/{1-N}/launch
-* /track/{1-8}/clip/{1-N}/record
-* /track/{1-8}/clip/{1-N}/select
+* /track/{1-8}/clip/{1-8}/select
+* /track/{1-8}/clip/{1-8}/launch
+* /track/{1-8}/clip/{1-8}/record
+* /track/{1-8}/clip/{1-8}/remove
+* /track/{1-8}/clip/{1-8}/color rgb(r,g,b)      with r,g,b = 0..255
 * /track/{1-8}/clip/stop
 * /track/{1-8}/clip/returntoarrangement
 * /track/stop
-* /track/indicate/volume {0,1}      Indicate the volumes of all 8 tracks
-* /track/indicate/pan {0,1}         Indicate the pans of all 8 tracks
-* /track/indicate/send/{1-8} {0,1}  Indicate send 1-8 of all 8 tracks
+* /track/indicate/volume {0,1}                  Indicate the volumes of all 8 tracks
+* /track/indicate/pan {0,1}                     Indicate the pans of all 8 tracks
+* /track/indicate/send/{1-8} {0,1}              Indicate send 1-8 of all 8 tracks
 * /track/selected/{attribute}
 * /master/... (as above, except sends)
 
