@@ -1,5 +1,11 @@
 # Novation Launchpad Pro & MkII - Changes
 
+## 3.45
+
+Requires Bitwig 2.4.
+
+* Fixed: Transposing the piano view was broken
+
 ## 3.44
 
 Requires Bitwig 2.4.

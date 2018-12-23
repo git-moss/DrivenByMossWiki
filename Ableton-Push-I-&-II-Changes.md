@@ -1,5 +1,11 @@
 # Ableton Push / Push 2 - Changes
 
+## 11.03
+
+Requires Bitwig 2.4.
+
+* Fixed: Fixed resetting of Push 2 display colors.
+
 ## 11.02
 
 Requires Bitwig 2.4.
