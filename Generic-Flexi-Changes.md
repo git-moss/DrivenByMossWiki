@@ -1,5 +1,15 @@
 # Generic Flexi - Changes
 
+## 2.0 (unreleased)
+
+Compatible with Bitwig 2.4.
+
+* New: Completely new settings user interface
+* New: Support for using Pitchbend as a controller
+* New: Added command: "Master: Crossfader"
+* Fixed: Blocking notes which are mapped to a command did only work after restart.
+* Fixed: "Send value to device" did always send on midi channel 1.
+
 ## 1.2
 
 Compatible with Bitwig 2.4.
