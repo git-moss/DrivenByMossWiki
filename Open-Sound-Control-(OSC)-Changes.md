@@ -1,6 +1,6 @@
 # Open Sound Control (OSC) protocol - Changes
 
-## 6.12 (unreleased)
+## 6.12
 
 * Fixed: Potential synchronisation issue when sending OSC messages.
 

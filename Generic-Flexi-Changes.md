@@ -1,10 +1,11 @@
 # Generic Flexi - Changes
 
-## 2.0 (unreleased)
+## 2.0
 
 Compatible with Bitwig 2.4.
 
 * New: Completely new settings user interface
+* New: Support for modes: Track, Volume, Panorama, Send 1-8, Parameters
 * New: Support for using Pitchbend as a controller
 * New: Added command: "Master: Crossfader"
 * Fixed: Blocking notes which are mapped to a command did only work after restart.
