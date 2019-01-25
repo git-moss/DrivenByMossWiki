@@ -2,6 +2,9 @@
 
 Support script for Arturia's Beatstep and Beatstep Pro controller. You can control track parameters incl. groups, devices, transport, browse patches, session view, play the pads and have a drum and note sequencer.
 
+Known Issues:
+- The LEDs update unreliably on macOS and Linux
+
 ## Features
 
 The buttons on the left are not usable for scripting since they do not send MIDI data. Luckily, I could facilitate the Shift button for an extended functionality.
