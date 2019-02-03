@@ -35,9 +35,11 @@ Use the page left and right buttons to switch modes.
 * Use the knobs to change a value.
 * Change the selected track by 1 with the cursor left and right buttons or use the main encoder.
 * Change the selected track by 8 with the cursor up and down buttons.
-* **BACK** - Mutes the selected track
-* **ENTER** - Solos the selected track
-* **MAIN ENCODER** - Toggles between instrument/audio bank and effect bank
+* **BACK** - Toggles mute on the selected track.
+* **SHIFT+BACK** - Toggles monitor on the selected track.
+* **ENTER** - Toggles solo on the selected track.
+* **SHIFT+ENTER** - Toggles rec arm on the selected track.
+* **MAIN ENCODER** - Toggles between instrument/audio bank and effect bank.
 
 ## Volume mode
 

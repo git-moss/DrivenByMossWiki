@@ -1,5 +1,11 @@
 # Generic Flexi - Changes
 
+## 2.1
+
+Compatible with Bitwig 2.4.
+
+* New: Added command: "Device: Parameters"
+
 ## 2.0
 
 Compatible with Bitwig 2.4.
