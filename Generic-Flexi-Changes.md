@@ -1,5 +1,16 @@
 # Generic Flexi - Changes
 
+## 2.2 (unreleased)
+
+Compatible with Bitwig 2.4.
+
+* New: Added commands to control Browser filter columns 7 and 8.
+* New: Added Browser mode.
+* New: Select buttons in Parametermode select parameter pages instead of devices.
+* Fixed: Mode knobs did always use relative mode 1, even if 2 or 3 was selected.
+* Fixed: Values of Track-, Volume- and Parametermode were not reflected correctly back to the device.
+* Fixed: Prevent console warnings when values go out of bounds in relative modes.
+
 ## 2.1
 
 Compatible with Bitwig 2.4.

@@ -31,3 +31,46 @@ If you want to clear a slot, set the MIDI trigger type to "Off".
 * Function: Choose a function from the different categories that should be executed, when the configured MIDI message is received.
 * Send value to device: This option only applies to continuous functions like changing the volume of a track. If it is enabled, the current value is sent to the controller with the configured CC.
 
+# Features of Modes
+
+## Track Mode
+
+* Set Item value 1-8: 1) Change Volume of selected track 2) Change Panorama of selected track 3-8) Change volume of Send 1-6
+* Select Item 1-8: Select track 1-8 in the current bank page
+* Select Next Item: Select the next track (if any)
+* Select Previous Item: Select the previous track (if any)
+* Select Next Item Page: Select the next page of the track bank
+* Select Previous Item Page: Select the previous page of the track bank
+
+## Volume Mode
+
+* Set Item value 1-8: Change Volume of track 1-8 in the current bank page
+* Other controls are the same as in track mode
+
+## Panorama Mode
+
+* Set Item value 1-8: Change Panorama of track 1-8 in the current bank page
+* Other controls are the same as in track mode
+
+## Send 1-8 Mode
+
+* Set Item value 1-8: Change Volume of the Send X of track 1-8 in the current bank page
+* Other controls are the same as in track mode
+
+## Device Mode
+
+* Set Item value 1-8: Change the value of parameter 1-8 in the current bank page
+* Select Item 1-8: Select parameter page 1-8
+* Select Next Item: Select the next device (if any)
+* Select Previous Item: Select the previous device (if any)
+* Select Next Item Page: Select the next page of parameters
+* Select Previous Item Page: Select the previous page of parameters
+
+## Browser Mode
+
+* Set Item value 1-8: Change the selection of filter 1-7, knob 8 changes the selected result
+* Select Item 1-8: Select next item in filter columns 1-7 and result column
+* Select Next Item: Select the next tab in the browser (if any)
+* Select Previous Item: Select the previous tab in the browser (if any)
+* Select Next Item Page: Confirm the browser selection and close the browser
+* Select Previous Item Page: Discard the browser selection and close the browser
