@@ -1,5 +1,11 @@
 # Ableton Push / Push 2 - Changes
 
+## 11.04 (unreleased)
+
+Requires Bitwig 2.4.
+
+* Fixed: Marker mode was broken.
+
 ## 11.03
 
 Requires Bitwig 2.4.
