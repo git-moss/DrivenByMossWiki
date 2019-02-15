@@ -12,11 +12,12 @@ Support script for Akais' APC40 and APC40mkII controller. You can control track 
 * **Shift+Track selection buttons** - Select the length for new clips: 16 bars, 8 bars, 4 bars, 2 bars, 1 bar, 2 beats, 1 beat, 32 bars
 * **Metronome** - Toggle metronome
 * **Shift + Metronome** - Enable Metronome Ticks
-* **Detail View** - Step through the three perspectives: ARRANGE, MIX and EDIT
+* **Detail View** - Toggle plugin window (if any)
+* **Shift+Detail View** - Step through the layout perspectives
 * **Cue Level** - Move play cursor (press shift for finer adjustment)
 * **Tap Tempo** - Tap Tempo
-* **Nudge+** - Increase Tempo. Click or keep pressed. Combine with Shift for fine adjustment.
-* **Nudge-** - Decrease Tempo. Click or keep pressed. Combine with Shift for fine adjustment.
+* **Nudge+** - Redo
+* **Nudge-** - Undo
 
 ### Specifics for the Mk I
 
@@ -36,7 +37,6 @@ Support script for Akais' APC40 and APC40mkII controller. You can control track 
 * **Device Knobs 1-8** - Change the currently selected 8 device parameters
 * **Device On/Off** - Turn the selected device on/off
 * **Clip/Track** - Toggles the devices panel
-* **Shift+Detail View** - Toggle VST window
 
 ### Devices - Specifics for the Mk I
 

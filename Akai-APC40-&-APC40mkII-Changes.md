@@ -1,5 +1,13 @@
 # Akai APC40 / APC40mkII - Changes
 
+## 5.20 (unreleased)
+
+Requires Bitwig 2.4.
+
+* New: Changed Nudge- to Undo and Nudge+ to Redo.
+* New: Flipped functionality of "Detail View" (is now "Toggle plugin window") and Shift+"Details View" (is now "Step through the layout perspectives").
+* Fixed: "Step through the layout perspectives" did not work on some display profiles.
+
 ## 5.13
 
 Requires Bitwig 2.3.
