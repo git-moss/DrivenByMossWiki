@@ -4,6 +4,7 @@
 
 Requires Bitwig 2.4.
 
+* New: Use Shift+Octave Up/Down in Drum Sequencer modes to move the pads by 4.
 * Fixed: Marker mode was broken.
 
 ## 11.03

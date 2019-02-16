@@ -172,6 +172,8 @@ Press _"Note"_ and select *Drum* to change to the Drum Sequencer.
 * Press *Browser + Drum Pad* in Drum View and Drum 64 to open the browser.
 * The Drumpads use the colors set in the drum machine for each pad.
 * There are three additional drum sequencers. Press Shift in drum mode and use upper 4 scene buttons to change between the four modes. 2nd mode displays 4 drum sound, 3rd mode 8. Use the lower 4 scene buttons (while holding Shift) in 2nd mode to toggle between the drum sounds 1-4, 5-8, 9-12, 13-16. Use the lower 2 scene buttons in 3rd mode to toggle the drum sounds 1-8, 9-16. The fourth mode displays 64 drum pads.
+* Use Octave Up/Down to move the pads by 16.
+* Use Shift+Octave Up/Down to move the pads by 4.
 
 ## Drum 4 and Drum 8 sequencer
 

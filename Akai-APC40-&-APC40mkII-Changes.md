@@ -6,6 +6,7 @@ Requires Bitwig 2.4.
 
 * New: Changed Nudge- to Undo and Nudge+ to Redo.
 * New: Flipped functionality of "Detail View" (is now "Toggle plugin window") and Shift+"Details View" (is now "Step through the layout perspectives").
+* New: Drum sequencer: The highlighted grid in the drum machine now only show the 12 pads. The scene buttons 1/2 move the pad view by 4. The scene buttons 4/5 move the pad view by 12 (previously 16).
 * Fixed: "Step through the layout perspectives" did not work on some display profiles.
 
 ## 5.13

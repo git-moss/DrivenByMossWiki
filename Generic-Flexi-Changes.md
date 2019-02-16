@@ -6,6 +6,9 @@ Compatible with Bitwig 2.4.
 
 * New: Added commands to control Browser filter columns 7 and 8.
 * New: Added Browser mode.
+* New: Added absolute mode for toggle buttons.
+* New: Added support for MMC.
+* New: Added "Transport: Rewind" and "Transport: Fast Forward"
 * New: Select buttons in Parametermode select parameter pages instead of devices.
 * Fixed: Removed duplicated function "Transport: Set Crossfader", use "Master: Crossfader" instead.
 * Fixed: Mode knobs did always use relative mode 1, even if 2 or 3 was selected.
