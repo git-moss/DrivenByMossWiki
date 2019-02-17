@@ -1,6 +1,6 @@
 # Ableton Push / Push 2 - Changes
 
-## 11.04 (unreleased)
+## 11.04
 
 Requires Bitwig 2.4.
 

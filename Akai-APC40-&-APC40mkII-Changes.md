@@ -1,6 +1,6 @@
 # Akai APC40 / APC40mkII - Changes
 
-## 5.20 (unreleased)
+## 5.20
 
 Requires Bitwig 2.4.
 
