@@ -120,7 +120,7 @@ Bitwig Studio script to support the OSC protocol.
 * /device/layer/{1-8}/vu
 * /device/layer/{1-8}/mute
 * /device/layer/{1-8}/solo
-* /device/layer/{1-8}/color
+* /device/layer/{1-8}/color     with rgb(r,g,b). r,g,b = 0..255
 * /device/layer/{1-8}/send/{1-8}/volume {0-127}
 * /device/layer/{1-8}/send/{1-8}/volumeStr {text}
 * /device/layer/selected/...    Same attributes as for a layer
@@ -151,7 +151,7 @@ Bitwig Studio script to support the OSC protocol.
 
 * /marker/{1-8}/exists {0,1}
 * /marker/{1-8}/name {name}
-* /marker/{1-8}/color rgb(r,g,b)
+* /marker/{1-8}/color    with rgb(r,g,b). r,g,b = 0..255
 
 ### Send - Play
 
