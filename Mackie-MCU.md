@@ -112,6 +112,8 @@ The settings dialog contains profiles for several devices, which sets the correc
 * **Record-arm buttons** (MCU ARM1-8) - Press to arm the specific track for recording.
 * **Mute buttons** (MCU MUTE1-8) - Un-/mute the specific track
 * **Solo buttons** (MCU SOLO1-8) - Un-/solo the specific track
+* **Option + one of the Mute buttons**: Deactivate all mutes
+* **Option + one of the Solo buttons**: Deactivate all solos
 * **Track selection buttons** (MCU SELECT1-8) - Select the specific track.
 * **Send (MCU MODE SENDS) + Track selection buttons** - Select the send channel 1-8.
 * **Shift + Track selection buttons** - Set the length of a new clip.

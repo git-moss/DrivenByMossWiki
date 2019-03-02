@@ -32,6 +32,8 @@ Support script for Ableton's Push 1 and Push 2 controller. You can control track
 * **Tap Tempo** - Tap Tempo
 * **Mute** - Push 1: Selects track mute state of 2nd row. Push 2: Mutes the currently selected track. Long press for the Push 1 behavior. Lock it with **Shift+Solo**.
 * **Solo** - Push 1: Selects track solo state of 2nd row. Push 2: Solos the currently selected track. Long press for the Push 1 behavior. Lock it with **Shift+Solo**.
+* **Select + Mute**: Deactivate all mutes
+* **Select + Solo**: Deactivate all solos
 * **Knobs 1-8** Value encoders, [Shift + Knob] fine increment value change.
 * **Knob 9** - Changes Master Volume
 * **Select + Knob 9** - Changes Metronome Volume
