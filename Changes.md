@@ -1,5 +1,10 @@
 # Changes
 
+## 5.8
+
+* Requires Bitwig 2.4.
+* Launchpad: Fixed: Switching of Note and Sequencer did not work (only if also Push 1/2 was running)
+
 ## 5.7
 
 * Requires Bitwig 2.4.
