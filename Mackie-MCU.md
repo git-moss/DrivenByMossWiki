@@ -59,7 +59,7 @@ The settings dialog contains profiles for several devices, which sets the correc
 * **Track** (MCU MODE IO, TRACK) - Select the Track edit mode. Press again to select the Volume edit mode. See the section **Edit Modes** below.
 * **Option + Track** - Pin cursor track
 * **Pan** (MCU MODE PAN/SURROUND) - Select the Panorama edit mode. See the section **Edit Modes** below.
-* **Send** (MCU MODE SENDS) - Select the Send edit mode. Press multiple times to select the Send channels 1 to 8. See the section **Edit Modes** below. Use in combination with the **Track select** buttons to select the respective Send channel 1-8.
+* **Send** (MCU MODE SENDS) - Select the Send edit mode. Press multiple times to select the Send channels 1 to 8. See the section **Edit Modes** below. Use in combination with the **Track select** buttons to select the respective Send channel 1-8. Use **Shift+Send** to move backwards.
 * **Device** (MCU DEVICE, PLUG-IN) - Select the Device edit mode. See the section **Edit Modes** below.
 * **Option + Device** - Pin cursor device
 * **Page Up** (MCU MODE EQ) - Move track bank focus 1 track up. If Device mode is active, the previous device parameter bank is selected.

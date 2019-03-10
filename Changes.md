@@ -1,5 +1,16 @@
 # Changes
 
+## 5.9
+
+* Requires Bitwig 2.4.
+* Beatstep
+  * Fixed: Track and Device mode selection did not work.
+* Maschine Mikro Mk3
+  * Fixed: Pan and Send modes could not be switched.
+* MCU
+  * Display mode names for Track, Volume and Sends. Send modes also display the name of the send.
+  * You can flip backwards through the send modes with Shift+Send.
+
 ## 5.8
 
 * Requires Bitwig 2.4.
