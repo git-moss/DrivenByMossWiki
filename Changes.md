@@ -1,5 +1,17 @@
 # Changes
 
+## 6.0 (Unreleased)
+
+* Requires Bitwig 2.4.
+* Generic Flexi
+  * New: Use native dialog for selecting the configuration file.
+* Mackie HUI
+  * Support added
+* Mackie MCU
+  * Fixed: Knob LED was not turned off on non-existing tracks for panorama mode.
+* OSC
+  * Fixed: Reduced the size of a OSC bundles to stay below 64 Kb, which is the maximum for an UDP packet.
+
 ## 5.9
 
 * Requires Bitwig 2.4.

@@ -20,6 +20,7 @@ Supported controllers and protocols:
 * [Arturia Beatstep](Arturia-Beatstep)
 * [Auto Color](AutoColor)
 * [Generic Flexi](Generic-Flexi)
+* [Mackie HUI](Mackie-HUI)
 * [Mackie MCU](Mackie-MCU)
 * [Midi Monitor](MidiMonitor)
 * [Native Instruments Kontrol S25, S49, S61, S88 mk I](Native-Instruments-Kontrol1)
