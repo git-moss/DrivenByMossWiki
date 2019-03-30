@@ -44,6 +44,11 @@ The ZIP file has a folder _osc_ which contains example files for Cycling 74s Max
 
 ## Native Instruments Komplete Kontrol Mk II
 
+### Setup
+1. Select the MIDI input and output ending with "DAW" as the first channel.
+2. Select the MIDI input and output without an ending as the second.
+
+### Support for Komplete plugin
 1. Map the first automation parameter to the first parameter of the first parameter page.
 2. In the Bitwig settings set SETTINGS -> Plug-ins -> "Independent plug-in host process for" NOT to "Each plug-in".
 Also see the setup tutorial here: https://youtu.be/4kUuio1BOQk

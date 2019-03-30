@@ -126,7 +126,7 @@ Bitwig Studio script to support the OSC protocol.
 * /device/layer/selected/...    Same attributes as for a layer
 * /device/drumpad/{1-16}/...    Same attributes as for a layer
 * /device/drumpad/selected/...  Same attributes as for a layer
-* /device/page/selected {1-8}
+* /device/page/{1-8}/selected {0,1}
 * /device/page/{1-8}/ {name}
 * /device/page/selected/name {name}
 * /device/sibling/{1-8}/name {name}

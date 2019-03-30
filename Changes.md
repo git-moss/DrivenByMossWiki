@@ -5,12 +5,18 @@
 * Requires Bitwig 2.4.
 * Generic Flexi
   * New: Use native dialog for selecting the configuration file.
+  * Fixed: Fixed a typo (CC40 was named CC30).
+* Komplete Kontrol
+  * Switched to new MIDI protocol
+  * Support for A-series
 * Mackie HUI
   * Support added
 * Mackie MCU
   * Fixed: Knob LED was not turned off on non-existing tracks for panorama mode.
 * OSC
   * Fixed: Reduced the size of a OSC bundles to stay below 64 Kb, which is the maximum for an UDP packet.
+* Push
+  * Automation could not be activated if an effect track or the master track was selected.
 
 ## 5.9
 
