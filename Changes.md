@@ -1,5 +1,17 @@
 # Changes
 
+## 6.1 (unreleased)
+
+* Requires Bitwig 2.4.
+* Generic Flexi
+  * Fixed: Exception when Send volume was mapped/changed and a FX or the Master track was selected.
+* Komplete Kontrol
+  * New: Added information about mute state due to soloed track(s)
+  * New: Added more selected track information to confirm to updated protocol
+  * New: Added scene navigation and play
+* OSC
+  * New: You can now configure the value range. So far, this was 128. Now you can increase the range to 1024 or 16384. Note that you also need to configure the widgets in your OSC client accordingly.
+
 ## 6.0
 
 * Requires Bitwig 2.4.
@@ -8,7 +20,7 @@
   * Fixed: Fixed a typo (CC40 was named CC30).
 * Komplete Kontrol
   * Switched to new MIDI protocol
-  * Support for A-series
+  * Support for A-series and M32
 * Mackie HUI
   * Support added
 * Mackie MCU
