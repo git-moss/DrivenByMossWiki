@@ -9,6 +9,7 @@
   * New: Added information about mute state due to soloed track(s)
   * New: Added more selected track information to confirm to updated protocol
   * New: Added scene navigation and play
+  * New: Slowed down knob change rate on MkII
 * OSC
   * New: You can now configure the value range. So far, this was 128. Now you can increase the range to 1024 or 16384. Note that you also need to configure the widgets in your OSC client accordingly.
 
