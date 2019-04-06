@@ -1,6 +1,6 @@
 # Changes
 
-## 6.1 (unreleased)
+## 6.1
 
 * Requires Bitwig 2.4.
 * Generic Flexi
