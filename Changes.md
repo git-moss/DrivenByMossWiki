@@ -1,5 +1,11 @@
 # Changes
 
+## 6.11 (unreleased)
+
+* Requires Bitwig 2.4.
+* Launchpad Pro
+  * Improved 2 colors.
+
 ## 6.1
 
 * Requires Bitwig 2.4.

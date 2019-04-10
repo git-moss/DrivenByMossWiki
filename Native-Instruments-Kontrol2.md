@@ -1,4 +1,4 @@
-# Bitwig Studio | Native Instruments Komplete Kontrol 2 S49, S61, S88, Komplete Kontrol A49, A61
+# Bitwig Studio | Native Instruments Komplete Kontrol 2 S49, S61, S88, Komplete Kontrol A49, A61, M32
 
 Support for Native Instruments Komplete Kontrol controller Version 2.
 
