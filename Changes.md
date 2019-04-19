@@ -1,10 +1,21 @@
 # Changes
 
-## 6.11 (unreleased)
+## 6.2
 
 * Requires Bitwig 2.4.
+* APC40
+  * New: Shift mode stays active until you release the Shift key.
+  * Fixed: Clip indicator was not displayed.
 * Launchpad Pro
   * Improved 2 colors.
+* Komplete Kontrol
+  * Fixed: Record option "Record clip" did not start recording when transport was stopped.
+  * New: Adapted to protocol version 1.9
+* Midi Monitor
+  * New: Log system realtime events
+  * New: Setting to filter system realtime events
+* Push 1/2
+  * New: You can now tweak the speed of the knobs in the settings (Workflow -> Knob Speed Normal / Knob Speed Slow)
 
 ## 6.1
 
