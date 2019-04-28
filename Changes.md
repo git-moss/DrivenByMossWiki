@@ -1,5 +1,15 @@
 # Changes
 
+## 6.3 (unreleased)
+
+* Requires Bitwig 2.4.
+* Komplete Kontrol
+  * New: Added setting to flip the track/clip navigation of the encoder knob
+  * New: Added setting to flip the clip and scene navigation of the encoder knob
+  * New: Added setting to set the length of new clips
+  * New: Added setting to set the behaviour on transport stop
+  * New: Added M32 to the extension name
+
 ## 6.2
 
 * Requires Bitwig 2.4.
