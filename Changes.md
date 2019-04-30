@@ -3,6 +3,9 @@
 ## 6.3 (unreleased)
 
 * Requires Bitwig 2.4.
+* Generic Flexi
+  * New: Added setting to store the last selected mode
+  * New: MIDI CC is now available as a function destination
 * Komplete Kontrol
   * New: Added setting to flip the track/clip navigation of the encoder knob
   * New: Added setting to flip the clip and scene navigation of the encoder knob
