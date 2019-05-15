@@ -1,5 +1,14 @@
 # Changes
 
+## 6.4
+
+* Generic Flexi
+  * New: The speed (fast and slow) for relative knob changes can be configured
+  * New: A command can be assigned to be the Shift button (Global: Shift Button), which gives extra functionality if combined with another control (e.g. Play, Rewind, Forward and Knob Speeds).
+* Komplete Kontrol
+  * New: Mapping of first Komplete Kontrol parameter is no longer necessary
+  * New: Improved automatic lookup
+
 ## 6.3
 
 * Requires Bitwig 2.4.
