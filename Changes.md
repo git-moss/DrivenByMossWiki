@@ -8,6 +8,8 @@
 * Push 1/2
   * New: Delete + Scene button (in Play, Piano, Drum 64, Session view): Deletes the scene
   * New: Delete + pad in scene play mode: Deletes the scene
+* Launchpad
+  * New: Delete + Scene button in Session view deletes the scene
 
 ## 6.4
 
