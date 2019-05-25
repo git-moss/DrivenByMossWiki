@@ -1,7 +1,17 @@
 # Changes
 
+## 7.0 (unreleased)
+
+* Requires Bitwig API 9.
+* OSC
+  * New: The port of the OSC server ("receive on") can be configured again.
+* Push 1/2
+  * New: Delete + Scene button (in Play, Piano, Drum 64, Session view): Deletes the scene
+  * New: Delete + pad in scene play mode: Deletes the scene
+
 ## 6.4
 
+* Requires Bitwig 2.4.
 * Generic Flexi
   * New: The speed (fast and slow) for relative knob changes can be configured
   * New: A command can be assigned to be the Shift button (Global: Shift Button), which gives extra functionality if combined with another control (e.g. Play, Rewind, Forward and Knob Speeds).
