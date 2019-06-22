@@ -27,5 +27,6 @@ Supported controllers and protocols:
 * [Native Instruments Kontrol S49, S61 mk II, A-series, M32](Native-Instruments-Kontrol2)
 * [Native Instruments Maschine Mikro Mk3](Native-Instruments-Maschine-Mikro-Mk3)
 * [Novation Launchpad MkII & Pro](Novation-Launchpad-MkII-&-Pro)
-* [Novation Remote SLmkI & mkII](Novation-Remote-SLmkI-&-mkII)
+* [Novation Remote SL MkI & MkII](Novation-Remote-SLmkI-&-mkII)
+* [Novation SL Mk III](Novation-SLMkIII)
 * [Open Sound Control (OSC)](Open-Sound-Control-(OSC))

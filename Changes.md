@@ -1,6 +1,6 @@
 # Changes
 
-## 7.0 (unreleased)
+## 7.10 (unreleased)
 
 * Requires Bitwig API 9.
 * OSC
@@ -10,6 +10,16 @@
   * New: Delete + pad in scene play mode: Deletes the scene
 * Launchpad
   * New: Delete + Scene button in Session view deletes the scene
+
+## 7.0
+
+* Requires Bitwig 2.4.
+* New: Added support for Novation SL Mk III
+* Fixed: scrolling of parameter pages by page bank did not work (e.g. Shift + cursor left/right on Push)
+* Ableton Push 2
+  * New: Deactivated channels and layers are drawn in dark colors
+* Komplete Kontrol Mk II / A-series / M32
+  * New: Light record button as well on clip recording and clip overdub
 
 ## 6.4
 
