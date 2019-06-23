@@ -11,6 +11,11 @@
 * Launchpad
   * New: Delete + Scene button in Session view deletes the scene
 
+## 7.10 (unreleased)
+* Requires Bitwig 2.4.
+* Arturia Beatstep
+  * Fixed: Caught exception when pads are transposed. Now an error is printed to the console.
+
 ## 7.0
 
 * Requires Bitwig 2.4.
