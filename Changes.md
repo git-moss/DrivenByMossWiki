@@ -11,10 +11,14 @@
 * Launchpad
   * New: Delete + Scene button in Session view deletes the scene
 
-## 7.10 (unreleased)
+## 7.01
 * Requires Bitwig 2.4.
 * Arturia Beatstep
   * Fixed: Caught exception when pads are transposed. Now an error is printed to the console.
+* Generic Flexi
+  * Fixed: MMC commands with device IDs > 15 did not work.
+* Novation SL Mk III
+  * New: Route all 16 MIDI channels to Bitwig (not only channel 1)
 
 ## 7.0
 
