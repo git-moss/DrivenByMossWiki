@@ -11,7 +11,15 @@
 * Launchpad
   * New: Delete + Scene button in Session view deletes the scene
 
+## 7.02 (unreleased)
+
+* Requires Bitwig 2.4.
+* Novation Remote SL Mk II
+  * Fixed: Drum pads did not work
+  * Fixed: Crash displaying send and master track
+
 ## 7.01
+
 * Requires Bitwig 2.4.
 * Arturia Beatstep
   * Fixed: Caught exception when pads are transposed. Now an error is printed to the console.
