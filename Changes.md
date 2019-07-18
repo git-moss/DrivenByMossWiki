@@ -3,20 +3,31 @@
 ## 7.10 (unreleased)
 
 * Requires Bitwig API 9.
+* Launchpad
+  * New: Delete + Scene button in Session view deletes the scene
 * OSC
   * New: The port of the OSC server ("receive on") can be configured again.
 * Push 1/2
   * New: Delete + Scene button (in Play, Piano, Drum 64, Session view): Deletes the scene
   * New: Delete + pad in scene play mode: Deletes the scene
-* Launchpad
-  * New: Delete + Scene button in Session view deletes the scene
 
-## 7.02 (unreleased)
+## 7.02
 
 * Requires Bitwig 2.4.
 * Novation Remote SL Mk II
   * Fixed: Drum pads did not work
   * Fixed: Crash displaying send and master track
+* Novation Remote SL Mk III
+  * New: The browser result name is now shown in two columns
+  * Fixed: Drawing of track modes were wrong when no track was selected
+  * Fixed: Track could not be added when no track was selected
+  * Fixed: Browser mode could crash if a non-existing filter column was selected
+  * Fixed: Button long press events caused unnecessary warnings in the log
+* OSC
+  * New: Added layer tab to Open Stage Control template.
+  * New: Added sending of /device/layer/selected/{attributes}
+  * Fixed: Some types used "selected" and some "select". Both can be used now.
+  * Fixed: Fixed location of master track in Open Stage Control template for 0.47.1.
 
 ## 7.01
 

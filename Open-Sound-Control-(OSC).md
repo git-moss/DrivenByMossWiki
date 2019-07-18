@@ -120,12 +120,12 @@ Bitwig Studio script to support the OSC protocol.
 * /device/layer/{1-8}/vu
 * /device/layer/{1-8}/mute
 * /device/layer/{1-8}/solo
-* /device/layer/{1-8}/color     with rgb(r,g,b). r,g,b = 0..255
+* /device/layer/{1-8}/color             with rgb(r,g,b). r,g,b = 0..255
 * /device/layer/{1-8}/send/{1-8}/volume {0-127}
 * /device/layer/{1-8}/send/{1-8}/volumeStr {text}
-* /device/layer/selected/...    Same attributes as for a layer
-* /device/drumpad/{1-16}/...    Same attributes as for a layer
-* /device/drumpad/selected/...  Same attributes as for a layer
+* /device/layer/selected/...            Same attributes as for a layer
+* /device/drumpad/{1-16}/...            Same attributes as for a layer
+* /device/drumpad/selected/...          Same attributes as for a layer
 * /device/page/{1-8}/selected {0,1}
 * /device/page/{1-8}/ {name}
 * /device/page/selected/name {name}
@@ -257,8 +257,8 @@ Bitwig Studio script to support the OSC protocol.
 * /track/indicate/volume {0,1}                  Indicate the volumes of all 8 tracks
 * /track/indicate/pan {0,1}                     Indicate the pans of all 8 tracks
 * /track/indicate/send/{1-8} {0,1}              Indicate send 1-8 of all 8 tracks
-* /track/selected/{attribute}
-* /master/... (as above, except sends)
+* /track/selected/{attribute}                   (as above)
+* /master/...                                   (as above, except sends)
 
 ### Receive - Track Groups
 
@@ -278,23 +278,27 @@ Bitwig Studio script to support the OSC protocol.
 * /device/param/{1-8}/reset
 * /device/param/{1-8}/touched
 * /device/indicate/param {0,1}
+* /device/page/selected {1-8}
+* /device/bank/page/{+,-}
+* /device/sibling/{1-8}/selected {0,1}
 * /device/layer/{1-8}/selected
 * /device/layer/{1-8}/volume {0-127}
+* /device/layer/{1-8}/volume/indicate {0,1}
 * /device/layer/{1-8}/volume/touched {0,1}
 * /device/layer/{1-8}/pan {0-127}
+* /device/layer/{1-8}/pan/indicate {0,1}
 * /device/layer/{1-8}/pan/touched {0,1}
 * /device/layer/{1-8}/mute {1,0,-}
 * /device/layer/{1-8}/solo {1,0,-}
 * /device/layer/{1-8}/send/{1-8}/volume {0-127}
+* /device/layer/{1-8}/send/{1-8}/volume/indicate {0,1}
 * /device/layer/{1-8}/send/{1-8}/volume/touched {0,1}
 * /device/layer/{1-8}/enter
 * /device/layer/parent
 * /device/layer/{+,-}
-* /device/page/selected {1-8}
-* /device/bank/page/{+,-}
 * /device/layer/page/{+,-}
-* /device/drumpad/{1-16}/...  Same attributes as for a layer
-* /device/sibling/{1-8}/selected {0,1}
+* /device/layer/selected/{attributes}          The selected layer, same attributes as above
+* /device/drumpad/{1-16}/...                   Same attributes as for a layer
 * Same commands apply for the primary device but use /primary/... instead of /device/...
 
 ### Receive - Scene
