@@ -11,6 +11,13 @@
   * New: Delete + Scene button (in Play, Piano, Drum 64, Session view): Deletes the scene
   * New: Delete + pad in scene play mode: Deletes the scene
 
+## 7.03 (unreleased)
+
+* Requires Bitwig 2.4.
+* Novation Remote SL Mk III
+  * Fixed: Drawing of track and device modes were wrong when no track was selected (2nd try)
+
+
 ## 7.02
 
 * Requires Bitwig 2.4.
