@@ -14,6 +14,8 @@
 ## 7.03 (unreleased)
 
 * Requires Bitwig 2.4+.
+* Ableton Push 2
+  * New: Set a new color palette for the pad LEDs to be closer to the Bitwig colors.
 * APC40
   * Fixed: All views except Play View were drawn wrong.
 * Novation Remote SL Mk III
