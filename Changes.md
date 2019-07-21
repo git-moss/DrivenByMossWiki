@@ -13,14 +13,17 @@
 
 ## 7.03 (unreleased)
 
-* Requires Bitwig 2.4.
+* Requires Bitwig 2.4+.
+* APC40
+  * Fixed: All views except Play View were drawn wrong.
 * Novation Remote SL Mk III
   * Fixed: Drawing of track and device modes were wrong when no track was selected (2nd try)
-
+* OSC
+  * Fixed: Open Stage Control template produced a crash if the master volume was changed.
 
 ## 7.02
 
-* Requires Bitwig 2.4.
+* Requires Bitwig 2.4+.
 * Novation Remote SL Mk II
   * Fixed: Drum pads did not work
   * Fixed: Crash displaying send and master track
@@ -38,7 +41,7 @@
 
 ## 7.01
 
-* Requires Bitwig 2.4.
+* Requires Bitwig 2.4+.
 * Arturia Beatstep
   * Fixed: Caught exception when pads are transposed. Now an error is printed to the console.
 * Generic Flexi
@@ -48,7 +51,7 @@
 
 ## 7.0
 
-* Requires Bitwig 2.4.
+* Requires Bitwig 2.4+.
 * New: Added support for Novation SL Mk III
 * Fixed: scrolling of parameter pages by page bank did not work (e.g. Shift + cursor left/right on Push)
 * Ableton Push 2
@@ -58,7 +61,7 @@
 
 ## 6.4
 
-* Requires Bitwig 2.4.
+* Requires Bitwig 2.4+.
 * Generic Flexi
   * New: The speed (fast and slow) for relative knob changes can be configured
   * New: A command can be assigned to be the Shift button (Global: Shift Button), which gives extra functionality if combined with another control (e.g. Play, Rewind, Forward and Knob Speeds).
@@ -68,7 +71,7 @@
 
 ## 6.3
 
-* Requires Bitwig 2.4.
+* Requires Bitwig 2.4+.
 * Generic Flexi
   * New: Added setting to store the last selected mode
   * New: MIDI CC is now available as a function destination
@@ -81,7 +84,7 @@
 
 ## 6.2
 
-* Requires Bitwig 2.4.
+* Requires Bitwig 2.4+.
 * APC40
   * New: Shift mode stays active until you release the Shift key.
   * Fixed: Clip indicator was not displayed.
@@ -111,7 +114,7 @@
 
 ## 6.0
 
-* Requires Bitwig 2.4.
+* Requires Bitwig 2.4+.
 * Generic Flexi
   * New: Use native dialog for selecting the configuration file.
   * Fixed: Fixed a typo (CC40 was named CC30).
