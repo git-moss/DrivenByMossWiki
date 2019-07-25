@@ -19,6 +19,8 @@
   * Fixed: The default note view is set to Play again, was Drum View.
 * APC40
   * Fixed: All views except Play View were drawn wrong.
+* MCU
+  * Fixed: Jogwheel jumped back one step after movement ended
 * Novation Remote SL Mk III
   * Fixed: Drawing of track and device modes were wrong when no track was selected (2nd try)
 * OSC
