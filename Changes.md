@@ -11,7 +11,7 @@
   * New: Delete + Scene button (in Play, Piano, Drum 64, Session view): Deletes the scene
   * New: Delete + pad in scene play mode: Deletes the scene
 
-## 7.03 (unreleased)
+## 7.03
 
 * Requires Bitwig 2.4+.
 * All devices
@@ -21,6 +21,8 @@
   * Fixed: The default note view is set to Play again, was Drum View.
 * APC40
   * Fixed: All views except Play View were drawn wrong.
+* Komplete Kontrol MkII
+  * New: Added a parameter/device mode (CLEAR button to toggle)!
 * Maschine Mikro MkIII
   * Fixed: Display warning when no device is selected in parameter mode
   * Fixed: Indicate non-existing parameters as "None" in parameter mode
