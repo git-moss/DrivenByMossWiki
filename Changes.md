@@ -14,11 +14,16 @@
 ## 7.03 (unreleased)
 
 * Requires Bitwig 2.4+.
+* All devices
+  * New: Moved scale settings to document
 * Ableton Push 2
   * New: Set a new color palette for the pad LEDs to be closer to the Bitwig colors.
   * Fixed: The default note view is set to Play again, was Drum View.
 * APC40
   * Fixed: All views except Play View were drawn wrong.
+* Maschine Mikro MkIII
+  * Fixed: Display warning when no device is selected in parameter mode
+  * Fixed: Indicate non-existing parameters as "None" in parameter mode
 * MCU
   * Fixed: Jogwheel jumped back one step after movement ended
 * Novation Remote SL Mk III
