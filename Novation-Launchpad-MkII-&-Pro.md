@@ -2,6 +2,11 @@
 
 Support script for Novation's Launchpad Pro controller. You can control track parameters, devices, transport, session view and play the pads.
 
+## Installation
+
+* Pro: If you added the controller manually, choose the 2nd port (*MIDIIN2 (Launchpad Pro)* and *MIDIOUT2 (Launchpad Pro)* on Windows).
+* Make sure the Launchpad sends on Midi Channel 1
+
 ## Differences MkII and Pro
 
 The MkII misses the left column and the bottom row of buttons from the Launchpad Pro.

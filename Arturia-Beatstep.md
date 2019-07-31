@@ -5,6 +5,11 @@ Support script for Arturia's Beatstep and Beatstep Pro controller. You can contr
 Known Issues:
 - The LEDs update unreliably on macOS and Linux
 
+## Installation
+
+Load the respective template from the folder _resources/beatstep_ into the device by using Arturias Midi Control Center.
+Only Beatstep Pro: In the Device Settings Tab set the User Midi Channel to 3.
+
 ## Features
 
 The buttons on the left are not usable for scripting since they do not send MIDI data. Luckily, I could facilitate the Shift button for an extended functionality.

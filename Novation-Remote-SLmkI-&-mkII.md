@@ -2,6 +2,10 @@
 
 Support script for Novations' Remote MkII controller. You can control track parameters, devices, transport, play the pads, start scenes and a step sequencer.
 
+## Installation
+
+* If you added the controller manually, choose the 2nd MIDI port of the device as in-/output. Select the first port as the 2nd input.
+
 ## Introduction
 
 The Transport button acts as a kind of Shift key. If you press it (no need to keep pressed) the behaviour of the Transport buttons changes slightly and you can switch between Control and Play mode. To switch mode use the first row buttons.

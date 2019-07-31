@@ -11,6 +11,19 @@
   * New: Delete + Scene button (in Play, Piano, Drum 64, Session view): Deletes the scene
   * New: Delete + pad in scene play mode: Deletes the scene
 
+## 7.04
+
+* Requires Bitwig 2.4+.
+* Ableton Push 2
+  * Fixed: Improved stability writing the color palette
+* Komplete Kontrol MkII
+  * New: Added Send mode (CLEAR button to toggle). Edit all sends of the selected channel.
+  * New: Add track number to mixer view channels
+  * New: Added Recording Option: Toggle Rec Arm State of selected track
+  * New: Now, first checks if the selected device on the selected channel is a Komplete 
+    Kontrol devcice, if not the first instrument device is checked. This way you can edit 
+    multiple Komplete Kontrol instances on a channel.
+
 ## 7.03
 
 * Requires Bitwig 2.4+.

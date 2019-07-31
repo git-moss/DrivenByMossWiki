@@ -4,7 +4,7 @@ Support script for the Mackie MCU protocol. While this extension supports the Ma
 
 * Mackie MCU Pro
 * icon QConPro X
-* icon Platform M
+* icon Platform M/M+ with extender
 * Zoom R16
 
 In the following the supported Bitwig features are described. In brackets the names of the MCU buttons are noted which trigger the feature.
