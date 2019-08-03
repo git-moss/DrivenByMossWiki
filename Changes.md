@@ -1,6 +1,6 @@
 # Changes
 
-## 7.10 (unreleased)
+## 8.00 (unreleased)
 
 * Requires Bitwig API 9.
 * Launchpad
@@ -8,8 +8,17 @@
 * OSC
   * New: The port of the OSC server ("receive on") can be configured again.
 * Push 1/2
-  * New: Delete + Scene button (in Play, Piano, Drum 64, Session view): Deletes the scene
-  * New: Delete + pad in scene play mode: Deletes the scene
+  * New: Delete + Track button: Delete the track
+  * New: Delete + Scene button (in Play, Piano, Drum 64, Session view): Delete the scene
+  * New: Delete + pad in scene play mode: Delete the scene
+
+## 7.05 (unreleased)
+
+* Requires Bitwig 2.4+.
+* MCU
+  * Fixed: Volume indication was broken
+* Komplete Kontrol MkII
+  * New: Added control indication depending on selected mode (volume, pan, send, device parameters)
 
 ## 7.04
 
