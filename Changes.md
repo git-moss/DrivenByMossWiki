@@ -15,10 +15,12 @@
 ## 7.05 (unreleased)
 
 * Requires Bitwig 2.4+.
-* MCU
-  * Fixed: Volume indication was broken
 * Komplete Kontrol MkII
   * New: Added control indication depending on selected mode (volume, pan, send, device parameters)
+* MCU
+  * Fixed: Volume indication was broken
+* Push 1
+  * Fixed: Do not send color palette request, which is only working for Push 2
 
 ## 7.04
 
