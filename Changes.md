@@ -12,7 +12,7 @@
   * New: Delete + Scene button (in Play, Piano, Drum 64, Session view): Delete the scene
   * New: Delete + pad in scene play mode: Delete the scene
 
-## 7.05 (unreleased)
+## 7.05
 
 * Requires Bitwig 2.4+.
 * Generic Flexi:
