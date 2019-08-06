@@ -15,8 +15,12 @@
 ## 7.05 (unreleased)
 
 * Requires Bitwig 2.4+.
+* Generic Flexi:
+  * New: Commands to set Solo, Mute, Rec Arm, Monitor and Auto Monitor (in addition to toggle).
 * Komplete Kontrol MkII
   * New: Added control indication depending on selected mode (volume, pan, send, device parameters)
+* Launchpad MkII
+  * Fixed: Blinking of playing clips did not work
 * MCU
   * Fixed: Volume indication was broken
 * Push 1
