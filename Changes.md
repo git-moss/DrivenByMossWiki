@@ -13,14 +13,15 @@
   * New: Delete + Scene button (in Play, Piano, Drum 64, Session view): Delete the scene
   * New: Delete + pad in scene play mode: Delete the scene
   * New: Added "Clear Mute/Solo" to drum channel details
-  * New: Push 1: Show longer track/layer names in Details mode                              -> PORT BACK
-  * New: Push 2: Improved layout of transport mode                                          -> PORT BACK
 
 ## 7.06 (unreleased)
 
 * Requires Bitwig 2.4+.
 * Push 1/2
+  * New: Push 1: Show longer track/layer names in Details mode
+  * New: Push 2: Improved layout of transport mode
   * Fixed: Layer details page did not close automatically when Select-button was released.
+  * Fixed: Do not close transport mode when accidently tempo or position knob is touched.
 
 ## 7.05
 
