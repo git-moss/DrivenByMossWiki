@@ -17,6 +17,8 @@
 ## 7.06 (unreleased)
 
 * Requires Bitwig 2.4+.
+* Komplete Kontrol A-Series / M32
+  * Fixed: Track name was not displayed
 * Push 1/2
   * New: Push 1: Show longer track/layer names in Details mode
   * New: Push 2: Improved layout of transport mode
