@@ -24,6 +24,7 @@
   * New: Push 2: Improved layout of transport mode
   * Fixed: Layer details page did not close automatically when Select-button was released.
   * Fixed: Do not close transport mode when accidently tempo or position knob is touched.
+  * Fixed: Push 1: Layout of panorama on max right
 
 ## 7.05
 
