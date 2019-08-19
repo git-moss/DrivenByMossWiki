@@ -13,6 +13,7 @@
   * New: Delete + Scene button (in Play, Piano, Drum 64, Session view): Delete the scene
   * New: Delete + pad in scene play mode: Delete the scene
   * New: Added "Clear Mute/Solo" to drum channel details
+  * New: Long press the record button to configure record quantization
 
 ## 7.06 (unreleased)
 
