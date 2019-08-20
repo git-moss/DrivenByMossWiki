@@ -14,6 +14,7 @@
   * New: Delete + pad in scene play mode: Delete the scene
   * New: Added "Clear Mute/Solo" to drum channel details
   * New: Long press the record button to configure record quantization
+  * New: More parameters for note editing
 
 ## 7.06 (unreleased)
 
@@ -21,7 +22,9 @@
 * Komplete Kontrol A-Series / M32
   * Fixed: Track name was not displayed
 * Push 1/2
+  * New: Added User mode. Allows to map 64 parameters. Press USER button to enter. Setup on Push 1 is now Shift+USER.
   * New: Push 1: Show longer track/layer names in Details mode
+  * New: Push 1: Indicate volume with one bar when VU is active
   * New: Push 2: Improved layout of transport mode
   * Fixed: Layer details page did not close automatically when Select-button was released.
   * Fixed: Do not close transport mode when accidently tempo or position knob is touched.
