@@ -16,9 +16,13 @@
   * New: Long press the record button to configure record quantization
   * New: More parameters for note editing
 
-## 7.06 (unreleased)
+## 7.10
 
 * Requires Bitwig 2.4+.
+* Generic Flexi:
+  * New: Commands to edit fx tracks. See commands in new category FX Track
+  * New: Commands to edit 64 user parameters. See commands in new category User
+  * Fixed: *Track: Toggle trackbank* had no effect
 * Komplete Kontrol A-Series / M32
   * Fixed: Track name was not displayed
 * Push 1/2
@@ -26,9 +30,12 @@
   * New: Push 1: Show longer track/layer names in Details mode
   * New: Push 1: Indicate volume with one bar when VU is active
   * New: Push 2: Improved layout of transport mode
+  * New: Push 2: Only redraw display image if something has changed
   * Fixed: Layer details page did not close automatically when Select-button was released.
   * Fixed: Do not close transport mode when accidently tempo or position knob is touched.
   * Fixed: Push 1: Layout of panorama on max right
+  * Fixed: Push 1: Send modes could not be accessed
+  * Fixed: Push 1: NullPointerException if Track mode was active and an effect track was selected in Bitwig
 
 ## 7.05
 
