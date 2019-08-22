@@ -16,6 +16,11 @@
   * New: Long press the record button to configure record quantization
   * New: More parameters for note editing
 
+## 7.11 (unreleased)
+
+* Requires Bitwig 2.4+.
+
+
 ## 7.10
 
 * Requires Bitwig 2.4+.

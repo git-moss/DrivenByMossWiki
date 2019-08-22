@@ -60,7 +60,7 @@ After you have copied the file reboot your computer.
 * **Select+Add Track**: Adds a new audio track
 * **Add Device** (Push 2) / **Add Effect** (Push 1): Add a device after the currently selected one
 * **Shift+Add Device** (Push 2) / **Shift+Add Effect** (Push 1): Add a device before the currently selected one
-* **User** (Push 1) / **Setup** (Push 2): Adjust some hardware settings like pad sensitivity. Also configurable in the script settings.
+* **Shift+User** (Push 1) / **Setup** (Push 2): Adjust some hardware settings like pad sensitivity. Also configurable in the script settings.
 * **Layout** (Push 2): Layout button steps through the play or sequencer modes (depending on which type is active). **Shift+Layout** button toggles between play and sequencer modes.
 
 ## Edit Modes
@@ -122,6 +122,13 @@ After you have copied the file reboot your computer.
     * 8 edit knobs: Change volume and pan of master track. Hold **Shift** for fine adjustments.
     * Dis-/Enable audio engine
     * Switch to the next/previous opened project with buttons 7 and 8.
+
+9. **User** - Press "User" to enter
+   Allows to map up to 64 user parameters divided into 8 pages with 8 parameters. Right click on any parameter in Bitwig and select *Map to controller*. After that move one of the knobs in user mode to complete the mapping. Mappings are stored with each project.
+    * 8 edit knobs: Change value of a mapped parameter. Hold **Shift** for fine adjustments.
+    * Left/Right buttons: Select next/previous parameter page
+    * Buttons of 1st row select the parameter page.
+    * Buttons of 2nd row select currently have no function.
 
 ## Note Mode (Playing the pads)
 
