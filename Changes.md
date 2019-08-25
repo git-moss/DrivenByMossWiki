@@ -16,10 +16,13 @@
   * New: Long press the record button to configure record quantization
   * New: More parameters for note editing
 
-## 7.11 (unreleased)
+## 7.20 (unreleased)
 
 * Requires Bitwig 2.4+.
-
+* Push
+  * New: Session: The octave and page buttons navigate the pages of the session grid
+  * New: Second row buttons (buttons above display on Push 2) allows now to toggle between min/max values in User mode.
+  * Fixed: Push 2: Notification messages were not shown on the display
 
 ## 7.10
 
