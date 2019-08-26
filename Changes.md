@@ -25,6 +25,8 @@
   * New: Session: The octave and page buttons navigate the pages of the session grid
   * New: Second row buttons (buttons above display on Push 2) allows now to toggle between min/max values in User mode.
   * Fixed: Push 2: Notification messages were not shown on the display
+* OSC
+  * New: Added user parameters
 
 ## 7.10
 
