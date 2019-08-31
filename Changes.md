@@ -13,7 +13,7 @@
   * New: Delete + Scene button (in Play, Piano, Drum 64, Session view): Delete the scene
   * New: Delete + pad in scene play mode: Delete the scene
   * New: Added "Clear Mute/Solo" to drum channel details
-  * New: Long press the record button to configure record quantization
+  * New: The quantize mode now contains the record quantization configuration as well
   * New: More parameters for note editing
 
 ## 7.20 (unreleased)
@@ -21,6 +21,8 @@
 * Requires Bitwig 2.4+.
 * Launchpad Pro
   * New: Added user mode. Press USER button to enter. Scene buttons switch between the 8 pages of 8 parameters.
+* Novation Remote SL Mk III
+  * New: Added setting to disable the faders (to prevent accidently changing volume)
 * Push
   * New: Session: The octave and page buttons navigate the pages of the session grid
   * New: Second row buttons (buttons above display on Push 2) allows now to toggle between min/max values in User mode.
