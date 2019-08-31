@@ -16,7 +16,7 @@
   * New: The quantize mode now contains the record quantization configuration as well
   * New: More parameters for note editing
 
-## 7.20 (unreleased)
+## 7.20
 
 * Requires Bitwig 2.4+.
 * Launchpad Pro
