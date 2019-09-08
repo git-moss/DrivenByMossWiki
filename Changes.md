@@ -16,10 +16,11 @@
   * New: The quantize mode now contains the record quantization configuration as well
   * New: More parameters for note editing
 
-## 7.21 (unreleased)
+## 7.21
 
 * Requires Bitwig 2.4+.
 * OSC
+  * New: /playbutton - Toggles playback, you can configure the Stop behaviour in the configuration settings
   * Fixed: All /vkb_midi commands did crash
 
 ## 7.20

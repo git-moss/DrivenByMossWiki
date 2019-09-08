@@ -11,6 +11,8 @@ The ZIP file has a folder _osc_ which contains example files for Cycling 74s Max
 
 ## The following OSC messages are sent from the script
 
+MAX_VALUE is configured in the configuration settings.
+
 ### Send - Project
 
 * /project/name
@@ -22,7 +24,7 @@ The ZIP file has a folder _osc_ which contains example files for Cycling 74s Max
 * /record {1,0}
 * /repeat {1,0}
 * /click {1,0}
-* /click/volume {0-127}
+* /click/volume {0-MAX_VALUE}
 * /click/volumeStr {text}
 * /click/preroll {0,1}
 * /punchIn {1,0}
@@ -30,7 +32,7 @@ The ZIP file has a folder _osc_ which contains example files for Cycling 74s Max
 * /preroll {0,1,2,4}
 * /overdub {1,0}
 * /overdub/launcher {1,0}
-* /crossfade {0-127}
+* /crossfade {0-MAX_VALUE}
 * /autowrite {0,1}
 * /autowrite/launcher {0,1}
 * /automationWriteMode {latch,touch,write}
@@ -67,9 +69,9 @@ The ZIP file has a folder _osc_ which contains example files for Cycling 74s Max
 * /track/{1-8}/canHoldAudioData
 * /track/{1-8}/position
 * /track/{1-8}/selected
-* /track/{1-8}/volume {0-127}
+* /track/{1-8}/volume {0-MAX_VALUE}
 * /track/{1-8}/volumeStr {text}
-* /track/{1-8}/pan {0-127}
+* /track/{1-8}/pan {0-MAX_VALUE}
 * /track/{1-8}/panStr {text}
 * /track/{1-8}/mute {1,0}
 * /track/{1-8}/solo {1,0}
@@ -79,7 +81,7 @@ The ZIP file has a folder _osc_ which contains example files for Cycling 74s Max
 * /track/{1-8}/crossfadeMode/{A,B,AB}
 * /track/{1-8}/vu
 * /track/{1-8}/color   with rgb(r,g,b). r,g,b = 0..255
-* /track/{1-8}/send/{1-8}/volume {0-127}
+* /track/{1-8}/send/{1-8}/volume {0-MAX_VALUE}
 * /track/{1-8}/send/{1-8}/volumeStr {text}
 * /track/{1-8}/send/{1-8}/name {text}
 
@@ -113,7 +115,7 @@ The ZIP file has a folder _osc_ which contains example files for Cycling 74s Max
 * /device/window {0,1}
 * /device/expand
 * /device/param/{1-8}/name {text}
-* /device/param/{1-8}/value {0-127}
+* /device/param/{1-8}/value {0-MAX_VALUE}
 * /device/param/{1-8}/valueStr {text}
 * /device/param/{1-8}/modulatedValue
 * /device/layer/{1-8}/exists
@@ -128,7 +130,7 @@ The ZIP file has a folder _osc_ which contains example files for Cycling 74s Max
 * /device/layer/{1-8}/mute
 * /device/layer/{1-8}/solo
 * /device/layer/{1-8}/color             with rgb(r,g,b). r,g,b = 0..255
-* /device/layer/{1-8}/send/{1-8}/volume {0-127}
+* /device/layer/{1-8}/send/{1-8}/volume {0-MAX_VALUE}
 * /device/layer/{1-8}/send/{1-8}/volumeStr {text}
 * /device/layer/selected/...            Same attributes as for a layer
 * /device/drumpad/{1-16}/...            Same attributes as for a layer
@@ -180,10 +182,11 @@ The ZIP file has a folder _osc_ which contains example files for Cycling 74s Max
 
 ### Receive - Transport
 
-* /stop {1,-}
-* /play {1,-}
-* /restart {1,-}
-* /repeat {1,-}
+* /stop {1,-}               Stops playback
+* /play {1,-}               Starts playback
+* /playbutton {1,-}         Toggles playback, you can configure the Stop behaviour in the configuration settings
+* /restart {1,-}            Restarts playback from the beginning of the timeline
+* /repeat {1,-}             Toggles repeat (loop)
 * /click {1,-}              1 = Enable, No value ("-") = Toggle
 * /click/volume
 * /click/preroll {-,1}      Toggles click in preroll
@@ -192,7 +195,7 @@ The ZIP file has a folder _osc_ which contains example files for Cycling 74s Max
 * /record {1,-}
 * /overdub {1,-}
 * /overdub/launcher {1,-}
-* /crossfade {0-127}
+* /crossfade {0-MAX_VALUE}
 * /autowrite {0,1}
 * /autowrite/launcher {0,1}
 * /automationWriteMode {latch,touch,write}
@@ -237,11 +240,11 @@ The ZIP file has a folder _osc_ which contains example files for Cycling 74s Max
 * /track/add/instrument
 * /track/{1-8}/activated {0,1}
 * /track/{1-8}/select
-* /track/{1-8}/volume {0-127}
+* /track/{1-8}/volume {0-MAX_VALUE}
 * /track/{1-8}/volume/indicate {0,1}
 * /track/{1-8}/volume/reset
 * /track/{1-8}/volume/touched {0,1}
-* /track/{1-8}/pan {0-127}
+* /track/{1-8}/pan {0-MAX_VALUE}
 * /track/{1-8}/pan/indicate {0,1}
 * /track/{1-8}/pan/reset
 * /track/{1-8}/pan/touched {0,1}
@@ -251,7 +254,7 @@ The ZIP file has a folder _osc_ which contains example files for Cycling 74s Max
 * /track/{1-8}/monitor
 * /track/{1-8}/autoMonitor
 * /track/{1-8}/crossfadeMode/{A,B,AB} {1}
-* /track/{1-8}/send/{1-8}/volume {0-127}
+* /track/{1-8}/send/{1-8}/volume {0-MAX_VALUE}
 * /track/{1-8}/send/{1-8}/volume/indicate {0,1}
 * /track/{1-8}/clip/{1-8}/select
 * /track/{1-8}/clip/{1-8}/launch
@@ -280,7 +283,7 @@ The ZIP file has a folder _osc_ which contains example files for Cycling 74s Max
 * /device/expand
 * /device/param/{+,-}
 * /device/param/bank/page/{+,-}
-* /device/param/{1-8}/value {0-127}
+* /device/param/{1-8}/value {0-MAX_VALUE}
 * /device/param/{1-8}/indicate {0,1}
 * /device/param/{1-8}/reset
 * /device/param/{1-8}/touched
@@ -289,15 +292,15 @@ The ZIP file has a folder _osc_ which contains example files for Cycling 74s Max
 * /device/bank/page/{+,-}
 * /device/sibling/{1-8}/selected {0,1}
 * /device/layer/{1-8}/selected
-* /device/layer/{1-8}/volume {0-127}
+* /device/layer/{1-8}/volume {0-MAX_VALUE}
 * /device/layer/{1-8}/volume/indicate {0,1}
 * /device/layer/{1-8}/volume/touched {0,1}
-* /device/layer/{1-8}/pan {0-127}
+* /device/layer/{1-8}/pan {0-MAX_VALUE}
 * /device/layer/{1-8}/pan/indicate {0,1}
 * /device/layer/{1-8}/pan/touched {0,1}
 * /device/layer/{1-8}/mute {1,0,-}
 * /device/layer/{1-8}/solo {1,0,-}
-* /device/layer/{1-8}/send/{1-8}/volume {0-127}
+* /device/layer/{1-8}/send/{1-8}/volume {0-MAX_VALUE}
 * /device/layer/{1-8}/send/{1-8}/volume/indicate {0,1}
 * /device/layer/{1-8}/send/{1-8}/volume/touched {0,1}
 * /device/layer/{1-8}/enter
