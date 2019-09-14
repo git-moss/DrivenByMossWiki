@@ -27,6 +27,9 @@
     was selected.
 * Native Instruments Komplete S-MkII, A-series/M32
   * New: The extension is now split up into two. One for the S-series and one for the A-series/M32. You need to add your Kontrol device again.
+* Novation SLMkIII
+  * New: Notification messages are also displayed on the SL display
+  * New: Firmware version is displayed on startup
 * Push
   * Fixed: Display a message if no clip is selected in clip mode
   * Fixed: Octave buttons were not updated in sequencer modes.
