@@ -16,6 +16,21 @@
   * New: The quantize mode now contains the record quantization configuration as well
   * New: More parameters for note editing
 
+## 7.22 (unreleased)
+
+* Requires Bitwig 2.4+.
+* APCmini
+  * Fixed: Sometimes the pad grid was not drawn after startup, since the APCmini is slow to be ready for receiving commands.
+* APC40mkI/mkII, APCmini, Launchpad MkII/Pro, Novation SL, Push
+  * Fixed: Deactivate all sequencers if no clip is selected. This caused weird effects if 
+    the grid resolution of the sequencer was changed with no clip selected and then a clip
+    was selected.
+* Native Instruments Komplete S-MkII, A-series/M32
+  * New: The extension is now split up into two. One for the S-series and one for the A-series/M32. You need to add your Kontrol device again.
+* Push
+  * Fixed: Display a message if no clip is selected in clip mode
+  * Fixed: Octave buttons were not updated in sequencer modes.
+
 ## 7.21
 
 * Requires Bitwig 2.4+.
