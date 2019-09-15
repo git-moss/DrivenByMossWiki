@@ -16,6 +16,12 @@
   * New: The quantize mode now contains the record quantization configuration as well
   * New: More parameters for note editing
 
+## 7.31 (unreleased)
+
+* Requires Bitwig 2.4+.
+* Beatstep Pro
+  * Fixed: Some knobs did not toggle its value
+
 ## 7.30
 
 * Requires Bitwig 2.4+.
