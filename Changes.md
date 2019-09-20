@@ -20,7 +20,9 @@
 
 * Requires Bitwig 2.4+.
 * Beatstep Pro
-  * Fixed: Some knobs did not toggle its value
+  * Fixed: Some knobs did not toggle their value
+* Mackie HUI
+  * Fixed: Crash on startup if Display was active
 
 ## 7.30
 
