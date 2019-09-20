@@ -19,6 +19,7 @@
 ## 7.31 (unreleased)
 
 * Requires Bitwig 2.4+.
+* Added new scales
 * Beatstep Pro
   * Fixed: Some knobs did not toggle their value
 * Mackie HUI
