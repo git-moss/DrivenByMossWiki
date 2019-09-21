@@ -16,14 +16,14 @@
   * New: The quantize mode now contains the record quantization configuration as well
   * New: More parameters for note editing
 
-## 7.31 (unreleased)
+## 7.31
 
 * Requires Bitwig 2.4+.
 * Added new scales
 * Beatstep Pro
   * Fixed: Some knobs did not toggle their value
 * Mackie HUI
-  * Fixed: Crash on startup if Display was active
+  * Fixed: Crash on startup and shutdown if Display was active
 
 ## 7.30
 
