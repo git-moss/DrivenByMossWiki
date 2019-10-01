@@ -13,7 +13,7 @@ Get the latest stable release from [my homepage](http://www.mossgrabers.de/Softw
    * Linux:   `~/Bitwig Studio/Extensions/`
 3. Start Bitwig Studio and open the *Dashboard*. Select *Settings* and *Controllers*.
 4. If **Autdetect** is enabled for most of the controllers you automatically get a popup notification.
-5. Alternatively, select **Add controller manually**
-6. See device specific additional installation notes below.
+5. Alternatively, select **Add controller manually**. In that case note that the extension does not start 
+   until you configured the necessary in- and outputs!
 
-See the documentation for the specific controllers for further installation instructions.
+See the documentation of the individual controllers for further installation/configuration instructions.

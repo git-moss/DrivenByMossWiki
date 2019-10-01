@@ -2,6 +2,11 @@
 
 Support script for Akais' APCmini controller. You can control track parameters, devices and session view.
 
+## Installation
+
+If you added the controller manually, select the MIDI input without an extension (not: "EXT, DAW") and the 
+USB connection (there should be only one option for that).
+
 ## Features
 
 For the basic usage see the APCmini manual. The differences are as follows:

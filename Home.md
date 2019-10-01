@@ -24,7 +24,7 @@ Supported controllers and protocols:
 * [Mackie MCU](Mackie-MCU)
 * [Midi Monitor](MidiMonitor)
 * [Native Instruments Kontrol S25, S49, S61, S88 mk I](Native-Instruments-Kontrol1)
-* [Native Instruments Kontrol S49, S61 mk II, A-series, M32](Native-Instruments-Kontrol2)
+* [Native Instruments Kontrol S49, S61, S88 mk II, A-series, M32](Native-Instruments-Kontrol2)
 * [Native Instruments Maschine Mikro Mk3](Native-Instruments-Maschine-Mikro-Mk3)
 * [Novation Launchpad MkII & Pro](Novation-Launchpad-MkII-&-Pro)
 * [Novation Remote SL MkI & MkII](Novation-Remote-SLmkI-&-mkII)
