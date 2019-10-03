@@ -16,6 +16,13 @@
   * New: The quantize mode now contains the record quantization configuration as well
   * New: More parameters for note editing
 
+## 7.32
+
+* Requires Bitwig 2.4+.
+* Added a help page for the extension. Help button appears now with each instance.
+* MCU
+  * New: Added new function key option "Toggle use faders like editing knobs".
+
 ## 7.31
 
 * Requires Bitwig 2.4+.
