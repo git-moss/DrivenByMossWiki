@@ -16,6 +16,14 @@
   * New: The quantize mode now contains the record quantization configuration as well
   * New: More parameters for note editing
 
+## 7.33 (unreleased)
+
+* Requires Bitwig 2.4+.
+* New: Improved auto-detect of some devices
+* Launchpad Pro/MkII
+  * Fixed: Page Left LED indication in Note and Raindrops Sequencer was not correct.
+  * Fixed: Play in Shift mode of MkII did not work (triggered toggle loop instead).
+
 ## 7.32
 
 * Requires Bitwig 2.4+.
