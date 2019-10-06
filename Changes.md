@@ -20,9 +20,19 @@
 
 * Requires Bitwig 2.4+.
 * New: Improved auto-detect of some devices
+* Ableton Push
+  * Fixed: Blinking on queued clips did not work
 * Launchpad Pro/MkII
+  * New: Shift-mode can now also be accessed from the Session mode. The access the Bird-Eye 
+         view of the Session mode long press the Session button.
+  * New: Optimized Shift-mode, Scene buttons select (again) the Mix-mode of MkII, they 
+         have no function on the Pro. First row of buttons select the length of new clips 
+         on both models.
+  * Fixed: Blinking on queued clips did not work
   * Fixed: Page Left LED indication in Note and Raindrops Sequencer was not correct.
   * Fixed: Play in Shift mode of MkII did not work (triggered toggle loop instead).
+  * Fixed: Mixer-LED on MkII was not lit.
+  * Fixed: Play-Layout was not set when first time switching between Session and Play.
 
 ## 7.32
 
