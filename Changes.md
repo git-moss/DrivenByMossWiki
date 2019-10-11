@@ -16,14 +16,21 @@
   * New: The quantize mode now contains the record quantization configuration as well
   * New: More parameters for note editing
 
-## 7.33 (unreleased)
+## 7.40 (unreleased)
 
 * Requires Bitwig 2.4+.
 * New: Improved auto-detect of some devices
 * Ableton Push
+  * New: Prevent to enter a layer which has no devices, previously the container device was
+         selected instead which could be confusing
+  * New: Added info to the browser mode about if insert or replace is happending and 
+         selected track.
+  * New: Add device to layer instead of track if a layer mode is active (but there are still 
+         some Bitwig weirdnesses in that area)
   * Fixed: Blinking on queued clips did not work
 * Launchpad Pro/MkII
-  * New: Shift-mode can now also be accessed from the Session mode. The access the Bird-Eye 
+  * New: All tracks are displayed (incl. fx and master track)
+  * New: Shift-mode can now also be accessed from the Session mode. To access the Bird-Eye 
          view of the Session mode long press the Session button.
   * New: Optimized Shift-mode, Scene buttons select (again) the Mix-mode of MkII, they 
          have no function on the Pro. First row of buttons select the length of new clips 
@@ -33,6 +40,13 @@
   * Fixed: Play in Shift mode of MkII did not work (triggered toggle loop instead).
   * Fixed: Mixer-LED on MkII was not lit.
   * Fixed: Play-Layout was not set when first time switching between Session and Play.
+  * Fixed: Stop-Clip mode could not be activated on MkII
+* MCU
+  * New: Added preset for Behringer X-Touch One
+  * New: If device or marker mode is active, do not change track with MCU_SELECT (necessary 
+    for 1 channel controllers like Behringer X-Touch One)
+* Native Instruments Komplete S-MkII, A-series/M32
+  * New: You can now set the speed of the knobs in the settings.
 
 ## 7.32
 

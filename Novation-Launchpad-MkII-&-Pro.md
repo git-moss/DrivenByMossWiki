@@ -1,19 +1,21 @@
 # Bitwig Studio | Novation Launchpad Pro & MkII
 
-Support script for Novation's Launchpad Pro controller. You can control track parameters, devices, transport, session view and play the pads.
+Support script for Novation's Launchpad Pro controller. You can control track parameters, devices, transport, session 
+view and play the pads.
 
 ## Installation
 
-* Pro: If you added the controller manually, choose the 2nd port (*MIDIIN2 (Launchpad Pro)* and *MIDIOUT2 (Launchpad Pro)* on Windows).
-* Make sure the Launchpad sends on Midi Channel 1
+* Pro: If you added the controller manually, choose the 2nd port (e.g. *MIDIIN2 (Launchpad Pro)* and 
+  *MIDIOUT2 (Launchpad Pro)* on Windows).
+* Make sure the Launchpad sends on Midi Channel 1!
 
 ## Differences MkII and Pro
 
 The MkII misses the left column and the bottom row of buttons from the Launchpad Pro.
 Most importantly it misses the **Shift** button. Therefore, the **Mixer** button acts as the **Shift** button.
-If you press it also the grid changes. The left row of the grid now represents the missing left column of the Pro.
+If you press it the grid changes as well. The left row of the grid now represents the missing left column of the Pro.
 The second column represents the functions of those buttons in Shift state.
-Also the first row represents the missing buttons of the Pro. Alternatively, you can use the scene buttons to enter those modes (Volume, Pan, etc.).
+Also the Scene buttons represents the missing buttons bottom row of the Pro (Volume, Pan, etc. but differently ordered).
 The colors of the buttons are identical.
 
 ## Transport and Editing (Left button column)
@@ -39,11 +41,15 @@ Press _Mixer_ button and use the 1st and 2nd column of the grid on the MkII.
 
 ## Cursors and Mode selection (Upper button row)
 
-* **Arrows** - Navigate in the different modes (see below), holding an arrow button down will scroll through the specific View (e.g. track, scene).
+* **Arrows** - Navigate in the different modes (see below), holding an arrow button down will scroll through the specific 
+    View (e.g. track, scene).
 * **Session** - Selects the Session mode to start, stop and record clips. Session can be flipped if Session button is pressed twice.
-* **Note** - Selects the Note play mode for playing notes in different scales. If pressed again it activates the Drum mode for playing and sequencing drum instruments.
+    Long press Session to select *birds-eye-view* to quickly navigate the clip grid. Press Session again to leave this mode.
+* **Note** - Selects the Note play mode for playing notes in different scales. If pressed again it activates the Drum mode 
+    for playing and sequencing drum instruments.
 * **Shift+Note** - Activates the Sequencer mode. If pressed again it activates the Raindrop sequencer.
-* **Device** - Selects the Device mode to change the Parameters of the currently selected device. If pressed again it opens the browser for preset selection mode. If no device is selected the browser is opened to insert a device.
+* **Device** - Selects the Device mode to change the Parameters of the currently selected device. If pressed again it opens 
+    the browser for preset selection mode. If no device is selected the browser is opened to insert a device.
 * **Shift+Device** - Opens the device browser to add a device after the currently selected one
 * **User** - Currently not used.
 
@@ -52,27 +58,38 @@ Note: The preferred play/sequencer mode is remembered for each track.
 ## Track Control (Lower button row)
 
 These buttons only work in the Session mode. If the Session mode is not yet selected it gets activated.
-On the MkII press _Mixer_ and use the 1st row of the grid or the scene buttons.
+On the MkII press _Mixer_ and use the scene buttons.
 
-* **Record Arm** - The 8 buttons of the bottom row of the grid allow to toggle record arm of the currently focused 8 tracks of the track bank.
-* **Track Select** - The 8 buttons of the bottom row of the grid allow to select one of the currently focused 8 tracks of the track bank. The currently selected track is indicated on the first row (round) buttons by a brighter white. Furthermore, the front LED is also lit in the color of the current track.
-* **Mute** - The 8 buttons of the bottom row of the grid allow to toggle Mute of the currently focused 8 tracks of the track bank.
-* **Solo** - The 8 buttons of the bottom row of the grid allow to toggle Solo of the currently focused 8 tracks of the track bank.
-* **Volume** - Each column of the grid controls the Volume of the currently focused 8 tracks of the track bank. Hit buttons harder for faster change. The color of a fader is the same as the color of the track. Use the scene buttons for master volume.
-* **Pan** - Each column of the grid controls the Panorama of the currently focused 8 tracks of the track bank. Hit buttons harder for faster change. The color of a fader is the same as the color of the track.
-* **Sends** - Each column of the grid controls the Send of the currently focused 8 tracks of the track bank. Hit buttons harder for faster change. The color of a fader is the same as the color of the track. Use the Scene buttons to select the Sends 1 to 8.
-* **Stop Clip** - The 8 buttons of the bottom row of the grid allow to stop the playing clip of the track of the currently focused 8 tracks of the track bank.
+* **Record Arm** - The 8 buttons of the bottom row of the grid allow to toggle record arm of the currently focused 
+  8 tracks of the track bank.
+* **Track Select** - The 8 buttons of the bottom row of the grid allow to select one of the currently focused 8 tracks 
+  of the track bank. The currently selected track is indicated on the first row (round) buttons by a brighter white. 
+  Furthermore, the front LED is also lit in the color of the current track.
+* **Mute** - The 8 buttons of the bottom row of the grid allow to toggle Mute of the currently focused 8 tracks of the 
+  track bank.
+* **Solo** - The 8 buttons of the bottom row of the grid allow to toggle Solo of the currently focused 8 tracks of 
+  the track bank.
+* **Volume** - Each column of the grid controls the Volume of the currently focused 8 tracks of the track bank. Hit 
+  buttons harder for faster change. The color of a fader is the same as the color of the track. Use the scene buttons 
+  for master volume.
+* **Pan** - Each column of the grid controls the Panorama of the currently focused 8 tracks of the track bank. Hit 
+  buttons harder for faster change. The color of a fader is the same as the color of the track.
+* **Sends** - Each column of the grid controls the Send of the currently focused 8 tracks of the track bank. Hit 
+  buttons harder for faster change. The color of a fader is the same as the color of the track. Use the Scene buttons 
+  to select the Sends 1 to 8.
+* **Stop Clip** - The 8 buttons of the bottom row of the grid allow to stop the playing clip of the track of the 
+  currently focused 8 tracks of the track bank.
 * **Shift+Stop Clip** - Stops all currently playing clips. (Mixer + 8th button of 2nd row on MkII)
 
 ## Session Mode
 
-Press _"Session"_ to enter **Session** mode:
+Press _"Session"_ to enter **Session** mode. Press again to toggle the clip orientation (vertical or horizontal).
+_Long press_ to enter birds-eye-view.
 
 * The buttons on the grid start/record the clips.
 * The 8 scene buttons on the right start the scenes.
 * The arrow keys scroll the grid. Hold **Shift** to scroll in blocks of 8.
 * Hold **Delete** and press a clip button to delete the clip.
-* Launchpad Pro: For "birds eye view" press Shift
 
 ## Note Mode (Playing the pads)
 

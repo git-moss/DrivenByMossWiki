@@ -14,8 +14,8 @@ The settings dialog contains profiles for several devices, which sets the correc
 ## Transport
 
 * **Play** (MCU PLAY) - Start/Stop playback. Double click to move play cursor to start of song.
-* **Shift (MCU_SHIFT) + Play** - Toggle repeat
-* **Option (MCU_OPTION) + Play** - Toggle Punch In
+* **Shift (MCU SHIFT) + Play** - Toggle repeat
+* **Option (MCU OPTION) + Play** - Toggle Punch In
 * **Option + Shift + Play** - Toggle Punch Out
 * **Punch in** (MCU F6) - Toggle punch in
 * **Punch out** (MCU F7) - Toggle punch in
@@ -40,9 +40,9 @@ The settings dialog contains profiles for several devices, which sets the correc
 * **Display Mode** - Toggles the display of the track names in the 1st display.
 * **Tempo/Ticks** - Toggle content of segment display. The last 3 digits toggle between ticks or the song tempo.
 * **Global View (MCU EDIT)** - Toggle VU meters on/off
-* **Aux (MCU_AUX)** - Switches to Arrange layout.
-* **Busses (MCU_BUSSES)** - Switches to Mix layout.
-* **Outputs (MCU_OUTPUTS)** - Switches to Edit layout.
+* **Aux (MCU AUX)** - Switches to Arrange layout.
+* **Busses (MCU BUSSES)** - Switches to Mix layout.
+* **Outputs (MCU OUTPUTS)** - Switches to Edit layout.
 * **Shift+Track selection buttons** - Select the length for new clips: 16 bars, 8 bars, 4 bars, 2 bars, 1 bar, 2 beats, 1 beat, 32 bars
 
 ### Functions
@@ -69,7 +69,7 @@ The settings dialog contains profiles for several devices, which sets the correc
 
 * **Read/Off** (MCU READ) - Disables arranger automation recording.
 * **Option + Read/Off** - Resets any automation overrides.
-* **Write** (MCU WRITE, MCU_GROUP) - Enables arranger automation recording and sets it to Write mode.
+* **Write** (MCU WRITE, MCU GROUP) - Enables arranger automation recording and sets it to Write mode.
 * **Trim** (MCU TRIM) - Since Bitwig has not Trim mode, this button toggles the clip automation recording.
 * **Touch** (MCU TOUCH) - Enables arranger automation recording and sets it to Touch mode.
 * **Latch** (MCU LATCH) - Enables arranger automation recording and sets it to Latch mode.
@@ -92,18 +92,18 @@ The settings dialog contains profiles for several devices, which sets the correc
 * **Shift+OVR** - Toggle launcher overdub
 * **Save** (MCU SAVE) - Save button saves the current project
 * **Marker** (MCU MARKER) - Toggles the display of markers in the arranger
-* **Drop** (MCU_DROP) - Duplicate (depending on the focus)
+* **Drop** (MCU DROP) - Duplicate (depending on the focus)
 
 ### Fader Controls
 
 * **Lock** (Not on MCU) - Locks the faders
-* **Flip** (MCU_FLIP) - Toggles between Instrument/Audio/Hybrid tracks and the Effect tracks.
+* **Flip** (MCU FLIP) - Toggles between Instrument/Audio/Hybrid tracks and the Effect tracks.
 * **Cancel** (MCU CANCEL) - Cancels browsing when the Browser is active, otherwise like pressing the Escape key on the computer keyboard.
 * **Enter** (MCU ENTER) - Confirms browsing when the Browser is active, otherwise like pressing the Enter key on the computer keyboard.
-* **|<** (MCU BANK LEFT) - Move track bank focus 1 track up. If Device mode is active, the previous device parameter bank is selected.
-* **>|** (MCU BANK RIGHT) - Move track bank focus 1 track down. If Device mode is active, the next device parameter bank is selected.
-* **<< 8** (MCU TRACK LEFT) - Move track bank focus 8 tracks up. If Device mode is active, the previous device is selected.
-* **8 >>** (MCU TRACK RIGHT) - Move track bank focus 8 tracks down. If Device mode is active, the next device is selected.
+* **|<** (MCU BANK LEFT) - Move track bank focus 8 track up. If Device mode is active, the previous device parameter bank is selected.
+* **>|** (MCU BANK RIGHT) - Move track bank focus 8 track down. If Device mode is active, the next device parameter bank is selected.
+* **<< 8** (MCU TRACK LEFT) - Move track bank focus 1 tracks up. If Device mode is active, the previous device is selected.
+* **8 >>** (MCU TRACK RIGHT) - Move track bank focus 1 tracks down. If Device mode is active, the next device is selected.
 
 ## Edit Modes
 
