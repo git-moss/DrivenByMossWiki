@@ -16,7 +16,7 @@
   * New: The quantize mode now contains the record quantization configuration as well
   * New: More parameters for note editing
 
-## 7.40 (unreleased)
+## 7.40
 
 * Requires Bitwig 2.4+.
 * New: Improved auto-detect of some devices
@@ -27,6 +27,8 @@
          selected track.
   * New: Add device to layer instead of track if a layer mode is active (but there are still 
          some Bitwig weirdnesses in that area)
+  * New: Access to slot chains of devices
+  * New: Added aftertouch processing to Drum and Drum 64 mode.
   * Fixed: Blinking on queued clips did not work
 * Launchpad Pro/MkII
   * New: All tracks are displayed (incl. fx and master track)
@@ -35,12 +37,17 @@
   * New: Optimized Shift-mode, Scene buttons select (again) the Mix-mode of MkII, they 
          have no function on the Pro. First row of buttons select the length of new clips 
          on both models.
+  * New: Pro: Added aftertouch processing to Drum and Drum 64 mode.
   * Fixed: Blinking on queued clips did not work
   * Fixed: Page Left LED indication in Note and Raindrops Sequencer was not correct.
   * Fixed: Play in Shift mode of MkII did not work (triggered toggle loop instead).
   * Fixed: Mixer-LED on MkII was not lit.
   * Fixed: Play-Layout was not set when first time switching between Session and Play.
   * Fixed: Stop-Clip mode could not be activated on MkII
+* Maschine Mikro MkIII
+  * New: Show info text when Duplicate is enabled
+  * New: Added template with required settings to the resources folder.
+  * New: Added flip arranger and clip recording option
 * MCU
   * New: Added preset for Behringer X-Touch One
   * New: If device or marker mode is active, do not change track with MCU_SELECT (necessary 

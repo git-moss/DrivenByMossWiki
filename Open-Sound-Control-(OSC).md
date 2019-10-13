@@ -7,7 +7,7 @@ Bitwig Studio script to support the OSC protocol.
 1. Select a midi input port. It is not really important which one you choose because it is just used to insert midi notes into Bitwig received as an OSC command. Best thing is to use a virtual midi port.
 2. Adjust the IP-addresses and ports of your computer and the client device you want to use.
 
-The ZIP file has a folder _resources/osc_ which contains example files for Cycling 74s Max, TouchOSC and Open Stage Control.
+The ZIP file has a folder _resources/OSC_ which contains example files for Cycling 74s Max, TouchOSC and Open Stage Control.
 
 ## The following OSC messages are sent from the script
 

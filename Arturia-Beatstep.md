@@ -7,7 +7,7 @@ Known Issues:
 
 ## Installation
 
-Load the respective template from the folder _resources/beatstep_ into the device by using Arturias Midi Control Center.
+Load the respective template from the folder _resources/Beatstep_ into the device by using Arturias Midi Control Center.
 Only Beatstep Pro: In the Device Settings Tab set the User Midi Channel to 3.
 
 ## Features

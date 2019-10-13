@@ -2,6 +2,12 @@
 
 Support for Native Instruments Maschine Mikro Mk3.
 
+## Installation
+
+Load the respective template from the folder _resources/Maschine Mini Mk3_ into the device by using Native Instruments Controller Editor.
+
+## Important notes
+
 This extension uses the MIDI mode of the device. Press **Shift + Project** (on the left / top) buttons to enter MIDI mode.
 
 Since the extension requires the Native Instruments Host Integration service it **only works on Windows and Mac (no Linux)**.
@@ -60,7 +66,7 @@ The Touchstrip behaves based on the following modes.
 * **Pattern** - Press a pad to start one of 16 clips of the current bank page on the selected track.
 * **Events** - This is the Play or Drum mode.
 * **Variation** - Press a pad to select one of 8 or 9 parameters of the current bank page on the selected track.
-* **Duplicate** - If active and a pad is pressed, you can duplicate a scene, clip or track depending on the mode.
+* **Duplicate** - If active and a pad is pressed afterwards, you can duplicate a scene, clip or track depending on the mode.
 * **Select** - Press a pad to select one of 16 channels of the current bank page. Use Chords and Steps buttons to flip through the bank pages.
 * **Solo** - Press a pad to toggle Solo of 16 channels of the current bank page. Use Chords and Steps buttons to flip through the bank pages.
 * **Mute** - Press a pad to toggle Mute of 16 channels of the current bank page. Use Chords and Steps buttons to flip through the bank pages.
