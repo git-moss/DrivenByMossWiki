@@ -23,7 +23,7 @@
 * Ableton Push
   * New: Prevent to enter a layer which has no devices, previously the container device was
          selected instead which could be confusing
-  * New: Added info to the browser mode about if insert or replace is happending and 
+  * New: Added info to the browser mode about if insert or replace is happening and 
          selected track.
   * New: Add device to layer instead of track if a layer mode is active (but there are still 
          some Bitwig weirdnesses in that area)
