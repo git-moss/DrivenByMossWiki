@@ -1,32 +1,45 @@
 # Welcome to the DrivenByMoss wiki
 
-This Bitwig Studio Extension supports several controllers at once.
+DrivenByMoss is a Bitwig Studio extension, which supports many controllers and protocols. Furthermore, it brings some tools and utilities.
+DrivenByMoss is written by Jürgen Moßgraber also known as MOSS.
 
+## Contact
+Post all questions, wishes and discussion into the [KVR Thread](http://www.kvraudio.com/forum/viewtopic.php?f=268&t=502948).
+
+## Latest Release
+Download the latest release from <a href="http://www.mossgrabers.de">my homepage.</a>
 > **The version on GitHub might always be in an alpha or beta state, you have been warned!**
-
-Get the latest stable release from [my homepage](http://www.mossgrabers.de/Software/Bitwig/Bitwig.html).
-
-There are several in-depth video tutorials available on [Youtube](https://www.youtube.com/playlist?list=PLqRWeSPiYQ67o_9hKx4-ATmX9qGWuEeNm)
-
-First start with the installation instructions: [Installation](Installation)
 
 List with [Changes](Changes)
 
-Supported controllers and protocols:
+## Documentation & Tutorials
 
-* [Ableton Push I & II](Ableton-Push-I-&-II)
-* [Akai APC40 & APC40mkII](Akai-APC40-&-APC40mkII)
-* [Akai APCmini](Akai-APCmini)
-* [Arturia Beatstep](Arturia-Beatstep)
-* [Auto Color](AutoColor)
-* [Generic Flexi](Generic-Flexi)
-* [Mackie HUI](Mackie-HUI)
-* [Mackie MCU](Mackie-MCU)
-* [Midi Monitor](MidiMonitor)
-* [Native Instruments Kontrol S25, S49, S61, S88 mk I](Native-Instruments-Kontrol1)
-* [Native Instruments Kontrol S49, S61, S88 mk II, A-series, M32](Native-Instruments-Kontrol2)
-* [Native Instruments Maschine Mikro Mk3](Native-Instruments-Maschine-Mikro-Mk3)
-* [Novation Launchpad MkII & Pro](Novation-Launchpad-MkII-&-Pro)
-* [Novation Remote SL MkI & MkII](Novation-Remote-SLmkI-&-mkII)
-* [Novation SL Mk III](Novation-SLMkIII)
-* [Open Sound Control (OSC)](Open-Sound-Control-(OSC))
+There are several in-depth video tutorials available on my [Youtube channel](https://www.youtube.com/channel/UCMgtq3iKqYamt9C-xbxwjTA).
+
+First start with the [Installation instructions](Installation).
+After that check the specific controller documentation below for additional installation notes:
+
+* Ableton
+  * [Push I & II](Ableton-Push-I-&-II)
+* Akai
+  * [APC40 & APC40mkII](Akai-APC40-&-APC40mkII)
+  * [APCmini](Akai-APCmini)
+* Arturia
+  * [Beatstep](Arturia-Beatstep)
+* Mackie
+  * [HUI Protocol](Mackie-HUI)
+  * [MCU Protocol](Mackie-MCU)
+* Native Instruments
+  * [Kontrol S25, S49, S61, S88 mk I](Native-Instruments-Kontrol1)
+  * [Kontrol S49, S61, S88 mk II, A-series, M32](Native-Instruments-Kontrol2)
+  * [Maschine Mikro Mk3](Native-Instruments-Maschine-Mikro-Mk3)
+* Novation
+  * Not yet implemented - [Launchkey Mini Mk3](Novation-LaunchkeyMiniMk3)
+  * [Launchpad MkII & Pro](Novation-Launchpad-MkII-&-Pro)
+  * [SL MkI & MkII](Novation-Remote-SLmkI-&-mkII)
+  * [SL Mk III](Novation-SLMkIII)
+* Generic, Tools & Protocols
+  * [Auto Color](AutoColor)
+  * [Generic Flexi](Generic-Flexi)
+  * [Midi Monitor](MidiMonitor)
+  * [Open Sound Control (OSC)](Open-Sound-Control-(OSC))
