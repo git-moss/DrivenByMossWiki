@@ -34,7 +34,7 @@ After that check the specific controller documentation below for additional inst
   * [Kontrol S49, S61, S88 mk II, A-series, M32](Native-Instruments-Kontrol2)
   * [Maschine Mikro Mk3](Native-Instruments-Maschine-Mikro-Mk3)
 * Novation
-  * Not yet implemented - [Launchkey Mini Mk3](Novation-LaunchkeyMiniMk3)
+  * [Launchkey Mini Mk3](Novation-LaunchkeyMiniMk3)
   * [Launchpad MkII & Pro](Novation-Launchpad-MkII-&-Pro)
   * [SL MkI & MkII](Novation-Remote-SLmkI-&-mkII)
   * [SL Mk III](Novation-SLMkIII)

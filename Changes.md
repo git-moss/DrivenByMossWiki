@@ -5,6 +5,8 @@
 * Requires Bitwig API 9.
 * Launchpad
   * New: Delete + Scene button in Session view deletes the scene
+* MCU
+  * Fixed: Do not set pan mode on fader touch release when volume mode was active before.
 * OSC
   * New: The port of the OSC server ("receive on") can be configured again.
 * Push 1/2
@@ -15,6 +17,16 @@
   * New: Added "Clear Mute/Solo" to drum channel details
   * New: The quantize mode now contains the record quantization configuration as well
   * New: More parameters for note editing
+
+## 7.50
+
+* Requires Bitwig 2.4+.
+* Support for Novation Launchkey Mini Mk3
+* Launchpad MkII
+  * Fixed: The Play and New functions in Shift mode were switched.
+* OSC
+  * Fixed: OSC did crash on startup
+  * Fixed: Calls to /track/x/clip did not work
 
 ## 7.40
 
