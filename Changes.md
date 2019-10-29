@@ -5,8 +5,6 @@
 * Requires Bitwig API 9.
 * Launchpad
   * New: Delete + Scene button in Session view deletes the scene
-* MCU
-  * Fixed: Do not set pan mode on fader touch release when volume mode was active before.
 * OSC
   * New: The port of the OSC server ("receive on") can be configured again.
 * Push 1/2
@@ -24,6 +22,8 @@
 * Support for Novation Launchkey Mini Mk3
 * Launchpad MkII
   * Fixed: The Play and New functions in Shift mode were switched.
+* MCU
+  * Fixed: Do not set pan mode on fader touch release when volume mode was active before.
 * OSC
   * Fixed: OSC did crash on startup
   * Fixed: Calls to /track/x/clip did not work
