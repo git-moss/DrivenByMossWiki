@@ -5,8 +5,12 @@
 * Requires Bitwig API 9.
 * Launchpad
   * New: Delete + Scene button in Session view deletes the scene
+  * New: Shift mode: Enable note repeat and set the note repeat period and length with the pads in the middle
+* Maschine Mikro Mk3
+  * New: Added note repeat settings
 * OSC
   * New: The port of the OSC server ("receive on") can be configured again.
+  * New: Added commands for note repeat
 * Push 1/2
   * New: Added note repeat, long press Repeat button for configuration settings
   * New: Delete + Track button: Delete the track
@@ -15,6 +19,7 @@
   * New: Added "Clear Mute/Solo" to drum channel details
   * New: The quantize mode now contains the record quantization configuration as well
   * New: More parameters for note editing
+  * New: The note insert/edit MIDI channel can be selected in the Track Details mode and in the document settings
 
 ## 7.50
 
