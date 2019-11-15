@@ -35,7 +35,7 @@ After that check the specific controller documentation below for additional inst
   * [Maschine Mikro Mk3](Native-Instruments-Maschine-Mikro-Mk3)
 * Novation
   * [Launchkey Mini Mk3](Novation-LaunchkeyMiniMk3)
-  * [Launchpad MkII & Pro](Novation-Launchpad-MkII-&-Pro)
+  * [Launchpad MkII, Pro, Mini Mk3, X](Novation-Launchpad)
   * [SL MkI & MkII](Novation-Remote-SLmkI-&-mkII)
   * [SL Mk III](Novation-SLMkIII)
 * Generic, Tools & Protocols

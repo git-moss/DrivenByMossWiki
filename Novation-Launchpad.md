@@ -1,26 +1,35 @@
-# Bitwig Studio | Novation Launchpad Pro & MkII
+# Bitwig Studio | Novation Launchpad Pro, MkII, Mini Mk3, X
 
-Support script for Novation's Launchpad Pro controller. You can control track parameters, devices, transport, session 
+Support script for several of Novation's Launchpad controllers. You can control track parameters, devices, transport, session 
 view and play the pads.
 
 ## Installation
 
-* Pro: If you added the controller manually, choose the 2nd port (e.g. *MIDIIN2 (Launchpad Pro)* and 
+* Pro, Mini Mk3, X: If you added the controller manually, choose the 2nd port (e.g. *MIDIIN2 (Launchpad Pro)* and 
   *MIDIOUT2 (Launchpad Pro)* on Windows).
 * Make sure the Launchpad sends on Midi Channel 1!
 
-## Differences MkII and Pro
+## IMPORTANT: Differences between the Launchpad models
 
-The MkII misses the left column and the bottom row of buttons from the Launchpad Pro.
-Most importantly it misses the **Shift** button. Therefore, the **Mixer** button acts as the **Shift** button.
-If you press it the grid changes as well. The left row of the grid now represents the missing left column of the Pro.
-The second column represents the functions of those buttons in Shift state.
-Also the Scene buttons represents the missing buttons bottom row of the Pro (Volume, Pan, etc. but differently ordered).
+The Pro has an additional left column and bottom row of buttons. Especially, it has a **Shift** button to access 
+additional functionality.
+To work around this another button has to function as the Shift button. It is the last button of the top button row
+(MkII: **Mixer**, Mini Mk3: **User**, X: **Capture Midi**).
+
+If you press the Shift button the grid changes to the Shift mode. The left row of the grid now represents the 
+missing left column of the Pro. The second column represents the functions of those buttons in Shift state.
+The Scene buttons represent the missing bottom row of the Pro (Volume, Pan, etc. but differently ordered).
 The colors of the buttons are identical.
 
-## Transport and Editing (Left button column)
+The three buttons on the top row, right to the cursor keys are also named differently on the models:
+* Pro: Session, Note, Device
+* MkII: Session, User 1, User 2
+* X: Session, Note, Custom
+* Mini Mk3: Session, Drums, Keys
 
-Press _Mixer_ button and use the 1st and 2nd column of the grid on the MkII.
+These differences will not be mentioned again in the following text and **only the names of the Pro model will be used!**
+
+## Transport and Editing (Left button column)
 
 * **Shift** - Use in combination with other buttons for additional functionality.
 * **Click** - Toggle the metronome
@@ -58,7 +67,6 @@ Note: The preferred play/sequencer mode is remembered for each track.
 ## Track Control (Lower button row)
 
 These buttons only work in the Session mode. If the Session mode is not yet selected it gets activated.
-On the MkII press _Mixer_ and use the scene buttons.
 
 * **Record Arm** - The 8 buttons of the bottom row of the grid allow to toggle record arm of the currently focused 
   8 tracks of the track bank.

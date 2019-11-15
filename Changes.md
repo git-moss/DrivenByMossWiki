@@ -20,6 +20,14 @@
   * New: The quantize mode now contains the record quantization configuration as well
   * New: More parameters for note editing
   * New: The note insert/edit MIDI channel can be selected in the Track Details mode and in the document settings
+  * New: Light buttons brighter when pressed
+  * New: Automate button is lit orange (instead of red) when Clip automation is displayed
+
+## 7.60
+
+* Requires Bitwig 2.4+.
+* Support for Novation Launchpad X
+* Support for Novation Launchpad Mini Mk3
 
 ## 7.50
 
