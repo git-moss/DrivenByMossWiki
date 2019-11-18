@@ -20,7 +20,7 @@
   * New: The quantize mode now contains the record quantization configuration as well
   * New: More parameters for note editing
   * New: The note insert/edit MIDI channel can be selected in the Track Details mode and in the document settings
-  * New: Light buttons brighter when pressed
+  * New: Buttons are lit brighter when pressed
   * New: Automate button is lit orange (instead of red) when Clip automation is displayed
 
 ## 7.60
