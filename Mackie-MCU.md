@@ -78,8 +78,8 @@ The settings dialog contains profiles for several devices, which sets the correc
 
 * **Note Editor** (MCU MIDI TRACKS) - Toggles the display of the note editor pane
 * **Automation Editor** (MCU INPUTS) - Toggles the display of the automation editor pane
-* **Toggle Device**  (MCU AUDIO TRACKS) - Toggles the display of the device pane
-* **Shift+Toggle Device** - Toggles the display of a plugin window
+* **Toggle Device**  (MCU AUDIO TRACKS) - Toggles the display of a plugin window
+* **Shift+Toggle Device** - Toggles the different layouts
 * **Mixer** (MCU AUDIO INSTRUMENT) - Toggles the display of the mixer pane
 * **Browser** (MCU USER) - Starts the browser to browse for presets
 * **Shift+Browser** - Starts the browser to insert a new device before the current one

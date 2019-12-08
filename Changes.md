@@ -2,7 +2,9 @@
 
 ## 8.00 (unreleased)
 
-* Requires Bitwig API 9.
+* Requires Bitwig API 10.
+  * All devices use the new Hardware API
+* Removed support for Arturia Beatstep Pro due to too much limitations (use Generic Flexi instead).
 * Launchpad
   * New: Delete + Scene button in Session view deletes the scene
   * New: Shift mode: Enable note repeat and set the note repeat period and length with the pads in the middle
