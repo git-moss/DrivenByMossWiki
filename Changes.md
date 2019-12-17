@@ -5,6 +5,8 @@
 * Requires Bitwig API 10.
   * All devices use the new Hardware API
 * Removed support for Arturia Beatstep Pro due to too much limitations (use Generic Flexi instead).
+* Native Instruments Kontrol 1
+  * New: Improved speed of knobs
 * Launchpad
   * New: Delete + Scene button in Session view deletes the scene
   * New: Shift mode: Enable note repeat and set the note repeat period and length with the pads in the middle
