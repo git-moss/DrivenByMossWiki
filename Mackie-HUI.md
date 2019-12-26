@@ -27,6 +27,11 @@ The settings dialog contains profiles for several devices, which sets the correc
 * **Zoom** - If active, the arrow buttons left/right zoom the arranger horizontally. The up/down arrows both toggle the height of the track.
 * **Metronome** (HUI PRE) - Toggle metronome
 * **Tap Tempo** - (HUI POST) - Executes Tap Tempo
+* **Quick Punch** - (HUI QICK PUNCH) - Toggle Punch In
+* **In** - (HUI IN) - Toggle Punch In
+* **Out** - (HUI OUT) - Toggle Punch Out
+* **Audio Engine** (HUI ON LINE) - Toggle Audio Engine on/off for current project
+* **Return to Zero** (HUI RETURN TO ZERO) - Return the play cursor to the start of the arranger
 
 ## Buttons
 

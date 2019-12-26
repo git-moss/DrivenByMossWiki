@@ -39,7 +39,7 @@ In the browser ...
 
 * **Volume** - Enables volume/pan/Sends mode. Press again to toggle between volume, pan and send modes. The encoder changes the volume/pan/sends of the selected track. Press the encoder to set the parameter to its default value.
 * **Swing** - Enables position mode. The encoder changes the position of the play cursor in the arranger. Press the encoder to toggle between fast and slow movement.
-* **Tempo** - Enables tempo mode. Press again to toggle between fine tune and normal change. The encoder changes the tempo of the song. Press the encoder multiple times for tap tempo.
+* **Tempo** - Enables tempo mode. Press again to toggle between fine tune and normal change. The encoder changes the tempo of the song. Press the encoder multiple times to tap the tempo.
 * **Plug-In** - Enables device mode. The encoder changes the value of a device parameter. Press the encoder to reset the parameter to its default value.
 * **Sampling** - Toggle the window (if any) of the selected device (if any).
 

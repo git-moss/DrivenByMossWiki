@@ -1,22 +1,39 @@
 # Changes
 
-## 8.00 (unreleased)
+## 8.50 (unreleased)
 
-* Requires Bitwig API 10.
+* Requires Bitwig 3.1+.
   * All devices use the new Hardware API
 * Removed support for Arturia Beatstep Pro due to too much limitations (use Generic Flexi instead).
+* AutoColor
+  * Fixed: Auto coloring did not work on added tracks which had the same name as the track which was before at that position.
+* Mackie HUI
+  * New: Added support for icon Master fader extension
+  * New: Insert buttons select track
+  * New: Added (HUI QICK PUNCH) - Toggle Punch In
+  * New: Added (HUI IN) - Toggle Punch In
+  * New: Added (HUI OUT) - Toggle Punch Out
+  * New: Added (HUI ON LINE) - Toggle Audio Engine on/off for current project
+  * New: Added (HUI RETURN TO ZERO) - Return the play cursor to the start of the arranger
 * Native Instruments Kontrol 1
   * New: Improved speed of knobs
 * Launchpad
   * New: Delete + Scene button in Session view deletes the scene
   * New: Shift mode: Enable note repeat and set the note repeat period and length with the pads in the middle
+  * New: Sends mode: Display name of sends when selected
+  * New: Light buttons brighter when pressed
+  * New: Flipped Up/Down button in Device mode
+  * Fixed: Duplicate did not work on non-pro models
 * Maschine Mikro Mk3
-  * New: Added note repeat settings
+  * You need to load the new template into the Maschine (Bitwig.ncc) first
+  * New: Use multiple colors on pads
+  * New: Added note repeat
 * OSC
   * New: The port of the OSC server ("receive on") can be configured again.
   * New: Added commands for note repeat
 * Push 1/2
   * New: Added note repeat, long press Repeat button for configuration settings
+  * New: Added cue volume and cue mix to Master mode
   * New: Delete + Track button: Delete the track
   * New: Delete + Scene button (in Play, Piano, Drum 64, Session view): Delete the scene
   * New: Delete + pad in scene play mode: Delete the scene
@@ -26,6 +43,7 @@
   * New: The note insert/edit MIDI channel can be selected in the Track Details mode and in the document settings
   * New: Buttons are lit brighter when pressed
   * New: Automate button is lit orange (instead of red) when Clip automation is displayed
+  * Fixed: Push 1: Header text in Master mode was missing
 
 ## 7.60
 

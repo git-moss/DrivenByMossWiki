@@ -15,7 +15,7 @@ Support for the Novation Launchkey Mini Mk3 controller.
 
 ## Modes
 
-By using the Shift button in combination with the upper row pads, you can switch between two kinds of modes: modes for the knobs and modes for the pads.
+By using the Shift button in combination with the upper row pads, you can switch between two kinds of modes: modes for the knobs (colored green) and modes for the pads (colored orange).
 
 ### Knob modes
 
