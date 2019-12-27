@@ -60,6 +60,8 @@ MAX_VALUE is configured in the configuration settings.
 
 ### Send - Track
 
+* /track/toggleBank {0,1}                 1 if Effect track bank is active
+* /track/hasParent {0,1}                  1 if there is a parent track
 * /track/{1-8}/name
 * /track/{1-8}/type
 * /track/{1-8}/isGroup

@@ -15,6 +15,7 @@
   * New: Added (HUI OUT) - Toggle Punch Out
   * New: Added (HUI ON LINE) - Toggle Audio Engine on/off for current project
   * New: Added (HUI RETURN TO ZERO) - Return the play cursor to the start of the arranger
+  * New: Improved unmute/unsolo all tracks
 * Native Instruments Kontrol 1
   * New: Improved speed of knobs
 * Launchpad
@@ -31,6 +32,7 @@
 * OSC
   * New: The port of the OSC server ("receive on") can be configured again.
   * New: Added commands for note repeat
+  * New: Added /track/hasParent {0,1}
 * Push 1/2
   * New: Added note repeat, long press Repeat button for configuration settings
   * New: Added cue volume and cue mix to Master mode
@@ -43,6 +45,7 @@
   * New: The note insert/edit MIDI channel can be selected in the Track Details mode and in the document settings
   * New: Buttons are lit brighter when pressed
   * New: Automate button is lit orange (instead of red) when Clip automation is displayed
+  * New: Improved unmute/unsolo all tracks
   * Fixed: Push 1: Header text in Master mode was missing
 
 ## 7.60
