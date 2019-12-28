@@ -7,6 +7,8 @@
 * Removed support for Arturia Beatstep Pro due to too much limitations (use Generic Flexi instead).
 * AutoColor
   * Fixed: Auto coloring did not work on added tracks which had the same name as the track which was before at that position.
+* APC40
+  * New: Changed direction of session-clip/scene scrolling
 * Mackie HUI
   * New: Added support for icon Master fader extension
   * New: Insert buttons select track
@@ -18,20 +20,26 @@
   * New: Improved unmute/unsolo all tracks
 * Native Instruments Kontrol 1
   * New: Improved speed of knobs
+  * New: Changed direction of session-clip/scene scrolling
 * Launchpad
+  * New: Added Poly Sequencer
   * New: Delete + Scene button in Session view deletes the scene
   * New: Shift mode: Enable note repeat and set the note repeat period and length with the pads in the middle
   * New: Sends mode: Display name of sends when selected
   * New: Light buttons brighter when pressed
   * New: Flipped Up/Down button in Device mode
+  * New: Changed direction of session-clip/scene scrolling
+  * New: Added notification messages to Shift view
+  * New: Used several colors in Shift view for easier function identification
   * Fixed: Duplicate did not work on non-pro models
 * Maschine Mikro Mk3
   * You need to load the new template into the Maschine (Bitwig.ncc) first
   * New: Use multiple colors on pads
-  * New: Added note repeat
+  * New: Added note repeat (long press note view to change settings)
+  * New: Pressing the encoder button always toggles between slow/fast value change, except tempo (tap tempo) and browser mode (confirm selection)
 * OSC
   * New: The port of the OSC server ("receive on") can be configured again.
-  * New: Added commands for note repeat
+  * New: Added commands for note repeat (/vkb_midi/noterepeat/...)
   * New: Added /track/hasParent {0,1}
 * Push 1/2
   * New: Added note repeat, long press Repeat button for configuration settings
@@ -46,7 +54,13 @@
   * New: Buttons are lit brighter when pressed
   * New: Automate button is lit orange (instead of red) when Clip automation is displayed
   * New: Improved unmute/unsolo all tracks
+  * New: Changed direction of session-clip/scene scrolling
+  * New: Scrolling scenes in scene play view scrolls whole 64 scenes
+  * New: User page names can be edited in the document settings
   * Fixed: Push 1: Header text in Master mode was missing
+  * Fixed: Push 2: Scenes in scene mode were not immediately updated and not in sync Session Scene view.
+* SL MkIII
+  * New: Changed direction of session-clip/scene scrolling
 
 ## 7.60
 
