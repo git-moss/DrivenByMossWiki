@@ -1,6 +1,6 @@
 # Changes
 
-## 8.50 (unreleased)
+## 8.50
 
 * Requires Bitwig 3.1+.
   * All devices use the new Hardware API

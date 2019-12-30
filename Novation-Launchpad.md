@@ -12,14 +12,9 @@ view and play the pads.
 ## IMPORTANT: Differences between the Launchpad models
 
 The Pro has an additional left column and bottom row of buttons. Especially, it has a **Shift** button to access 
-additional functionality.
+additional functionality (see the _Shift Mode_ below).
 To work around this another button has to function as the Shift button. It is the last button of the top button row
 (MkII: **Mixer**, Mini Mk3: **User**, X: **Capture Midi**).
-
-If you press the Shift button the grid changes to the Shift mode. The left row of the grid now represents the 
-missing left column of the Pro. The second column represents the functions of those buttons in Shift state.
-The Scene buttons represent the missing bottom row of the Pro (Volume, Pan, etc. but differently ordered).
-The colors of the buttons are identical.
 
 The three buttons on the top row, right to the cursor keys are also named differently on the models:
 * Pro: Session, Note, Device
@@ -45,8 +40,6 @@ These differences will not be mentioned again in the following text and **only t
 * **Shift+Double** - Creates a new clip on the selected track and slot, starts play and enables overdub.
 * **Record** - Start/Stop recording
 * **Shift+Record** - Toggle launcher overdub
-* Press **Shift+Scene buttons** to set the preferred length for new clips.
-* Press the **Shift button** in combination with one of the three green buttons in the right upper corner to insert an instrument, audio or effect track.
 
 ## Cursors and Mode selection (Upper button row)
 
@@ -63,6 +56,18 @@ These differences will not be mentioned again in the following text and **only t
 * **User** - Currently not used.
 
 Note: The preferred play/sequencer mode is remembered for each track.
+
+## Shift Mode
+
+If you press the Shift button (and keep it pressed) the grid changes to the Shift mode. The first column (from the left) of the grid now represents the missing left column of the Pro. The second column represents the functions of these buttons in Shift state.
+The Scene buttons represent the missing bottom row of the Pro (Volume, Pan, etc. but differently ordered).
+The colors of the buttons are identical. This area is empty on the Pro model.
+
+Further functions (all models):
+* The pads of the first row change the length of newly created clips.
+* The three green buttons in the right upper corner insert an instrument, audio or effect track.
+* The red button in the lower right corner stops the playback of all clips.
+* The buttons in the center control note repeat for play modes. The blue button on top de-/activates note repeat. The pads of the first two columns below change the note repeat period and the other two columns the note length.
 
 ## Track Control (Lower button row)
 
@@ -98,6 +103,7 @@ _Long press_ to enter birds-eye-view.
 * The 8 scene buttons on the right start the scenes.
 * The arrow keys scroll the grid. Hold **Shift** to scroll in blocks of 8.
 * Hold **Delete** and press a clip button to delete the clip.
+* Hold **Delete** and press a Scene button to delete the scene.
 
 ## Note Mode (Playing the pads)
 
@@ -153,9 +159,18 @@ Press _"Shift+Note"_ to enter the **Sequencer** mode:
 * The velocity of the pressed key is set as well.
 * Use the Scene buttons to change the grids resolution.
 
+## Poly Sequencer
+
+Press _"Shift+Note"_ two times to change to the Poly Sequencer:
+
+* The lower half displays the playable notes like in the Note Mode
+* Play one or more notes in that area
+* Create a step in the upper part by pressing a pad. The step will contain the last notes you played in the lower part.
+* Arrow keys change the octaves and step pages
+
 ## Raindrop sequencer
 
-Press _"Shift+Note"_ twice to change to the Raindrop Sequencer:
+Press _"Shift+Note"_ three times to change to the Raindrop Sequencer:
 
 * The lowest row displays the playable notes
 * The row above a note starts a raindrop

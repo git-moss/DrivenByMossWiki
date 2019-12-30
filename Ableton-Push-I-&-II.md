@@ -28,7 +28,7 @@ After you have copied the file reboot your computer.
 * **Duplicate** - Duplicates the first selected clip on the current track. Combine with a pad in session mode (duplicate clip) or a track select button (duplicate track).
 * **Shift+Duplicate** - Create a new scene from the currently playing clips
 * **Quantize** - Quantizes the currently selected clip.
-* **Shift+Quantize** - Access the Groove options
+* **Shift+Quantize** (or long press Quantize) - Access the Quantize and Groove configuration modes
 * **Double (Loop)** - Duplicate the content of the currently selected clip (not the clip itself)
 * **Convert** (Push 2) - Brings up the Slice to Drum Machine dialog.
 * **Shift+Convert** (Push 2) - Bring up the Slice to Multi-sample dialog.
@@ -48,7 +48,6 @@ After you have copied the file reboot your computer.
 * **Select + Knob 9** - Changes Metronome Volume
 * Keep the **Master button** pressed for a screen which allows to toggle perspectives and panels.
 * **Stop/Stop Clip** - Press _Shift + Stop_ to stop all playing clips. Keep pressed and press one of the second row buttons to stop the clip on the specific track.
-* **Accent** - If active, velocity is always max in Sequencer and Play modes. Long press Accent to change fixed accent value.
 * **Footswitch 1** - Sends sustain
 * **Footswitch 2** - Triggers the new button.
 * **Arrows** The cursor keys now consistently always change the track (device, layers) and scene bank, except in the browser they change the browser tabs.
@@ -61,6 +60,9 @@ After you have copied the file reboot your computer.
 * **Add Device** (Push 2) / **Add Effect** (Push 1): Add a device after the currently selected one
 * **Shift+Add Device** (Push 2) / **Shift+Add Effect** (Push 1): Add a device before the currently selected one
 * **Shift+User** (Push 1) / **Setup** (Push 2): Adjust some hardware settings like pad sensitivity. Also configurable in the script settings.
+* **Repeat**: Toggles note repeat. Long press to enter Note Repeat Mode to configure the note repeat settings.
+* **Accent** - If active, velocity is always max in Sequencer and Play modes. Long press Accent to change fixed accent value.
+* **Scale**: De-/Activates the Scale mode
 * **Layout** (Push 2): Layout button steps through the play or sequencer modes (depending on which type is active). **Shift+Layout** button toggles between play and sequencer modes.
 
 ## Edit Modes
@@ -68,12 +70,12 @@ After you have copied the file reboot your computer.
 * Hold Delete and Touch Encoder to reset a value to its default value in all modes.
 * Since the Push 2 is missing the buttons Volume and Pan & Send use the navigation knobs above the display. Since you loose the Mute/Solo buttons for the navigation long press Mute or Solo for the same behavior as with Push 1. You can also lock that functionality by pressing **Shift+Mute** or **Shift+Solo**. Press the same combination to unlock it.
 * Press the Duplicate button and one of the Track-Select buttons to duplicate a track.
-* In all track modes, hold the Select button to enter the track details mode. In this mode you can set different states like enable, solo, mute, rec arm, monitor and change the color of the track. If you currently have a layer selected this brings up a similar view to edit the states of the layer.
+* In all track modes, hold the Select button to enter the track details mode. In this mode you can set different states like enable, solo, mute, rec arm, monitor and change the color of the track. If you currently have a layer selected this brings up a similar view to edit the states of the layer. Furthermore, the note insert/edit MIDI channel can be selected in this mode.
 * Push 2: Hold Shift to access the Send 4 and 8 mode.
 
 1. **Volume** - Push 1: Press "Volume" to enter - Push 2: Press "Mix" and "Volume" above the display
     * 8 edit knobs: Change volume of selected 8 tracks. Hold **Shift** for fine adjustments.
-    * 1st 8 button row: Press to select a track, press again to enter a group. To rec arm a track, keep the record button pressed and select the channel (first button row). Long press a button to leave a track group.
+    * 1st 8 button row: Press to select a track, press again to enter a group. To rec arm a track, keep the record button pressed and select the channel (first button row). Use in combibation with the Delete button to delete a track. Long press a button to leave a track group.
     * **Toggle monitor and auto monitor**: Keep pressed Select. First row toggles Monitor, second row Auto Monitor.
     * **De-/activate a track**: Select+Shift+1st button row.
     * 2nd 8 button row: Toggle mute or solo of track, dependent of Mute or Solo button selection
@@ -97,7 +99,7 @@ After you have copied the file reboot your computer.
     * Other buttons behave as above.
   
 6. **Device** - Press "Device" to enter
-    * Buttons of 1st row select the device or the parameter banks.
+    * Buttons of 1st row select the device or the parameter banks. Use in combibation with the Delete button to delete a device.
     * 1st button on 2nd row in device modes dis-/enables device (button above display on Push 2).
     * 7th button on 2nd row in device modes displays VST window or pop-out window of specific Bitwig devices (button above display on Push 2).
     * 8th button on 2nd row in device modes moves up to tracks.
@@ -119,7 +121,7 @@ After you have copied the file reboot your computer.
     * Press *Browse* again to Confirm the selection or *Shift+Browse* to Cancel.
   
 8. **Master** - Press "Master" to enter
-    * 8 edit knobs: Change volume and pan of master track. Hold **Shift** for fine adjustments.
+    * 8 edit knobs: Change volume, pan of master track and Cue Volume and Mix. Hold **Shift** for fine adjustments.
     * Dis-/Enable audio engine
     * Switch to the next/previous opened project with buttons 7 and 8.
 
@@ -129,6 +131,7 @@ After you have copied the file reboot your computer.
     * Left/Right buttons: Select next/previous parameter page
     * Buttons of 1st row select the parameter page.
     * Buttons of 2nd row select currently have no function.
+    * User page names can be edited in the document settings.
 
 ## Note Mode (Playing the pads)
 
@@ -145,7 +148,7 @@ Press _"Note"_ and select *Play* to change to the Play view.
 Press _"Session"_ to enter **Session** mode. Keep button pressed to switch back to Note mode on release.
 This allows you to launch clips then release the Session button to jump straight back into Note mode.
 
-When in Session view and press Session again a menu turns up (like in note view) where you can select different views. The normal Session view, the flipped version and the Scene view. This view displays the first 64 scenes ready for jamming. The color of a scene uses the color of the first clip found in the scene (only checks in the first 8 tracks). Use the Layout button on Push 2 to quickly step through these views. Furthermore, you can select the Marker and Clip mode.
+**Delete + Scene button** (in Play, Piano, Drum 64, Session view) deletes the scene.
 
 Hold *Browse* and select a pad to browse for clips.
 
@@ -163,6 +166,14 @@ All the buttons and knobs behave like in Play mode with the following exceptions
 
 Press the Session button twice to flip the grid which then matches the arrangement view.
 
+When in Session view and press Session again a menu turns up (like in note view) where you can select different views. The normal Session view, the flipped version and the Scene view. Use the Layout button on Push 2 to quickly step through these views. Furthermore, you can select the Marker and Clip mode.
+
+### Scene view
+
+This view displays the first 64 scenes ready for jamming. The color of a scene uses the color of the first clip found in the scene (only checks in the first 8 tracks). 
+**Delete + pad** deletes a scene.
+
+
 ## Sequencer Mode
 
 Press _"Note"_ and select *Squencr* to enter **Sequencer** mode.
@@ -176,6 +187,15 @@ Press _"Note"_ and select *Squencr* to enter **Sequencer** mode.
 * Note starts and lengths are lit in different colors.
 * Use the Scene buttons to change the grids resolution.
 * Use Shift+Octave Up/Down to transpose by 1 step. Select+Octave transposes in 12 steps.
+* Long press a pad which contains a note to edit the parameters of the note.
+
+## Poly Sequencer
+
+Press _"Note"_ and select *Poly Seq.* to enter **Poly Sequencer** mode:
+
+* The lower half displays the playable notes like in the Note Mode
+* Play one or more notes in that area
+* Create a step in the upper part by pressing a pad. The step will contain the last notes you played in the lower part.
 
 ## Drum Sequencer Mode
 

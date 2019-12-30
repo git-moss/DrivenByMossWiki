@@ -37,10 +37,10 @@ In the browser ...
 
 ## Encoder modes
 
-* **Volume** - Enables volume/pan/Sends mode. Press again to toggle between volume, pan and send modes. The encoder changes the volume/pan/sends of the selected track. Press the encoder to set the parameter to its default value.
+* **Volume** - Enables volume/pan/Sends mode. Press again to toggle between volume, pan and send modes. The encoder changes the volume/pan/sends of the selected track. Keep the Erase button pressed and touch the encoder to set the parameter to its default value. Press the encoder to toggle between fast and slow value changes.
 * **Swing** - Enables position mode. The encoder changes the position of the play cursor in the arranger. Press the encoder to toggle between fast and slow movement.
 * **Tempo** - Enables tempo mode. Press again to toggle between fine tune and normal change. The encoder changes the tempo of the song. Press the encoder multiple times to tap the tempo.
-* **Plug-In** - Enables device mode. The encoder changes the value of a device parameter. Press the encoder to reset the parameter to its default value.
+* **Plug-In** - Enables device mode. The encoder changes the value of a device parameter. Keep the Erase button pressed and touch the encoder to set the parameter to its default value. Press the encoder to toggle between fast and slow value changes.
 * **Sampling** - Toggle the window (if any) of the selected device (if any).
 
 ## Touchstrip
@@ -57,7 +57,7 @@ The Touchstrip behaves based on the following modes.
 * **Group** - Creates a new clip on the selected track and slot, starts play and enables overdub.
 * **Auto** - Toggle write clip launcher automation.
 * **Lock** - Toggle write arranger automation.
-* **Note Repeat** - Toggle Note repeat (when supported by Bitwig).
+* **Note Repeat** - Toggle Note repeat. Long press the button to enter note repeat configuration mode. In that mode the first two pad columns allow to change the period of the note repeat and the last two columns the length of the notes. Press Note Repeat again to leave the configuration mode.
 
 ## Pad Modes
 
