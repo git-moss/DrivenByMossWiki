@@ -1,5 +1,14 @@
 # Changes
 
+## 8.51
+
+* Requires Bitwig 3.1+.
+* Launchkey Mini Mk3
+  * New: Display info if the Metronome was toggled on/off and the drum sequencer page was changed
+  * Fixed: The pad rows of the drum configuration mode were flipped
+* Maschine Mikro Mk3
+  * Fixed: Displayed Parameter names of row 3 and 4 were flipped
+
 ## 8.50
 
 * Requires Bitwig 3.1+.
