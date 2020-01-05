@@ -1,5 +1,30 @@
 # Changes
 
+## 8.52 (unreleased)
+
+* Requires Bitwig 3.1+.
+* Known Issues
+  * User banks are broken since 3.1 (they do not work with the new hardware API).
+* AutoColor
+  * Fixed: Crashed on startup
+* Launchpad
+  * New: Drum 4 and Drum 8 Sequencers: draw longer notes in darker color
+* Mackie MCU
+  * New: Added an explicit setting for devices with only 1 channel ("Has only 1 fader"), e.g. the Behringer X-Touch One. For devices with the normal 8 channels the select button now works again in marker and device mode.
+  * New: Send button states for function keys (F1-F5) which turns on the LED if the device has one and supports it (e.g. Behringer X-Touch One).
+  * New: Knob LEDs in device mode show only one dot
+  * Fixed: Knob speed was too slow
+  * Fixed: Knob LEDs were off when panorama was fully left
+* Maschine Mikro Mk3
+  * Include Bitwig template as Template (Bitwig.ncmm3) again, not the full Memory dump (Bitwig.ncc).
+* Native Instruments Kontrol 1
+  * Fixed: Did crash when there was not track in the project
+* Push 1/2
+  * New: Long press notes in Drum, Drum 4 and Drum 8 Sequencers to edit it.
+  * New: Drum 4 and Drum 8 Sequencers: draw longer notes in darker color
+  * New: Slow down value changes in note repeat mode
+  * New: Change note repeat period and length via ribbon
+
 ## 8.51
 
 * Requires Bitwig 3.1+.
