@@ -2,6 +2,7 @@
 
 Support script for the Mackie MCU protocol. While this extension supports the Mackie MCU protocol in general I could only test it with the following devices:
 
+* Behringer X-Touch One
 * Mackie MCU Pro
 * icon QConPro X
 * icon Platform M/M+ with extender
@@ -9,7 +10,10 @@ Support script for the Mackie MCU protocol. While this extension supports the Ma
 
 In the following the supported Bitwig features are described. In brackets the names of the MCU buttons are noted which trigger the feature.
 
+## Configuration
+
 The settings dialog contains profiles for several devices, which sets the correct hardware settings.
+If your device is not listed make sure you configure the hardware settings manually to match your device.
 
 ## Transport
 

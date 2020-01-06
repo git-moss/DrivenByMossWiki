@@ -1,6 +1,6 @@
 # Changes
 
-## 8.52 (unreleased)
+## 8.60
 
 * Requires Bitwig 3.1+.
 * Known Issues
@@ -17,6 +17,16 @@
   * Fixed: Knob LEDs were off when panorama was fully left
 * Maschine Mikro Mk3
   * Include Bitwig template as Template (Bitwig.ncmm3) again, not the full Memory dump (Bitwig.ncc).
+  * You need to load this new template into the Maschine (Bitwig.ncmm3) first (due to changes to the Touchstrip settings).
+  * New: Change note repeat period and length via ribbon (MOD: CC1, CC11; PERFORM: Master Volume; NOTES: Note Repeat Period / Length)
+  * New: The touchstrip LEDs are updated matching the selected mode.
+  * New: Pitchbend modes of touchstrip return to zero setting when finger is released.
+  * New: Flipped direction of Pitchbend Down Mode of touchstrip to match the LEDs.
+  * New: Added setting "Action for pressing rec armed empty clip"
+  * New: Erase+pad deletes scene, clip, track (depending on the selected mode)
+  * New: Duplicate+pad duplicates scene, clip, track (depending on the selected mode)
+  * New: Browser+pad in Clip Mode opens the browser to load a clip
+  * New: Stop+pad in Clip Mode stops the clip. Clips queued to be stopped are now lit in dark green
 * Native Instruments Kontrol 1
   * Fixed: Did crash when there was not track in the project
 * Push 1/2

@@ -138,7 +138,7 @@ After you have copied the file reboot your computer.
 Press _"Note"_ and select *Play* to change to the Play view.
 
 * The key layout is like running the Push with Ableton
-* Touch strip (Ribbon) changes pitch (or sends CC), configure with Shift+Touchstrip
+* The Touchstrip (Ribbon) can be configured for different tasks. Call up the configuration mode with Shift+Touchstrip.
 * Press _"Scales"_ (keep pressed for temporary) to change the scales (Chromatic, Major, Minor, etc.) and the root note with the 16 buttons below the display. Press and keep the **Shift** button to change the scale layout.
 * The played keys are lighting red if global or clip recording (does not work if recording clip is outside of the monitored 8x8 matrix)
 * Use the Delete button in combination with a pad. This deletes all appearances of that note in the currently selected clip. Use with care since the notes you see lit might not come from the currently selected clip!
@@ -212,6 +212,7 @@ Press _"Note"_ and select *Drum* to change to the Drum Sequencer.
 * There are three additional drum sequencers. Press Shift in drum mode and use upper 4 scene buttons to change between the four modes. 2nd mode displays 4 drum sound, 3rd mode 8. Use the lower 4 scene buttons (while holding Shift) in 2nd mode to toggle between the drum sounds 1-4, 5-8, 9-12, 13-16. Use the lower 2 scene buttons in 3rd mode to toggle the drum sounds 1-8, 9-16. The fourth mode displays 64 drum pads.
 * Use Octave Up/Down to move the pads by 16.
 * Use Shift+Octave Up/Down to move the pads by 4.
+* Long press the pad with a enabled step to edit the note
 
 ## Drum 4 and Drum 8 sequencer
 
