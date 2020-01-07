@@ -8,6 +8,7 @@ Bitwig Studio script to support the OSC protocol.
 2. Adjust the IP-addresses and ports of your computer and the client device you want to use.
 
 The ZIP file has a folder _resources/OSC_ which contains example files for Cycling 74s Max, TouchOSC and Open Stage Control.
+Note: The templates require the setting "resolution" to be set to low.
 
 ## The following OSC messages are sent from the script
 
