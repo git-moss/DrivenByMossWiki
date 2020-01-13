@@ -1,5 +1,26 @@
 # Changes
 
+## 8.70 (unreleased)
+
+* Requires Bitwig 3.1.3+.
+* OSC
+  * New: The address and port of the OSC client ("send to") can be configured again but requires restarting the extension (turn off/on).
+* Launchpad:
+  * New: **Duplicate+Scene** duplicates the scene.
+  * New: Non-Pro models: Pressing the Delete and Duplicate pads in shift mode activates the related mode. Leaving the shift mode and entering session mode allows then to delete/duplicate clips, scenes and tracks. After deleting/duplicating an item the delete/duplicate mode is turned off.
+* Komplete Kontrol A-Series / S-Series Mk2 / M32
+  * Fixed: Some buttons did not work (Quantize, Metro, Undo)
+* Push 2
+  * New: Added dulicating notes in Note, Drum, Drum 4 and Drum 8 sequencers. Keep Dulicate button pressed, select the source note, press empty destination pad(s). The note will be copied with all settings.
+  * New: Tempo and Position knobs only show their value as a popup notification. The metronome settings can now be accessed by long-pressing the **Metronome** button.  
+  * New: Push 2: Only the selected page in user mode is colored white, all others are grey.
+  * New: **Duplicate+Scene** duplicates the scene now also in Play, Piano and Drum 64 modes.
+  * Fixed: User mode works again
+  * Fixed: Modified display colors were not applied after restart
+  * Fixed: Layout of Touchstrip mode was not updated to new features on Push 1
+* SL MkIII
+  * Fixed: Crash when selecting track again to enter device mode
+
 ## 8.60
 
 * Requires Bitwig 3.1+.
