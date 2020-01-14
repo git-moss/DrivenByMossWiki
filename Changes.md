@@ -3,6 +3,7 @@
 ## 8.70 (unreleased)
 
 * Requires Bitwig 3.1.3+.
+* Known Issue: If the audio engine is off also the conrtoller does not work anymore. Because the MIDI processing is now running in the audio process, which means if there is no audio process, there is also no midi.
 * OSC
   * New: The address and port of the OSC client ("send to") can be configured again but requires restarting the extension (turn off/on).
 * Launchpad:
@@ -10,6 +11,8 @@
   * New: Non-Pro models: Pressing the Delete and Duplicate pads in shift mode activates the related mode. Leaving the shift mode and entering session mode allows then to delete/duplicate clips, scenes and tracks. After deleting/duplicating an item the delete/duplicate mode is turned off.
 * Komplete Kontrol A-Series / S-Series Mk2 / M32
   * Fixed: Some buttons did not work (Quantize, Metro, Undo)
+* MCU
+  * Fixed: Record button was not always lit correctly
 * Push 2
   * New: Added duplicating notes in Note, Drum, Drum 4 and Drum 8 sequencers. Keep Dulicate button pressed, select the source note, press empty destination pad(s). The note will be copied with all settings.
   * New: Tempo and Position knobs only show their value as a popup notification. The metronome settings can now be accessed by long-pressing the **Metronome** button.  
