@@ -6,6 +6,8 @@
 * All devices
   * Known Issue: If the audio engine is off also the controller does not work anymore. Because the MIDI processing is now running in the audio process, which means if there is no audio process, there is also no midi. Will be fixed in an upcoming Bitwig Studio version.
   * Fixed: Browsing presets (or replacing) the selected device, always brought up the browser on the first device of the track
+  * Fixed: Adding a device always added it relative to the first instrument device
+  * Fixed: Devices could not be added to the master track if there was no other device yet
 * OSC
   * New: The address and port of the OSC client ("send to") can be configured again but requires restarting the extension (turn off/on).
 * Launchpad
