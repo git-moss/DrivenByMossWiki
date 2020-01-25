@@ -8,6 +8,7 @@ Known Issues:
 ## Installation
 
 Load the respective template from the folder _resources/Beatstep_ into the device by using Arturias Midi Control Center.
+Make sure that the Global MIDI channel is set to 3.
 
 ## Features
 
