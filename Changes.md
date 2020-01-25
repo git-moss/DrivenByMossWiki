@@ -8,17 +8,27 @@
   * Fixed: Browsing presets (or replacing) the selected device, always brought up the browser on the first device of the track
   * Fixed: Adding a device always added it relative to the first instrument device
   * Fixed: Devices could not be added to the master track if there was no other device yet
+* Beatstep
+  * New: Easier switching between note selection and step editing in sequencers. Turning knob left selects play/note select, turning it right selects step editing.
+  * Fixed: Value change on some knobs were flipped (e.g. scrolling browser).
+  * Fixed: The Note Sequencer used the drum mapping and octave shifting.
+  * Fixed: Pads sometimes lit with wrong color after pad was pressed
+  * Fixed: Pads sometimes lit with wrong color after leaving Shift mode
+  * Fixed: Browser mode was canceled when Shift was released
 * OSC
   * New: The address and port of the OSC client ("send to") can be configured again but requires restarting the extension (turn off/on).
 * Launchpad
   * New: **Duplicate+Scene** duplicates the scene.
+  * New: Up/Down buttons in browser mode switch from replacing the current device to inserting a new device before or after it.
   * New: Non-Pro models: Pressing the Delete and Duplicate pads in shift mode activates the related mode. Leaving the shift mode and entering session mode allows then to delete/duplicate clips, scenes and tracks. After deleting/duplicating an item the delete/duplicate mode is turned off.
+  * New: Turn of panorama lights for non-existing tracks, instead of showing them centered
+  * Fixed: Fader scaling was wrong (except Launchpad Pro)
 * Komplete Kontrol A-Series / S-Series Mk2 / M32
   * Fixed: Some buttons did not work (Quantize, Metro, Undo)
 * MCU
   * Fixed: Crash in Track mode when toggling between fx and noirmal tracks
   * Fixed: Record button was not always lit correctly
-* Push 2
+* Push 1/2
   * New: Added duplicating notes in Note, Drum, Drum 4 and Drum 8 sequencers. Keep Dulicate button pressed, select the source note, press empty destination pad(s). The note will be copied with all settings.
   * New: Tempo and Position knobs only show their value as a popup notification. The metronome settings can now be accessed by long-pressing the **Metronome** button.  
   * New: Push 2: Only the selected page in user mode is colored white, all others are grey.
@@ -26,6 +36,7 @@
   * Fixed: User mode works again
   * Fixed: Modified display colors were not applied after restart
   * Fixed: Layout of Touchstrip mode was not updated to new features on Push 1
+  * Fixed: Push 1: Frame mode showed an empty display
 * SL MkIII
   * Fixed: Crash when selecting track again to enter device mode
 
