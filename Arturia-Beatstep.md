@@ -9,6 +9,8 @@ Known Issues:
 
 Load the respective template from the folder _resources/Beatstep_ into the device by using Arturias Midi Control Center.
 
+Make sure that the Global MIDI channel is set to 3.
+
 ## Features
 
 The buttons on the left are not usable for scripting since they do not send MIDI data. Luckily, I could facilitate the Shift button for an extended functionality.
