@@ -1,10 +1,10 @@
 # Changes
 
-## 8.70 (unreleased)
+## 8.70
 
-* Requires Bitwig 3.1.3+.
+* Requires Bitwig 3.1+.
 * All devices
-  * Known Issue: If the audio engine is off also the controller does not work anymore. Because the MIDI processing is now running in the audio process, which means if there is no audio process, there is also no midi. Will be fixed in an upcoming Bitwig Studio version.
+  * Known Issue: If the audio engine is off also the controller does not work anymore. Because the MIDI processing is now running in the audio process, which means if there is no audio process, there is also no midi. Will be fixed in an upcoming Bitwig Studio version. Should be fixed in the next Bitwig update.
   * Fixed: Browsing presets (or replacing) the selected device, always brought up the browser on the first device of the track
   * Fixed: Adding a device always added it relative to the first instrument device
   * Fixed: Devices could not be added to the master track if there was no other device yet
@@ -18,6 +18,7 @@
 * OSC
   * New: The address and port of the OSC client ("send to") can be configured again but requires restarting the extension (turn off/on).
 * Launchpad
+  * Known Issue: User mode crashes. Should be fixed in the next Bitwig update.
   * New: **Duplicate+Scene** duplicates the scene.
   * New: Up/Down buttons in browser mode switch from replacing the current device to inserting a new device before or after it.
   * New: Non-Pro models: Pressing the Delete and Duplicate pads in shift mode activates the related mode. Leaving the shift mode and entering session mode allows then to delete/duplicate clips, scenes and tracks. After deleting/duplicating an item the delete/duplicate mode is turned off.
