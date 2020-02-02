@@ -1,5 +1,15 @@
 # Changes
 
+## 8.80 (unreleased)
+
+* Requires Bitwig 3.1+.
+* Generic Flexi
+  * Fixed: Configured knob speed settings were not set on startup
+* Komplete Kontrol A-Series / M32
+  * Fixed: Configured knob speed settings were not set on startup
+* Push 1/2
+  * Fixed: Configured knob speed settings were not set on startup
+
 ## 8.70
 
 * Requires Bitwig 3.1+.
@@ -262,7 +272,7 @@
 ## 7.10
 
 * Requires Bitwig 2.4+.
-* Generic Flexi:
+* Generic Flexi
   * New: Commands to edit fx tracks. See commands in new category FX Track
   * New: Commands to edit 64 user parameters. See commands in new category User
   * Fixed: *Track: Toggle trackbank* had no effect
