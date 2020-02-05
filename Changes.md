@@ -7,6 +7,9 @@
   * Fixed: Configured knob speed settings were not set on startup
 * Komplete Kontrol A-Series / M32
   * Fixed: Configured knob speed settings were not set on startup
+* Launchpad
+  * New: Activate hardware play mode again when extension is stopped
+  * Fixed: Color of front LED was wrong when mode was changed
 * Push 1/2
   * Fixed: Configured knob speed settings were not set on startup
 
