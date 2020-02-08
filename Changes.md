@@ -3,6 +3,9 @@
 ## 8.80 (unreleased)
 
 * Requires Bitwig 3.1+.
+* Akai APC40 / APC40mkII
+  * New: Improved scrolling of browser columns
+  * Fixed: Browser crashed when activated
 * Generic Flexi
   * Fixed: Configured knob speed settings were not set on startup
 * Komplete Kontrol A-Series / M32
