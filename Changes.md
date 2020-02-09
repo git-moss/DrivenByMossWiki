@@ -3,6 +3,8 @@
 ## 8.80 (unreleased)
 
 * Requires Bitwig 3.1+.
+* All devices
+  * Known Issue: If the audio engine is off also the controller does not work anymore. Because the MIDI processing is now running in the audio process, which means if there is no audio process, there is also no midi. Will be fixed in an upcoming Bitwig Studio version. Should be fixed in the next Bitwig update.
 * Akai APC40 / APC40mkII
   * New: Improved scrolling of browser columns
   * Fixed: Browser crashed when activated
@@ -13,7 +15,12 @@
 * Launchpad
   * New: Activate hardware play mode again when extension is stopped
   * Fixed: Color of front LED was wrong when mode was changed
+* OSC
+  * Known Issue: Receive port is not set correctly on startup (1024). Should be fixed in the next Bitwig update.
+  * New: Check for lower port bound (1024)
+  * New: Check that send and receive ports are different
 * Push 1/2
+  * Fixed: Master mode only showed up shortly when Master volume knob was touched
   * Fixed: Configured knob speed settings were not set on startup
 
 ## 8.70
