@@ -8,6 +8,7 @@ view and play the pads.
 * Pro, Mini Mk3, X: If you added the controller manually, choose the 2nd port (e.g. *MIDIIN2 (Launchpad Pro)* and 
   *MIDIOUT2 (Launchpad Pro)* on Windows).
 * Make sure the Launchpad sends on Midi Channel 1!
+* To have pads blinking in sync with your song tempo activate to send MIDI clock to the device.
 
 ## IMPORTANT: Differences between the Launchpad models
 

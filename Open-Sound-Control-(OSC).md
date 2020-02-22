@@ -115,8 +115,8 @@ MAX_VALUE is configured in the configuration settings.
 * /device/exists {0,1}
 * /device/name {text}
 * /device/bypass {0,1}
+* /device/expand {0,1}
 * /device/window {0,1}
-* /device/expand
 * /device/param/{1-8}/name {text}
 * /device/param/{1-8}/value {0-MAX_VALUE}
 * /device/param/{1-8}/valueStr {text}
@@ -143,6 +143,16 @@ MAX_VALUE is configured in the configuration settings.
 * /device/page/selected/name {name}
 * /device/sibling/{1-8}/name {name}
 * /device/sibling/{1-8}/selected {0,1}
+
+### Send - User Parameters
+
+* /user/{1-8}/name {text}
+* /user/{1-8}/value {0-MAX_VALUE}
+* /user/{1-8}/valueStr {text}
+* /user/{1-8}/modulatedValue
+* /user/{1-8}/selected {0,1}
+* /user/{1-8}/ {name}
+* /user/selected/name {name}
 
 ### Send - Browser
 
@@ -313,6 +323,16 @@ MAX_VALUE is configured in the configuration settings.
 * /device/layer/selected/{attributes}          The selected layer, same attributes as above
 * /device/drumpad/{1-16}/...                   Same attributes as for a layer
 * Same commands apply for the primary device but use /primary/... instead of /device/...
+
+### Receive - User Parameters
+
+* /user/{+,-}
+* /user/page/selected {1-8}
+* /user/page/{1-8}
+* /user/{1-8}/value {0-MAX_VALUE}
+* /user/{1-8}/indicate {0,1}
+* /user/{1-8}/reset
+* /user/{1-8}/touched
 
 ### Receive - Scene
 
