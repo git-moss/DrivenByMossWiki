@@ -1,6 +1,6 @@
 # Changes
 
-## 8.80 (unreleased)
+## 8.80
 
 * Requires Bitwig 3.1+.
 * All devices
