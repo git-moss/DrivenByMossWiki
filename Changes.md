@@ -6,26 +6,31 @@
 * All devices
   * Known Issue: If the audio engine is off also the controller does not work anymore. Because the MIDI processing is now running in the audio process, which means if there is no audio process, there is also no midi. Will be fixed in an upcoming Bitwig Studio version. Should be fixed in the next Bitwig update.
 * Akai APCmini
-  * New: Change note length or create long notes in the Sequencer by pressing a note pad and then a pad right of it.
+  * New: Change note length or create long notes in the Sequencers (Note, Drum) by pressing a note pad and then a pad right of it.
 * Akai APC40 / APC40mkII
-  * New: Change note length or create long notes in the Sequencer by pressing a note pad and then a pad right of it.
+  * New: Change note length or create long notes in the Sequencers (Note, Drum) by pressing a note pad and then a pad right of it.
   * New: Improved scrolling of browser columns
   * Fixed: Browser crashed when activated
 * Generic Flexi
+  * New: Added new function: **Clip: Quantize**
+  * New: Added functions for note repeat
+  * New: Added functions for transposing the keyboard
   * Fixed: Configured knob speed settings were not set on startup
 * Komplete Kontrol A-Series / M32
   * Fixed: Configured knob speed settings were not set on startup
 * Launchpad
   * New: Virtual faders support 4 velocity steps (on all models)
   * New: Activates hardware play mode again when extension is stopped
-  * New: Change note length or create long notes in the Sequencer by pressing a note pad and then a pad right of it.
+  * New: Change note length or create long notes in the Sequencers (Note, Drum, Drum 4, Drum 8) by pressing a note pad and then a pad right of it.
+  * New: Launchpad Pro: Duplicate notes in Drum 4 and Drum 8 sequencers
   * Fixed: Color of front LED was wrong when mode was changed
+  * Fixed: Cursor left was not lit correctly in Drum 4 and Drum 8 mode
 * OSC
-  * Known Issue: Receive port is not set correctly on startup (1024). Should be fixed in the next Bitwig update.
+  * Known Issue: Receive port is not set correctly on startup (1024). Therefore, the extension crashes and is currently not usable! Should be fixed in the next Bitwig update.
   * New: Check for lower port bound (1024)
   * New: Check that send and receive ports are different
 * Push 1/2
-  * New: Change note length or create long notes in the Sequencer by pressing a note pad and then a pad right of it.
+  * New: Change note length or create long notes in the Sequencers (Note, Drum, Drum 4, Drum 8) by pressing a note pad and then a pad right of it.
   * Fixed: Master mode only showed up shortly when Master volume knob was touched
   * Fixed: Configured knob speed settings were not set on startup
 
