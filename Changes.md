@@ -1,5 +1,18 @@
 # Changes
 
+## 8.90 (unreleased)
+
+* Requires Bitwig 3.1+.
+* All devices
+  * Same known issues as with 8.80 still apply
+* Generic Flexi
+  * New: Improved handling of Program Change as source. For trigger commands also a *button up* is executed; for continuous commands the value of the PC is sent (and not always replaced with 127). This allows e.g. to map different PC buttons to an Instrument selector device.
+* Launchpad
+  * New: Inverted back the clip/scene scroll direction (was also not conform with the LED lighting)
+* Push 1/2
+  * New: Last selected Layer mix mode is remembered
+  * New: Inverted back the clip/scene scroll direction
+
 ## 8.80
 
 * Requires Bitwig 3.1+.
