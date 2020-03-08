@@ -3,17 +3,21 @@
 ## 8.91 (unreleased)
 
 * Requires Bitwig 3.1+.
+* All devices
+  * Same known issues as with 8.80 still apply
 * Generic Flexi
   * New: If you have multiple banks configured the selected patch of a bank is only reset if the new bank has the same MIDI channel. This allows to configure additional banks for multitimbral synthesizers (= can play different sounds on different MIDI channels).
 * Launchpad
   * New: Easier selection of note modes. Pressing the note button brings up a menu where you can directly select the note/sequencer mode. First row (from top) selects play modes, 3rd row drum modes and 5th row sequencer modes.
   * New: Changing note length does now also work in Poly Sequencer
-  * Fixed: Displaying longer notes did not work
+  * Fixed: Displaying longer notes did not work in Poly Sequencer
 * Maschine Mikro 3
   * Fixed: Removed restriction that drum octave could only be changed if a clip was active.
+* MCU
+  * New: Group/Write Automation changed to trigger Latch automation
 * Push 1/2
   * New: Changing note length does now also work in Poly Sequencer
-  * Fixed: Displaying longer notes did not work
+  * Fixed: Displaying longer notes did not work in Poly Sequencer
 
 ## 8.90
 
