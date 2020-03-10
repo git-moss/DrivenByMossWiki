@@ -1,5 +1,12 @@
 # Changes
 
+## 8.92
+
+* Requires Bitwig 3.1.3+ (which fixes the issues with 8.80)
+* Launchpad
+  * Fixed: Note selection mode could not be activated on Launchpad Pro since it was mixed up with the user mode.
+  * Fixed: Note selection was activated when coming from a non-note mode but should not.
+
 ## 8.91
 
 * Requires Bitwig 3.1+.
@@ -37,7 +44,7 @@
 
 * Requires Bitwig 3.1+.
 * All devices
-  * Known Issue: If the audio engine is off also the controller does not work anymore. Because the MIDI processing is now running in the audio process, which means if there is no audio process, there is also no midi. Will be fixed in an upcoming Bitwig Studio version. Should be fixed in the next Bitwig update.
+  * Known Issue: If the audio engine is off also the controller does not work anymore. Because the MIDI processing is now running in the audio process, which means if there is no audio process, there is also no midi. Will be fixed in an upcoming Bitwig Studio version.
 * Akai APCmini
   * New: Change note length or create long notes in the Sequencers (Note, Drum) by pressing a note pad and then a pad right of it.
 * Akai APC40 / APC40mkII
