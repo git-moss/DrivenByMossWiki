@@ -127,6 +127,7 @@ After you have copied the file reboot your computer.
 
 9. **User** - Press "User" to enter
    Allows to map up to 64 user parameters divided into 8 pages with 8 parameters. Right click on any parameter in Bitwig and select *Map to controller*. After that move one of the knobs in user mode to complete the mapping. Mappings are stored with each project.
+   IMPORTANT: Do not try to map any of the buttons below (or above) the display! Also do not map any other buttons or knob on the controller! This will create weird behaviour.
     * 8 edit knobs: Change value of a mapped parameter. Hold **Shift** for fine adjustments.
     * Left/Right buttons: Select next/previous parameter page
     * Buttons of 1st row select the parameter page.
