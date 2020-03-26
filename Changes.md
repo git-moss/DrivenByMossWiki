@@ -1,5 +1,16 @@
 # Changes
 
+## 8.94
+
+* Generic Flexi
+  * New: The MIDI channel for the keyboard (or pads if it is a pad controller) can be explicitly set (previously it was fixed to channel 1). It can also be turned off or set to all. If a MIDI note is mapped to a function on this MIDI channel, the note is blocked from being played. Note: If you have selected All for the channel the note is blocked on all channels!
+  * New: Modulation Wheel (CC 01), Sustain Pedal (CC 64) and Pitchbend were previously automatically routed to Bitwig. You can now turn them off individually if you want to map them to something else.
+* Launchpad
+  * New: Option to remove the master and group-master tracks from the track bank (requires restart of extension).
+  * New: Pro: Disabled Delete button if used without button combination to prevent accidential deletions. 
+* OSC
+  * Fixed: Changing output server/port did still not work.
+
 ## 8.92
 
 * Requires Bitwig 3.1.3+ (which fixes the issues with 8.80)
