@@ -92,3 +92,10 @@ $BANK=Bank A$MSB=0$LSB=0$CHANNEL=0
 </pre>
 
 After that up to 127 lines with program names can follow (you can have less).
+
+## Configure the keyboard / pads
+
+If your controller has a keyboards or pads you can enable it by configuring the MIDI channel. The MIDI channel can also be turned off or set to all. If a MIDI note is mapped to a function on this MIDI channel, the note is blocked from being played.
+**Note**: If you have selected All for the channel the note is blocked on all channels!
+
+The Modulation Wheel (CC 01), Sustain Pedal (CC 64) and Pitchbend can automatically be routed to Bitwig. Turn them off if you want to map them to something else.

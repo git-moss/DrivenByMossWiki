@@ -88,6 +88,7 @@ Press _"Shift+Device"_ twice to enter the browser mode for preset selection. It 
 * The rows represent the notes of the selected scale.
 * Note that you can scroll past the end of the clip (to the right).
 * Press pads to enter/delete notes.
+* Change note length or create long notes in the Sequencers (Note, Drum) by pressing a note pad and then a pad right of it.
 * Use the Scene buttons to change the grids resolution.
 * *Cursor up* - Move the note range up.
 * *Cursor down* - Move the note range down.

@@ -34,9 +34,9 @@ After you have copied the file reboot your computer.
 * **Shift+Convert** (Push 2) - Bring up the Slice to Multi-sample dialog.
 * **Undo** - Undo. Press Shift for Redo.
 * **Delete** - Like pressing the delete key. Hold the button for additional functionality in combination with other buttons knobs, see the mode and view explanations below.
-* **Small Knob 1** - Change tempo (press _Shift_ for fine adjustment). If you touch the knob the pre-roll settings appear in the display as well and can be modified.
-* **Small Knob 2** - Move play cursor (press _Shift_ for fine adjustment) If you touch the knob the pre-roll settings appear in the display as well and can be modified.
-* **Metronome** - Toggle metronome
+* **Small Knob 1** - Change tempo (press _Shift_ for fine adjustment).
+* **Small Knob 2** - Move play cursor (press _Shift_ for fine adjustment).
+* **Metronome** - Toggle metronome. Long press to bring up the metronome settings mode.
 * **Shift + Metronome** - Toggle metronome ticks
 * **Tap Tempo** - Tap Tempo
 * **Mute** - Push 1: Selects track mute state of 2nd row. Push 2: Mutes the currently selected track. Long press for the Push 1 behavior. Lock it with **Shift+Solo**.
@@ -45,7 +45,7 @@ After you have copied the file reboot your computer.
 * **Select + Solo**: Deactivate all solos
 * **Knobs 1-8** Value encoders, [Shift + Knob] fine increment value change.
 * **Knob 9** - Changes Master Volume
-* **Select + Knob 9** - Changes Metronome Volume
+* **Select + Knob 9** - Changes the Metronome Volume
 * Keep the **Master button** pressed for a screen which allows to toggle perspectives and panels.
 * **Stop/Stop Clip** - Press _Shift + Stop_ to stop all playing clips. Keep pressed and press one of the second row buttons to stop the clip on the specific track.
 * **Footswitch 1** - Sends sustain
@@ -174,21 +174,24 @@ When in Session view and press Session again a menu turns up (like in note view)
 This view displays the first 64 scenes ready for jamming. The color of a scene uses the color of the first clip found in the scene (only checks in the first 8 tracks). 
 **Delete + pad** deletes a scene.
 
+## Sequencer Functions common to all sequencers (except Raindrop)
 
-## Sequencer Mode
+* To navigate in a clip use the Page left/right (device in/out on Push 1) buttons.
+* Note that you can scroll past the end of the clip (to the right).
+* Press pads to enter/delete notes. The velocity of the pressed key is set as well.
+* Change the note length or create long notes by pressing a note pad and then a pad right of it.
+* To duplicate notes keep the Dulicate button pressed, select the source note, press empty destination pad(s). The note will be copied with all settings.
+* Note starts and lengths are lit in different colors.
+* Long press a pad which contains a note to edit the parameters of the note.
+* Use the Scene buttons to change the grids resolution.
+
+## Note Sequencer Mode
 
 Press _"Note"_ and select *Squencr* to enter **Sequencer** mode.
 
 * The pads display an 8x8 view of the selected clips note grid.
 * The rows represent the notes of the selected scale.
-* To navigate in a clip use the Page left/right (device in/out on Push 1) buttons.
-* Note that you can scroll past the end of the clip (to the right).
-* Press pads to enter/delete notes.
-* The velocity of the pressed key is set as well.
-* Note starts and lengths are lit in different colors.
-* Use the Scene buttons to change the grids resolution.
 * Use Shift+Octave Up/Down to transpose by 1 step. Select+Octave transposes in 12 steps.
-* Long press a pad which contains a note to edit the parameters of the note.
 
 ## Poly Sequencer
 
@@ -213,7 +216,6 @@ Press _"Note"_ and select *Drum* to change to the Drum Sequencer.
 * There are three additional drum sequencers. Press Shift in drum mode and use upper 4 scene buttons to change between the four modes. 2nd mode displays 4 drum sound, 3rd mode 8. Use the lower 4 scene buttons (while holding Shift) in 2nd mode to toggle between the drum sounds 1-4, 5-8, 9-12, 13-16. Use the lower 2 scene buttons in 3rd mode to toggle the drum sounds 1-8, 9-16. The fourth mode displays 64 drum pads.
 * Use Octave Up/Down to move the pads by 16.
 * Use Shift+Octave Up/Down to move the pads by 4.
-* Long press the pad with a enabled step to edit the note
 
 ## Drum 4 and Drum 8 sequencer
 

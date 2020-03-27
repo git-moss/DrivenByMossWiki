@@ -107,7 +107,7 @@
   * New: **Duplicate+Scene** duplicates the scene.
   * New: Up/Down buttons in browser mode switch from replacing the current device to inserting a new device before or after it.
   * New: Non-Pro models: Pressing the Delete and Duplicate pads in shift mode activates the related mode. Leaving the shift mode and entering session mode allows then to delete/duplicate clips, scenes and tracks. After deleting/duplicating an item the delete/duplicate mode is turned off.
-  * New: Turn of panorama lights for non-existing tracks, instead of showing them centered
+  * New: Turn off panorama lights for non-existing tracks, instead of showing them centered
   * Fixed: Fader scaling was wrong (except Launchpad Pro)
 * Komplete Kontrol A-Series / S-Series Mk2 / M32
   * Fixed: Some buttons did not work (Quantize, Metro, Undo)

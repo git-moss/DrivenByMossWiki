@@ -139,6 +139,7 @@ But there is MUCH more! If you keep the Shift button pressed and press one of th
 * The rows represent the notes of the selected scale.
 * Note that you can scroll past the end of the clip (to the right).
 * Press pads to enter/delete notes.
+* Change note length or create long notes in the Sequencers (Note, Drum) by pressing a note pad and then a pad right of it.
 * Use the Clip Stop buttons to change the grids resolution.
 * *Scene Launch button 1* - Selects the next Scale. The new scale is displayed on the computer screen.
 * *Scene Launch button 2* - Selects the previous Scale. The new scale is displayed on the computer screen.

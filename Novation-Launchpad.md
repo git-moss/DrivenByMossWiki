@@ -31,11 +31,12 @@ These differences will not be mentioned again in the following text and **only t
 * **Click** - Toggle the metronome
 * **Shift+Click** - Tap Tempo
 * **Undo** - Undo. Press Shift for Redo.
-* **Delete** - Like pressing the delete key. Hold the button for additional functionality in combination with other buttons knobs, see the view explanations below.
+* **Delete** - Hold the button for additional functionality in combination with other buttons knobs, see the view explanations below.
 * **Quantise** - Quantises the selected clip.
 * **Duplicate** - Always duplicates the first selected clip on the current track if pressed with no other button.
   * Launchpad Pro: Keep the Duplicate button pressed and select a clip in session mode to duplicate it
   * Launchpad Pro: Keep the Duplicate button pressed and select a pad from the 1st row when a track mode is on to duplicate the track.
+  * Launchpad Pro: Keep the Duplicate button pressed and select a scene to duplicate it.
 * **Shift+Duplicate** - Toggle repeat
 * **Double** - Start/Stop playback. Double click to move play cursor to start of song.
 * **Shift+Double** - Creates a new clip on the selected track and slot, starts play and enables overdub.
@@ -48,19 +49,21 @@ These differences will not be mentioned again in the following text and **only t
     View (e.g. track, scene).
 * **Session** - Selects the Session mode to start, stop and record clips. Session can be flipped if Session button is pressed twice.
     Long press Session to select *birds-eye-view* to quickly navigate the clip grid. Press Session again to leave this mode.
-* **Note** - Selects the Note play mode for playing notes in different scales. If pressed again it activates the Drum mode 
-    for playing and sequencing drum instruments.
-* **Shift+Note** - Activates the Sequencer mode. If pressed again it activates the Raindrop sequencer.
+* **Note** - Pressing the Note button brings up a menu where you can select the note/sequencer mode. First row (from top) selects play modes, 3rd row drum modes and 5th row sequencer modes.
 * **Device** - Selects the Device mode to change the Parameters of the currently selected device. If pressed again it opens 
     the browser for preset selection mode. If no device is selected the browser is opened to insert a device.
 * **Shift+Device** - Opens the device browser to add a device after the currently selected one
-* **User** - Currently not used.
+* **User** (only Pro) - Brings up the user mode.
 
 Note: The preferred play/sequencer mode is remembered for each track.
 
 ## Shift Mode
 
-If you press the Shift button (and keep it pressed) the grid changes to the Shift mode. The first column (from the left) of the grid now represents the missing left column of the Pro. The second column represents the functions of these buttons in Shift state.
+If you press the Shift button (and keep it pressed) the grid changes to the Shift mode. The first column (from the left) of the grid now represents the missing left column of the Pro model.
+The second column represents the functions of these buttons in Shift state.
+
+Pressing the Delete and Duplicate pads in shift mode activates the related mode. Leaving the shift mode and entering session mode allows then to delete/duplicate clips, scenes and tracks. After deleting/duplicating an item the delete/duplicate mode is turned off.
+
 The Scene buttons represent the missing bottom row of the Pro (Volume, Pan, etc. but differently ordered).
 The colors of the buttons are identical. This area is empty on the Pro model.
 
@@ -127,6 +130,38 @@ Press _"Note"_ twice to enter.
 * The gray lit pads are the black keys.
 * You get 4 octaves to play with
 
+## Drum 64 play mode
+
+Press _"Note"_ multiple times to select *Drum 64*.
+
+This mode gives you 64 pads for playing a drum device. The 16 pads in the left lower area are the same as in the drum sequencer mode.
+
+## Sequencer Functions common to all sequencers (except Raindrop)
+
+* Use the arrow keys to navigate in the grid.
+* Note that you can scroll past the end of the clip (to the right).
+* Press pads to enter/delete notes. The velocity of the pressed key is set as well.
+* Change the note length or create long notes by pressing a note pad and then a pad right of it.
+* To duplicate notes keep the Dulicate button pressed, select the source note, press empty destination pad(s). The note will be copied with all settings.
+* Note starts and lengths are lit in different colors.
+* Use the Scene buttons to change the grids resolution.
+
+## Sequencer Mode
+
+Press _"Shift+Note"_ to enter the **Sequencer** mode:
+
+* The pads display an 8x8 view of the selected clips note grid.
+* The rows represent the notes of the selected scale.
+
+## Poly Sequencer
+
+Press _"Shift+Note"_ two times to change to the Poly Sequencer:
+
+* The lower half displays the playable notes like in the Note Mode
+* Play one or more notes in that area
+* Create a step in the upper part by pressing a pad. The step will contain the last notes you played in the lower part.
+* Arrow keys change the octaves and step pages
+
 ## Drum Sequencer Mode
 
 Press _"Note"_ three times to enter the Drum Sequencer.
@@ -141,33 +176,6 @@ Press _"Note"_ three times to enter the Drum Sequencer.
 Press _"Note"_ multiple times to select *Drum 4* or *Drum 8*.
 
 These drum sequencers show 4 or 8 drum sounds for sequencing. Use the cursor buttons to move in the clip.
-
-## Drum 64 play mode
-
-Press _"Note"_ multiple times to select *Drum 64*.
-
-This mode gives you 64 pads for playing a drum device. The 16 pads in the left lower area are the same as in the drum sequencer mode.
-
-## Sequencer Mode
-
-Press _"Shift+Note"_ to enter the **Sequencer** mode:
-
-* The pads display an 8x8 view of the selected clips note grid.
-* The rows represent the notes of the selected scale.
-* Use the arrow keys to navigate in the grid.
-* Note that you can scroll past the end of the clip (to the right).
-* Press pads to enter/delete notes.
-* The velocity of the pressed key is set as well.
-* Use the Scene buttons to change the grids resolution.
-
-## Poly Sequencer
-
-Press _"Shift+Note"_ two times to change to the Poly Sequencer:
-
-* The lower half displays the playable notes like in the Note Mode
-* Play one or more notes in that area
-* Create a step in the upper part by pressing a pad. The step will contain the last notes you played in the lower part.
-* Arrow keys change the octaves and step pages
 
 ## Raindrop sequencer
 
@@ -201,7 +209,8 @@ Press _"Shift+Device"_ to open the device browser to add a device after the curr
 * The red button dismisses the new preset or device selection and closes the browser.
 * The green button confirms the new preset or device selection and closes the browser.
 * The purple buttons are for previewing presets of instrument devices.
-* Cursor left/right switches to the next / previous browser tab
+* Left/Right buttons switch to the next / previous browser tab.
+* Up/Down buttons switch from replacing the current device to inserting a new device before or after it.
 
 ## Preferences Dialog
 
