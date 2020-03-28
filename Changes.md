@@ -1,5 +1,16 @@
 # Changes
 
+## 8.95 (unreleased)
+
+* APC / APCmini
+  * Fixed: Fixed a crash in Raindrop sequencer
+* Komplete Kontrol Mk 1
+  * Fixed: Modulation wheel did trigger button press of the main encoder
+* Launchpad
+  * Fixed: Fixed a crash in Raindrop sequencer
+* Push 1/2
+  * Fixed: Fixed a crash in Raindrop sequencer
+
 ## 8.94
 
 * Generic Flexi
