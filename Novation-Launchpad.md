@@ -67,6 +67,8 @@ Pressing the Delete and Duplicate pads in shift mode activates the related mode.
 The Scene buttons represent the missing bottom row of the Pro (Volume, Pan, etc. but differently ordered).
 The colors of the buttons are identical. This area is empty on the Pro model.
 
+![Shift menu on Launchpad X/Mini/etc](./shift-menu.png)
+
 Further functions (all models):
 * The pads of the first row change the length of newly created clips.
 * The three green buttons in the right upper corner insert an instrument, audio or effect track.
